@@ -1,0 +1,52 @@
+.card{
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 4rem;
+    margin-top: 1rem;
+}
+
+.cardProjectContent{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.cardProjectBody {
+    margin-top: 0,7rem;
+    font-family: 'PT Serif', serif;
+    margin-left: 2rem;
+}
+/* #menu{
+    float: right;
+    margin-top: 1.4rem;
+} */
+#img{
+    width: 550px;
+    height: auto;
+    position: relative;
+}
+#image:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+.cardFooter{
+    padding-top: 1rem;
+}
+
+.icon{
+    padding: 0rem;
+    color: black;
+}
+#favoriteIcon{
+    padding-right: 2rem;
+}
+#moreHorizIcon{
+    padding-left: 2rem;
+}
+.icon:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}

@@ -10,7 +10,7 @@ const SidebarLayout = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <>
-      <div className={style.sidebar}>
+      <div className={style.sidebarLayout}>
         <Logo />
         <ul className={style.sidebarList}>
           {
@@ -54,11 +54,9 @@ const SidebarLayout = () => {
                 {val.icon}
               </Link>
           )
-
         }
         </div>
       </div>
-      
     </>
   );
 };

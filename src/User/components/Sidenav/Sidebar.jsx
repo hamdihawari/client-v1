@@ -1,10 +1,15 @@
 import SidebarLayout from "./SidebarLayout";
-import Logo from '../../components/Logo/Logo'
-
+import { Outlet } from 'react-router-dom'
+import style from './style.module.css'
 function Sidebar() {
     return (
-        <> 
-        <SidebarLayout />
+        <>
+            <div className={style.sidebar}>
+                <SidebarLayout />
+                <main>
+                    <Outlet />
+                </main>
+            </div>
         </>
     )
 }
