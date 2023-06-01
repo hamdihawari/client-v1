@@ -9,7 +9,7 @@
       "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design"
     },
     {
-      "id": 54,
+      "id": 51,
       "path": "/about",
       "title": "You Me",
       "icon": "",
@@ -17,7 +17,7 @@
       "description": "“How to Tell a True War Story” examines the complex relationship between the war experience and storytelling. It is told half from O’Brien’s role as a soldier, as a reprise of several old Vietnam stories, and half from his role as a storyteller."
     },
     {
-      "id": 51,
+      "id": 52,
       "path": "/about",
       "title": "Emothion of the moraine",
       "icon": "",
@@ -33,11 +33,19 @@
       "description": "“How to Tell a True War Story” examines the complex relationship between the war experience and storytelling. It is told half from O’Brien’s role as a soldier, as a reprise of several old Vietnam stories, and half from his role as a storyteller."
     },
     {
-      "id": 52,
+      "id": 55,
       "path": "/about",
       "title": "Silencer civilized coice",
       "icon": "",
-      "image": "https://www.linkpicture.com/q/CivilizedMuffler.jpg",
+      "image": "https://www.linkpicture.com/q/IMG_2958_1.jpg",
+      "description": "“How to Tell a True War Story” examines the complex relationship between the war experience and storytelling. It is told half from O’Brien’s role as a soldier, as a reprise of several old Vietnam stories, and half from his role as a storyteller."
+    },
+    {
+      "id": 54,
+      "path": "/about",
+      "title": "Syria",
+      "icon": "",
+      "image": "https://www.linkpicture.com/q/333.jpeg",
       "description": "“How to Tell a True War Story” examines the complex relationship between the war experience and storytelling. It is told half from O’Brien’s role as a soldier, as a reprise of several old Vietnam stories, and half from his role as a storyteller."
     }
   ]
