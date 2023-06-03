@@ -1,5 +1,8 @@
-.portraitContainer{
-    position: absolute;
-    top: 5%;
+.portraitContainer {
+    position: relative;
+    top: 82px;
     left: 50%;
+    width: 430px;
+    height: 100vh;
+    font-family: 'PT Serif', serif;
 }

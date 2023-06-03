@@ -17,7 +17,7 @@ export const SidebarData = [
     {
         id: 2,
         title: "Photography+",
-        link: "/photography",
+        link: "/",
         icon: <CameraAltIcon />,
         item: [
             {

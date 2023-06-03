@@ -14,9 +14,10 @@
     width: 100%;
     margin-top: 0;
 }
+
 .sidebarList .row {
     width: 100%;
-    height: 33px;
+    height: 30px;
     list-style-type: none;
     margin: 0;
     display: flex;
@@ -37,7 +38,7 @@
     color: rgb(44, 44, 44);
     text-decoration: none;
     font-family: 'PT Serif', serif;
-    font-size: 15px;
+    font-size: 14px;
 }
 .sidebarList #title:hover {
     cursor: pointer;
@@ -48,8 +49,11 @@
     display: flex;
     flex-direction:row
 }
-/* social media */
 
+#row{
+    margin-left: 3.4rem;
+}
+/* social media */
 .mediaList {
     list-style-type: none;
     color: rgb(27, 27, 27);

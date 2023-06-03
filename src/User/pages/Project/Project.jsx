@@ -9,6 +9,16 @@ const Project = (/* props */) => {
       <div className={style.project}>
         <div>
          <Card />
+        </div>
+      </div>
+    </>
+  )
+}
+export default Project
+
+
+
+
           {/* <div key={id} className={style.cardProjectContent}>
             <img src={image} alt='photoCards' width="1200px" id={style.img} />
             <div className={style.cardProjectBody}>
@@ -16,9 +26,3 @@ const Project = (/* props */) => {
               <p className={style.cardText}>{description}</p>
             </div>
           </div> */}
-        </div>
-      </div>
-    </>
-  )
-}
-export default Project

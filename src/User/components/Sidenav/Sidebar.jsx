@@ -6,9 +6,11 @@ function Sidebar() {
         <>
             <div className={style.sidebar}>
                 <SidebarLayout />
+                
                 <main>
                     <Outlet />
                 </main>
+               
             </div>
         </>
     )

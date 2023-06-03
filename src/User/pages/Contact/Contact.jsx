@@ -61,11 +61,12 @@ const Contact = () => {
           {/* <label name='age'>Age:</label>
           <input type="number" id={style.age} {...register("age")} /> */}
 
-          <button className={style.submit} 
-          /* onClick={() =>{reset()}} */>Submit</button>
+          <button className={style.submit}>Submit</button>
 
         </form>
+        
       </div>
+      
     </>
   )
 }

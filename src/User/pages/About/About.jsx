@@ -9,7 +9,7 @@ const About = () =>{
                 <img className={style.personal} src={personal} alt="personalPic" id={style.personal} />
                 <div className={style.containerText}>
                     <h3>Hi, I’m Hamdi Hawari.</h3>
-                    <p>I’m a mix of all things similar. adesigner, Programer, and photographer. I’m passionate about creating experiences that bring attention to the mystery, wonder, and beauty of the in-betweens.<br />
+                    <p>I’m a mix of all things similar. a designer, Programer, and photographer. I’m passionate about creating experiences that bring attention to the mystery, wonder, and beauty of the in-betweens.<br />
 
                         As I photography of the peobley, I bring the story photos of Love to life through creative opinion, and help others visualize a world where the most advanced technology on the world.I’ve been carving my own path at the intersection of things ever since.With more challenge and obstacles I went through,
 
