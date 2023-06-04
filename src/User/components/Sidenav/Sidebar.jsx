@@ -1,12 +1,13 @@
 import SidebarLayout from "./SidebarLayout";
 import { Outlet } from 'react-router-dom'
 import style from './style.module.css'
+import { memo } from 'react';
+
 function Sidebar() {
     return (
         <>
             <div className={style.sidebar}>
                 <SidebarLayout />
-                
                 <main>
                     <Outlet />
                 </main>
@@ -16,4 +17,4 @@ function Sidebar() {
     )
 }
 
-export default Sidebar
+export default memo(Sidebar)

@@ -3,19 +3,13 @@ body {
   padding: auto;
 }
 
-.app-containe{
-  /* display: flex; */
-  height: 100vh;
-  position: relative;
-  width: 30vw;
-}
-
+/* 
 .footer{
   position: relative;
   left: 0;
   bottom: 0;
 }
-
+ */
 
 /* #root {
   max-width: 1280px;

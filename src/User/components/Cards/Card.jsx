@@ -6,6 +6,8 @@ import SendIcon from '@mui/icons-material/Send';
 import { Link } from 'react-router-dom'
 import style from './style.module.css'
 import axios from 'axios'
+import { memo } from 'react';
+
 const Card = () => {
   const url = "http://localhost:9000/projectCard"
   const [projectCardData, setProjectCardData] = useState([])
@@ -43,4 +45,4 @@ const Card = () => {
     </>
   )
 }
-export default Card
+export default React.memo(Card)

@@ -2,9 +2,10 @@ import React from 'react';
 import { SidebarData } from './SidebarData';
 import style from './style.module.css';
 import { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { icons } from './SidebarData'
 import Logo from '../../components/Logo/Logo'
+import { memo } from 'react';
 
 const SidebarLayout = () => {
   const [toggle, setToggle] = useState(false);
@@ -60,4 +61,4 @@ const SidebarLayout = () => {
     </>
   );
 };
-export default SidebarLayout
+export default memo(SidebarLayout)

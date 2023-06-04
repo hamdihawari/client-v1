@@ -30,12 +30,13 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Error />} />
           </Routes>
+          <Footer />
         </Router>
       </div>
       
-       <div className="footer">
+       {/* <div className="footer">
         <Footer />
-      </div>
+      </div> */}
     </div>
       </>
   );
