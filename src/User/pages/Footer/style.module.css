@@ -5,12 +5,9 @@
     font-family: 'PT Serif', serif;
 }
 
-.footer {
-    background-color: #0c0c0c;
-}
-
 .footerContainer {
     width: 100%;
+    background-color: #0c0c0c;
 } 
 
 #title {
@@ -63,8 +60,8 @@ margin: 12px 22px 23px;
 
 .footerbottom p {
     color: white;
-    font-size: 12px;
-    margin-top: 0.5rem;
+    font-size: 11px;
+    margin-top: 0.9rem;
 }
 
 #designer {

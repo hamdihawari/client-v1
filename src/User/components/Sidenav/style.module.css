@@ -1,12 +1,12 @@
 .sidebarLayout {
     height: 100%;
     width: 250px;
-    /* background-color: rgb(15 23 42); */
-     position: fixed;
+    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    overflow-x: hidden
+    overflow-x: hidden;
+    /* background-color: rgb(15 23 42); */
 }
 .sidebarList {
     height: auto;

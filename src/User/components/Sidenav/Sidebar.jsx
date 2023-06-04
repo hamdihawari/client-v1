@@ -11,7 +11,6 @@ function Sidebar() {
                 <main>
                     <Outlet />
                 </main>
-               
             </div>
         </>
     )
