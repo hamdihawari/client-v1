@@ -1,0 +1,44 @@
+{
+  "projectCard": [
+    {
+      "id": 50,
+      "path": "/about",
+      "title": "C/O Berlin",
+      "icon": "",
+      "image": "https://www.linkpicture.com/q/IMG_5927_1.jpg",
+      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design"
+    },
+    {
+      "id": 54,
+      "path": "/about",
+      "title": "You Me",
+      "icon": "",
+      "image": "https://www.linkpicture.com/q/IMG_2958.jpg",
+      "description": "“How to Tell a True War Story” examines the complex relationship between the war experience and storytelling. It is told half from O’Brien’s role as a soldier, as a reprise of several old Vietnam stories, and half from his role as a storyteller."
+    },
+    {
+      "id": 51,
+      "path": "/about",
+      "title": "Emothion of the moraine",
+      "icon": "",
+      "image": "https://www.linkpicture.com/q/war-cover.png",
+      "description": "A true war story, O’Brien explains, has an absolute allegiance to obscenity and evil that renders commonly held storytelling notions of courage and pride obsolete. When we learn that Rat Kiley sends a letter to Curt Lemon’s sister, extolling the virtues of his fellow."
+    },
+    {
+      "id": 53,
+      "path": "/about",
+      "title": "The end of the world",
+      "icon": "",
+      "image": "https://www.linkpicture.com/q/USA_1.jpg",
+      "description": "“How to Tell a True War Story” examines the complex relationship between the war experience and storytelling. It is told half from O’Brien’s role as a soldier, as a reprise of several old Vietnam stories, and half from his role as a storyteller."
+    },
+    {
+      "id": 52,
+      "path": "/about",
+      "title": "Silencer civilized coice",
+      "icon": "",
+      "image": "https://www.linkpicture.com/q/CivilizedMuffler.jpg",
+      "description": "“How to Tell a True War Story” examines the complex relationship between the war experience and storytelling. It is told half from O’Brien’s role as a soldier, as a reprise of several old Vietnam stories, and half from his role as a storyteller."
+    }
+  ]
+}
