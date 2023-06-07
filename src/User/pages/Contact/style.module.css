@@ -1,11 +1,76 @@
-.contact{
-    margin: 0 auto;
-    width: 640px; 
-    position: relative;
-    top: 200px;
-    left: 400px;
-    text-align: center;
+.contactContainer {
+    position: absolute;
+    top: 6%;
+    left: 36%;
+    width: 430px;
+    font-family: 'PT Serif', serif;
 }
-h1{
-    text-align: center;
+
+h1 {
+    font-size: 36px;
+    color: #111827;
+}
+
+p {
+    padding-bottom: 1rem;
+}
+
+#flname {
+    display: table;
+    width: 100%;
+}
+
+label {
+    margin-bottom: 0.1rem;
+}
+
+#link {
+    text-decoration: none;
+    color: black;
+}
+
+form {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=message],
+input[type=textarea],
+textarea,
+input[type=data] {
+    width: 100%;
+    display: block;
+    height: 32px;
+    margin-bottom: 0.8rem;
+    font-size: 18px;
+    font-family: 'PT Serif', serif;
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+}
+
+/* Submit Button*/
+.submit {
+    background-color: #111827;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 0.4rem;
+    color: white;
+    padding: 0.5rem;
+    font-size: 16px;
+}
+.submit:hover {
+    background-color: #000000;
+}
+#err{
+    font-size: 14px;
+    color: red;
+    padding: 0;
+    margin-bottom: 0.8rem;
 }

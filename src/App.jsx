@@ -14,19 +14,21 @@ function App() {
   return (
     <div className="App">
       <Router>
-      <Sidebar />
+        <Sidebar />
         <Routes >
-        <Route path="/" exact element={<About />} />
-        <Route path="/about" exact element={<About />} />
-        <Route path="/project" element={< Project/>} />
-          <Route path="/photography" element={<Photography />} />
-          <Route path="/portrait" element={<Portrait />} />
-          <Route path="/street" element={<Street />} />
-          <Route path="/landscape" element={<Landscape />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<Error />} />
-          </Routes>
+         {/*  <Switch> */}
+            <Route path="/" exact element={<About />} />
+            <Route path="/about" exact element={<About />} />
+            <Route path="/project" element={< Project />} />
+            <Route path="/photography" element={<Photography />} />
+            <Route path="/portrait" element={<Portrait />} />
+            <Route path="/street" element={<Street />} />
+            <Route path="/landscape" element={<Landscape />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Error />} />
+          {/* </Switch> */}
+        </Routes>
       </Router>
     </div>
   );

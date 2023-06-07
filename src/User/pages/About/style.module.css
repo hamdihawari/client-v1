@@ -1,7 +1,7 @@
 .aboutContainer {
-    margin-left: 6.2rem;
     margin-top: 1.8rem;
-    display: flex
+    padding-left: 17.5rem;
+    display: flex;
 }
 
 #personal {
@@ -11,7 +11,7 @@
 .containerText {
     font-size: 18px;
     padding-left: 3rem;
-    width: 310px;
+    width: 330px;
     line-height: 1.3;
     color: #7d7d7d;
 }
