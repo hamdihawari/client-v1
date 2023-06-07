@@ -42,30 +42,31 @@ const Contact = () => {
         </div>
 
         <form onSubmit={handleSubmit(submitForm)}>
-          <label name='firstname'>First Name:</label>
-          <input type="text" id={style.firstname} control={control} {...register("firstname")} />
+          <label name='firstname'>First Name:</label> 
+          <input type="text" /* placeholder='First Name*' */ id={style.firstname} control={control} {...register("firstname")} />
           <span id={style.err}>{errors?.firstname?.message}</span>
 
           <label name='lastname'>Last Name:</label>
-          <input type="text" id={style.lastname} control={control} {...register("lastname")} />
+          <input type="text" /* placeholder='Last Name*' */  id={style.lastname} control={control} {...register("lastname")} />
           <span id={style.err}>{errors?.lastname?.message}</span>
 
           <label name='email'>Email:</label>
-          <input type="email" id={style.email} control={control} {...register("email")} />
+          <input type="email" /* placeholder='Email*' */  id={style.email} control={control} {...register("email")} />
           <span id={style.err}>{errors?.email?.message}</span>
 
           <label name='message'>Message!</label>
-          <textarea type="text" id={style.message} control={control} {...register("message")} />
+          <textarea type="text" /* placeholder='Comment Text*' */  id={style.message} control={control} {...register("message")} />
           <span id={style.err}>{errors?.message?.message}</span>
 
           {/* <label name='age'>Age:</label>
           <input type="number" id={style.age} {...register("age")} /> */}
 
-          <button className={style.submit} 
-          /* onClick={() =>{reset()}} */>Submit</button>
+          <button className={style.submit}>Submit</button>
 
         </form>
+        
       </div>
+      
     </>
   )
 }

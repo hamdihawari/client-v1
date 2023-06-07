@@ -1,9 +1,11 @@
 .contactContainer {
-    position: absolute;
-    top: 6%;
+    position: relative;
+    top: 82px;
     left: 36%;
     width: 430px;
+    height: 100vh;
     font-family: 'PT Serif', serif;
+    
 }
 
 h1 {
@@ -12,7 +14,7 @@ h1 {
 }
 
 p {
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 #flname {
@@ -44,15 +46,36 @@ textarea,
 input[type=data] {
     width: 100%;
     display: block;
-    height: 32px;
-    margin-bottom: 0.8rem;
-    font-size: 18px;
+    height: 34px;
+    margin-bottom: 0.4rem;
     font-family: 'PT Serif', serif;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: red;
+} 
+input:focus:invalid {
+    border-color: red;
+} 
+
+/* Input Hover */
+input[type=text]:hover,
+input[type=email]:hover,
+input[type=number]:hover,
+input[type=message]:hover,
+input[type=textarea]:hover,
+input[type=data]:hover,
+textarea:hover{
+    border-color: red;
+    /* transition: 0.4s; */
+    /* box-shadow: 1px 1px 1px #0a0a0a; */
 }
 
 textarea {
     height: 100px;
     width: 100%;
+    font-size: 14px;
 }
 
 /* Submit Button*/

@@ -1,17 +1,15 @@
-.App {
-  height: 100vh;
-  width: 30vw;
-  display: flex;
-}
-
 body {
   margin: 0;
   padding: auto;
 }
 
-
-
-
+/* 
+.footer{
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+ */
 
 /* #root {
   max-width: 1280px;

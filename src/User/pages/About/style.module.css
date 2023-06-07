@@ -5,13 +5,14 @@
 }
 
 #personal {
-    height: 95%;
+    height: 93vh;
+    margin-bottom: 2rem;
 }
 
 .containerText {
     font-size: 18px;
     padding-left: 3rem;
-    width: 330px;
+    width: 380px;
     line-height: 1.3;
     color: #7d7d7d;
 }
