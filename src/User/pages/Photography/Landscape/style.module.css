@@ -1,8 +1,12 @@
-.landscapeContainer {
-    position: relative;
+.landscape {
+    /* position: relative;
     top: 82px;
     left: 50%;
     width: 430px;
-    height: 100vh;
-    font-family: 'PT Serif', serif;
+    */
+    width: 100%;
+    margin: 0;
+    padding-left: 18.5rem;
+    min-height: 100vh; 
+    margin:0;
 }

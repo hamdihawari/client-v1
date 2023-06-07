@@ -3,7 +3,7 @@ import style from './style.module.css'
 
 const Landscape = () => {
   return (
-    <div className={style.landscapeContainer}>
+    <div className={style.landscape}>
       <h2>Landscape</h2>
     </div>
   )

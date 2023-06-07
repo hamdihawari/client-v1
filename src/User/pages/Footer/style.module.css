@@ -8,7 +8,8 @@
 .footerContainer {
     width: 100%;
     background-color: #0c0c0c;
-} 
+    margin-bottom: 0;
+}
 
 #title {
     color: white;
@@ -19,9 +20,10 @@
     display: flex;
     justify-content: center;
     padding-top: 0.5rem;
-    
+
 }
-#icons{
+
+#icons {
     color: white;
     margin: 0.9rem;
 
@@ -40,7 +42,7 @@
 
 .footerNav ul .navLink {
     color: white;
-margin: 12px 22px 23px;
+    margin: 12px 22px 23px;
     text-decoration: none;
     font-size: 13px;
     opacity: 0.7;
@@ -70,18 +72,6 @@ margin: 12px 22px 23px;
     letter-spacing: 1px;
     font-weight: 400px;
     margin: 0px 5px
-}
-
-@media(max-width: 700px) {
-    .footerNav ul {
-        flex-direction: column;
-    }
-
-    .footerNav ul li {
-        width: 100%;
-        text-align: center;
-        margin: 10px;
-    }
 }
 
 /* * {

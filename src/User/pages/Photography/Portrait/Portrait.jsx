@@ -5,7 +5,7 @@ import { Footer } from '../../Footer/Footer'
 const Portrait = () => {
   return (
     <>
-      <div className={style.portraitContainer}>
+      <div className={style.portrait}>
         <h2>Portrait</h2>
       </div>
 

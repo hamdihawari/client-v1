@@ -3,7 +3,7 @@ import style from './style.module.css'
 
 const Street = () => {
   return (
-    <div className={style.streetContainer}>
+    <div className={style.street}>
       <h2>Street</h2>
     </div>
   )

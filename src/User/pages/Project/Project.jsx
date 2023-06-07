@@ -15,7 +15,7 @@ const Project = () => {
   }, [])
   return (
     <>
-     <div className={style.card}>
+     <div className={style.project}>
         {projectCardData.map((val) => {
           return (<ProjectItem
             key={val.id}
