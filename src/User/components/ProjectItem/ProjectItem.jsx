@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import SendIcon from '@mui/icons-material/Send';
-import React, { memo } from 'react';
+import React from 'react';
 
 export const ProjectItem = ({ path, title, image, description }) => {
   return (

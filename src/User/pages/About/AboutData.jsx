@@ -1,4 +1,3 @@
-import React from 'react'
 import personal from '../../../assets/images/personal.png'
 
 export const AboutData = 

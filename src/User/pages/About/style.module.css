@@ -6,14 +6,14 @@
 }
 
 #personal {
-    height: 93vh;
+    height: 90vh;
     margin-bottom: 2rem;
 }
 
 .containerText {
-    font-size: 18px;
+    font-size: 17px;
     padding-left: 3rem;
-    width: 380px;
+    width: 390px;
     line-height: 1.3;
     color: #7d7d7d;
 }
@@ -28,4 +28,7 @@
     text-decoration: none;
     font-family: 'PT Serif', serif;
     color: #BD6E6D;
+}
+.description{
+    margin-top: 1rem;
 }

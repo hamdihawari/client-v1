@@ -1,5 +1,4 @@
 import style from './style.module.css'
-import personal from '../../../assets/images/personal.png'
 import { AboutData } from './AboutData'
 
 const About = () => {
@@ -12,8 +11,8 @@ const About = () => {
                             <>
                                 <img className={style.personal} src={val.photo} alt="personalPic" id={style.personal} />
                                 <div className={style.containerText}>
-                                    <h3>{val.title}</h3>
-                                    <p>{val.description}</p>
+                                    <h3 className={style.title}>{val.title}</h3>
+                                    <p className={style.description}>{val.description}</p>
                                 </div>
                             </>
                         )
