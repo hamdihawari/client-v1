@@ -10,6 +10,7 @@ import { memo } from 'react';
 export const SidebarLayout = () => {
   const [toggle, setToggle] = useState(false);
   return (
+    <>
     <div className={style.sidebarLayout}>
       <Logo />
       {
@@ -51,7 +52,7 @@ export const SidebarLayout = () => {
         }
       </div >
     </div>
+    </>
   )
 }
 export default memo(SidebarLayout)
-
