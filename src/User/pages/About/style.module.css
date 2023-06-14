@@ -5,6 +5,7 @@
     flex-direction: row;
     min-height: 100vh; 
     margin:0;
+    margin-top: 2.5rem;
 }
 
 #personal {
