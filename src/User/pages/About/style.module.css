@@ -3,17 +3,19 @@
     padding-left: 18.5rem;
     display: flex;
     flex-direction: row;
+    min-height: 100vh; 
+    margin:0;
 }
 
 #personal {
-    height: 90vh;
+    height: 60vh;
     margin-bottom: 2rem;
 }
 
 .containerText {
-    font-size: 17px;
+    font-size: 16px;
     padding-left: 3rem;
-    width: 390px;
+    width: 430px;
     line-height: 1.3;
     color: #7d7d7d;
 }

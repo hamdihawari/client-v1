@@ -1,0 +1,13 @@
+.header {
+    height: 50px;
+    float: right;
+    background-color: rgb(27, 27, 27); 
+    width: 100%;
+}
+
+p{
+    float: right;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    color: white;
+}

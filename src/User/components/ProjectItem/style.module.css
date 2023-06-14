@@ -2,7 +2,7 @@
     width: 100%;
     border: none;
     margin-bottom: 3rem;
-    padding-top: 3rem;
+    padding-top: 1rem;
     display: flex;
     flex-direction: row;
     max-width: 850px;
@@ -47,4 +47,5 @@
 hr{
     max-width: 90%;
     margin-left: 0rem;
+    margin-bottom: 2rem;
 } 

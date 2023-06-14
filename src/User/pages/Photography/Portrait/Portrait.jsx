@@ -6,7 +6,7 @@ const Portrait = () => {
   return (
     <>
       <div className={style.portrait}>
-        <h2>Portrait</h2>
+       {/*  <h2>Portrait</h2> */}
       </div>
 
     </>

@@ -9,6 +9,7 @@ import Contact from './User/pages/Contact/Contact'
 import Error from './User/pages/Error/Error'
 import Street from './User/pages/Photography/Street/Street'
 import { Footer } from './User/pages/Footer/Footer';
+import { Header } from './User/components/Header/Header';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <div className="App">
         <div className='app-container'>
           <Router>
+          <Header />
             <Sidebar />
             <Routes >
               <Route path="/" exact element={<About />} />
