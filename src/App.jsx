@@ -18,7 +18,7 @@ function App() {
         <div className='app-container'>
           <Router>
           <Header />
-            <Sidebar />
+            <Sidebar /> 
             <Routes >
               <Route path="/" exact element={<About />} />
               <Route path="/about" exact element={<About />} />
