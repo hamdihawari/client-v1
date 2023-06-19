@@ -5,13 +5,13 @@ import { memo } from 'react'
 import useMediaQuery from '../../Hooks/useMediaQuery'
 
 function Sidebar() {
-    const isSmallThan768 = useMediaQuery('(min-width: 768px)')
+/*     const isSmallThan768 = useMediaQuery('(min-width: 768px)') */
     const isSmallThan992 = useMediaQuery('(min-width: 992px)')
     const isLargeThan1200 = useMediaQuery('(min-width:1200px)')
 
     return (
         <div >
-            {isSmallThan768 || isSmallThan992  || isLargeThan1200 ? <SidebarLayout /> : "" }
+            {isSmallThan992  || isLargeThan1200 ? <SidebarLayout /> : "" }
 
             <main>
                 <Outlet />
