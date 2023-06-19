@@ -10,10 +10,12 @@ import Error from './User/pages/Error/Error'
 import Street from './User/pages/Photography/Street/Street'
 import { Footer } from './User/pages/Footer/Footer';
 import { Header } from './User/components/Header/Header';
+/* import { ThemeProvider } from '@emotion/react'; */
 
 function App() {
   return (
     <>
+  {/*   <ThemeProvider theme={theme}> */}
       <div className="App">
         <div className='app-container'>
           <Router>
@@ -34,6 +36,7 @@ function App() {
           </Router>
         </div>
       </div>
+      {/* </ThemeProvider> */}
     </>
   );
 }

@@ -5,13 +5,16 @@ import useMediaQuery from '../../Hooks/useMediaQuery'
 
 
 export const Header = () => {
-  const isSmallMobile = useMediaQuery('(max-width:600px)'); // Small Mobile
-  const isLargeMobile= useMediaQuery('(max-width:767px)'); // Mobile 
+  /* const isSmallMobile = useMediaQuery('(max-width:600px)'); // Small Mobile */
+  const isLargeMobile= useMediaQuery('(max-width:992px)'); // Mobile 
 
   return (
     <div className={style.header}>
-      {isSmallMobile ? <Menu /> : isLargeMobile && <Menu />}
+       {isLargeMobile && <Menu /> }
      {}
     </div>
   )
 }
+
+
+   {/*  {isSmallMobile ? <Menu /> : isLargeMobile && <Menu />} */}
