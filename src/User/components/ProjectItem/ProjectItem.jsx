@@ -8,12 +8,12 @@ import React from 'react';
 export const ProjectItem = ({ path, title, image, description }) => {
   return (
     <>
-      <div className={style.cardProjectContent}>
+      <div className={style.projectContent}>
         <Link to={path} className={style.imgLink}>
           <img src={image} alt='photoscards' width="100%" id={style.img} />
         </Link>
-        <div className={style.cardProjectBody}>
-          <h2 className={style.title}>{title}</h2>
+        <div className={style.cardBody}>
+          <h2 className={style.cardTitle}>{title}</h2>
           <p className={style.cardText}>{description}</p>
           <nav className={style.cardFooter}>
             <Link to={path} className={style.icon} id={style.favoriteIcon}><FavoriteIcon /></Link>
@@ -22,7 +22,6 @@ export const ProjectItem = ({ path, title, image, description }) => {
           </nav>
         </div>
       </div>
-      <hr />
     </>
   )
 }
