@@ -1,51 +1,225 @@
-.cardProjectContent{
-    width: 100%;
+.projectContent {
     border: none;
-    margin-bottom: 3rem;
-    padding-top: 1rem;
+    margin-top: 1rem;
+    padding-left: 17rem;
     display: flex;
     flex-direction: row;
-    max-width: 850px;
+    width: 100%;
 }
-.cardText{
+
+.cardText {
+    font-family: 'PT Serif', serif;
     margin-top: 1rem;
     font-size: 14px;
-    width: 90%;
+    width: 100%;
+    color: #7d7d7d;
 }
-.cardProjectBody {
+
+.cardBody {
     margin-top: 1rem;
-    font-family: 'PT Serif', serif;
     margin-left: 2rem;
 }
-#img{
-    width: 540px;
+
+#img {
+    width: 500px;
     height: auto;
-    position: relative;
+    position: static
 }
-#image:hover {
-    cursor: pointer;
-    opacity: 0.5;
-}
-.cardFooter{
+
+.cardFooter {
     padding-top: 1rem;
 }
 
-.icon{
+.icon {
     padding: 0rem;
     color: black;
 }
-#favoriteIcon{
+
+#favoriteIcon {
     padding-right: 2rem;
 }
-#moreHorizIcon{
+
+#moreHorizIcon {
     padding-left: 2rem;
 }
+
 .icon:hover {
     cursor: pointer;
     opacity: 0.5;
 }
-hr{
-    max-width: 90%;
-    margin-left: 0rem;
-    margin-bottom: 2rem;
-} 
+
+/* 600 Down */
+@media only screen and (max-width: 600px) {
+    .projectContent {
+        padding-top: 4rem;
+        margin: 0 auto;
+        padding-left: 0.1rem;
+        flex-direction: column;
+    }
+
+    .cardBody {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
+    .cardTitle {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .cardText {
+        font-family: 'PT Serif', serif;
+        max-width: 90%;
+        font-size: 14px;
+        margin-top: 0.1rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .cardFooter {
+        padding-bottom: 1rem;
+    }
+}
+
+/* UP 600 */
+@media only screen and (min-width: 600px) {
+    .projectContent {
+        padding-top: 4rem;
+        margin: 0 auto;
+        padding-left: 0.1rem;
+        flex-direction: column;
+    }
+
+    .cardBody {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
+    .cardTitle {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .cardText {
+        font-family: 'PT Serif', serif;
+        max-width: 90%;
+        font-size: 17px;
+        text-align: left;
+        margin-top: 0.1rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .cardFooter {
+        padding-bottom: 1rem;
+    }
+
+    hr {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .projectContent {
+        border: none;
+        margin-top: 0rem;
+        padding-left: 17rem;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .cardTitle {
+        text-align: left;
+        margin-left: 1rem;
+    }
+    .cardText {
+        font-family: 'PT Serif', serif;
+        margin-top: 0;
+        font-size: 12px;
+        width: 80%;
+        color: #7d7d7d;
+        text-align: left;
+        margin-left: 1rem;
+    }
+    .cardBody {
+        margin-top: 0.3rem;
+        margin-left: 1rem;
+    }
+    #img {
+        width: 380px;
+        height: auto;
+        position: static;
+    }
+    .cardFooter {
+        padding-top: 0.2rem;
+        margin-left: 1rem;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .projectContent {
+        border: none;
+        margin-top: 0rem;
+        padding-left: 17rem;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .cardText {
+        font-family: 'PT Serif', serif;
+        margin-top: 0rem;
+        font-size: 15px;
+        width: 80%;
+        color: #7d7d7d;
+    }
+
+    .cardBody {
+        margin-top: 0.3rem;
+        margin-left: 2rem;
+    }
+
+    #img {
+        width: 500px;
+        height: auto;
+        position: static
+    }
+
+    .cardFooter {
+        padding-top: 1rem;
+    }
+
+    .icon {
+        padding: 0rem;
+        color: black;
+    }
+
+    #favoriteIcon {
+        padding-right: 2rem;
+    }
+
+    #moreHorizIcon {
+        padding-left: 2rem;
+    }
+
+    .icon:hover {
+        cursor: pointer;
+        opacity: 0.5;
+    }
+}
