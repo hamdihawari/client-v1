@@ -1,8 +1,7 @@
 .portrait{
-    position: relative;
-    top: 82px;
-    left: 50%;
-    width: 430px;
-    height: 100vh;
-    font-family: 'PT Serif', serif;
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    min-height: 100vh; 
+
 }

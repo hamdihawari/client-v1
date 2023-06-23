@@ -26,7 +26,7 @@ const Project = () => {
           />
           )
         })}
-    </>
+        </>
   )
 }
 export default memo(Project)

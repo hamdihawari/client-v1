@@ -56,5 +56,93 @@
       "image": "https://www.linkpicture.com/q/Damascus_1.jpg",
       "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,"
     }
+  ],
+  "landscapeImage": [
+    {
+      "id": 1,
+      "path": "landscapeImage",
+      "original": "https://www.linkpicture.com/q/IMG_3586_1.jpg",
+      "thumbnail": "https://www.linkpicture.com/q/IMG_3586_1.jpg"
+    },
+    {
+      "id": 2,
+      "path": "landscapeImage",
+      "original": "https://www.linkpicture.com/q/IMG_3466_1.jpg",
+      "thumbnail": "https://www.linkpicture.com/q/IMG_3466_1.jpg"
+    },
+    {
+      "id": 3,
+      "path": "landscapeImage",
+      "original": "https://www.linkpicture.com/q/IMG_3477_1.jpg",
+      "thumbnail": "https://www.linkpicture.com/q/IMG_3477_1.jpg"
+    },
+    {
+      "id": 4,
+      "path": "landscapeImage",
+      "original": "https://www.linkpicture.com/q/IMG_3419.jpg",
+      "thumbnail": "https://www.linkpicture.com/q/IMG_3419.jpg"
+    },
+    {
+      "id": 5,
+      "path": "landscapeImage",
+      "original": "https://www.linkpicture.com/q/IMG_9875.jpg",
+      "thumbnail": "https://www.linkpicture.com/q/IMG_9875.jpg"
+    },
+    {
+      "id": 6,
+      "path": "landscapeImage",
+      "original": "https://www.linkpicture.com/q/135874256_1803607076471659_8027847202511702066_n_3.jpg",
+      "thumbnail": "https://www.linkpicture.com/q/135874256_1803607076471659_8027847202511702066_n_3.jpg"
+    },
+    {
+      "id": 7,
+      "path": "landscapeImage",
+      "original": "https://www.linkpicture.com/q/IMG_5927_2.jpg",
+      "thumbnail": "https://www.linkpicture.com/q/IMG_5927_2.jpg"
+    },
+    {
+      "id": 8,
+      "path": "landscapeImage",
+      "original": "https://www.linkpicture.com/q/Friedrischstr.jpg",
+      "thumbnail": "https://www.linkpicture.com/q/Friedrischstr.jpg"
+    }
+  ],
+  "streetImage": [
+    {
+      "id": 1,
+      "path": "streetImage",
+      "original": "https://www.linkpicture.com/q/Friedrischstr-Kirsche.jpg",
+      "thumbnail": "https://www.linkpicture.com/q/Friedrischstr-Kirsche.jpg"
+    },
+    {
+      "id": 32,
+      "path": "streetImage",
+      "original": "https://www.linkpicture.com/q/init.jpg",
+      "thumbnail": "https://www.linkpicture.com/q/init.jpg"
+    },
+    {
+      "id": 3,
+      "path": "streetImage",
+      "original": "https://www.linkpicture.com/q/neukolln.jpg",
+      "thumbnail": "https://www.linkpicture.com/q/neukolln.jpg"
+    },
+    {
+      "id": 4,
+      "path": "streetImage",
+      "original": "https://www.linkpicture.com/q/Potsdam.jpg",
+      "thumbnail": "https://www.linkpicture.com/q/Potsdam.jpg"
+    },
+    {
+      "id": 5,
+      "path": "streetImage",
+      "original": "https://www.linkpicture.com/q/Shadow.jpg",
+      "thumbnail": "https://www.linkpicture.com/q/Shadow.jpg"
+    },
+    {
+      "id": 6,
+      "path": "streetImage",
+      "original": "https://www.linkpicture.com/q/ubahn.jpg",
+      "thumbnail": "https://www.linkpicture.com/q/ubahn.jpg"
+    }
   ]
 }

@@ -1,16 +1,15 @@
-import React from 'react'
+import React, { memo } from 'react';
 import style from './style.module.css'
-import { Footer } from '../../Footer/Footer'
 
-const Portrait = () => {
+export const Portrait = () => {
   return (
-    <>
-      <div className={style.portrait}>
-       {/*  <h2>Portrait</h2> */}
-      </div>
+<>
+<div className={style.portrait}>
 
-    </>
-
+</div>
+</>
   )
 }
-export default Portrait
+
+export default memo(Portrait)
+
