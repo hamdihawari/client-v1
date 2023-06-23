@@ -29,6 +29,7 @@ function App() {
               <Route path="landscape" element={<Landscape />} />
 
               <Route path="/landscape/:gallery" element={<Gallery />} />
+              <Route path="/street/:gallery" element={<Gallery />} />
 
               <Route path="contact" element={<Contact />} />
               <Route path="*" element={<Error />} />
@@ -41,3 +42,4 @@ function App() {
   );
 }
 export default App
+
