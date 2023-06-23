@@ -1,21 +1,17 @@
 import style from './style.module.css'
 import axios from 'axios'
 import ProjectItem from '../../components/ProjectItem/ProjectItem'
-import { useEffect, useState, } from 'react'
+import { useContext, useEffect, useState, } from 'react'
 import React, { memo } from 'react';
+import { GalleryContext } from '../../Context/Context';
 
 const Project = () => {
-  const url = "http://localhost:9000/projectCard"
-  const [projectCardData, setProjectCardData] = useState([])
-  useEffect(() => {
-    axios.get(url).then((res) => {
-      setProjectCardData(res.data)
-      console.log(res.data)
-    })
-  }, [])
+  const {project} = useContext(GalleryContext)
+
   return (
     <>
-        {projectCardData.map((val) => {
+    <div className={style.project}>
+        {project.map((val) => {
           return (<ProjectItem
             key={val.id}
             path={val.path}
@@ -26,18 +22,8 @@ const Project = () => {
           />
           )
         })}
-        </>
+        </div>
+    </>
   )
 }
 export default memo(Project)
-
-
-
-
-{/* <div key={id} className={style.cardProjectContent}>
-            <img src={image} alt='photoCards' width="1200px" id={style.img} />
-            <div className={style.cardProjectBody}>
-              <h2 className={title}>{value.title}</h2>
-              <p className={style.cardText}>{description}</p>
-            </div>
-          </div> */}
