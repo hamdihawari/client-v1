@@ -4,3 +4,44 @@
     margin-left: 17rem;
     margin-top: 3rem;
 }
+.streetContent {
+    gap: 10px;
+    align-items: center;
+    max-width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.streetContent, h1{
+    text-align: center;
+    color: rgb(69, 69, 69);
+    font-size: 32px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.reactImagegallery{
+    width: 80%;
+    margin: 0 auto;
+}
+/**/
+.gallery {
+    gap: 10px;
+    align-items: center;
+    max-width: 100%;
+    justify-content: center;
+}
+.gallery .single{
+    width: 430px;
+    cursor: pointer;
+}
+.gallery #img{
+max-width: 100%;
+}
+.gallery .single #img:hover{
+    transform: scale(1.02);
+}
+
+
+
