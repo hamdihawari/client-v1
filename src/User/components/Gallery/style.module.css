@@ -1,0 +1,16 @@
+.reactImagegallery{
+    margin: 0 auto;
+    min-height: 100vh;
+    margin-left: 19rem;
+    margin-top: 3rem;
+    width: 72%;
+
+}
+.slideControlBtn{
+    padding: 1rem;
+}
+
+.slideControlBtn #play,  #pause{
+    padding: 0.3rem;
+    margin: 0.4rem;
+}

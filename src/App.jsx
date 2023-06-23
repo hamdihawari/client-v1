@@ -10,33 +10,33 @@ import Error from './User/pages/Error/Error'
 import Street from './User/pages/Photography/Street/Street'
 import { Footer } from './User/pages/Footer/Footer';
 import { Header } from './User/components/Header/Header';
-/* import { ThemeProvider } from '@emotion/react'; */
+import Gallery from './User/components/Gallery/Gallery';
 
 function App() {
   return (
     <>
-  {/*   <ThemeProvider theme={theme}> */}
       <div className="App">
         <div className='app-container'>
           <Router>
-          <Header />
-            <Sidebar /> 
+            <Header />
+            <Sidebar />
             <Routes >
               <Route path="/" exact element={<About />} />
-              <Route path="/about" exact element={<About />} />
-              <Route path="/project" element={< Project />} />
-              <Route path="/portrait" element={<Portrait />} />
-              <Route path="/street" element={<Street />} />
-              <Route path="/landscape" element={<Landscape />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
+              <Route path="about" exact element={<About />} />
+              <Route path="project" element={< Project />} />
+              <Route path="portrait" element={<Portrait />} />
+              <Route path="street" element={<Street />} />
+              <Route path="landscape" element={<Landscape />} />
+
+              <Route path="/landscape/:gallery" element={<Gallery />} />
+
+              <Route path="contact" element={<Contact />} />
               <Route path="*" element={<Error />} />
             </Routes>
             <Footer />
           </Router>
         </div>
       </div>
-      {/* </ThemeProvider> */}
     </>
   );
 }
