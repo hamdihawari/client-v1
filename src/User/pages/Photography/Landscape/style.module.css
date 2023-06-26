@@ -15,16 +15,15 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-.landscapeContent, h1{
+
+.header{
+    width: 100%;
+    margin: 0 auto;
     text-align: center;
     color: rgb(69, 69, 69);
     font-size: 32px;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     margin-top: 1rem;
-}
-.reactImagegallery{
-    width: 80%;
-    margin: 0 auto;
 }
 /**/
 .gallery {

@@ -1,7 +1,6 @@
 import style from './style.module.css'
-import axios from 'axios'
 import ProjectItem from '../../components/ProjectItem/ProjectItem'
-import { useContext, useEffect, useState, } from 'react'
+import { useContext } from 'react'
 import React, { memo } from 'react';
 import { GalleryContext } from '../../Context/Context';
 

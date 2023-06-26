@@ -1,0 +1,65 @@
+/* GALLERY ROOT */
+.gallery {
+    margin: 0 auto;
+    min-height: 100vh;
+    margin-left: 20rem;
+    margin-top: 3rem;
+  }
+  
+  .reactImagegallery {
+    width: 85%;
+    margin-top: 3rem;
+  }
+  
+  .header {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(69, 69, 69);
+    font-size: 32px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  
+  /* CARD */
+  .card {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    
+    width: 100%;
+  }
+  
+  .cardHeader .iconsLink {
+    padding-right: 3rem;
+  }
+
+  .cardBody h2 {
+    padding-top: 2rem;
+  }
+  
+  .cardBody h5 {
+    padding-top: 2rem;
+  }
+  
+  .cardBody #contentheader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .cardBody #contentIcons {
+    margin-right: 0.7rem;
+  }
+  
+  .icons #icon {
+    margin-right: 3rem;
+  }
+  
+  .iconsLink {
+    color: black;
+  }
+  
+  .iconsLink:hover {
+    cursor: pointer;
+    opacity: 0.3;
+  }

@@ -9,9 +9,7 @@ const Street = () => {
         <>
             <div className={style.street}>
                 <div className={style.streetContent}>
-                    <div className={style.reactImagegallery}>
-                        <h1>Street Gallery</h1>
-                    </div>
+                        <h1 className={style.header}>Street Gallery</h1>
                     {
                         streetGallery.map((item, index) => {
                             return (
