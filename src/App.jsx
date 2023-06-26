@@ -10,7 +10,7 @@ import Error from './User/pages/Error/Error'
 import Street from './User/pages/Photography/Street/Street'
 import { Footer } from './User/pages/Footer/Footer';
 import { Header } from './User/components/Header/Header';
-import Gallery from './User/components/Gallery/Gallery';
+import Gallery from './User/components/Gallery/Gallery/Gallery';
 
 function App() {
   return (
