@@ -3,14 +3,9 @@ import style from './style.module.css';
 import axios from 'axios';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
-import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import ReplyIcon from '@mui/icons-material/Reply';
-import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
-import CameraAltIcon from '@mui/icons-material/CameraAlt';
-import CameraIcon from '@mui/icons-material/Camera';
-import ShareIcon from '@mui/icons-material/Share';
+import GalleryCard from '../GalleryCard/GalleryCard';
 
 const Gallery = () => {
   const slideshowRef = useRef();
@@ -52,46 +47,14 @@ const Gallery = () => {
           slideInterval={3000}
           slideDuration={1000}
           currentIndex={currentImageIndex} // Pass the current image index as a prop
-          onSlide={handleNextClick} // Call handleNextClick on slide change
+          onSlide={handleNextClick}
         />
 
-        <div className={style.card}>
-          <div className={style.cardHeader}>
-            <Link className={style.iconsLink}>
-              <FavoriteBorderIcon  />
-            </Link>
-            <Link className={style.iconsLink}>
-              <ShareIcon />
-            </Link>
-            <Link className={style.iconsLink}>
-              <MoreHorizIcon />
-            </Link>
-          </div>
-          {landscapeGallery.map((val, index) => (
-            <div key={val.id}>
-              {index === currentImageIndex && (
-                <div className={style.cardContent}>
-                  <ul>
-                    <nav className={style.cardBody}>
-                      <h2>{val.title}</h2>
-                      <h5>
-                        Taken: {val.taken} - Uploaded: {val.uploaded}
-                      </h5>
-                      <h5 id={style.contentheader}>
-                        <CameraAltIcon id={style.contentIcons} />
-                        {val.camera}
-                      </h5>
-                      <h5 id={style.contentheader}>
-                        <CameraIcon id={style.contentIcons} />
-                        {val.objective}
-                      </h5>
-                    </nav>
-                  </ul>
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
+        <GalleryCard
+          landscapeGallery={landscapeGallery}
+          currentImageIndex={currentImageIndex}
+          handleNextClick={handleNextClick}
+        />
       </div>
     </div>
   );
