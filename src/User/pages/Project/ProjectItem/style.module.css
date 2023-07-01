@@ -21,12 +21,44 @@
     margin-left: 2rem;
 }
 
+/**/
+.imageContainer {
+    position: relative;
+  }
+
+  #imgAfterHover {
+    width: 500px;
+    height: auto;
+    -webkit-filter: drop-shadow(0 0 8px rgb(83, 83, 83));
+    filter: drop-shadow(0 0 8px black);           
+    filter: drop-shadow(0 0 0 8px black);
+    transform: scale(1.02);
+    /* filter: grayscale(0%); */
+}
 #img {
     width: 500px;
     height: auto;
-    position: static
+    /* position: static */
+
 }
 
+.hoverImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .imageContainer:hover .hoverImage {
+    opacity: 1;
+  }
+
+  .imageContainer:hover .middle{
+    opacity: 1;
+  }
+
+  /**/
 .cardFooter {
     padding-top: 1rem;
 }
@@ -224,3 +256,41 @@
         opacity: 0.5;
     }
 }
+
+/* CSS HOVER MIDDLE */
+/* .imageContainer{
+  position: relative;
+  width: 50%;
+}
+ 
+  .imageContainer:hover #img {
+    opacity: 0.3;
+  }
+  
+  .imageContainer:hover .middle {
+    opacity: 2;
+  }
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  .middle, .text {
+    color: rgb(34, 34, 34);
+    font-size: 24px;
+    width: 100%;
+    padding: 16px 32px;
+  }
+
+  .imageContainer, #img{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  } */

@@ -1,8 +1,8 @@
 import style from './style.module.css'
-import ProjectItem from '../../components/ProjectItem/ProjectItem'
+import ProjectItem from '../ProjectItem/ProjectItem'
 import { useContext } from 'react'
 import React, { memo } from 'react';
-import { GalleryContext } from '../../Context/Context';
+import { GalleryContext } from '../../../Context/Context';
 
 const Project = () => {
   const {project} = useContext(GalleryContext)
@@ -17,6 +17,7 @@ const Project = () => {
             title={val.title}
             icon={val.icon}
             image={val.image}
+            imageHover={val.imageHover}
             description={val.description}
           />
           )
