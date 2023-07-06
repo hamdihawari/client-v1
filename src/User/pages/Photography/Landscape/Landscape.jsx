@@ -1,4 +1,4 @@
-import React, { useState, memo, useContext } from 'react'
+import React, { memo, useContext } from 'react'
 import style from './style.module.css'
 import { Link, Outlet } from 'react-router-dom';
 import { GalleryContext } from '../../../Context/Context';

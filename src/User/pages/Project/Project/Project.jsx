@@ -13,6 +13,7 @@ const Project = () => {
         {project.map((val) => {
           return (<ProjectItem
             key={val.id}
+            id={val.id}
             path={val.path}
             title={val.title}
             icon={val.icon}

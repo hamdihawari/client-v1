@@ -5,7 +5,7 @@ export const Portrait = () => {
   return (
 <>
 <div className={style.portrait}>
-
+<h1>PORTRAIT</h1>
 </div>
 </>
   )

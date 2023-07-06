@@ -11,6 +11,7 @@ import { Footer } from './User/pages/Footer/Footer';
 import { Header } from './User/components/Header/Header';
 import Gallery from './User/components/Gallery/Gallery/Gallery';
 import Project from './User/pages/Project/Project/Project';
+import ProjectDetails from './User/pages/Project/ProjectDetails/ProjectDetails'
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
               <Route path="portrait" element={<Portrait />} />
               <Route path="street" element={<Street />} />
               <Route path="landscape" element={<Landscape />} />
+
+              <Route path="/project/:id" element={<ProjectDetails />}  />
 
               <Route path="/landscape/:gallery" element={<Gallery />} />
               <Route path="/street/:gallery" element={<Gallery />} />
