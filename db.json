@@ -1,67 +1,232 @@
 {
   "projectCard": [
     {
-      "id": 50,
-      "path": "/about",
-      "title": "C/O Berlin",
+      "id": 1,
+      "path": "projectCard",
+      "title": "A light of a rebirth - C|O Berlin",
       "icon": "",
+      "data": "Berlin - 22.10.2017",
       "image": "https://www.linkpicture.com/q/c-o_2.jpg",
-      "imageHover" : "https://www.linkpicture.com/q/c-o_2.png",
-      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,"
+      "imageHover" : "https://www.linkpicture.com/q/A-light-of-a-rebirth.png",
+      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,",
+      "projectDetails": [
+        {
+          "id": 1,
+          "cardDescription": "In 2017, I participated in an exhibition with many colleagues, and an exhibition was opened there, where I displayed my painting while it is still in the exhibition. I collected some details with the help of the supervisor, Esra Rotthoff, as the details of my arduous journey from Damascus to Germany in 2015. Jasmine is a well-known Damascene symbol, and the red light accompanied me on my way across the border towards Germany. The rest of the details, such as money and coffee, are a group of details engraved in my mind, and they are completely Damascene details.",
+          "imageGroup": {
+            "img_1": "https://www.linkpicture.com/q/IMG_5967.jpg",
+            "img_2": "https://www.linkpicture.com/q/IMG_2015.jpg",
+            "img_3": "https://www.linkpicture.com/q/IMG_2013.jpg"
+          }
+        }
+      ]
     },
     {
-      "id": 51,
-      "path": "/about",
-      "title": "You Me",
+      "id": 2,
+      "path": "projectCard",
+      "title": "You are Me",
       "icon": "",
+      "data": "Berlin - 11.01.2015",
       "image": "https://www.linkpicture.com/q/youme.jpg",
-      "imageHover" : "https://www.linkpicture.com/q/youme_1.png",
-      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,"
+      "imageHover" : "https://www.linkpicture.com/q/youme_5.png",
+      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,",
+      "projectDetails": [
+        {
+          "id": 2,
+          "cardDescription": "You are me, just an idea I had, and it means love. Let me penetrate the depths of your life, live on your voice and the warmth of your tones, and study the magic of your looks, you who melted me with the splendor of your beauty, for I loved the moment of your silence and the delicacy of your dialogue, you who was my date of birth the day I met you.",
+          "imageGroup": {
+          }
+        }
+      ]
     },
     {
-      "id": 52,
-      "path": "/about",
+      "id": 3,
+      "path": "projectCard",
       "title": "Emothion of the moraine",
       "icon": "",
+      "data": "Berlin - 25.06.2016",
       "image": "https://www.linkpicture.com/q/childrenWar.jpg",
       "imageHover" : "https://www.linkpicture.com/q/Emotion.png",
-      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,"
+      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,",
+      "projectDetails": [
+        {
+          "id": 3,
+          "cardDescription": "You are me, just an idea I had, and it means love. Let me penetrate the depths of your life, live on your voice and the warmth of your tones, and study the magic of your looks, you who melted me with the splendor of your beauty, for I loved the moment of your silence and the delicacy of your dialogue, you who was my date of birth the day I met you.",
+          "imageGroup": {
+            "img_1": "https://www.linkpicture.com/q/Emothion-1_1.png",
+            "img_2": "https://www.linkpicture.com/q/Emothion-2.png",
+            "img_3": "https://www.linkpicture.com/q/Emothion-3.png",
+            "img_4": "https://www.linkpicture.com/q/Emothion-4.png",
+            "img_5": "https://www.linkpicture.com/q/Emothion-5.png",
+            "img_6": "https://www.linkpicture.com/q/Emothion-6.png",
+            "img_7": "https://www.linkpicture.com/q/Emothion-7.png",
+            "img_8": "https://www.linkpicture.com/q/Emothion-8.png",
+            "img_9": "https://www.linkpicture.com/q/Emothion-9.png"
+          }
+        }
+      ]
     },
     {
-      "id": 53,
-      "path": "/about",
+      "id": 4,
+      "path": "projectCard",
       "title": "The end of the world",
       "icon": "",
+      "data": "Damascus - 4.09.2013",
       "image": "https://www.linkpicture.com/q/IMG_2958_2.jpg",
-      "imageHover" : "https://www.linkpicture.com/q/end_5.png",
-      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,"
+      "imageHover" : "https://www.linkpicture.com/q/end_7.png",
+      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,",
+      "projectDetails": [
+        {
+          "id": 4,
+          "cardDescription": "You are me, just an idea I had, and it means love. Let me penetrate the depths of your life, live on your voice and the warmth of your tones, and study the magic of your looks, you who melted me with the splendor of your beauty, for I loved the moment of your silence and the delicacy of your dialogue, you who was my date of birth the day I met you.",
+          "imageGroup": {
+          }
+        }
+      ]
     },
     {
-      "id": 54,
-      "path": "/about",
+      "id": 5,
+      "path": "projectCard",
       "title": "Silencer civilized coice",
       "icon": "",
+      "data": "Damascus - 22.07.2012",
       "image": "https://www.linkpicture.com/q/Children.jpg",
-      "imageHover" : "https://www.linkpicture.com/q/Silencer-civilized-coice_1.png",
-      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,"
+      "imageHover" : "https://www.linkpicture.com/q/Silencer-civilized-coice_2.png",
+      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,",
+      "projectDetails": [
+        {
+          "id": 5,
+          "cardDescription": "You are me, just an idea I had, and it means love. Let me penetrate the depths of your life, live on your voice and the warmth of your tones, and study the magic of your looks, you who melted me with the splendor of your beauty, for I loved the moment of your silence and the delicacy of your dialogue, you who was my date of birth the day I met you.",
+          "imageGroup": {
+          }
+        }
+      ]
     },
     {
-      "id": 55,
-      "path": "/about",
+      "id": 6,
+      "path": "projectCard",
       "title": "Syria",
       "icon": "",
+      "data": "Damascus - 07.07.2011",
       "image": "https://www.linkpicture.com/q/Syria.jpg",
       "imageHover" : "https://www.linkpicture.com/q/Syria.png",
-      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,"
+      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,",
+      "projectDetails": [
+        {
+          "id": 6,
+          "cardDescription": "You are me, just an idea I had, and it means love. Let me penetrate the depths of your life, live on your voice and the warmth of your tones, and study the magic of your looks, you who melted me with the splendor of your beauty, for I loved the moment of your silence and the delicacy of your dialogue, you who was my date of birth the day I met you.",
+          "imageGroup": {
+          }
+        }
+      ]
     },
     {
-      "id": 56,
-      "path": "/about",
+      "id": 7,
+      "path": "projectCard",
       "title": "Logo's",
       "icon": "",
+      "data": "Berlin - 04.11.2018",
       "image": "https://www.linkpicture.com/q/Damascus_1.jpg",
       "imageHover" : "https://www.linkpicture.com/q/log_1.png",
-      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,"
+      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,",
+      "projectDetails": [
+        {
+          "id": 7,
+          "cardDescription": "You are me, just an idea I had, and it means love. Let me penetrate the depths of your life, live on your voice and the warmth of your tones, and study the magic of your looks, you who melted me with the splendor of your beauty, for I loved the moment of your silence and the delicacy of your dialogue, you who was my date of birth the day I met you.",
+          "imageGroup": {
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "path": "projectCard",
+      "title": "There is always hope",
+      "icon": "",
+      "data": "Damascus - 18.05.2012",
+      "image": "https://www.linkpicture.com/q/eye_1.png",
+      "imageHover" : "https://www.linkpicture.com/q/eyeHover_1.png",
+      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,",
+      "projectDetails": [
+        {
+          "id": 8,
+          "cardDescription": "You are me, just an idea I had, and it means love. Let me penetrate the depths of your life, live on your voice and the warmth of your tones, and study the magic of your looks, you who melted me with the splendor of your beauty, for I loved the moment of your silence and the delicacy of your dialogue, you who was my date of birth the day I met you.",
+          "imageGroup": {
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "path": "projectCard",
+      "title": "Damascus Jasmin",
+      "icon": "",
+      "data": "Berlin - 10.03.2020",
+      "image": "https://www.linkpicture.com/q/jasmin.png",
+      "imageHover" : "https://www.linkpicture.com/q/jasmin-2.png",
+      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,",
+      "projectDetails": [
+        {
+          "id": 9,
+          "cardDescription": "You are me, just an idea I had, and it means love. Let me penetrate the depths of your life, live on your voice and the warmth of your tones, and study the magic of your looks, you who melted me with the splendor of your beauty, for I loved the moment of your silence and the delicacy of your dialogue, you who was my date of birth the day I met you.",
+          "imageGroup": {
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "path": "projectCard",
+      "title": "We stay here for ever",
+      "icon": "",
+      "data": "Damascus - 18.03.2012",
+      "image": "https://www.linkpicture.com/q/stay.png",
+      "imageHover" : "https://www.linkpicture.com/q/we-stay-2_1.png",
+      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,",
+      "projectDetails": [
+        {
+          "id": 10,
+          "cardDescription": "You are me, just an idea I had, and it means love. Let me penetrate the depths of your life, live on your voice and the warmth of your tones, and study the magic of your looks, you who melted me with the splendor of your beauty, for I loved the moment of your silence and the delicacy of your dialogue, you who was my date of birth the day I met you.",
+          "imageGroup": {
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "path": "projectCard",
+      "title": "Don't forget the poor",
+      "icon": "",
+      "data": "Berlin - 14.11.2013",
+      "image": "https://www.linkpicture.com/q/hungry-syr_1.png",
+      "imageHover" : "https://www.linkpicture.com/q/dont-forget.png",
+      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,",
+      "projectDetails": [
+        {
+          "id": 11,
+          "cardDescription": "You are me, just an idea I had, and it means love. Let me penetrate the depths of your life, live on your voice and the warmth of your tones, and study the magic of your looks, you who melted me with the splendor of your beauty, for I loved the moment of your silence and the delicacy of your dialogue, you who was my date of birth the day I met you.",
+          "imageGroup": {
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "path": "projectCard",
+      "title": "Welcome to Syria",
+      "icon": "",
+      "data": "Damascus - 02.11.2012",
+      "image": "https://www.linkpicture.com/q/welcome-syr.png",
+      "imageHover" : "https://www.linkpicture.com/q/welcom-to-syr-2.png",
+      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,",
+      "projectDetails": [
+        {
+          "id": 12,
+          "cardDescription": "You are me, just an idea I had, and it means love. Let me penetrate the depths of your life, live on your voice and the warmth of your tones, and study the magic of your looks, you who melted me with the splendor of your beauty, for I loved the moment of your silence and the delicacy of your dialogue, you who was my date of birth the day I met you.",
+          "imageGroup": {
+          }
+        }
+      ]
     }
   ],
   "landscapeImage": [

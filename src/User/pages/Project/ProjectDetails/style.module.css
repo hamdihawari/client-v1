@@ -1,0 +1,22 @@
+.projectDetails {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    margin-left: 16rem;
+    padding: 4rem;
+    width: 75%;
+}
+.projectDetailsContener .header{
+    text-align: left;
+    font-size: 32px;
+    color: rgb(37, 37, 37);
+}
+.imageContainer {
+    position: relative;
+  }
+
+#img {
+    height: auto;
+    margin-top: 1rem;
+}

@@ -13,6 +13,7 @@ const Gallery = () => {
   const landscapeImageUrl = `http://localhost:9000/${gallery}`;
   const [landscapeGallery, setLandscapeGallery] = useState([]);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [dynamicIndex, setDynamicIndex] = useState(2); 
 
   useEffect(() => {
     axios.get(landscapeImageUrl).then((res) => {
@@ -32,13 +33,13 @@ const Gallery = () => {
         <h1 className={style.header}>GALLERY</h1>
         <ImageGallery
           items={landscapeGallery}
-          ref={slideshowRef}
+          /* ref={slideshowRef} */
           showPlayButton
           showFullscreenButton
           slideOnThumbnailOver
           showThumbnails
           showIndex
-          showNav // Enable default navigation
+          showNav
           isRTL={false}
           showBullets
           originalTitle={false}
@@ -46,8 +47,9 @@ const Gallery = () => {
           disableKeyDown
           slideInterval={3000}
           slideDuration={1000}
-          currentIndex={currentImageIndex} // Pass the current image index as a prop
+          currentIndex={currentImageIndex}
           onSlide={handleNextClick}
+          startIndex={3}
         />
 
         <GalleryCard
