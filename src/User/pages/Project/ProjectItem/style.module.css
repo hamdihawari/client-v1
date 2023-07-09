@@ -23,7 +23,7 @@
 
 /**/
 .imageContainer {
-    position: relative;
+    position: unset;
   }
 
   #imgAfterHover {
@@ -84,10 +84,10 @@
 /* 600 Down */
 @media only screen and (max-width: 600px) {
     .projectContent {
-        padding-top: 4rem;
         margin: 0 auto;
-        padding-left: 0.1rem;
+        padding: 3rem;
         flex-direction: column;
+        margin-top: 1rem;
     }
 
     .cardBody {
@@ -123,10 +123,10 @@
 /* UP 600 */
 @media only screen and (min-width: 600px) {
     .projectContent {
-        padding-top: 4rem;
         margin: 0 auto;
-        padding-left: 0.1rem;
+        padding: 3rem;
         flex-direction: column;
+        margin-top: 1rem;
     }
 
     .cardBody {
@@ -169,7 +169,8 @@
 @media only screen and (min-width: 992px) {
     .projectContent {
         border: none;
-        margin-top: 0rem;
+        padding: 0px;
+        margin-top: 3rem;
         padding-left: 17rem;
         display: flex;
         flex-direction: row;
@@ -178,12 +179,13 @@
     .cardTitle {
         text-align: left;
         margin-left: 1rem;
+        font-size: 19px;
     }
     .cardText {
         font-family: 'PT Serif', serif;
         margin-top: 0;
         font-size: 12px;
-        width: 80%;
+        width: 100%;
         color: #7d7d7d;
         text-align: left;
         margin-left: 1rem;
@@ -208,18 +210,24 @@
 @media only screen and (min-width: 1200px) {
     .projectContent {
         border: none;
-        margin-top: 0rem;
+        padding: 0;
+        margin-top: 3rem;
         padding-left: 17rem;
         display: flex;
         flex-direction: row;
         width: 100%;
     }
+    .cardTitle {
+        text-align: left;
+        margin-left: 1rem;
+        font-size: 24px;
+    }
 
     .cardText {
         font-family: 'PT Serif', serif;
         margin-top: 0rem;
-        font-size: 15px;
-        width: 70%;
+        font-size: 18px;
+        width: 100%;
         color: #7d7d7d;
     }
 
@@ -229,7 +237,7 @@
     }
 
     #img {
-        width: 500px;
+        width: 550px;
         height: auto;
         position: static
     }
@@ -256,41 +264,3 @@
         opacity: 0.5;
     }
 }
-
-/* CSS HOVER MIDDLE */
-/* .imageContainer{
-  position: relative;
-  width: 50%;
-}
- 
-  .imageContainer:hover #img {
-    opacity: 0.3;
-  }
-  
-  .imageContainer:hover .middle {
-    opacity: 2;
-  }
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
-  }
-  .middle, .text {
-    color: rgb(34, 34, 34);
-    font-size: 24px;
-    width: 100%;
-    padding: 16px 32px;
-  }
-
-  .imageContainer, #img{
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  } */
