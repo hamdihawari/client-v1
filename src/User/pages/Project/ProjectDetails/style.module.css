@@ -5,11 +5,11 @@
     margin: 0;
     margin-left: 16rem;
     padding: 4rem;
-    width: 75%;
+    width: 65%;
 }
 .projectDetailsContener .header{
     text-align: left;
-    font-size: 32px;
+    font-size: 26px;
     color: rgb(37, 37, 37);
 }
 .imageContainer {

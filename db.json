@@ -227,6 +227,42 @@
           }
         }
       ]
+    },
+    {
+      "id": 13,
+      "path": "projectCard",
+      "title": "Love Story Under The Moon",
+      "icon": "",
+      "data": "Damascus - 02.10.2013",
+      "image": "https://www.linkpicture.com/q/love_6.png",
+      "imageHover" : "https://www.linkpicture.com/q/love_7.png",
+      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,",
+      "projectDetails": [
+        {
+          "id": 12,
+          "cardDescription": "You are me, just an idea I had, and it means love. Let me penetrate the depths of your life, live on your voice and the warmth of your tones, and study the magic of your looks, you who melted me with the splendor of your beauty, for I loved the moment of your silence and the delicacy of your dialogue, you who was my date of birth the day I met you.",
+          "imageGroup": {
+          }
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "path": "projectCard",
+      "title": "Soul Cry",
+      "icon": "",
+      "data": "Damascus - 02.10.2013",
+      "image": "https://www.linkpicture.com/q/cry_1.png",
+      "imageHover" : "https://www.linkpicture.com/q/Soul-cry.png",
+      "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,",
+      "projectDetails": [
+        {
+          "id": 12,
+          "cardDescription": "You are me, just an idea I had, and it means love. Let me penetrate the depths of your life, live on your voice and the warmth of your tones, and study the magic of your looks, you who melted me with the splendor of your beauty, for I loved the moment of your silence and the delicacy of your dialogue, you who was my date of birth the day I met you.",
+          "imageGroup": {
+          }
+        }
+      ]
     }
   ],
   "landscapeImage": [
