@@ -1,3 +1,4 @@
+
 .projectDetails {
     display: flex;
     flex-direction: column;
@@ -5,7 +6,7 @@
     margin: 0;
     margin-left: 16rem;
     padding: 4rem;
-    width: 65%;
+    width: 70%;
 }
 .projectDetailsContener .header{
     text-align: left;
@@ -19,4 +20,70 @@
 #img {
     height: auto;
     margin-top: 1rem;
+}
+
+/* 600 Down */
+@media only screen and (max-width: 600px){
+    .projectDetails {
+        display: flex;
+        flex-direction: row;
+        min-height: 100vh;
+        margin: 0;
+        padding: 2rem;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .projectDetailsContener .header{
+        text-align: left;
+        font-size: 21px;
+        color: rgb(37, 37, 37);
+    }
+}
+
+/* 600 up */
+@media only screen and (min-width: 600px){
+    .projectDetails {
+        display: flex;
+        flex-direction: row;
+        min-height: 100vh;
+        margin: 0;
+        padding: 2rem;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .projectDetailsContener .header{
+        text-align: left;
+        font-size: 22px;
+        color: rgb(37, 37, 37);
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px){
+    .projectDetails {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        margin: 0;
+        margin-left: 16rem;
+        padding: 4rem;
+        width: 70%;
+    }
+}
+
+ @media only screen and (min-width: 1200px) {
+    .projectContent {
+        border: none;
+        padding: 0;
+        margin-top: 3rem;
+        padding-left: 17rem;
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+    }
+    .projectDetailsContener .header{
+        text-align: left;
+        font-size: 26px;
+        color: rgb(37, 37, 37);
+    }
 }
