@@ -49,7 +49,7 @@ const Gallery = () => {
           slideDuration={1000}
           currentIndex={currentImageIndex}
           onSlide={handleNextClick}
-          startIndex={3}
+          startIndex={0}
         />
 
         <GalleryCard
