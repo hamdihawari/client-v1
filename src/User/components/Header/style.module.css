@@ -1,14 +1,38 @@
-/* .header {
-    height: 50px;
-    float: right;
-    background-color: rgb(27, 27, 27); 
-    width: 100%;
+*{
+    font-family: 'Geovana', sans-serif;
 }
 
-.menu{
-    float: right;
-    margin-top: 1rem;
-    margin-right: 2rem;
-    color: white;
+h4 {
+    font-family: 'Geovana', sans-serif;
+    padding-top: 1.2rem;
+    margin-left: 2rem;
+    font-size: 17px;
 }
- */
+
+ /* 600 Down */
+ @media only screen and (max-width: 600px){
+    h4 {
+        font-size: 22px;
+        padding-top: 0.7rem;
+    }
+ }
+
+  /* 600 up */
+  @media only screen and (min-width: 600px) {
+    h4 {
+        font-size: 21px;
+        padding-top: 0.7rem;
+    }
+  }
+
+@media only screen and (min-width: 992px){
+    h4{
+        display: none;
+    }
+}
+  /* X Large devices up to 1200 */
+  @media only screen and (min-width: 1200px) {
+    h4{
+        display: none;
+    }
+  }
