@@ -5,6 +5,7 @@
     width: 100%;
     color: rgb(37, 37, 37);
     position: absolute;
+    z-index: 1;
 }
 
 .menuBtn {

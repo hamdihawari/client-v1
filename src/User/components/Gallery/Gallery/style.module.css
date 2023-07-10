@@ -1,22 +1,106 @@
 .gallery {
-    margin: 0 auto;
-    min-height: 100vh;
-    margin-left: 20rem;
+  margin: 0 auto;
+  min-height: 100vh;
+  margin-left: 20rem;
+  margin-top: 3rem;
+}
+
+.reactImagegallery {
+  width: 85%;
+  margin-top: 3rem;
+  position: unset;
+}
+
+.header {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(69, 69, 69);
+  font-size: 32px;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+/* 600 Down */
+@media only screen and (max-width: 600px) {
+.gallery {
+  margin: 0;
+  margin-top: 3rem;
+}
+.reactImagegallery {
+  width: 85%;
+  margin-top: 3rem;
+  margin: 0 auto;
+  position: sticky;
+}
+
+.header {
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+
+.gallery .single {
+  width: 85%;
+  margin: 0 auto;
+}
+}
+
+/* 600 up */
+@media only screen and (min-width: 600px) {
+  .gallery {
+    margin: 0;
     margin-top: 3rem;
   }
-  
   .reactImagegallery {
     width: 85%;
     margin-top: 3rem;
-  }
-  
-  .header {
-    width: 100%;
     margin: 0 auto;
-    text-align: center;
-    color: rgb(69, 69, 69);
-    font-size: 32px;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    position: sticky;
   }
-  
+
+  .header {
+    font-size: 28px;
+    margin-bottom: 2rem;
+  }
+
+  .gallery .single {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .gallery {
+    margin-left: 14rem;
+    margin-top: 3rem;
+  }
+  .reactImagegallery {
+    width: 85%;
+    margin-top: 3rem;
+    margin: 0 auto;
+    position: sticky;
+  }
+
+  .header {
+    font-size: 34px;
+    margin-bottom: 2rem;
+  }
+
+  .gallery .single {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+
+/* X Large devices up to 1200 */
+@media only screen and (min-width: 1200px) {
+  .gallery {
+    margin-left: 15rem;
+    margin-top: 3rem;
+  }
+
+  .header {
+    font-size: 38px;
+  }
+}
