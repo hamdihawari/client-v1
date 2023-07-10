@@ -1,9 +1,6 @@
 .contactContainer {
-    top: 82px;
-    left: 36%;
-    width: 430px;
     min-height: 100vh;
-    margin: 0;
+    margin: 0 auto;
     font-family: 'PT Serif', serif;
 }
 
@@ -37,13 +34,13 @@ form {
     flex-direction: column;
 }
 
-input[type=text],
-input[type=email],
-input[type=number],
-input[type=message],
-input[type=textarea],
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="message"],
+input[type="textarea"],
 textarea,
-input[type=data] {
+input[type="data"] {
     width: 100%;
     display: block;
     height: 34px;
@@ -60,17 +57,14 @@ input:focus:invalid {
     border-color: red;
 }
 
-/* Input Hover */
-input[type=text]:hover,
-input[type=email]:hover,
-input[type=number]:hover,
-input[type=message]:hover,
-input[type=textarea]:hover,
-input[type=data]:hover,
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="number"]:hover,
+input[type="message"]:hover,
+input[type="textarea"]:hover,
+input[type="data"]:hover,
 textarea:hover {
     border-color: red;
-    /* transition: 0.4s; */
-    /* box-shadow: 1px 1px 1px #0a0a0a; */
 }
 
 textarea {
@@ -79,7 +73,6 @@ textarea {
     font-size: 14px;
 }
 
-/* Submit Button*/
 .submit {
     background-color: #111827;
     border-radius: 5px;
@@ -101,37 +94,47 @@ textarea {
     margin-bottom: 0.8rem;
 }
 
-/* Extra small devices (phones, 600px and down)  => UP 600*/
-@media only screen and (min-width: 600px) {
-    .contactContainer {
-        margin: 0 auto;
-        min-height: 100vh;
-        font-family: 'PT Serif', serif;
-        margin-top: 6rem;
-    }
-
-    h1 {
-        font-size: 28px;
-        color: #111827;
-    }
-
-    p {
-        padding-top: 1rem;
-        padding-bottom: 1.8rem;
-        font-size: 16px;
-        color: #333333;
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) DOWN 600 */
+/* Media Queries */
 @media only screen and (max-width: 600px) {
     .contactContainer {
         margin: 0 auto;
-        min-height: 100vh;
-        font-family: 'PT Serif', serif;
         margin-top: 6rem;
-        width: 270px;
+        width: 70%;
     }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .contactContainer {
+        margin: 0 auto;
+        margin-top: 6rem;
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .contactContainer {
+        margin-top: 6rem;
+        margin-left: 32rem;
+        margin: 0;
+        width: 100%;
+    }
+
     h1 {
         font-size: 20px;
     }
@@ -141,13 +144,19 @@ textarea {
     }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
     .contactContainer {
-        margin: 0 auto;
+        width: 40%;
+        margin-left: 26rem;
+        margin-top: 4rem;
         min-height: 100vh;
         font-family: 'PT Serif', serif;
-        margin-top: 6rem;
-        width: 430px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 19px;
     }
 }
