@@ -31,8 +31,8 @@ function App() {
 
               <Route path="/project/:id" element={<ProjectDetails />}  />
 
-              <Route path="/landscape/:gallery" element={<Gallery />} />
-              <Route path="/street/:gallery" element={<Gallery />} />
+              <Route path="/landscape/:_gallery" element={<Gallery />} />
+              <Route path="/street/:_gallery" element={<Gallery />} />
 
               <Route path="contact" element={<Contact />} />
               <Route path="*" element={<Error />} />

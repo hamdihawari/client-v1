@@ -8,12 +8,12 @@ import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import CameraAltIcon from '@mui/icons-material/CameraAlt';
 import CameraIcon from '@mui/icons-material/Camera';
 
-const GalleryCard = ({ landscapeGallery, currentImageIndex, handleNextClick }) => {
-  if (!landscapeGallery || landscapeGallery.length === 0) {
+const GalleryCard = ({ gallery, currentImageIndex, handleNextClick }) => {
+  if (!gallery || gallery.length === 0) {
     return null;
   }
 
-  const val = landscapeGallery[currentImageIndex];
+  const val = gallery[currentImageIndex];
   const { id, title, taken, uploaded, camera, objective } = val;
 
   return (
