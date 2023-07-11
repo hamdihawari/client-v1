@@ -7,7 +7,6 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import React, { memo } from 'react';
 
-/* export const Footer = React.memo(() => { */
 export const Footer = () => {
   return (
     <>
@@ -15,16 +14,16 @@ export const Footer = () => {
         <div className={style.footerContainer}>
 
           <div className={style.socialIcons}>
-            <Link to="https://www.facebook.com" id={style.iconLink}><FacebookOutlinedIcon id={style.icons} /></Link>
-            <Link to="https://www.facebook.com" id={style.iconLink}><TwitterIcon id={style.icons} /></Link>
-            <Link to="https://www.facebook.com" id={style.iconLink}><InstagramIcon id={style.icons} /></Link>
-            <Link to="https://www.facebook.com" id={style.iconLink}><LinkedInIcon id={style.icons} /></Link>
-            <Link to="https://www.facebook.com" id={style.iconLink}><WhatsAppIcon id={style.icons} /></Link>
+            <Link to="https://www.facebook.com/hamdi.hawari.14" id={style.iconLink}><FacebookOutlinedIcon id={style.icons} /></Link>
+            <Link to="https://twitter.com/hawari_hamdi" id={style.iconLink}><TwitterIcon id={style.icons} /></Link>
+            <Link to="https://www.instagram.com/hamdi.hawari/" id={style.iconLink}><InstagramIcon id={style.icons} /></Link>
+            <Link to="https://www.linkedin.com/in/hamdihawari/" id={style.iconLink}><LinkedInIcon id={style.icons} /></Link>
+            <Link to="https://www.whatsapp.com" id={style.iconLink}><WhatsAppIcon id={style.icons} /></Link>
           </div>
 
           <div className={style.footerNav}>
             <ul>
-              <Link to="/about" className={style.navLink}>News</Link>
+              <Link to="/project" className={style.navLink}>News</Link>
               <Link to="/about" className={style.navLink}>About</Link>
               <Link to="/project" className={style.navLink}>Project</Link>
               <Link to="/portrait" className={style.navLink}>Photography</Link>
