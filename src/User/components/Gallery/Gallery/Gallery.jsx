@@ -9,31 +9,33 @@ import GalleryCard from '../GalleryCard/GalleryCard';
 
 const Gallery = () => {
   const slideshowRef = useRef();
-  const { gallery } = useParams();
-  const landscapeImageUrl = `http://localhost:9000/${gallery}`;
-  const [landscapeGallery, setLandscapeGallery] = useState([]);
+  const { _gallery } = useParams();
+  const galleryUrl = `http://localhost:9000/${_gallery}`;
+  const [gallery, setGallery] = useState([]);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [dynamicIndex, setDynamicIndex] = useState(2); 
 
   useEffect(() => {
-    axios.get(landscapeImageUrl).then((res) => {
-      setLandscapeGallery(res.data);
+    axios.get(galleryUrl).then((res) => {
+      setGallery(res.data);
     });
   }, []);
 
   const handleNextClick = () => {
     setCurrentImageIndex((prevIndex) =>
-      prevIndex === landscapeGallery.length - 1 ? 0 : prevIndex + 1
+      prevIndex === gallery.length - 1 ? 0 : prevIndex + 1
     );
+  };
+
+  const handleSlide = (currentIndex) => {
+    setCurrentImageIndex(currentIndex);
   };
 
   return (
     <div className={style.gallery}>
       <div className={style.reactImagegallery}>
-        <h1 className={style.header}>GALLERY</h1>
+        <h1 className={style.header}></h1>
         <ImageGallery
-          items={landscapeGallery}
-          /* ref={slideshowRef} */
+          items={gallery}
           showPlayButton
           showFullscreenButton
           slideOnThumbnailOver
@@ -48,12 +50,12 @@ const Gallery = () => {
           slideInterval={3000}
           slideDuration={1000}
           currentIndex={currentImageIndex}
-          onSlide={handleNextClick}
+          onSlide={handleSlide}
           startIndex={0}
         />
 
         <GalleryCard
-          landscapeGallery={landscapeGallery}
+          gallery={gallery}
           currentImageIndex={currentImageIndex}
           handleNextClick={handleNextClick}
         />
@@ -64,14 +66,3 @@ const Gallery = () => {
 
 export default memo(Gallery);
 
-/* const slideshowref = useRef()
-const playSlides = () => {
-    slideshowref.current.play()
-}
-const stopPlaySlides = () => {
-    slideshowref.current.pause()
-} */
-{/* <div className={style.slideControlBtn}>
-    <Button variant="contained" id={style.play} onClick={playSlides}>Play Slideshow</Button>
-    <Button variant="contained" color="error" id={style.pause} onClick={stopPlaySlides}>Stop Slideshow</Button>
-</div> */}
