@@ -28,13 +28,9 @@ function App() {
               <Route path="portrait" element={<Portrait />} />
               <Route path="street" element={<Street />} />
               <Route path="landscape" element={<Landscape />} />
-
-              <Route path="/project/:id" element={<ProjectDetails />}  />
-             
-              {/* <Route path="/landscape/:_gallery" element={<Gallery />} /> */}
+              <Route path="/project/:id" element={<ProjectDetails />} />
               <Route path="/landscape/:_gallery/:index?" element={<Gallery />} />
-              <Route path="/street/:_gallery" element={<Gallery />} />
-
+              <Route path="/street/:_gallery/:index?" element={<Gallery />} />
               <Route path="contact" element={<Contact />} />
               <Route path="*" element={<Error />} />
             </Routes>
@@ -46,4 +42,3 @@ function App() {
   );
 }
 export default App
-
