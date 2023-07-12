@@ -8,7 +8,7 @@ import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import CameraAltIcon from '@mui/icons-material/CameraAlt';
 import CameraIcon from '@mui/icons-material/Camera';
 
-const GalleryCard = ({ gallery, currentImageIndex, handleNextClick }) => {
+const GalleryCard = ({ gallery, currentImageIndex }) => {
   if (!gallery || gallery.length === 0) {
     return null;
   }
