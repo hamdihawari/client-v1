@@ -31,9 +31,10 @@ export const Menu = () => {
           Menu
         </Link>
         <div className={style.controll}>
-          {menuToggle && SidebarData.map((item, index) => {
-              <>
-                <div key={item.id} className={style.row}>
+          {menuToggle &&
+            SidebarData.map((item, index) => (
+              <div key={item.id}>
+                <div className={style.row}>
                   <nav className={style.menuList}>
                     <span className={style.icons}>{item.icon}</span>
                     <Link
@@ -62,8 +63,8 @@ export const Menu = () => {
                       </ul>
                     </div>
                   ))}
-              </>
-            })}
+              </div>
+            ))}
           <div className={style.media}>
             {menuToggle &&
               icons.map((val) => (
