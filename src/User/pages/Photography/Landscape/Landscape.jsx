@@ -12,7 +12,8 @@ const Landscape = () => {
   };
 
   return (
-    <div className={style.landscape}>
+    <>
+        <div className={style.landscape}>
       <div className={style.landscapeContent}>
         <h1 className={style.header}>Landscape Gallery</h1>
         {landscapeGallery.map((item, index) => (
@@ -31,6 +32,7 @@ const Landscape = () => {
         </div>
       )}
     </div>
+    </>
   );
 };
 
