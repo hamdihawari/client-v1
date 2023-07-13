@@ -1,40 +1,46 @@
-  .card {
-      margin-top: 2rem;
-      margin-bottom: 3rem;
-      width: 100%;
-  }
+card {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width: 100%;
+}
 
-  .cardHeader .iconsLink {
-      padding-right: 3rem;
-  }
+.cardHeader .iconsLink {
+    margin-right: 3rem;
+}
 
-  .cardBody h2 {
-      padding-top: 2rem;
-  }
+.cardBody .title {
+    padding-top: 2rem;
+}
 
-  .cardBody h5 {
-      padding-top: 2rem;
-  }
+.cardBody .cameraInfo {
+    padding-top: 2rem;
+    font-weight: bold;
+}
 
-  .cardBody #contentheader {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-  }
+.cardBody #cameraInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
-  .cardBody #contentIcons {
-      margin-right: 0.7rem;
-  }
+.cardBody #contentIcons {
+    margin-right: 0.7rem;
+}
 
-  .icons #icon {
-      margin-right: 3rem;
-  }
+.icons #icon {
+    margin-right: 3rem;
+}
 
-  .iconsLink {
-      color: black;
-  }
+.iconsLink {
+    color: black;
+}
 
-  .iconsLink:hover {
-      cursor: pointer;
-      opacity: 0.3;
-  }
+.iconsLink:hover {
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.cardBody #like {
+    text-decoration: none;
+    margin-bottom: 2rem;
+}

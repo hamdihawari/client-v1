@@ -10,7 +10,7 @@ export const Header = () => {
   return (
     <div className={style.header}>
       {isLargeMobile && <Menu />}
-      <h4>Hamdi Hawari</h4>
+      <h4 className={style.headerLogo}>Hamdi Hawari</h4>
     </div>
   )
 }

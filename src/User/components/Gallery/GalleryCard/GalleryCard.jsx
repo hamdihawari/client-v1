@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import style from './style.module.css';
-import { Link } from 'react-router-dom';
-
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShareIcon from '@mui/icons-material/Share';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import CameraAltIcon from '@mui/icons-material/CameraAlt';
 import CameraIcon from '@mui/icons-material/Camera';
+import axios from 'axios';
+import { IconButton } from '@mui/material';
 
 const GalleryCard = ({ gallery, currentImageIndex }) => {
   if (!gallery || gallery.length === 0) {
@@ -14,36 +14,55 @@ const GalleryCard = ({ gallery, currentImageIndex }) => {
   }
 
   const val = gallery[currentImageIndex];
-  const { id, title, taken, uploaded, camera, objective } = val;
+  const { id, title, taken, uploaded, camera, objective, category } = val;
+  const [likeCount, setLikeCount] = useState(0);
+
+  // POST LIKE //
+  const handleLikeClick = () => {
+    axios
+      .patch(`http://localhost:9000/landscapeImage/${id}`, {
+        likes: likeCount + 1,
+      })
+      .then((response) => {
+        if (response.status === 200) {
+          setLikeCount(likeCount + 1);
+        }
+      })
+      .catch((error) => {
+        console.error('Error occurred while updating the like count:', error);
+      });
+  };
 
   return (
     <div className={style.card}>
       <div className={style.cardHeader}>
-        <Link className={style.iconsLink}>
-          <FavoriteBorderIcon />
-        </Link>
-        <Link className={style.iconsLink}>
-          <ShareIcon />
-        </Link>
-        <Link className={style.iconsLink}>
-          <MoreHorizIcon />
-        </Link>
+        <IconButton className={style.iconsLink} onClick={handleLikeClick}  >
+          <FavoriteBorderIcon style={{ color: '#000000', fontSize: '28px' }} />
+        </IconButton>
+        <IconButton className={style.iconsLink}>
+          <ShareIcon style={{ color: '#000000', fontSize: '28px' }}/>
+        </IconButton>
+        <IconButton className={style.iconsLink}>
+          <MoreHorizIcon style={{ color: '#000000', fontSize: '28px' }}/>
+        </IconButton>
       </div>
       <div className={style.cardContent}>
         <ul>
           <nav className={style.cardBody}>
-            <h2>{title}</h2>
-            <h5>
-              Taken: {taken} - Uploaded: {uploaded}
-            </h5>
-            <h5 id={style.contentheader}>
+            <h2 className={style.title}>{title}</h2>
+            <h4 className={style.cameraInfo}>Taken: {taken} - Uploaded: {uploaded}</h4>
+            <h4 className={style.cameraInfo} id={style.cameraInfo}>
               <CameraAltIcon id={style.contentIcons} />
               {camera}
-            </h5>
-            <h5 id={style.contentheader}>
+            </h4>
+            <h4  className={style.cameraInfo} id={style.cameraInfo}>
               <CameraIcon id={style.contentIcons} />
               {objective}
-            </h5>
+            </h4>
+            <h4  className={style.cameraInfo} id={style.category}>
+            Category: {category}
+            </h4>
+            <h4 className={style.cameraInfo}  id={style.like}>{likeCount} people liked this photo</h4>
           </nav>
         </ul>
       </div>
