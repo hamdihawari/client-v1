@@ -1,45 +1,90 @@
 .street {
-    min-height: 100vh;
-    margin: 0;
-    margin-left: 17rem;
-    margin-top: 3rem;
-}
-.streetContent {
-    gap: 10px;
-    align-items: center;
-    max-width: 100%;
-    justify-content: center;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  min-height: 100vh;
+  margin: 0;
+  margin-left: 17rem;
+  margin-top: 3rem;
 }
 
-.header{
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    color: rgb(69, 69, 69);
-    font-size: 32px;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+.streetContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  max-width: 100%;
+  justify-content: center;
+  margin: 0 auto;
 }
-/**/
+
+.header {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(69, 69, 69);
+  font-size: 32px;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
 .gallery {
-    gap: 10px;
-    align-items: center;
-    max-width: 100%;
-    justify-content: center;
+  gap: 10px;
+  align-items: center;
+  max-width: 100%;
+  justify-content: center; /* Add this line */
 }
-.gallery .single{
-    width: 430px;
-    cursor: pointer;
+
+.gallery .single {
+  width: 430px;
+  cursor: pointer;
+  position: relative;
 }
-.gallery #img{
-max-width: 100%;
+
+.gallery .img {
+  max-width: 100%;
+  /* transition: transform 0.3s ease; */
 }
-.gallery .single #img:hover{
-    transform: scale(1.02);
+
+.gallery .single:hover .img {
+  transform: scale(1.02);
+  transform-origin: center;
+}
+
+.imageOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity:1;
+  transition: opacity 0.3s ease;
+}
+
+.gallery .single:hover .imageOverlay {
+  opacity: 1;
+}
+
+.imageTitle {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 3rem;
+}
+
+.likeButton {
+  color: #ffffff; 
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.buttonGroup{
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
 }
 
  /* 600 Down */

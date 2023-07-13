@@ -239,7 +239,7 @@
       "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,",
       "projectDetails": [
         {
-          "id": 12,
+          "id": 13,
           "cardDescription": "You are me, just an idea I had, and it means love. Let me penetrate the depths of your life, live on your voice and the warmth of your tones, and study the magic of your looks, you who melted me with the splendor of your beauty, for I loved the moment of your silence and the delicacy of your dialogue, you who was my date of birth the day I met you.",
           "imageGroup": {
           }
@@ -257,7 +257,7 @@
       "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults, C/O Berlin offers a chance to get to know photography,",
       "projectDetails": [
         {
-          "id": 12,
+          "id": 14,
           "cardDescription": "You are me, just an idea I had, and it means love. Let me penetrate the depths of your life, live on your voice and the warmth of your tones, and study the magic of your looks, you who melted me with the splendor of your beauty, for I loved the moment of your silence and the delicacy of your dialogue, you who was my date of birth the day I met you.",
           "imageGroup": {
           }
@@ -466,7 +466,7 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "reflexiv - Berlin"
+      "title": "Reflexiv - Potsdam"
     },
     {
       "id": 8,
@@ -492,7 +492,7 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Flowers - Berlin"
+      "title": "Frinds - Berlin"
     },
     {
       "id": 10,
@@ -518,7 +518,7 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Frinds - Berlin"
+      "title": "Flowers - Berlin"
     },
     {
       "id": 12,
@@ -583,7 +583,33 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Halle Saale - Berlin"
+      "title": "Halle Saale"
+    },
+    {
+      "id": 17,
+      "path": "streetImage",
+      "original": "https://www.linkpicture.com/q/strassenbahn.png",
+      "thumbnail": "https://www.linkpicture.com/q/strassenbahn.png",
+      "taken": "Mar 20, 2018",
+      "uploaded": "almost 3 yrs ago",
+      "camera": "Canon EOS 6D Mark II",
+      "objective": "85 mm  f/2,2  ISO 125",
+      "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
+      "originalAlt": "alt",
+      "title": "Straßenbahn"
+    },
+    {
+      "id": 18,
+      "path": "streetImage",
+      "original": "https://www.linkpicture.com/q/alexa.png",
+      "thumbnail": "https://www.linkpicture.com/q/alexa.png",
+      "taken": "Juli 03, 2020",
+      "uploaded": "almost 3 yrs ago",
+      "camera": "Canon EOS 6D Mark II",
+      "objective": "85 mm  f/2,2  ISO 125",
+      "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
+      "originalAlt": "alt",
+      "title": "Alexa"
     }
   ]
 }
