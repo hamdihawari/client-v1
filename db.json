@@ -342,8 +342,8 @@
     {
       "id": 7,
       "path": "landscapeImage",
-      "original": "https://www.linkpicture.com/q/IMG_5927_2.jpg",
-      "thumbnail": "https://www.linkpicture.com/q/IMG_5927_2.jpg",
+      "original": "https://www.linkpicture.com/q/Rhizomatische.png",
+      "thumbnail": "https://www.linkpicture.com/q/Rhizomatische.png",
       "taken": "Mar 18, 2018",
       "uploaded": "almost 3 yrs ago",
       "camera": "Canon EOS 6D Mark II",
@@ -354,14 +354,26 @@
     {
       "id": 8,
       "path": "landscapeImage",
-      "original": "https://www.linkpicture.com/q/boot.png",
-      "thumbnail": "https://www.linkpicture.com/q/boot.png",
+      "original": "https://www.linkpicture.com/q/triptowepark.png",
+      "thumbnail": "https://www.linkpicture.com/q/triptowepark.png",
       "taken": "Mar 05, 2018",
       "uploaded": "almost 3 yrs ago",
       "camera": "Canon EOS 6D Mark II",
       "objective": "85 mm f/2,2 ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "title": "treptower park - Berlin"
+    },
+    {
+      "id": 8,
+      "path": "landscapeImage",
+      "original": "https://www.linkpicture.com/q/musium-island.png",
+      "thumbnail": "https://www.linkpicture.com/q/musium-island.png",
+      "taken": "Mar 05, 2018",
+      "uploaded": "almost 3 yrs ago",
+      "camera": "Canon EOS 6D Mark II",
+      "objective": "85 mm f/2,2 ISO 125",
+      "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
+      "title": "Museum Island - Berlin"
     }
   ],
   "streetImage": [
