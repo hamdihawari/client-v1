@@ -3,7 +3,6 @@ import style from './style.module.css';
 import { Link } from 'react-router-dom';
 import { GalleryContext } from '../../../Context/Context';
 import IconButton from '@mui/material/IconButton';
-import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 
@@ -40,13 +39,13 @@ const Landscape = () => {
                   <div className={style.imageOverlay}>
                     <div className={style.imageTitle}>{item.title}</div>
                     <div className={style.buttonGroup}>
-                     <IconButton className={style.likeButton} color="white">
-                      <FavoriteIcon style={{ color: '#FFFFFF', fontSize: '28px' }}/>
-                    </IconButton> 
+                      <IconButton className={style.likeButton}>
+                        <FavoriteIcon style={{ color: '#FFFFFF', fontSize: '28px' }} />
+                      </IconButton>
 
-                    <IconButton className={style.likeButton} color="white">
-                      <ThumbDownIcon style={{ color: '#FFFFFF', fontSize: '28px' }}/>
-                    </IconButton> 
+                      <IconButton className={style.likeButton}>
+                        <ThumbDownIcon style={{ color: '#FFFFFF', fontSize: '28px' }} />
+                      </IconButton>
                     </div>
                     {/* <div className={style.buttonGroup}>
                     <button className={style.likeButton2} id={style.likeButton2}>Like</button>

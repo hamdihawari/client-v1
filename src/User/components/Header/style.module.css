@@ -2,7 +2,7 @@
     font-family: 'Geovana', sans-serif;
 }
 
-h4 {
+.headerLogo {
     font-family: 'Geovana', sans-serif;
     padding-top: 1.2rem;
     margin-left: 2rem;
@@ -11,7 +11,7 @@ h4 {
 
  /* 600 Down */
  @media only screen and (max-width: 600px){
-    h4 {
+    .headerLogo {
         font-size: 22px;
         padding-top: 0.7rem;
     }
@@ -19,20 +19,20 @@ h4 {
 
   /* 600 up */
   @media only screen and (min-width: 600px) {
-    h4 {
+    .headerLogo {
         font-size: 21px;
         padding-top: 0.7rem;
     }
   }
 
 @media only screen and (min-width: 992px){
-    h4{
+    .headerLogo{
         display: none;
     }
 }
   /* X Large devices up to 1200 */
   @media only screen and (min-width: 1200px) {
-    h4{
+    .headerLogo{
         display: none;
     }
   }
