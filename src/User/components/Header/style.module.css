@@ -1,38 +1,77 @@
-*{
-    font-family: 'Geovana', sans-serif;
+.header{
+  display: flex;
+  flex-direction: row;
 }
 
-.headerLogo {
-    font-family: 'Geovana', sans-serif;
-    padding-top: 1.2rem;
-    margin-left: 2rem;
-    font-size: 17px;
+.title {
+  width: 100%;
+   margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 21px; 
+  font-family: 'Geovana', sans-serif;
 }
 
- /* 600 Down */
- @media only screen and (max-width: 600px){
-    .headerLogo {
-        font-size: 22px;
-        padding-top: 0.7rem;
-    }
- }
+/* SEARCHBAR STYLE */
+.customForm{
+  width: auto;
+  height: auto;
+}
+.customSearchbar{
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 1rem;
+  display: flex; 
+  margin: 0 auto;
+  justify-content: center; 
+}
 
-  /* 600 up */
-  @media only screen and (min-width: 600px) {
-    .headerLogo {
-        font-size: 21px;
-        padding-top: 0.7rem;
-    }
+.customSearchbar input[type="text"] {
+  padding: 1.3rem;
+  padding-left: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  outline: none;
+}
+.customSearchbar .customSearchIcon {
+  position: absolute;
+  top: 60%;
+  right: 8px !important; 
+  transform: translateY(-50%);
+  cursor: pointer;
+  align-items: center;
+}
+.customSelect{
+  display: none;
+}
+
+/* Media queries */
+/* 600 Down */
+@media only screen and (max-width: 600px) {
+  .customForm .customSearchbar input[type="text"] {
+    padding: 20px 10px 20px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    width: auto;
   }
-
-@media only screen and (min-width: 992px){
-    .headerLogo{
-        display: none;
-    }
 }
-  /* X Large devices up to 1200 */
-  @media only screen and (min-width: 1200px) {
-    .headerLogo{
-        display: none;
-    }
+
+
+/* 600 up */
+@media only screen and (min-width: 600px) {
+  .customForm .customSearchbar input[type="text"] {
+    padding: 20px 120px 20px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    width: auto;
   }
+}
+
+/* Large devices (992 up) and X Large devices (1200 up) - No styles added */
+@media only screen and (min-width: 992px) {
+}
+
+/* X Large devices up to 1200 */
+@media only screen and (min-width: 1200px) {
+}

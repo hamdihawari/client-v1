@@ -1,0 +1,44 @@
+.form {
+  width: 93.5%;
+  margin: 0 auto;
+  padding: 0%;
+}
+.searchbar {
+  width: 100%;
+  display: flex;
+  font-size: 16px;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  margin-left: 0.3rem;
+}
+
+.select {
+  width: 98%;
+}
+
+.searchbar .input{
+  width: 100%;
+  padding: 12px;
+}
+
+.searchbar input[type="search"] {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-radius: 4px;
+  outline: none;
+  align-items: center;
+  padding: 12px;
+  padding-left: 40px;
+}
+
+
+.searchbar .searchIcon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}

@@ -17,8 +17,8 @@ export const Menu = () => {
   };
 
   return (
-    <div className={style.sidebarLayout}>
-      <ul className={style.menu}>
+    <div className={style.menu}>
+      <ul className={style.menuContent}>
         <Link
           variant="text"
           className={style.menuBtn}

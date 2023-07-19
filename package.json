@@ -22,6 +22,7 @@
     "react-hook-form": "^7.44.2",
     "react-image-gallery": "^1.2.12",
     "react-router-dom": "^6.11.2",
+    "react-select": "^5.7.4",
     "yup": "^1.2.0"
   },
   "devDependencies": {
