@@ -1,0 +1,22 @@
+  /*   const handleClearSearch = () => {
+      setSearchTerm('');
+      onSearch('');
+    }; */
+
+
+      {/* <select className={`${style.select} ${customStyle?.select}`} value={selectedCity} onChange={handleCityChange}>
+          <option value="" className={style.city}>City</option>
+          <option value="Berlin">Berlin</option>
+          <option value="Netherlands">Netherlands</option>
+          <option value="Italy">Italy</option>
+        </select> */}
+
+        {/* <Button variant="outlined" className={`${style.searchIcon} ${customStyle?.searchIcon}`} >
+          <SearchIcon style={{ fontSize: '30px', color: '#000000', boxShadow: 'none', boarderColor: 'none' }} />
+        </Button> */}
+
+        /* if you need cleare button for search*/
+        /*   const handleClearSearch = () => {
+            setSearchTerm('');
+            onSearch('');
+          } */

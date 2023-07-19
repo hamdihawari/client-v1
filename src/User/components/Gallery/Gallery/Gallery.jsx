@@ -9,7 +9,7 @@ import GalleryCard from '../GalleryCard/GalleryCard';
 
 const Gallery = () => {
   const slideshowRef = useRef();
-  const { _gallery, index } = useParams(); // Get the index parameter from the URL
+  const { _gallery, index } = useParams(); 
   const galleryUrl = `http://localhost:9000/${_gallery}`;
   const [gallery, setGallery] = useState([]);
   const [currentImageIndex, setCurrentImageIndex] = useState(parseInt(index, 10));
@@ -54,7 +54,6 @@ const Gallery = () => {
           startIndex={selectedIndex}
           onThumbnailClick={handleThumbnailClick}
         />
-
         <GalleryCard
           gallery={gallery}
           currentImageIndex={currentImageIndex}

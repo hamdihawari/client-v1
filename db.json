@@ -266,7 +266,8 @@
       "category": "Landscape >",
       "originalAlt": "alt",
       "title": "Amsterdam - Netherlands",
-      "likes": 5
+      "likes": 5,
+      "city": "Netherlands"
     },
     {
       "id": 2,
@@ -279,7 +280,8 @@
       "objective": "85 mm f/2,2 ISO 125",
       "category": "Chtructure >",
       "title": "Berlin Cathedral - Berlin",
-      "likes": 4
+      "likes": 1,
+      "city": "Deutschland"
     },
     {
       "id": 3,
@@ -292,7 +294,8 @@
       "objective": "85 mm f/2,2 ISO 125",
       "category": "Snapshot >",
       "title": "Museum Island - Berlin",
-      "likes": 0
+      "likes": 0,
+      "city": "Deutschland"
     },
     {
       "id": 4,
@@ -305,7 +308,8 @@
       "objective": "85 mm f/2,2 ISO 125",
       "category": "Photography >",
       "title": "Sanssouci Palace fluss - Berlin",
-      "likes": 15
+      "likes": 15,
+      "city": "Deutschland"
     },
     {
       "id": 5,
@@ -318,7 +322,8 @@
       "objective": "85 mm f/2,2 ISO 125",
       "category": "Streetphotography >",
       "title": "Sanssouci Palace - Berlin",
-      "likes": 2
+      "likes": 2,
+      "city": "Deutschland"
     },
     {
       "id": 6,
@@ -331,7 +336,8 @@
       "objective": "85 mm f/2,2 ISO 125",
       "category": "Landscape >",
       "title": "Sanssouci Palace - Berlin",
-      "likes": 6
+      "likes": 6,
+      "city": "Deutschland"
     },
     {
       "id": 7,
@@ -344,7 +350,8 @@
       "objective": "85 mm f/2,2 ISO 125",
       "category": "Landscape >",
       "title": "Rhizomatische Bruecke - Berlin",
-      "likes": 1
+      "likes": 1,
+      "city": "Deutschland"
     },
     {
       "id": 8,
@@ -357,7 +364,8 @@
       "objective": "85 mm f/2,2 ISO 125",
       "category": "Street >",
       "title": "Treptower park - Berlin",
-      "likes": 3
+      "likes": 3,
+      "city": "Deutschland"
     },
     {
       "id": 9,
@@ -370,7 +378,8 @@
       "objective": "85 mm f/2,2 ISO 125",
       "category": "Photography >",
       "title": "Museum Island - Berlin",
-      "likes": 6
+      "likes": 6,
+      "city": "Deutschland"
     }
   ],
   "streetImage": [

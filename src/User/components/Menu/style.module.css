@@ -1,35 +1,45 @@
+/* Global styles */
 * {
     font-family: 'PT Serif', serif;
-}
-
-.menu {
+  }
+  .menu{
     width: 100%;
-    color: rgb(37, 37, 37);
+  }
+  .menuContent {
     position: absolute;
-    z-index: 1;
-}
+    top: 0;
+    left: 0;
 
-.menuBtn {
+    z-index: 2; 
+  }
+  
+  .menuContent {
+    width: 100%;
+    position: absolute;
+    z-index: 1; 
+  }
+  
+  .menuBtn {
     float: right;
     margin-top: 1.4rem;
     margin-right: 2rem;
     text-decoration: none;
-}
-
-.menuBtn:hover {
+  }
+  
+  .menuBtn:hover {
     cursor: pointer;
     opacity: 0.3;
-}
-
-.row {
+  }
+  
+  .row {
     margin: 0 auto;
-}
-
-.controll {
+  }
+  
+  .controll {
     background-color: rgb(27, 27, 27);
-}
-
-.menuList {
+  }
+  
+  .menuList {
     width: 100%;
     height: 100px;
     list-style: none;
@@ -37,42 +47,41 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-}
-
-.menuList:hover {
+  }
+  
+  .menuList:hover {
     cursor: pointer;
     opacity: 0.3;
-}
-
-.icons,
-.title {
+  }
+  
+  .icons,
+  .title {
     color: rgb(175, 175, 175);
     text-decoration: none;
-    font-size: 15px;
-    margin-top: 1rem;
-}
-
-.title {
+    font-size: 18px;
+    margin-top: 0px;
+  }
+  
+  .title {
     margin-left: 1.2rem;
-}
-
-.mediaList {
+  }
+  
+  .mediaList {
     list-style-type: none;
     color: rgb(255, 255, 255);
-    margin-top: 2rem;
-    margin: 0;
-    padding: 3rem
-}
-
-.mediaList:hover {
+    margin-top: 0px;
+    padding: 3rem; /* Fixed the margin issue here */
+  }
+  
+  .mediaList:hover {
     cursor: pointer;
     opacity: 0.5;
-}
-
-.media {
+  }
+  
+  .media {
     display: flex;
     flex-direction: row;
     margin: 0 auto;
     justify-content: center;
-
-}
+  }
+  
