@@ -8,6 +8,7 @@ import { IconButton } from '@mui/material';
 const SearchBar = ({ onSearchBarChange, customStyle, onCityChange }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const { landscapeGallery } = useContext(GalleryContext);
+  const { streetGallery } = useContext(GalleryContext);
   const [selectedCity, setSelectedCity] = useState('');
 
   const handleSearchSubmit = (e) => {
@@ -20,7 +21,7 @@ const SearchBar = ({ onSearchBarChange, customStyle, onCityChange }) => {
     onSearchBarChange(e); // Call the prop function passed from the parent component
     setSearchTerm(searchTermValue);
   };
-  
+
   const handleCityChange = (selectedOption) => {
     setSelectedCity(selectedOption ? selectedOption.value : ''); // Update the selectedCity state
     onCityChange(selectedOption ? selectedOption.value : ''); // Optional: Call the onCityChange prop with the selected city value
@@ -36,9 +37,8 @@ const SearchBar = ({ onSearchBarChange, customStyle, onCityChange }) => {
     }
   };
 
-  /* const options = landscapeGallery.map(item => ({ value: item.city, label: item.city })); */
   // Get unique city names using a Set
-  const uniqueCities = [...new Set(landscapeGallery.map(item => item.city))];
+  const uniqueCities = [...new Set([...landscapeGallery.map(item => item.city), ...streetGallery.map(item => item.city)])];
 
   // Create the options array with unique city names
   const options = uniqueCities.map(city => ({ value: city, label: city }));
@@ -53,12 +53,11 @@ const SearchBar = ({ onSearchBarChange, customStyle, onCityChange }) => {
           onChange={handleCityChange}
           options={options}
           placeholder="City"
-          styles={colourStyles}
-          autoFocus={false}
           isClearable={true}
+          styles={colourStyles}
         />
         <div className={style.input}>
-          <input type="search" placeholder="Search Gallery" name="search" value={searchTerm} onChange={handleInputChange} />
+          <input type="search" placeholder="Search" name="search" value={searchTerm} onChange={handleInputChange} autoFocus={true} />
           <IconButton className={style.searchIcon}>
             <SearchIcon />
           </IconButton>
@@ -69,12 +68,3 @@ const SearchBar = ({ onSearchBarChange, customStyle, onCityChange }) => {
 };
 
 export default SearchBar;
-
-
-
-/*   const options = [
-    { value: "berlin", label: "Berlin" },
-    { value: "netherlands", label: "Netherlands" },
-    { value: "italy", label: "Italy" }
-  ]; */
-

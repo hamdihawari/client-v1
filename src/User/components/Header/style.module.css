@@ -11,41 +11,6 @@
   font-family: 'Geovana', sans-serif;
 }
 
-/* SEARCHBAR STYLE */
-.customForm{
-  width: auto;
-  height: auto;
-}
-.customSearchbar{
-  padding: 0;
-  margin: 0 auto;
-  position: relative;
-  padding-top: 1rem;
-  display: flex; 
-  margin: 0 auto;
-  justify-content: center; 
-}
-
-.customSearchbar input[type="text"] {
-  padding: 1.3rem;
-  padding-left: 2rem;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  font-size: 16px;
-  outline: none;
-}
-.customSearchbar .customSearchIcon {
-  position: absolute;
-  top: 60%;
-  right: 8px !important; 
-  transform: translateY(-50%);
-  cursor: pointer;
-  align-items: center;
-}
-.customSelect{
-  display: none;
-}
-
 /* Media queries */
 /* 600 Down */
 @media only screen and (max-width: 600px) {

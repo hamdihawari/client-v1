@@ -1,6 +1,5 @@
 import React, { memo, useContext, useState } from 'react';
 import style from './style.module.css';
-import headerStyles from './style.module.css'; // Correct import
 import { Link } from 'react-router-dom';
 import { GalleryContext } from '../../../Context/Context';
 import IconButton from '@mui/material/IconButton';
@@ -35,12 +34,6 @@ const Landscape = () => {
       (selectedCity === '' || val.city === selectedCity)
   );
 
-  const customHeaderStyle = {
-    form: headerStyles.customForm,
-    searchbar: headerStyles.customSearchbar,
-    searchIcon: headerStyles.customSearchIcon,
-  };
-
   const handleSearchInputChange = (e) => {
     const searchTermValue = e.target.value;
     setSearchTerm(searchTermValue);
@@ -50,7 +43,7 @@ const Landscape = () => {
     <div className={style.landscape}>
       <div className={style.landscapeHeader}>
         <h1 className={style.header}>Landscape Gallery &#128525;</h1>
-        {isLargeMobile && <SearchBar onSearchBarChange={handleSearchInputChange} customStyle={customHeaderStyle} onCityChange={setSelectedCity} />}
+        {isLargeMobile && <SearchBar onSearchBarChange={handleSearchInputChange} /* customStyle={customHeaderStyle} */ onCityChange={setSelectedCity} />}
       </div>
       <div className={style.landscapeContent}>
         {filteredGallery.map((item, index) => (
