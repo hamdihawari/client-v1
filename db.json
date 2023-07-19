@@ -648,7 +648,8 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Red Cap Seller"
+      "title": "Red Cap Seller",
+      "city": "Netherlands"
     },
     {
       "id": 2,
@@ -661,7 +662,8 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Portrait in Berlin"
+      "title": "Portrait in Berlin",
+      "city": "Deutschland"
     }
   ]
 }
