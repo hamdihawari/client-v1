@@ -3,13 +3,17 @@ import style from './style.module.css';
 import { Link } from 'react-router-dom';
 import { GalleryContext } from '../../../Context/Context';
 import IconButton from '@mui/material/IconButton';
-import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import SearchBar from '../../../components/SearchBar/SearchBar';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ThumbDownIcon from '@mui/icons-material/ThumbDown';
+import useMediaQuery from '../../../Hooks/useMediaQuery';
 
 const Street = () => {
+  const isLargeMobile = useMediaQuery('(min-width:993px)'); // Laptop 
   const { streetGallery } = useContext(GalleryContext);
   const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedCity, setSelectedCity] = useState('');
+  const [searchTerm, setSearchTerm] = useState('');
 
   const handleImageClick = (index) => {
     setSelectedImage(streetGallery[index]);
@@ -22,12 +26,27 @@ const Street = () => {
   const handleImageLeave = () => {
     setSelectedImage(null);
   };
+    
+  const handleSearchInputChange = (e) => {
+    const searchTermValue = e.target.value;
+    setSearchTerm(searchTermValue);
+  };
+
+  // FILTER
+  const filteredGallery = streetGallery.filter(
+    (val) =>
+      (searchTerm === '' || val.title.toLowerCase().includes(searchTerm.toLowerCase())) &&
+      (selectedCity === '' || val.city === selectedCity)
+  );
 
   return (
     <div className={style.street}>
+      <div className={style.landscapeHeader}>
+        <h1 className={style.header}>Landscape Gallery &#128525;</h1>
+        {isLargeMobile && <SearchBar onSearchBarChange={handleSearchInputChange} /* customStyle={customHeaderStyle} */ onCityChange={setSelectedCity} />}
+      </div>
       <div className={style.streetContent}>
-        <h1 className={style.header}>Street Gallery</h1>
-        {streetGallery.map((item, index) => (
+      {filteredGallery.map((item, index) => (
           <div key={item.id} className={style.gallery}>
             <div
               className={style.single}

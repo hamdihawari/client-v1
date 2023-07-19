@@ -394,7 +394,8 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Alexander Platz"
+      "title": "Alexander Platz",
+      "city": "Deutschland"
     },
     {
       "id": 2,
@@ -407,7 +408,8 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Alexander Platz"
+      "title": "Alexander Platz",
+      "city": "Deutschland"
     },
     {
       "id": 3,
@@ -420,7 +422,8 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Alexander Platz"
+      "title": "Alexander Platz",
+      "city": "Deutschland"
     },
     {
       "id": 4,
@@ -433,7 +436,8 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Children - Berlin"
+      "title": "Children - Berlin",
+      "city": "Deutschland"
     },
     {
       "id": 5,
@@ -446,7 +450,8 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Humboldtforum - Berlin"
+      "title": "Humboldtforum - Berlin",
+      "city": "Deutschland"
     },
     {
       "id": 6,
@@ -459,7 +464,8 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Humboldtforum - Berlin"
+      "title": "Humboldtforum - Berlin",
+      "city": "Deutschland"
     },
     {
       "id": 7,
@@ -472,7 +478,8 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Reflexiv - Potsdam"
+      "title": "Reflexiv - Potsdam",
+      "city": "Deutschland"
     },
     {
       "id": 8,
@@ -485,7 +492,8 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Reflexiv - Berlin"
+      "title": "Reflexiv - Berlin",
+      "city": "Deutschland"
     },
     {
       "id": 9,
@@ -498,7 +506,8 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Frinds - Berlin"
+      "title": "Frinds - Berlin",
+      "city": "Netherlands"
     },
     {
       "id": 10,
@@ -511,7 +520,8 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Frinds - Berlin"
+      "title": "Park - Berlin",
+      "city": "Deutschland"
     },
     {
       "id": 11,
@@ -524,7 +534,8 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Flowers - Berlin"
+      "title": "Flowers - Berlin",
+      "city": "Deutschland"
     },
     {
       "id": 12,
@@ -537,7 +548,8 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Sky and Moon - Berlin"
+      "title": "Sky and Moon - Berlin",
+      "city": "Netherlands"
     },
     {
       "id": 13,
@@ -550,7 +562,8 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "U-Bahn - Berlin"
+      "title": "U-Bahn - Berlin",
+      "city": "Deutschland"
     },
     {
       "id": 14,
@@ -563,7 +576,8 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "U-Bahn - Berlin"
+      "title": "U-Bahn - Berlin",
+      "city": "Deutschland"
     },
     {
       "id": 15,
@@ -576,7 +590,8 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Neukolln - Berlin"
+      "title": "Neukolln - Berlin",
+      "city": "Deutschland"
     },
     {
       "id": 16,
@@ -589,7 +604,8 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Halle Saale"
+      "title": "Halle Saale",
+      "city": "Deutschland"
     },
     {
       "id": 17,
@@ -602,7 +618,8 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Straßenbahn"
+      "title": "Straßenbahn",
+      "city": "Deutschland"
     },
     {
       "id": 18,
@@ -615,7 +632,8 @@
       "objective": "85 mm  f/2,2  ISO 125",
       "category": "#street, #photography, #streetphotography, #landscape, #streetChtructure",
       "originalAlt": "alt",
-      "title": "Alexa"
+      "title": "Alexa",
+      "city": "Deutschland"
     }
   ],
   "portraitImage": [

@@ -11,17 +11,18 @@
   position: relative;
   align-items: center;
   margin-left: 0.3rem;
+  margin-bottom: 1rem;
 }
 
 .select {
   width: 98%;
 }
 
+/* SearchBar Input*/
 .searchbar .input{
   width: 100%;
   padding: 12px;
 }
-
 .searchbar input[type="search"] {
   width: 100%;
   height: auto;
@@ -33,8 +34,6 @@
   padding: 12px;
   padding-left: 40px;
 }
-
-
 .searchbar .searchIcon {
   position: absolute;
   left: 50%;
