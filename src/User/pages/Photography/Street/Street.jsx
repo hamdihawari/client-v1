@@ -42,7 +42,7 @@ const Street = () => {
   return (
     <div className={style.street}>
       <div className={style.landscapeHeader}>
-        <h1 className={style.header}>Landscape Gallery &#128525;</h1>
+        <h1 className={style.header}>Street Gallery &#128525;</h1>
         {isLargeMobile && <SearchBar onSearchBarChange={handleSearchInputChange} /* customStyle={customHeaderStyle} */ onCityChange={setSelectedCity} />}
       </div>
       <div className={style.streetContent}>
