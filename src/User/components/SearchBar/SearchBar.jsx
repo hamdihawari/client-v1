@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useRef, useState } from 'react';
 import style from './style.module.css';
 import Select from "react-select";
 import SearchIcon from '@mui/icons-material/Search';
@@ -43,21 +43,30 @@ const SearchBar = ({ onSearchBarChange, customStyle, onCityChange }) => {
   // Create the options array with unique city names
   const options = uniqueCities.map(city => ({ value: city, label: city }));
 
+  // Customize the no options message
+  const customNoOptionsMessage = () => "No options available, select City";
+
+
   return (
     <form className={`${style.form} ${customStyle?.form}`} onSubmit={handleSearchSubmit}>
       <div className={`${style.searchbar} ${customStyle?.searchbar}`}>
         <Select
-          name="text"
+          name="search"
           className={`${style.select} ${customStyle?.select}`}
-          value={selectedCity}
+          value={options.find((options) => options.value === selectedCity)}
           onChange={handleCityChange}
           options={options}
           placeholder="City"
-          isClearable={true}
           styles={colourStyles}
+          defaultValue={null}
+          isMulti={false}
+          isSearchable={true}
+          noOptionsMessage={customNoOptionsMessage}
+          isClearable
+          closeMenuOnSelect={false} 
         />
         <div className={style.input}>
-          <input type="search" placeholder="Search" name="search" value={searchTerm} onChange={handleInputChange} autoFocus={true} />
+          <input type="search" placeholder="Search..." name="text" value={searchTerm} onChange={handleInputChange} autoFocus={true} />
           <IconButton className={style.searchIcon}>
             <SearchIcon />
           </IconButton>

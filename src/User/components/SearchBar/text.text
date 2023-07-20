@@ -1,22 +1,16 @@
-  /*   const handleClearSearch = () => {
-      setSearchTerm('');
-      onSearch('');
-    }; */
 
+# <select className={`${style.select} ${customStyle?.select}`} value={selectedCity} onChange={handleCityChange}>  
+ 
+          
 
-      {/* <select className={`${style.select} ${customStyle?.select}`} value={selectedCity} onChange={handleCityChange}>
-          <option value="" className={style.city}>City</option>
-          <option value="Berlin">Berlin</option>
-          <option value="Netherlands">Netherlands</option>
-          <option value="Italy">Italy</option>
-        </select> */}
+if you need cleare button for search
+      
+          // Clear
+             const handleClearSelect = () => {
+              setSelectedCity('');
+              onCityChange('');
+            }
 
-        {/* <Button variant="outlined" className={`${style.searchIcon} ${customStyle?.searchIcon}`} >
-          <SearchIcon style={{ fontSize: '30px', color: '#000000', boxShadow: 'none', boarderColor: 'none' }} />
-        </Button> */}
-
-        /* if you need cleare button for search*/
-        /*   const handleClearSearch = () => {
-            setSearchTerm('');
-            onSearch('');
-          } */
+          <IconButton className={style.deleteIcon} onClick={handleClearSelect}>
+            <ClearIcon style={{fontSize: '16px'}} />
+            </IconButton> 
