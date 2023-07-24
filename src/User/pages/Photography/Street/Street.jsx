@@ -9,7 +9,7 @@ import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 import useMediaQuery from '../../../Hooks/useMediaQuery';
 
 const Street = () => {
-  const isLargeMobile = useMediaQuery('(min-width:993px)'); // Laptop 
+  const isLargeMobile = useMediaQuery('(min-width:992px)'); // Laptop 
   const { streetGallery } = useContext(GalleryContext);
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedCity, setSelectedCity] = useState('');
@@ -41,7 +41,7 @@ const Street = () => {
 
   return (
     <div className={style.street}>
-      <div className={style.landscapeHeader}>
+      <div className={style.streetHeader}>
         <h1 className={style.header}>Street Gallery &#128525;</h1>
         {isLargeMobile && <SearchBar onSearchBarChange={handleSearchInputChange} /* customStyle={customHeaderStyle} */ onCityChange={setSelectedCity} />}
       </div>

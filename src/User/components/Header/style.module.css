@@ -1,42 +1,95 @@
-.header{
+.header {
   display: flex;
   flex-direction: row;
+  position: relative;
 }
 
 .title {
   width: 100%;
-   margin-top: 1rem;
-  margin-left: 1rem;
-  font-size: 21px; 
+  margin-top: 1rem;
+  margin-left: 2rem;
+  font-size: 24px;
   font-family: 'Geovana', sans-serif;
+}
+
+/* SearchBar */
+.customForm {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0%;
+  position: relative; 
+}
+.customSearchbar {
+  width: 100%;
+  display: flex;
+  font-size: 16px;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  margin-top: 0.3rem;
+}
+
+.customSearchbar .customInput{
+  width: 60vw;
+  padding: 12px;
+}
+
+.customSearchbar input[type="search"] {
+  width: 100%;
+  font-size: 16px;
+  border-radius: 20px;
+  padding: 12px;
+  padding-left: 50px;
+}
+
+.customSelect {
+  display: none;
+}
+
+.customInput .customSearchIcon {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
 }
 
 /* Media queries */
 /* 600 Down */
 @media only screen and (max-width: 600px) {
-  .customForm .customSearchbar input[type="text"] {
-    padding: 20px 10px 20px 20px;
-    border-radius: 20px;
+  .title {
+    width: 100%;
+    margin-top: 1.2rem;
+    margin-left: 1.3rem;
+    font-size: 20px;
+  }
+  .customSearchbar .customInput{
+    width: 45vw;
+    padding: 10px;
+  }
+  
+  .customSearchbar input[type="search"] {
     font-size: 14px;
-    width: auto;
+    padding-left: 40px;
   }
 }
 
 
 /* 600 up */
 @media only screen and (min-width: 600px) {
-  .customForm .customSearchbar input[type="text"] {
-    padding: 20px 120px 20px 20px;
-    border-radius: 20px;
-    font-size: 14px;
-    width: auto;
+  .title {
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: 26px;
   }
-}
-
-/* Large devices (992 up) and X Large devices (1200 up) - No styles added */
-@media only screen and (min-width: 992px) {
-}
-
-/* X Large devices up to 1200 */
-@media only screen and (min-width: 1200px) {
+  .customSearchbar .customInput{
+    width: 50vw;
+    padding: 12px;
+  }
+  
+  .customSearchbar input[type="search"] {
+    font-size: 16px;
+    padding-left: 50px;
+  }
 }

@@ -12,8 +12,11 @@ const GalleryCard = ({ gallery, currentImageIndex }) => {
   if (!gallery || gallery.length === 0) {
     return null;
   }
-
   const val = gallery[currentImageIndex];
+  if (!val) {
+    return null;
+  } 
+
   const { id, title, taken, uploaded, camera, objective, category } = val;
   const [likeCount, setLikeCount] = useState(0);
 

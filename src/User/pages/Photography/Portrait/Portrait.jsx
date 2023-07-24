@@ -12,7 +12,7 @@ const Portrait = () => {
   const { portraitGallery } = useContext(GalleryContext);
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedCity, setSelectedCity] = useState('');
-  const isLargeMobile = useMediaQuery('(min-width:993px)'); // Laptop 
+  const isLargeMobile = useMediaQuery('(min-width:992px)'); // Laptop 
   const [searchTerm, setSearchTerm] = useState('');
 
   const handleImageClick = (index) => {
@@ -40,7 +40,7 @@ const Portrait = () => {
 
   return (
     <div className={style.portrait}>
-      <div className={style.landscapeHeader}>
+      <div className={style.portraitHeader}>
         <h1 className={style.header}>Portrait Gallery &#128525;</h1>
         {isLargeMobile && <SearchBar onSearchBarChange={handleSearchInputChange} /* customStyle={customHeaderStyle} */ onCityChange={setSelectedCity} />}
       </div>
