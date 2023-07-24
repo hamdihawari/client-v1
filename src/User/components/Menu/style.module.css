@@ -6,9 +6,9 @@
     width: 100%;
   }
   .menuContent {
-    width: 100%;
-    /* position: absolute; */
-    position: relative;
+    width: 100vw;
+    position: absolute;
+    /* position: relative; */
     z-index: 2;
     top: 0;
     left: 0;
