@@ -27,7 +27,6 @@ const Landscape = () => {
     setSelectedImage(null);
   };
 
-  // FILTER
   const filteredGallery = landscapeGallery.filter(
     (val) =>
       (searchTerm === '' || val.title.toLowerCase().includes(searchTerm.toLowerCase())) &&
@@ -60,11 +59,11 @@ const Landscape = () => {
                   <div className={style.imageOverlay}>
                     <div className={style.imageTitle}>{item.title}</div>
                     <div className={style.buttonGroup}>
-                      <IconButton className={style.likeButton}>
-                        <FavoriteIcon style={{ color: '#FFFFFF', fontSize: '28px' }} />
+                      <IconButton className={style.favButton}>
+                        <FavoriteIcon className={style.favotiteicon} id={style.fav}/* style={{ color: '#FFFFFF', fontSize: '28px' }} */ />
                       </IconButton>
                       <IconButton className={style.likeButton}>
-                        <ThumbDownIcon style={{ color: '#FFFFFF', fontSize: '28px' }} />
+                        <ThumbDownIcon className={style.favotiteicon} /* style={{ color: '#FFFFFF', fontSize: '28px' }} */ />
                       </IconButton>
                     </div>
                   </div>
