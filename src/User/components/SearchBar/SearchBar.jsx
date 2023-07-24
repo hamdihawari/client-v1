@@ -1,15 +1,22 @@
-import React, { useContext, useRef, useState } from 'react';
-import style from './style.module.css';
-import Select from "react-select";
-import SearchIcon from '@mui/icons-material/Search';
-import { GalleryContext } from '../../Context/Context';
-import { IconButton } from '@mui/material';
+import React, { useContext, useState } from 'react'
+import style from './style.module.css'
+import Select from "react-select"
+import SearchIcon from '@mui/icons-material/Search'
+import { GalleryContext } from '../../Context/Context'
+import { IconButton } from '@mui/material'
 
 const SearchBar = ({ onSearchBarChange, customStyle, onCityChange, onKeyDown }) => {
-  const [searchTerm, setSearchTerm] = useState('');
-  const { landscapeGallery } = useContext(GalleryContext);
-  const { streetGallery } = useContext(GalleryContext);
-  const [selectedCity, setSelectedCity] = useState('');
+  const [searchTerm, setSearchTerm] = useState('')
+  const { landscapeGallery } = useContext(GalleryContext)
+  const { streetGallery } = useContext(GalleryContext)
+  const [selectedCity, setSelectedCity] = useState('')
+
+  // Get unique city names using a Set
+  const uniqueCities = [...new Set([...landscapeGallery.map(item => item.city), ...streetGallery.map(item => item.city)])];
+  // Create the options array with unique city names
+  const options = uniqueCities.map(city => ({ value: city, label: city }))
+  // Customize the no options message
+  const customNoOptionsMessage = () => "No options available, select City"
 
   const handleSearchSubmit = (e) => {
     e.preventDefault();
@@ -23,8 +30,8 @@ const SearchBar = ({ onSearchBarChange, customStyle, onCityChange, onKeyDown }) 
   };
 
   const handleCityChange = (selectedOption) => {
-    setSelectedCity(selectedOption ? selectedOption.value : ''); // Update the selectedCity state
-    onCityChange(selectedOption ? selectedOption.value : ''); // Optional: Call the onCityChange prop with the selected city value
+    setSelectedCity(selectedOption ? selectedOption.value : '') // Update the selectedCity state
+    onCityChange(selectedOption ? selectedOption.value : '') // Optional: Call the onCityChange prop with the selected city value
   };
 
   const colourStyles = {
@@ -33,18 +40,9 @@ const SearchBar = ({ onSearchBarChange, customStyle, onCityChange, onKeyDown }) 
         ...styles,
         backgroundColor: isFocused ? "#000000" : "",
         color: isSelected ? "#FFFFFF" : isFocused ? "#FFFFFF" : null,
-      };
+      }
     }
   };
-
-  // Get unique city names using a Set
-  const uniqueCities = [...new Set([...landscapeGallery.map(item => item.city), ...streetGallery.map(item => item.city)])];
-
-  // Create the options array with unique city names
-  const options = uniqueCities.map(city => ({ value: city, label: city }));
-
-  // Customize the no options message
-  const customNoOptionsMessage = () => "No options available, select City";
 
   return (
     <form className={`${style.form} ${customStyle?.form}`} onSubmit={handleSearchSubmit}>
@@ -62,7 +60,7 @@ const SearchBar = ({ onSearchBarChange, customStyle, onCityChange, onKeyDown }) 
           isSearchable={true}
           noOptionsMessage={customNoOptionsMessage}
           isClearable
-          closeMenuOnSelect={false}
+          closeMenuOnSelect={true}
         />
         <div className={`${style.input} ${customStyle?.input}`}>
           <input type="search" placeholder="Search..." name="text" value={searchTerm} onChange={handleInputChange} autoFocus={true} onKeyDown={onKeyDown} />
