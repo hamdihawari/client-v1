@@ -16,7 +16,7 @@
   margin: 0 auto;
 }
 
-.landscapeHeader .header {
+.streetHeader .header {
   width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -24,7 +24,7 @@
   margin-bottom: 1rem;
   margin-top: 1rem;
   font-family: "Janethville";
-  font-size: 42px;
+  font-size: 3.5rem;
 }
 
 .gallery {
@@ -95,9 +95,8 @@
       margin-top: 3rem;
     }
   
-    .header {
-      font-size: 24px;
-      margin-bottom: 1rem;
+    .streetHeader .header {
+      font-size: 2rem;
     }
   
     .gallery .single {

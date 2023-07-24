@@ -12,7 +12,7 @@ const Landscape = () => {
   const { landscapeGallery } = useContext(GalleryContext);
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedCity, setSelectedCity] = useState('');
-  const isLargeMobile = useMediaQuery('(min-width:993px)'); // Laptop 
+  const isLargeMobile = useMediaQuery('(min-width:992px)'); // Laptop 
   const [searchTerm, setSearchTerm] = useState('');
 
   const handleImageClick = (index) => {
@@ -43,7 +43,7 @@ const Landscape = () => {
     <div className={style.landscape}>
       <div className={style.landscapeHeader}>
         <h1 className={style.header}>Landscape Gallery &#128525;</h1>
-        {isLargeMobile && <SearchBar onSearchBarChange={handleSearchInputChange} /* customStyle={customHeaderStyle} */ onCityChange={setSelectedCity} />}
+        {isLargeMobile && <SearchBar onSearchBarChange={handleSearchInputChange} /* customStyle={customHeaderStyle} */ onCityChange={setSelectedCity}/>}
       </div>
       <div className={style.landscapeContent}>
         {filteredGallery.map((item, index) => (

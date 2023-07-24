@@ -5,7 +5,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import { GalleryContext } from '../../Context/Context';
 import { IconButton } from '@mui/material';
 
-const SearchBar = ({ onSearchBarChange, customStyle, onCityChange }) => {
+const SearchBar = ({ onSearchBarChange, customStyle, onCityChange, onKeyDown }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const { landscapeGallery } = useContext(GalleryContext);
   const { streetGallery } = useContext(GalleryContext);
@@ -46,7 +46,6 @@ const SearchBar = ({ onSearchBarChange, customStyle, onCityChange }) => {
   // Customize the no options message
   const customNoOptionsMessage = () => "No options available, select City";
 
-
   return (
     <form className={`${style.form} ${customStyle?.form}`} onSubmit={handleSearchSubmit}>
       <div className={`${style.searchbar} ${customStyle?.searchbar}`}>
@@ -63,11 +62,11 @@ const SearchBar = ({ onSearchBarChange, customStyle, onCityChange }) => {
           isSearchable={true}
           noOptionsMessage={customNoOptionsMessage}
           isClearable
-          closeMenuOnSelect={false} 
+          closeMenuOnSelect={false}
         />
-        <div className={style.input}>
-          <input type="search" placeholder="Search..." name="text" value={searchTerm} onChange={handleInputChange} autoFocus={true} />
-          <IconButton className={style.searchIcon}>
+        <div className={`${style.input} ${customStyle?.input}`}>
+          <input type="search" placeholder="Search..." name="text" value={searchTerm} onChange={handleInputChange} autoFocus={true} onKeyDown={onKeyDown} />
+          <IconButton className={`${style.searchIcon} ${customStyle?.searchIcon}`}>
             <SearchIcon />
           </IconButton>
         </div>
