@@ -97,29 +97,27 @@ textarea {
 /* Media Queries */
 @media only screen and (max-width: 600px) {
     .contactContainer {
-        margin: 0 auto;
-        margin-top: 6rem;
-        width: 70%;
+        margin: 40px auto;
+        width: 75%;
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 28px;
     }
 
     p {
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 
 @media only screen and (min-width: 600px) {
     .contactContainer {
-        margin: 0 auto;
-        margin-top: 6rem;
-        width: 70%;
+        margin: 30px auto;
+        width: 75%;
     }
 
     h1 {
-        font-size: 24px;
+        font-size: 30px;
     }
 
     p {
@@ -129,10 +127,9 @@ textarea {
 
 @media only screen and (min-width: 992px) {
     .contactContainer {
+        margin-left: 22rem;
+        margin-top: 4rem;  
         width: 40%;
-        margin-left: 26rem;
-        margin-top: 4rem;
-        font-family: 'PT Serif', serif;
     }
 
     h1 {
@@ -146,10 +143,8 @@ textarea {
 
 @media only screen and (min-width: 1200px) {
     .contactContainer {
-        width: 40%;
-        margin-left: 26rem;
-        margin-top: 4rem;
-        font-family: 'PT Serif', serif;
+        width: 45%;
+        margin: 60px auto;
     }
     h1 {
         font-size: 36px;
