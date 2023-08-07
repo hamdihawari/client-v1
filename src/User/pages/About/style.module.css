@@ -1,16 +1,16 @@
 .aboutContainer {
-    margin-top: 1.8rem;
-    padding-left: 18rem;
     display: flex;
     flex-direction: row;
     min-height: 100vh;
-    margin: 0;
+    margin: 1rem auto;
+    padding-left: 19rem;
 }
-#personal {
-    height: 580px;
+.personal {
+    height: 600px;
+    width: auto;
 }
 .containerText {
-    padding-left: 2rem;
+    padding-left: 22rem;
     width: 380px;
     line-height: 1.3;
 }
@@ -20,7 +20,7 @@
     margin-top: 1rem;
 }
 .description {
-    color: #7d7d7d;
+    color: #9d9d9d;
     font-family: 'PT Serif', serif;
     font-size: 15px;
 }
@@ -38,7 +38,7 @@
         padding: 1.5rem;
         margin-top: 0;
     }    
-    #personal {
+    .personal {
         width: 90%;
         height: auto;
         margin: 0 auto;
@@ -68,7 +68,7 @@
         padding: 1.5rem;
         margin-top: 0;
     } 
-    #personal {
+    .personal {
         width: 90%;
         height: auto;
         margin: 0 auto;
@@ -82,6 +82,7 @@
     .containerText .title {
         font-size: 22px;
         padding-top: 1rem;
+        color: #BD6E6D;
     }
     .description {
         font-size: 18px;
@@ -92,19 +93,16 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .aboutContainer {
-        margin-top: 1.8rem;
-        padding-left: 18rem;
-        display: flex;
-        flex-direction: row;
-        min-height: 100vh;
-        margin: 0;
+        padding-left: 17rem;
+        margin: 1rem auto;
     }
-    #personal {
-        height: 490px;
+    .personal {
+        height: 510px;
         width: auto;
+        position: absolute;
     }
     .containerText {
-        margin-left: 2rem;
+        margin-left: 23.5rem;
         max-width: 300px;
         text-align: left;
     }
@@ -114,27 +112,27 @@
         color: #BD6E6D;
     }
     .containerText .description {
-        font-size: 13.5px;
+        font-size: 14px;
     }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    #personal {
+    .aboutContainer {
+        padding-left: 17rem;
+        margin: 1rem auto;
+    }
+    .personal {
         height: 610px;
         width: auto;
+        position: absolute;
     }
+
     .containerText {
-        max-width: 350px;
-        line-height: 1.3;
-        color: #7d7d7d;
-        text-align: left;
-        margin-left: 0rem;
-    }
-    .containerText {
-        margin-left: 0rem;
+        margin-left: 28rem;
         max-width: 370px;
         text-align: left;
+        color: #7d7d7d;
     }
     .containerText .title {
         font-size: 24px;
@@ -145,26 +143,3 @@
         font-size: 17px;
     }
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1400px) {
-
-    #personal {
-        height: 650px;
-        width: auto;
-    }
-    .containerText {
-        max-width: 450px;
-        text-align: left;
-        margin-left: 0;
-    }
-    .containerText .title {
-        font-size: 24px;
-        padding-top: 0rem;
-        color: #BD6E6D;
-    }
-    .containerText .description {
-        font-size: 19px;
-    }
-}
-

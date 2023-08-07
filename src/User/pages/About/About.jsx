@@ -8,7 +8,7 @@ const About = () => {
         AboutData.map((val) => {
             return (
                 <div key={val.id} className={style.aboutContainer}>
-                    <img id={style.personal} src={val.photo} alt="personalPic"/>
+                    <img className={style.personal} src={val.photo} alt="personal photo"/>
                     <div className={style.containerText}>
                         <h3 className={style.title}>{val.title} &#128512; </h3>
                         <p className={style.description}>{val.description}</p>
