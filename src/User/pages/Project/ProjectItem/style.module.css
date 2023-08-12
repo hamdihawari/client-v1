@@ -1,9 +1,49 @@
 .projectContent {
-    border: none;
-    padding-left: 17rem;
     display: flex;
     flex-direction: row;
+    border: none;
+    padding-left: 17rem;
     width: 100%;
+}
+
+/* IMAGE */
+#imgAfterHover {
+    width: 500px;
+    height: auto;
+    -webkit-filter: drop-shadow(0 0 8px rgb(83, 83, 83));
+    filter: drop-shadow(0 0 8px black);
+    filter: drop-shadow(0 0 0 8px black);
+    transform: scale(1);
+    filter: grayscale(0%);
+}
+
+.img {
+    width: 500px;
+    height: auto;
+    position: absolute;
+}
+
+.hoverImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.imageContainer:hover .hoverImage {
+    opacity: 1;
+}
+
+.imageContainer:hover .middle {
+    opacity: 1;
+}
+
+/* CARD */
+.cardBody {
+    margin-top: 11rem;
+    margin-left: 10rem;
+    width: auto;
 }
 
 .cardText {
@@ -14,49 +54,6 @@
     color: #7d7d7d;
 }
 
-.cardBody {
-    margin-top: 1rem;
-    margin-left: 2rem;
-}
-
-/**/
-.imageContainer {
-    position: unset;
-  }
-
-  #imgAfterHover {
-    width: 500px;
-    height: auto;
-    -webkit-filter: drop-shadow(0 0 8px rgb(83, 83, 83));
-    filter: drop-shadow(0 0 8px black);           
-    filter: drop-shadow(0 0 0 8px black);
-    transform: scale(1.02);
-    /* filter: grayscale(0%); */
-}
-#img {
-    width: 500px;
-    height: auto;
-    /* position: static */
-
-}
-
-.hoverImage {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-  
-  .imageContainer:hover .hoverImage {
-    opacity: 1;
-  }
-
-  .imageContainer:hover .middle{
-    opacity: 1;
-  }
-
-  /**/
 .cardFooter {
     padding-top: 1rem;
 }
@@ -67,11 +64,11 @@
 }
 
 #favoriteIcon {
-    padding-right: 2rem;
+    margin-right: 2rem;
 }
 
 #moreHorizIcon {
-    padding-left: 2rem;
+    margin-left: 2rem;
 }
 
 .icon:hover {
@@ -79,12 +76,14 @@
     opacity: 0.5;
 }
 
+
 /* 600 Down */
 @media only screen and (max-width: 600px) {
     .projectContent {
+        flex-direction: column;
         margin: 0 auto;
         padding: 2rem;
-        flex-direction: column;
+        margin-top: 0;
     }
 
     .cardBody {
@@ -98,7 +97,6 @@
     }
 
     .cardText {
-        font-family: 'PT Serif', serif;
         max-width: 90%;
         font-size: 16px;
         margin-top: 0.1rem;
@@ -106,24 +104,33 @@
         margin: 0 auto;
     }
 
-    #img {
+    .img {
         width: 100%;
         height: auto;
-        margin: 0 auto;
+        position:relative
     }
 
     .cardFooter {
-        padding-bottom: 1rem;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    #favoriteIcon {
+        margin-right: 3rem;
+    }
+    
+    #moreHorizIcon {
+        margin-left: 3rem;
     }
 }
 
 /* UP 600 */
 @media only screen and (min-width: 600px) {
     .projectContent {
+        flex-direction: column;
         margin: 0 auto;
         padding: 2rem;
-        flex-direction: column;
-        margin-top: 1rem;
+        margin-top: 0;
     }
 
     .cardBody {
@@ -133,125 +140,121 @@
 
     .cardTitle {
         text-align: center;
-        margin: 0 auto;
     }
 
     .cardText {
-        font-family: 'PT Serif', serif;
         max-width: 90%;
-        font-size: 17px;
-        margin-top: 0.1rem;
+        font-size: 18px;
+        margin-top: 0;
         text-align: center;
         margin: 0 auto;
     }
 
-    #img {
+    .img {
         width: 100%;
         height: auto;
-        margin: 0 auto;
+        position:relative
     }
 
     .cardFooter {
-        padding-bottom: 1rem;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    #favoriteIcon {
+        margin-right: 5rem;
+    }
+    
+    #moreHorizIcon {
+        margin-left: 5rem;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .projectContent {
-        border: none;
         padding: 0;
         margin-top: 3rem;
         padding-left: 17rem;
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-    }
-    .cardTitle {
-        text-align: left;
-        margin-left: 1rem;
-        font-size: 19px;
-    }
-    .cardText {
-        font-family: 'PT Serif', serif;
-        margin-top: 0;
-        font-size: 13px;
-        width: 80%;
-        color: #7d7d7d;
-        text-align: left;
-        margin-left: 1rem;
-    }
-    .cardBody {
-        margin-top: 0.1rem;
-        margin-left: 1rem;
-    }
-    #img {
-        width: 380px;
-        height: auto;
-        position: static;
-    }
-    .cardFooter {
-        padding-top: 0.2rem;
-        margin-left: 1rem;
-    }
-}
-
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .projectContent {
-        padding: 0;
-        margin-top: 3rem;
-        padding-left: 17rem;
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-    }
-    .cardTitle {
-        margin-top: 0.5rem;
-        text-align: left;
-        margin-left: 1rem;
-        font-size: 26px;
-    }
-
-    .cardText {
-        font-family: 'PT Serif', serif;
-        margin-top: 0rem;
-        font-size: 17px;
-        width: 75%;
-        color: #7d7d7d;
     }
 
     .cardBody {
+        position: absolute;
         margin-top: 0.3rem;
-        margin-left: 2rem;
+        margin-left: 26em;
+        width: 35%;
+    }
+    
+    .cardTitle {
+        text-align: left;
+        margin-left: 1rem;
+        font-size: 21px;
     }
 
-    #img {
-        width: 530px;
+    .cardText {
+        margin-top: 0;
+        font-size: 0.8rem;
+        width: 70%;
+        text-align: left;
+        margin-left: 1rem;
+    }
+
+    .img {
+        width: 400px;
         height: auto;
-        position: static
+        position:relative
     }
 
     .cardFooter {
         padding-top: 0;
-    }
-
-    .icon {
-        padding: 0rem;
-        color: black;
+        text-align: left;
+        padding-left: 0.3rem;
     }
 
     #favoriteIcon {
-        padding-right: 2rem;
+        margin-right: 2rem;
+    }
+    
+    #moreHorizIcon {
+        margin-left: 2rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .cardBody {
+        position: absolute;
+        margin-left: 33rem;
+        width: 35%;
+    }
+
+    .cardTitle {
+        margin-top: 0.5rem;
+        text-align: left;
+        font-size: 26px;
+    }
+
+    .cardText {
+        margin-top: 0rem;
+        font-size: 16px;
+        width: 70%;
+    }
+
+    .img {
+        width: 500px;
+        height: auto;
+        position: relative;
+    }
+
+    .cardFooter {
+        margin-left: 0.2rem;
+    }
+
+    #favoriteIcon {
+        margin-right: 3rem;
     }
 
     #moreHorizIcon {
-        padding-left: 2rem;
-    }
-
-    .icon:hover {
-        cursor: pointer;
-        opacity: 0.5;
+        margin-left: 3rem;
     }
 }
