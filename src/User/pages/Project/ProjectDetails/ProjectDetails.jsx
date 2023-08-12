@@ -12,16 +12,20 @@ const ProjectDetails = () => {
     <div className={style.projectDetails}>
       {filteredProjects.map((val) => (
         <div key={val.id} className={style.projectDetailsContener}>
-          <h2 className={style.header}>{val.title}</h2>
-          <p>{val.data}</p>
-          <Link to={`/project/${id}`} className={style.imgLink}>
-            <img src={val.image} alt="photoscards" width="100%" className={style.img} />
-          </Link>
+          <div className={style.header}>
+          <img src={val.image} alt={val.title} class={style.avatar} />
+          <div>
+          <h2 className={style.headerTitle}>{val.title}</h2>
+          <p className={style.data}>{val.data}</p>
+          </div>
+          </div>
+          {/* <Link to={`/project/${id}`} className={style.imgLink}> */}{/* </Link> */}
+            <img src={val.image} alt={val.title} width="100%" className={style.img} />
           {val.projectDetails?.map((item) => (
             <div key={item.id}>
-              <p>{item.cardDescription}</p>
+              <p className={style.cardDescription}>{item.cardDescription}</p>
               {Object.values(item.imageGroup).map((image, index) => (
-                <img key={index} src={image} alt="C|O" width="100%" className={style.img} />
+                <img key={index} src={image} alt={item.alt} width="100%" className={style.img} />
               ))}
             </div>
           ))}
