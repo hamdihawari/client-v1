@@ -1,9 +1,14 @@
 import style from './style.module.css';
 import { Link } from 'react-router-dom';
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import SendIcon from '@mui/icons-material/Send';
 import React, { useState } from 'react';
+
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import ShareIcon from '@mui/icons-material/Share';
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import { IconButton } from '@mui/material';
+
 
 export const ProjectItem = ({ id, title, image, description, imageHover, path }) => {
 
@@ -19,34 +24,30 @@ export const ProjectItem = ({ id, title, image, description, imageHover, path })
 
   return (
     <div className={style.projectContent}>
-      <div className={style.imageContainer}>
-
         <Link to={`/project/${id}`} className={style.imgLink}>
           <img
             src={isHovered ? imageHover : image }
-            alt="photoscards"
+            alt={title}
             width="100%"
-            id={style.img}
+            className={style.img}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           />
         </Link>
-
-      </div>
       <div className={style.cardBody}>
         <h2 className={style.cardTitle}>{title}</h2>
         <p className={style.cardText}>{description}</p>
-        <nav className={style.cardFooter}>
-          <Link className={style.icon} id={style.favoriteIcon}>
-            <FavoriteIcon />
-          </Link>
-          <Link className={style.icon} id={style.SendIcon}>
-            <SendIcon />
-          </Link>
-          <Link className={style.icon} id={style.moreHorizIcon}>
-            <MoreHorizIcon />
-          </Link>
-        </nav>
+        <div className={style.cardFooter}>
+        <IconButton className={style.icon} id={style.favoriteIcon}>
+          <FavoriteBorderIcon style={{ color: '#000000', fontSize: '26px' }} />
+        </IconButton>
+        <IconButton className={style.icon} id={style.SendIcon}>
+          <ShareIcon style={{ color: '#000000', fontSize: '26px' }}/>
+        </IconButton>
+        <IconButton className={style.icon} id={style.moreHorizIcon}>
+          <MoreHorizIcon style={{ color: '#000000', fontSize: '26px' }}/>
+        </IconButton>
+      </div>
       </div>
     </div>
   );
