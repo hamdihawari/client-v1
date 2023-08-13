@@ -1,0 +1,33 @@
+.menuToggle{
+    left: 43%;
+    position: absolute;
+}
+.controll {
+    background-color: rgb(255, 255, 255);
+  }
+  
+.menuNav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+.menuList{
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+
+}
+
+.menuNav:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(36, 36, 36);
+}
+
+.menuList:hover, .icon:hover  {
+    color: rgb(255, 255, 255);
+}
+
+.icon{
+    padding-right: 10px;
+}
