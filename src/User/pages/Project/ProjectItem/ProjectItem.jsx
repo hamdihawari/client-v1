@@ -5,7 +5,7 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShareIcon from '@mui/icons-material/Share';
 import { IconButton } from '@mui/material';
 import { MenuToggle } from '../../../components/MenuToggle/MenuToggle';
-import menuToggleStyles from './style.module.css';
+import { ScrollToTopButton } from '../../../components/ScrollToTopButton/ScrollToTopButton';
 
 export const ProjectItem = ({ id, title, image, description, imageHover, path }) => {
 
@@ -43,9 +43,10 @@ export const ProjectItem = ({ id, title, image, description, imageHover, path })
         </IconButton>
 
         <MenuToggle/>
-        
+
       </div>
       </div>
+      <ScrollToTopButton />
     </div>
   );
 };

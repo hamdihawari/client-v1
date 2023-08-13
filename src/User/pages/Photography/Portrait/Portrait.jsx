@@ -7,6 +7,8 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 import useMediaQuery from '../../../Hooks/useMediaQuery';
 import SearchBar from '../../../components/SearchBar/SearchBar';
+import ScrollToTopButton from '../../../components/ScrollToTopButton/ScrollToTopButton'
+
 
 const Portrait = () => {
   const { portraitGallery } = useContext(GalleryContext);
@@ -72,6 +74,7 @@ const Portrait = () => {
           </div>
         ))}
       </div>
+      <ScrollToTopButton />
     </div>
   );
 };

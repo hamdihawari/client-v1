@@ -7,6 +7,7 @@ import SearchBar from '../../../components/SearchBar/SearchBar';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 import useMediaQuery from '../../../Hooks/useMediaQuery';
+import { ScrollToTopButton } from '../../../components/ScrollToTopButton/ScrollToTopButton';
 
 const Street = () => {
   const isLargeMobile = useMediaQuery('(min-width:992px)'); // Laptop 
@@ -73,6 +74,7 @@ const Street = () => {
           </div>
         ))}
       </div>
+      <ScrollToTopButton />
     </div>
   );
 };
