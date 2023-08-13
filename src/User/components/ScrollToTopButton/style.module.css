@@ -1,0 +1,14 @@
+.scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  .scrollToTop.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  
