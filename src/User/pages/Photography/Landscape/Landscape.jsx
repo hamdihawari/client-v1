@@ -7,7 +7,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 import SearchBar from '../../../components/SearchBar/SearchBar';
 import useMediaQuery from '../../../Hooks/useMediaQuery';
-import ScrollToTopButton from '../../../components/ScrollToTopButton/ScrollToTopButton'
+import {ScrollToTopButton} from '../../../components/ScrollToTopButton/ScrollToTopButton'
 
 
 const Landscape = () => {
