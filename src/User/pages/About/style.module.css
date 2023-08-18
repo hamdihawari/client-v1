@@ -1,7 +1,12 @@
-.aboutContainer {
+.about{
+    min-height: 100vh;
     display: flex;
     flex-direction: row;
-    min-height: 100vh;
+}
+.aboutContainer {
+/*     display: flex;
+    flex-direction: row;
+    min-height: 100vh; */
     margin: 1rem auto;
     padding-left: 19rem;
 }
