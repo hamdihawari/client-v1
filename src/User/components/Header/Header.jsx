@@ -6,6 +6,7 @@ import SearchBar from '../SearchBar/SearchBar';
 import headerStyles from './style.module.css';
 import { GalleryContext } from '../../Context/Context';
 import { useNavigate } from 'react-router-dom';
+import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher';
 
 export const Header = () => {
   const isLargeMobile = useMediaQuery('(max-width:991px)');
@@ -68,7 +69,9 @@ export const Header = () => {
           </div>
         )}
         {isLargeMobile && <Menu />}
+        
       </div>
+      {!isLargeMobile && <LanguageSwitcher />}
     </>
   )
 }
