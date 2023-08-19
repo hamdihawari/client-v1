@@ -34,7 +34,6 @@
     font-family: 'PT Serif', serif;
     color: #BD6E6D;
 } 
-
 /* Extra small devices (phones, 600px and down) DOWN 600 */
 @media only screen and (max-width: 600px){
     .aboutContainer {
