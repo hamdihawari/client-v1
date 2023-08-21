@@ -1,15 +1,17 @@
-.contactContainer {
+.contact{
     min-height: 100vh;
+}
+.contactContener {
     margin: 0 auto;
     font-family: 'PT Serif', serif;
 }
 
-h1 {
+.formHeader h1 {
     font-size: 36px;
     color: #111827;
 }
 
-p {
+.formHeader p {
     padding-top: 1rem;
     padding-bottom: 1.5rem;
 }
@@ -26,6 +28,7 @@ label {
 #link {
     text-decoration: none;
     color: black;
+    padding-left: 0.5rem;
 }
 
 form {
@@ -96,7 +99,7 @@ textarea {
 
 /* Media Queries */
 @media only screen and (max-width: 600px) {
-    .contactContainer {
+    .contactContener {
         margin: 40px auto;
         width: 75%;
     }
@@ -111,7 +114,7 @@ textarea {
 }
 
 @media only screen and (min-width: 600px) {
-    .contactContainer {
+    .contactContener {
         margin: 30px auto;
         width: 75%;
     }
@@ -126,7 +129,7 @@ textarea {
 }
 
 @media only screen and (min-width: 992px) {
-    .contactContainer {
+    .contactContener {
         margin-left: 22rem;
         margin-top: 4rem;  
         width: 40%;
@@ -142,7 +145,7 @@ textarea {
 }
 
 @media only screen and (min-width: 1200px) {
-    .contactContainer {
+    .contactContener {
         width: 45%;
         margin: 60px auto;
     }

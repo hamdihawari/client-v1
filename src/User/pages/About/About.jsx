@@ -26,7 +26,7 @@ const About = () => {
 
     return (
         <div className={style.about}>
-            {console.log(data)}
+            {/* {console.log(data)} */}
             {data.map((item) => {
                 return (
                     <div key={item.id} className={style.aboutContainer}>
