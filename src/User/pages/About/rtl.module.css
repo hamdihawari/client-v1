@@ -2,3 +2,32 @@
   text-align: right;
   direction: rtl;
 }
+
+/* Extra small devices (phones, 600px and down) DOWN 600 */
+@media only screen and (max-width: 600px){
+  .containerText {
+    text-align: center;
+    direction: rtl;
+  }
+}
+/* Extra small devices (phones, 600px and down) DOWN 600 */
+@media only screen and (min-width: 600px){
+  .containerText {
+    text-align: center;
+    direction: rtl;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .containerText {
+    text-align: right;
+    direction: rtl;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .containerText {
+    text-align: right;
+    direction: rtl;
+  }
+}

@@ -3,13 +3,11 @@
     display: flex;
     flex-direction: row;
 }
-.aboutContainer {
-/*     display: flex;
-    flex-direction: row;
-    min-height: 100vh; */
+ .aboutContainer {
     margin: 1rem auto;
     padding-left: 19rem;
-}
+} 
+
 .personal {
     height: 600px;
     width: auto;
@@ -96,9 +94,15 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .aboutContainer {
+    /* .aboutContainer {
         padding-left: 17rem;
         margin: 1rem auto;
+    } */
+    .aboutContainer {
+        position: absolute;
+        left: 16rem;
+        top: 1rem;
+
     }
     .personal {
         height: 510px;
@@ -122,9 +126,14 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .aboutContainer {
+    /* .aboutContainer {
         padding-left: 17rem;
         margin: 1rem auto;
+    } */
+    .aboutContainer {
+        position: absolute;
+        left: 17rem;
+        top: 1rem;
     }
     .personal {
         height: 610px;
