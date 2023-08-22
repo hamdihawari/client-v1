@@ -2,12 +2,10 @@
 import React, { useEffect, useState } from 'react'
 import style from './style.module.css'
 import rtlStyle from './rtl.module.css'
-import useMediaQuery from '../../Hooks/useMediaQuery'
 import { useTranslation } from 'react-i18next'
 import axios from 'axios'
 
 const About = () => {
-    const isLargeMobile = useMediaQuery('(min-width: 400px)')
     const { i18n } = useTranslation()
     const [data, setData] = useState([])
     const currentLanguage = i18n.language
@@ -26,7 +24,6 @@ const About = () => {
 
     return (
         <div className={style.about}>
-            {/* {console.log(data)} */}
             {data.map((item) => {
                 return (
                     <div key={item.id} className={style.aboutContainer}>
