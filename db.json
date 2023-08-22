@@ -34,7 +34,8 @@
         "email": "Email:",
         "message": "Message!",
         "title": "Get in touch!",
-        "description": "If you have any question please email me, I'll reply as soon as possible:"
+        "description": "If you have any question please email me, I'll reply as soon as possible:",
+        "submit": "submit"
       }
     ],
     "de": [
@@ -45,7 +46,8 @@
         "email": "Email:",
         "message": "Nachricht!",
         "title": "In Kontakt kommen!",
-        "description": "Falls Sie eine Fragen stellen möchten, senden Sie mir bitte eine E-Mail. Ich werde so schnell wie möglich antworten:"
+        "description": "Falls Sie eine Fragen stellen möchten, senden Sie mir bitte eine E-Mail. Ich werde so schnell wie möglich antworten:",
+        "submit": "absenden"
       }
     ],
     "ar": [
@@ -57,7 +59,8 @@
         "message": "رسالة!",
         "photo": "https://www.linkpicture.com/q/personalPhoto.jpeg",
         "title": "تواصل معنا",
-        "description": ":إذا كان لديك أي سؤال، يرجى مراسلتي عبر البريد الإلكتروني وسأرد في أقرب وقت ممكن"
+        "description": ":إذا كان لديك أي سؤال، يرجى مراسلتي عبر البريد الإلكتروني وسأرد في أقرب وقت ممكن",
+        "submit": "إرسال"
       }
     ]
   },
