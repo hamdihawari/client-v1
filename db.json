@@ -64,6 +64,154 @@
       }
     ]
   },
+  "SidebarData": {
+    "en": [
+      {
+        "id": 1,
+        "title": "Project",
+        "link": "/project",
+        "icon": "FingerprintIcon"
+      },
+      {
+        "id": 2,
+        "title": "Photography+",
+        "link": "/",
+        "icon": "CameraAltIcon",
+        "item": [
+          {
+            "id": 3,
+            "title": "Portrait / Love",
+            "link": "/portrait"
+          },
+          {
+            "id": 4,
+            "title": "Portrait / Street",
+            "link": "Street"
+          },
+          {
+            "id": 5,
+            "title": "Landscape",
+            "link": "/landscape"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "About",
+        "link": "/about",
+        "icon": "AccountCircleIcon"
+      },
+      {
+        "id": 7,
+        "title": "Contact",
+        "link": "/contact",
+        "icon": "CallIcon"
+      }
+    ],
+    "de": [
+      {
+        "id": 1,
+        "title": "ProjeKt",
+        "link": "/project",
+        "icon": "FingerprintIcon"
+      },
+      {
+        "id": 2,
+        "title": "Fotografie+",
+        "link": "/",
+        "icon": "CameraAltIcon",
+        "item": [
+          {
+            "id": 3,
+            "title": "Porträt / Liebe",
+            "link": "/portrait"
+          },
+          {
+            "id": 4,
+            "title": "Porträt / Straße",
+            "link": "Street"
+          },
+          {
+            "id": 5,
+            "title": "Landschaft",
+            "link": "/landscape"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Über",
+        "link": "/about",
+        "icon": "AccountCircleIcon"
+      },
+      {
+        "id": 7,
+        "title": "KontaKt",
+        "link": "/contact",
+        "icon": "CallIcon"
+      }
+    ],
+    "ar": [
+      {
+        "id": 1,
+        "title": "مشاريع",
+        "link": "/project",
+        "icon": "FingerprintIcon"
+      },
+      {
+        "id": 2,
+        "title": "تصوير +",
+        "link": "/",
+        "icon": "CameraAltIcon",
+        "item": [
+          {
+            "id": 3,
+            "title": "صورة / حب",
+            "link": "/portrait"
+          },
+          {
+            "id": 4,
+            "title": "صورة / شارع",
+            "link": "Street"
+          },
+          {
+            "id": 5,
+            "title": "منظر طبيعي",
+            "link": "/landscape"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "حول",
+        "link": "/about",
+        "icon": "AccountCircleIcon"
+      },
+      {
+        "id": 7,
+        "title": "تواصل",
+        "link": "/contact",
+        "icon": "CallIcon"
+      }
+    ]
+  },
+  "socialMediaicons": [
+    {
+      "id": 1,
+      "icon": "MailOutlineIcon",
+      "link": "http://gmx.net"
+    },
+    {
+      "id": 2,
+      "icon": "TwitterIcon",
+      "link": "http://twitter.com"
+    },
+    {
+      "id": 3,
+      "icon": "InstagramIcon",
+      "link": "http://instagram.com"
+    }
+  ],
   "projectCard": [
     {
       "id": 1,

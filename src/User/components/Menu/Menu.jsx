@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import style from './style.module.css';
 import { Link } from 'react-router-dom';
-import { SidebarData, icons } from '../Sidenav/SidebarData';
+import { SidebarData, socialMediaicons } from '../Sidenav/SidebarData';
 
 export const Menu = () => {
   const [menuToggle, setMenuToggle] = useState(false);
@@ -67,7 +67,7 @@ export const Menu = () => {
             ))}
           <div className={style.media}>
             {menuToggle &&
-              icons.map((val) => (
+              socialMediaicons.map((val) => (
                 <Link key={val.id} to={val.link} className={style.mediaList}>
                   {val.icon}
                 </Link>

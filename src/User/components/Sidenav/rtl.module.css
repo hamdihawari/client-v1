@@ -1,0 +1,12 @@
+.rtlSidebarList .rtlRow .rtlTitle {
+    /*  direction: ltr; */
+    direction: rtl;
+    font-size: 17px;
+}
+
+.rtlSidebarList .rtlRow {
+    width: 52%;
+    margin-left: 4.6rem;
+    height: 35px;
+    margin-left: 4rem;
+}

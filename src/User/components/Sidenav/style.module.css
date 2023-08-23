@@ -33,14 +33,14 @@
     place-items: center;
 
 } 
-.sidebarList .row #title {
+.sidebarList .row .title {
     flex: 70%;
     color: rgb(44, 44, 44);
     text-decoration: none;
     font-family: 'PT Serif', serif;
     font-size: 14px;
 }
-.sidebarList #title:hover {
+.sidebarList .title:hover {
     cursor: pointer;
     opacity: 0.3;
 }

@@ -54,7 +54,7 @@ export const SidebarData = [
     },
 ]
 
-export const icons = [
+export const socialMediaicons = [
     {
         id: 200,
         icon: <MailOutlineIcon />,
