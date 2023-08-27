@@ -1,0 +1,85 @@
+.projectContent {
+    width: 70%;
+}
+
+.cardBody .cardTitle {
+    direction: ltr;
+    text-align: right;
+    font-family: 'DroidArabicKufiRegular';
+    font-weight: bold;
+    width: 70%;
+    font-size: 28px;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.cardBody .cardText {
+    margin-top: 0.8rem;
+    font-size: 16px;
+    direction: ltr;
+    text-align: right;
+}
+
+.cardBody .cardFooter {
+    direction: ltr;
+    float: right;
+    width: 73%;
+    margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {}
+
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 992px) {
+    /* .cardBody .cardTitle {
+        direction: ltr;
+        text-align: right;
+        font-family: 'DroidArabicKufiRegular';
+        font-size: 21px;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+
+    .cardBody .cardText {
+        margin-top: 0.5rem;
+        font-size: 12px;
+        width: 70%;
+        direction: ltr;
+        text-align: right;
+    }
+
+    .cardBody .cardFooter {
+        direction: ltr;
+        float: right;
+        width: 85%;
+    }*/
+}
+
+@media only screen and (min-width: 1200px) {
+    /* .cardBody .cardTitle {
+        width: 70%;
+        font-family: 'DroidArabicKufiRegular';
+        font-size: 28px;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+
+    .cardBody .cardText {
+        margin-top: 0.3rem;
+        font-size: 16px;
+        width: 70%;
+        direction: ltr;
+        text-align: right;
+        margin-top: 1rem;
+
+    }
+
+    .cardBody .cardFooter {
+        direction: ltr;
+        float: right;
+        width: 73%;
+        margin-top: 1.1rem;
+
+    } */
+}

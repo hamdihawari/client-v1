@@ -2,11 +2,11 @@ import style from './style.module.css'
 import ProjectItem from '../ProjectItem/ProjectItem'
 import { useContext } from 'react'
 import React, { memo } from 'react';
-import { GalleryContext } from '../../../Context/Context';
+import { ProjectContext } from '../../../Context/Context';
+/* import { GalleryContext } from '../../../Context/Context'; */
 
 const Project = () => {
-  const {project} = useContext(GalleryContext)
-
+  const {project} = useContext(ProjectContext)
   return (
     <>
     <div className={style.project}>

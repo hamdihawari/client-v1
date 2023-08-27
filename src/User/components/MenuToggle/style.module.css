@@ -1,9 +1,12 @@
 .menuToggle{
-    left: 43%;
-    position: absolute;
+    margin-left: 3.2rem;
 }
+
 .controll {
     background-color: rgb(255, 255, 255);
+    position: absolute;
+    display: inline-grid;
+    z-index: 1000;
   }
   
 .menuNav{
@@ -15,7 +18,8 @@
 .menuList{
     text-decoration: none;
     color: black;
-    padding: 12px;
+    padding: 14px;
+    font-size: 17px;
 }
 
 .menuNav:hover {
@@ -28,5 +32,43 @@
 }
 
 .icon{
-    padding-right: 10px;
+    padding: 10px;
+}
+
+/* Extra small devices (phones, 600px and down) DOWN 600 */
+@media only screen and (max-width: 600px){
+    .menuToggle{
+        margin-left: 3rem;
+    }
+    .menuList{
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) UP 601 */
+@media only screen and (min-width: 600px){
+    .menuToggle{
+        margin-left: 2.4rem;
+    }
+    .menuList{
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .menuList{
+        font-size: 15px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }

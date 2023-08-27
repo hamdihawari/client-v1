@@ -1,4 +1,5 @@
 import './App.css'
+import './fonts/fonts.css' 
 import Sidebar from './User/components/Sidenav/Sidebar'
 import About from './User/pages/About/About'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
