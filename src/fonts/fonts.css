@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'cairo';
+  src: url('../fonts/cairo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'heba';
+  src: url('../fonts/heba.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

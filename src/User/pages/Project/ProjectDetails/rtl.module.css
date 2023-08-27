@@ -1,0 +1,20 @@
+.projectDetails {
+    direction: rtl;
+    text-align: right;
+}
+
+.projectDetailsContener .title {
+    text-align: right;
+    margin-right: 12px;
+    font-family: 'DroidArabicKufiRegular';
+}
+
+.projectDetailsContener .data {
+    text-align: right;
+    margin-right: 12px;
+}
+
+.cardDescription {
+    direction: rtl;
+    text-align: right;
+}

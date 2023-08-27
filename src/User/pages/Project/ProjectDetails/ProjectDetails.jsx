@@ -1,29 +1,30 @@
 import { Link, useParams } from 'react-router-dom';
 import { useContext } from 'react';
-import { GalleryContext } from '../../../Context/Context';
+import { ProjectContext } from '../../../Context/Context';
 import style from './style.module.css';
+import rtlStyle from './rtl.module.css'
 
 const ProjectDetails = () => {
   const { id } = useParams();
-  const { project } = useContext(GalleryContext);
+  const { project } = useContext(ProjectContext);
   const filteredProjects = project.filter(p => p.id === Number(id));
+  const { isArabic } = useContext(ProjectContext); 
 
   return (
-    <div className={style.projectDetails}>
+    <div className={`${style.projectDetails} ${isArabic && rtlStyle.projectDetails}`}>
       {filteredProjects.map((val) => (
-        <div key={val.id} className={style.projectDetailsContener}>
-          <div className={style.header}>
+        <div key={val.id} className={`${style.projectDetailsContener} ${isArabic && rtlStyle.projectDetailsContener}`} >
+          <div className={`${style.header} ${isArabic && rtlStyle.header}`}>
           <img src={val.image} alt={val.title} class={style.avatar} />
-          <div>
-          <h2 className={style.headerTitle}>{val.title}</h2>
-          <p className={style.data}>{val.data}</p>
+          <div className={`${style.headerContent} ${isArabic && rtlStyle.headerContent}`}>
+          <h2 className={`${style.title} ${isArabic && rtlStyle.title}`}>{val.title}</h2>
+          <p className={`${style.data} ${isArabic && rtlStyle.data}`}>{val.data}</p>
           </div>
           </div>
-          {/* <Link to={`/project/${id}`} className={style.imgLink}> */}{/* </Link> */}
             <img src={val.image} alt={val.title} width="100%" className={style.img} />
           {val.projectDetails?.map((item) => (
             <div key={item.id}>
-              <p className={style.cardDescription}>{item.cardDescription}</p>
+              <p className={`${style.cardDescription} ${isArabic && rtlStyle.cardDescription}`}>{item.cardDescription}</p>
               {Object.values(item.imageGroup).map((image, index) => (
                 <img key={index} src={image} alt={item.alt} width="100%" className={style.img} />
               ))}

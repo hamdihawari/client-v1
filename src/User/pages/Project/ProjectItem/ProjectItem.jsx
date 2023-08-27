@@ -1,29 +1,35 @@
-import style from './style.module.css';
-import { Link } from 'react-router-dom';
-import React, { useState } from 'react';
-import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import ShareIcon from '@mui/icons-material/Share';
-import { IconButton } from '@mui/material';
-import { MenuToggle } from '../../../components/MenuToggle/MenuToggle';
+import style from './style.module.css'
+import { Link } from 'react-router-dom'
+import React, { useContext, useState } from 'react'
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder'
+import ShareIcon from '@mui/icons-material/Share'
+import { IconButton } from '@mui/material'
+import { MenuToggle } from '../../../components/MenuToggle/MenuToggle'
 import { ScrollToTopButton } from '../../../components/ScrollToTopButton/ScrollToTopButton';
+import { ProjectContext } from '../../../Context/Context'
+import rtlStyle from './rtl.module.css'
 
 export const ProjectItem = ({ id, title, image, description, imageHover, path }) => {
+
+  const { isArabic } = useContext(ProjectContext);
 
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
     setIsHovered(true);
-  };
+  }
 
   const handleMouseLeave = () => {
     setIsHovered(false);
-  };
+  }
 
   return (
-    <div className={style.projectContent}>
-        <Link to={`/project/${id}`} className={style.imgLink}>
+
+    <div className={`${style.projectContent} ${isArabic && rtlStyle.cardBody}`}>
+      <div className={style.imgLink}>
+        <Link to={`/project/${id}`}>
           <img
-            src={isHovered ? imageHover : image }
+            src={isHovered ? imageHover : image}
             alt={title}
             width="100%"
             className={style.img}
@@ -31,20 +37,21 @@ export const ProjectItem = ({ id, title, image, description, imageHover, path })
             onMouseLeave={handleMouseLeave}
           />
         </Link>
-      <div className={style.cardBody}>
-        <h2 className={style.cardTitle}>{title}</h2>
-        <p className={style.cardText}>{description}</p>
-        <div className={style.cardFooter}>
-        <IconButton className={style.icon} id={style.favoriteIcon}>
-          <FavoriteBorderIcon style={{ color: '#000000', fontSize: '26px' }} />
-        </IconButton>
-        <IconButton className={style.icon} id={style.SendIcon}>
-          <ShareIcon style={{ color: '#000000', fontSize: '26px' }}/>
-        </IconButton>
-
-        <MenuToggle/>
-
       </div>
+
+      <div className={`${style.cardBody} ${isArabic && rtlStyle.cardBody}`}>
+        <h2 className={`${style.cardTitle} ${isArabic && rtlStyle.cardTitle}`}>{title}</h2>
+
+        <p className={`${style.cardText} ${isArabic && rtlStyle.cardText}`}>{description}</p>
+        <div className={`${style.cardFooter} ${isArabic && rtlStyle.cardFooter}`}>
+          <IconButton className={style.icon} id={style.favoriteIcon}>
+            <FavoriteBorderIcon style={{ color: '#000000', fontSize: '26px' }} />
+          </IconButton>
+          <IconButton className={style.icon} id={style.SendIcon}>
+            <ShareIcon style={{ color: '#000000', fontSize: '26px' }} />
+          </IconButton>
+          <MenuToggle />
+        </div>
       </div>
       <ScrollToTopButton />
     </div>

@@ -2,6 +2,11 @@
   text-align: right;
   direction: rtl;
 }
+.titlecontent .title{
+  font-family: 'DroidArabicKufiRegular';
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* Extra small devices (phones, 600px and down) DOWN 600 */
 @media only screen and (max-width: 600px){
@@ -29,5 +34,8 @@
   .containerText {
     text-align: right;
     direction: rtl;
+  }
+  .titlecontent .title{
+      font-size: 28px;
   }
 }

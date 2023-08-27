@@ -10,7 +10,7 @@ import { useTranslation } from 'react-i18next'
 
 const Contact = () => {
 
-  const { i18n, t } = useTranslation();
+  const { i18n } = useTranslation();
   const [data, setData] = useState([])
   const currentLanguage = i18n.language
   const contactDataUrl = "http://localhost:9000/contactData"

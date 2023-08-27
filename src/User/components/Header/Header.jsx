@@ -60,7 +60,10 @@ export const Header = () => {
   };
 
   return (
+
     <>
+      {!isLargeMobile && <LanguageSwitcher />}
+
       <div className={style.header}>
         {isLargeMobile && <h4 className={style.title}>Hamdi Hawari</h4>}
         {isLargeMobile && (
@@ -68,10 +71,9 @@ export const Header = () => {
             <SearchBar onSearchBarChange={handleSearchInputChange} customStyle={customHeaderStyle} onKeyDown={handleKeyDown} />
           </div>
         )}
+
         {isLargeMobile && <Menu />}
-        
       </div>
-      {!isLargeMobile && <LanguageSwitcher />}
     </>
   )
 }
