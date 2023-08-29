@@ -7,14 +7,15 @@ import { IconButton } from '@mui/material'
 
 const SearchBar = ({ onSearchBarChange, customStyle, onCityChange, onKeyDown }) => {
   const [searchTerm, setSearchTerm] = useState('')
-  const { landscapeGallery } = useContext(GalleryContext)
-  const { streetGallery } = useContext(GalleryContext)
+  const { landscapeGallery, streetGallery, portraitGallery } = useContext(GalleryContext)
   const [selectedCity, setSelectedCity] = useState('')
 
   // Get unique city names using a Set
-  const uniqueCities = [...new Set([...landscapeGallery.map(item => item.city), ...streetGallery.map(item => item.city)])];
+  const uniqueCities = [...new Set([...landscapeGallery.map(item => item.city), ...portraitGallery.map(item => item.city), ...streetGallery.map(item => item.city)])]
+
   // Create the options array with unique city names
   const options = uniqueCities.map(city => ({ value: city, label: city }))
+
   // Customize the no options message
   const customNoOptionsMessage = () => "No options available, select City"
 

@@ -35,9 +35,9 @@ export const GalleryStore = ({ children }) => {
 
   useEffect(() => {
     axios.get(streetImageUrl).then((res) => {
-      setStreetGallery(res.data)
+      setStreetGallery(res.data[currentLanguage])
     })
-  }, [])
+  }, [currentLanguage])
 
   useEffect(() => {
     axios.get(portraitImageUrl).then((res) => {
