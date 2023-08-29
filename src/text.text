@@ -1,0 +1,478 @@
+"landscapeImage": {
+    "en": [
+      {
+        "id": 1,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/Amsterdam-fluss.png",
+        "thumbnail": "https://www.linkpicture.com/q/Amsterdam-fluss.png",
+        "taken": "Mar 20, 2022",
+        "uploaded": "almost 3 yrs ago",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm  f/2,2  ISO 125",
+        "category": "landscape, building",
+        "originalAlt": "alt",
+        "title": "Amsterdam - Netherlands",
+        "likes": 5,
+        "city": "Netherlands"
+      },
+      {
+        "id": 2,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/Friedrisstr-Kirsche_1.png",
+        "thumbnail": "https://www.linkpicture.com/q/Friedrisstr-Kirsche_1.png",
+        "taken": "Juli 28, 2019",
+        "uploaded": "almost 3 yrs ago",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Berlin Cathedral - Berlin",
+        "likes": 10,
+        "city": "Deutschland"
+      },
+      {
+        "id": 3,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/friedrisstr.png",
+        "thumbnail": "https://www.linkpicture.com/q/friedrisstr.png",
+        "taken": "Mar 11, 2018",
+        "uploaded": "almost 3 yrs ago",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Museum Island - Berlin",
+        "likes": 0,
+        "city": "Deutschland"
+      },
+      {
+        "id": 4,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/Sanssouci-Palace.png",
+        "thumbnail": "https://www.linkpicture.com/q/Sanssouci-Palace.png",
+        "taken": "Mar 22, 2018",
+        "uploaded": "almost 3 yrs ago",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Sanssouci Palace fluss - Berlin",
+        "likes": 15,
+        "city": "Deutschland"
+      },
+      {
+        "id": 5,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/potsdam-schloss-2.png",
+        "thumbnail": "https://www.linkpicture.com/q/potsdam-schloss-2.png",
+        "taken": "Mar 20, 2018",
+        "uploaded": "almost 3 yrs ago",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Sanssouci Palace - Berlin",
+        "likes": 2,
+        "city": "Deutschland"
+      },
+      {
+        "id": 6,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/potsdam-schloss.png",
+        "thumbnail": "https://www.linkpicture.com/q/potsdam-schloss.png",
+        "taken": "Mar 24, 2018",
+        "uploaded": "almost 3 yrs ago",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Sanssouci Palace - Berlin",
+        "likes": 6,
+        "city": "Deutschland"
+      },
+      {
+        "id": 7,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/Rhizomatische.png",
+        "thumbnail": "https://www.linkpicture.com/q/Rhizomatische.png",
+        "taken": "Mar 18, 2018",
+        "uploaded": "almost 3 yrs ago",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Rhizomatische Bruecke - Berlin",
+        "likes": 1,
+        "city": "Deutschland"
+      },
+      {
+        "id": 8,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/triptowepark.png",
+        "thumbnail": "https://www.linkpicture.com/q/triptowepark.png",
+        "taken": "Mar 05, 2018",
+        "uploaded": "almost 3 yrs ago",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Treptower park - Berlin",
+        "likes": 3,
+        "city": "Deutschland"
+      },
+      {
+        "id": 9,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/musium-island.png",
+        "thumbnail": "https://www.linkpicture.com/q/musium-island.png",
+        "taken": "Mar 05, 2018",
+        "uploaded": "almost 3 yrs ago",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Museum Island - Berlin",
+        "likes": 6,
+        "city": "Deutschland"
+      }
+    ],
+    "de": [
+      {
+        "id": 1,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/Amsterdam-fluss.png",
+        "thumbnail": "https://www.linkpicture.com/q/Amsterdam-fluss.png",
+        "taken": "März 20, 2022",
+        "uploaded": "vor fast 3 Jahren",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm  f/2,2  ISO 125",
+        "category": "landscape, building",
+        "originalAlt": "alt",
+        "title": "Amsterdam - Netherlands",
+        "likes": 5,
+        "city": "Netherlands"
+      },
+      {
+        "id": 2,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/Friedrisstr-Kirsche_1.png",
+        "thumbnail": "https://www.linkpicture.com/q/Friedrisstr-Kirsche_1.png",
+        "taken": "Juli 28, 2019",
+        "uploaded": "vor fast 3 Jahren",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Berlin Cathedral - Berlin",
+        "likes": 10,
+        "city": "Deutschland"
+      },
+      {
+        "id": 3,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/friedrisstr.png",
+        "thumbnail": "https://www.linkpicture.com/q/friedrisstr.png",
+        "taken": "Mar 11, 2018",
+        "uploaded": "vor fast 5 Jahren",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Museum Island - Berlin",
+        "likes": 0,
+        "city": "Deutschland"
+      },
+      {
+        "id": 4,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/Sanssouci-Palace.png",
+        "thumbnail": "https://www.linkpicture.com/q/Sanssouci-Palace.png",
+        "taken": "Mar 22, 2018",
+        "uploaded": "vor fast 4 Jahren",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Sanssouci Palace fluss - Berlin",
+        "likes": 15,
+        "city": "Deutschland"
+      },
+      {
+        "id": 5,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/potsdam-schloss-2.png",
+        "thumbnail": "https://www.linkpicture.com/q/potsdam-schloss-2.png",
+        "taken": "Mar 20, 2018",
+        "uploaded": "vor fast 6 Jahren",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Sanssouci Palace - Berlin",
+        "likes": 2,
+        "city": "Deutschland"
+      },
+      {
+        "id": 6,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/potsdam-schloss.png",
+        "thumbnail": "https://www.linkpicture.com/q/potsdam-schloss.png",
+        "taken": "Mar 24, 2018",
+        "uploaded": "vor fast 5 Jahren",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Sanssouci Palace - Berlin",
+        "likes": 6,
+        "city": "Deutschland"
+      },
+      {
+        "id": 7,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/Rhizomatische.png",
+        "thumbnail": "https://www.linkpicture.com/q/Rhizomatische.png",
+        "taken": "Mar 18, 2018",
+        "uploaded": "vor fast 3 Jahren",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Rhizomatische Bruecke - Berlin",
+        "likes": 1,
+        "city": "Deutschland"
+      },
+      {
+        "id": 8,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/triptowepark.png",
+        "thumbnail": "https://www.linkpicture.com/q/triptowepark.png",
+        "taken": "Mar 05, 2018",
+        "uploaded": "vor fast 2 Jahren",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Treptower park - Berlin",
+        "likes": 3,
+        "city": "Deutschland"
+      },
+      {
+        "id": 9,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/musium-island.png",
+        "thumbnail": "https://www.linkpicture.com/q/musium-island.png",
+        "taken": "Mar 05, 2018",
+        "uploaded": "vor fast 3 Jahren",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Museum Island - Berlin",
+        "likes": 6,
+        "city": "Deutschland"
+      }
+    ],
+    "ar": [
+      {
+        "id": 1,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/Amsterdam-fluss.png",
+        "thumbnail": "https://www.linkpicture.com/q/Amsterdam-fluss.png",
+        "taken": "Mar 20, 2022",
+        "uploaded": "منذ ٣ سنوات",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm  f/2,2  ISO 125",
+        "category": "landscape, building",
+        "originalAlt": "alt",
+        "title": "Amsterdam - Netherlands",
+        "likes": 5,
+        "city": "Netherlands"
+      },
+      {
+        "id": 2,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/Friedrisstr-Kirsche_1.png",
+        "thumbnail": "https://www.linkpicture.com/q/Friedrisstr-Kirsche_1.png",
+        "taken": "Juli 28, 2019",
+        "uploaded": "منذ ٣ سنوات",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Berlin Cathedral - Berlin",
+        "likes": 10,
+        "city": "Deutschland"
+      },
+      {
+        "id": 3,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/friedrisstr.png",
+        "thumbnail": "https://www.linkpicture.com/q/friedrisstr.png",
+        "taken": "Mar 11, 2018",
+        "uploaded": "منذ ٤ سنوات",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Museum Island - Berlin",
+        "likes": 0,
+        "city": "Deutschland"
+      },
+      {
+        "id": 4,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/Sanssouci-Palace.png",
+        "thumbnail": "https://www.linkpicture.com/q/Sanssouci-Palace.png",
+        "taken": "Mar 22, 2018",
+        "uploaded": "منذ ٥ سنوات",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Sanssouci Palace fluss - Berlin",
+        "likes": 15,
+        "city": "Deutschland"
+      },
+      {
+        "id": 5,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/potsdam-schloss-2.png",
+        "thumbnail": "https://www.linkpicture.com/q/potsdam-schloss-2.png",
+        "taken": "Mar 20, 2018",
+        "uploaded": "منذ ٣ سنوات",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Sanssouci Palace - Berlin",
+        "likes": 2,
+        "city": "Deutschland"
+      },
+      {
+        "id": 6,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/potsdam-schloss.png",
+        "thumbnail": "https://www.linkpicture.com/q/potsdam-schloss.png",
+        "taken": "Mar 24, 2018",
+        "uploaded": "منذ ٦ سنوات",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Sanssouci Palace - Berlin",
+        "likes": 6,
+        "city": "Deutschland"
+      },
+      {
+        "id": 7,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/Rhizomatische.png",
+        "thumbnail": "https://www.linkpicture.com/q/Rhizomatische.png",
+        "taken": "Mar 18, 2018",
+        "uploaded": "منذ ٦ سنوات",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Rhizomatische Bruecke - Berlin",
+        "likes": 1,
+        "city": "Deutschland"
+      },
+      {
+        "id": 8,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/triptowepark.png",
+        "thumbnail": "https://www.linkpicture.com/q/triptowepark.png",
+        "taken": "Mar 05, 2018",
+        "uploaded": "منذ ٥ سنوات",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Treptower park - Berlin",
+        "likes": 3,
+        "city": "Deutschland"
+      },
+      {
+        "id": 9,
+        "path": "landscapeImage",
+        "original": "https://www.linkpicture.com/q/musium-island.png",
+        "thumbnail": "https://www.linkpicture.com/q/musium-island.png",
+        "taken": "Mar 05, 2018",
+        "uploaded": "منذ سنتين",
+        "camera": "Canon EOS 6D Mark II",
+        "objective": "85 mm f/2,2 ISO 125",
+        "category": "landscape, building",
+        "title": "Museum Island - Berlin",
+        "likes": 6,
+        "city": "Deutschland"
+      }
+    ]
+  },
+
+
+
+
+
+  import React, { memo, useContext, useState } from 'react';
+import style from './style.module.css';
+import { Link } from 'react-router-dom';
+import { GalleryContext, ProjectContext } from '../../../Context/Context';
+import IconButton from '@mui/material/IconButton';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import ThumbDownIcon from '@mui/icons-material/ThumbDown';
+import useMediaQuery from '../../../Hooks/useMediaQuery';
+import SearchBar from '../../../components/SearchBar/SearchBar';
+import {ScrollToTopButton} from '../../../components/ScrollToTopButton/ScrollToTopButton'
+
+
+const Portrait = () => {
+  const { portraitGallery } = useContext(GalleryContext);
+  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedCity, setSelectedCity] = useState('');
+  const isLargeMobile = useMediaQuery('(min-width:992px)'); // Laptop 
+  const [searchTerm, setSearchTerm] = useState('');
+  const { isArabic } = useContext(ProjectContext);
+
+  const handleImageClick = (index) => {
+    setSelectedImage(portraitGallery[index]);
+  };
+
+  const handleImageHover = (index) => {
+    setSelectedImage(portraitGallery[index]);
+  };
+
+  const handleImageLeave = () => {
+    setSelectedImage(null);
+  };
+  const handleSearchInputChange = (e) => {
+    const searchTermValue = e.target.value;
+    setSearchTerm(searchTermValue);
+  };
+
+  // FILTER
+  const filteredGallery = portraitGallery.filter(
+    (val) =>
+      (searchTerm === '' || val.title.toLowerCase().includes(searchTerm.toLowerCase())) &&
+      (selectedCity === '' || val.city === selectedCity)
+  );
+
+  return (
+    <div className={style.portrait}>
+      <div className={style.portraitHeader}>
+        <h1 className={style.header}>{filteredGallery.header} &#128525;</h1>
+        {isLargeMobile && <SearchBar onSearchBarChange={handleSearchInputChange} /* customStyle={customHeaderStyle} */ onCityChange={setSelectedCity} />}
+      </div>
+      <div className={style.portraitContent}>
+        {filteredGallery.map((item, index) => (
+          <div key={item.id} className={style.gallery}>
+            <div
+              className={style.single}
+              onMouseEnter={() => handleImageHover(index)}
+              onMouseLeave={handleImageLeave}
+            >
+              <Link to={`/portrait/portraitImage/${index}`} onClick={() => handleImageClick(index)}>
+                <img src={item.original} alt='gallery' className={style.img} />
+                {selectedImage === item && (
+                  <div className={style.imageOverlay}>
+                    <div className={style.imageTitle}>{item.title}</div>
+                    <div className={style.buttonGroup}>
+                      <IconButton className={style.likeButton}>
+                        <FavoriteIcon style={{ color: '#FFFFFF', fontSize: '28px' }} />
+                      </IconButton>
+                      <IconButton className={style.likeButton}>
+                        <ThumbDownIcon style={{ color: '#FFFFFF', fontSize: '28px' }} />
+                      </IconButton>
+                    </div>
+                  </div>
+                )}
+              </Link>
+            </div>
+          </div>
+        ))}
+      </div>
+      <ScrollToTopButton />
+    </div>
+  );
+};
+
+export default memo(Portrait);
+

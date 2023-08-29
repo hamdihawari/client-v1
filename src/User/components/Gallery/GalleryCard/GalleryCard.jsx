@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import style from './style.module.css';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShareIcon from '@mui/icons-material/Share';
@@ -7,6 +7,8 @@ import CameraAltIcon from '@mui/icons-material/CameraAlt';
 import CameraIcon from '@mui/icons-material/Camera';
 import axios from 'axios';
 import { IconButton } from '@mui/material';
+import { ProjectContext } from '../../../Context/Context';
+import rtlStyle from './rtl.module.css'
 
 const GalleryCard = ({ gallery, currentImageIndex }) => {
   if (!gallery || gallery.length === 0) {
@@ -19,6 +21,7 @@ const GalleryCard = ({ gallery, currentImageIndex }) => {
 
   const { id, title, taken, uploaded, camera, objective, category } = val;
   const [likeCount, setLikeCount] = useState(0);
+  const { isArabic } = useContext(ProjectContext);
 
   // POST LIKE //
   const handleLikeClick = () => {
@@ -37,7 +40,7 @@ const GalleryCard = ({ gallery, currentImageIndex }) => {
   };
 
   return (
-    <div className={style.card}>
+    <div className={`${style.card} ${isArabic && rtlStyle.card}`}>
       <div className={style.cardHeader}>
         <IconButton className={style.iconsLink} onClick={handleLikeClick}  >
           <FavoriteBorderIcon style={{ color: '#000000', fontSize: '28px' }} />
@@ -51,9 +54,9 @@ const GalleryCard = ({ gallery, currentImageIndex }) => {
       </div>
       <div className={style.cardContent}>
         <ul>
-          <nav className={style.cardBody}>
+          <nav className={`${style.cardBody} ${isArabic && rtlStyle.cardBody}`}>
             <h2 className={style.title}>{title}</h2>
-            <h4 className={style.cameraInfo}>Taken: {taken} - Uploaded: {uploaded}</h4>
+            <h4 className={`${style.cameraInfo} ${isArabic && rtlStyle.cameraInfo}`}>Taken: {taken} - Uploaded: {uploaded}</h4>
             <h4 className={style.cameraInfo} id={style.cameraInfo}>
               <CameraAltIcon id={style.contentIcons} />
               {camera}
