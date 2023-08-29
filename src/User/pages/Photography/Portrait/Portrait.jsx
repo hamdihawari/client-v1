@@ -1,7 +1,7 @@
 import React, { memo, useContext, useState } from 'react';
 import style from './style.module.css';
 import { Link } from 'react-router-dom';
-import { GalleryContext, ProjectContext } from '../../../Context/Context';
+import { GalleryContext } from '../../../Context/Context';
 import IconButton from '@mui/material/IconButton';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ThumbDownIcon from '@mui/icons-material/ThumbDown';
@@ -11,12 +11,11 @@ import {ScrollToTopButton} from '../../../components/ScrollToTopButton/ScrollToT
 
 
 const Portrait = () => {
-  const { portraitGallery } = useContext(GalleryContext);
+  const { portraitGallery, isArabic } = useContext(GalleryContext);
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedCity, setSelectedCity] = useState('');
   const isLargeMobile = useMediaQuery('(min-width:992px)'); // Laptop 
   const [searchTerm, setSearchTerm] = useState('');
-  const { isArabic } = useContext(ProjectContext);
 
   const handleImageClick = (index) => {
     setSelectedImage(portraitGallery[index]);
