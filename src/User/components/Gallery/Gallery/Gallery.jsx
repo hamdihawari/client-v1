@@ -4,22 +4,26 @@ import axios from 'axios';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import { useParams } from 'react-router-dom';
-
 import GalleryCard from '../GalleryCard/GalleryCard';
+import { useTranslation } from 'react-i18next'
 
 const Gallery = () => {
   const slideshowRef = useRef();
-  const { _gallery, index } = useParams(); 
+  const { _gallery, index } = useParams();
   const galleryUrl = `http://localhost:9000/${_gallery}`;
   const [gallery, setGallery] = useState([]);
   const [currentImageIndex, setCurrentImageIndex] = useState(parseInt(index, 10));
   const [selectedIndex, setSelectedIndex] = useState(0);
 
+  const { i18n } = useTranslation()
+  const currentLanguage = i18n.language
+  const isArabic = currentLanguage === 'ar'
+
   useEffect(() => {
     axios.get(galleryUrl).then((res) => {
-      setGallery(res.data);
+      setGallery(res.data[currentLanguage]);
     });
-  }, [_gallery]);
+  }, [_gallery, currentLanguage]);
 
   const handleThumbnailClick = (event, index) => {
     setCurrentImageIndex(index);
