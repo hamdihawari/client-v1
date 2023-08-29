@@ -29,9 +29,9 @@ export const GalleryStore = ({ children }) => {
 
   useEffect(() => {
     axios.get(landscapeImageUrl).then((res) => {
-      setLandscapetGallery(res.data)
+      setLandscapetGallery(res.data[currentLanguage])
     })
-  }, [])
+  }, [currentLanguage])
 
   useEffect(() => {
     axios.get(streetImageUrl).then((res) => {
