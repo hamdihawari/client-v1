@@ -1022,6 +1022,8 @@
     "en":[
       {
         "id": 1,
+        "headerTitle": "Landscape Galerie", 
+        "smile": "😍",
         "path": "landscapeImage",
         "original": "https://www.linkpicture.com/q/Amsterdam-fluss.png",
         "thumbnail": "https://www.linkpicture.com/q/Amsterdam-fluss.png",
@@ -1151,6 +1153,8 @@
     "de":[
       {
         "id": 1,
+        "headerTitle": "Landschaft Galerie", 
+        "smile": "😍",
         "path": "landscapeImage",
         "original": "https://www.linkpicture.com/q/Amsterdam-fluss.png",
         "thumbnail": "https://www.linkpicture.com/q/Amsterdam-fluss.png",
@@ -1280,6 +1284,8 @@
     "ar":[
       {
         "id": 1,
+        "headerTitle": "معرض المناظر الطبيعية", 
+        "smile": "😍",
         "path": "landscapeImage",
         "original": "https://www.linkpicture.com/q/Amsterdam-fluss.png",
         "thumbnail": "https://www.linkpicture.com/q/Amsterdam-fluss.png",
@@ -1411,6 +1417,8 @@
     "en": [
       {
         "id": 1,
+        "headerTitle": "Street Gallery", 
+        "smile": "😍",
         "path": "streetImage",
         "original": "https://www.linkpicture.com/q/AlexanderPlatz-2_1.png",
         "thumbnail": "https://www.linkpicture.com/q/AlexanderPlatz-2_1.png",
@@ -1665,6 +1673,8 @@
     "de":[
       {
         "id": 1,
+        "headerTitle": "Straße Gallery", 
+        "smile": "😍",
         "path": "streetImage",
         "original": "https://www.linkpicture.com/q/AlexanderPlatz-2_1.png",
         "thumbnail": "https://www.linkpicture.com/q/AlexanderPlatz-2_1.png",
@@ -1919,6 +1929,8 @@
     "ar":[
       {
         "id": 1,
+        "headerTitle": "معرض الشارع", 
+        "smile": "😍",
         "path": "streetImage",
         "original": "https://www.linkpicture.com/q/AlexanderPlatz-2_1.png",
         "thumbnail": "https://www.linkpicture.com/q/AlexanderPlatz-2_1.png",

@@ -8,10 +8,11 @@ import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 import SearchBar from '../../../components/SearchBar/SearchBar';
 import useMediaQuery from '../../../Hooks/useMediaQuery';
 import {ScrollToTopButton} from '../../../components/ScrollToTopButton/ScrollToTopButton'
+import rtlStyle from './rtl.module.css'
 
 
 const Landscape = () => {
-  const { landscapeGallery } = useContext(GalleryContext);
+  const { landscapeGallery, isArabic } = useContext(GalleryContext);
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedCity, setSelectedCity] = useState('');
   const isLargeMobile = useMediaQuery('(min-width:992px)'); // Laptop 
@@ -42,9 +43,11 @@ const Landscape = () => {
 
   return (
     <div className={style.landscape}>
-      <div className={style.landscapeHeader}>
-        <h1 className={style.header}>Landscape Gallery &#128525;</h1>
-        {isLargeMobile && <SearchBar onSearchBarChange={handleSearchInputChange} /* customStyle={customHeaderStyle} */ onCityChange={setSelectedCity}/>}
+        <div className={`${style.landscapeHeader} ${isArabic && rtlStyle.landscapeHeader}`}>
+        {landscapeGallery.map(val =>{
+          return<h1 className={`${style.header} ${isArabic && rtlStyle.header}`}>{val.headerTitle} {val.smile}</h1>
+        })}
+        {isLargeMobile && <SearchBar onSearchBarChange={handleSearchInputChange} /* customStyle={customHeaderStyle} */ onCityChange={setSelectedCity} />}
       </div>
       <div className={style.landscapeContent}>
         {filteredGallery.map((item, index) => (
