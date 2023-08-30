@@ -45,7 +45,7 @@ const Landscape = () => {
     <div className={style.landscape}>
         <div className={`${style.landscapeHeader} ${isArabic && rtlStyle.landscapeHeader}`}>
         {landscapeGallery.map(val =>{
-          return<h1 className={`${style.header} ${isArabic && rtlStyle.header}`}>{val.headerTitle} {val.smile}</h1>
+          return<h1 key={val.id} className={`${style.header} ${isArabic && rtlStyle.header}`}>{val.headerTitle} {val.smile}</h1>
         })}
         {isLargeMobile && <SearchBar onSearchBarChange={handleSearchInputChange} /* customStyle={customHeaderStyle} */ onCityChange={setSelectedCity} />}
       </div>
