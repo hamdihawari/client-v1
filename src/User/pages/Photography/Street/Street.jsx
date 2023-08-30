@@ -8,10 +8,11 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 import useMediaQuery from '../../../Hooks/useMediaQuery';
 import { ScrollToTopButton } from '../../../components/ScrollToTopButton/ScrollToTopButton';
+import rtlStyle from './rtl.module.css'
 
 const Street = () => {
   const isLargeMobile = useMediaQuery('(min-width:992px)'); // Laptop 
-  const { streetGallery } = useContext(GalleryContext);
+  const { streetGallery, isArabic } = useContext(GalleryContext);
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedCity, setSelectedCity] = useState('');
   const [searchTerm, setSearchTerm] = useState('');
@@ -27,7 +28,7 @@ const Street = () => {
   const handleImageLeave = () => {
     setSelectedImage(null);
   };
-    
+
   const handleSearchInputChange = (e) => {
     const searchTermValue = e.target.value;
     setSearchTerm(searchTermValue);
@@ -42,12 +43,14 @@ const Street = () => {
 
   return (
     <div className={style.street}>
-      <div className={style.streetHeader}>
-        <h1 className={style.header}>Street Gallery &#128525;</h1>
+      <div className={`${style.streetHeader} ${isArabic && rtlStyle.streetHeader}`}>
+        {streetGallery.map(val => {
+          return <h1 key={val.id} className={`${style.header} ${isArabic && rtlStyle.header}`}>{val.headerTitle} {val.smile}</h1>
+        })}
         {isLargeMobile && <SearchBar onSearchBarChange={handleSearchInputChange} /* customStyle={customHeaderStyle} */ onCityChange={setSelectedCity} />}
       </div>
       <div className={style.streetContent}>
-      {filteredGallery.map((item, index) => (
+        {filteredGallery.map((item, index) => (
           <div key={item.id} className={style.gallery}>
             <div
               className={style.single}
