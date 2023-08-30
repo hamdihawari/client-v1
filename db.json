@@ -2175,6 +2175,8 @@
     "en": [
       {
         "id": 1,
+        "headerTitle": "Portrait Gallery", 
+        "smile": "😍",
         "path": "portraitImage",
         "original": "https://www.linkpicture.com/q/Red-Cap-Seller.png",
         "thumbnail": "https://www.linkpicture.com/q/Red-Cap-Seller.png",
@@ -2205,6 +2207,8 @@
     "de": [
       {
         "id": 1,
+        "headerTitle": "Porträt Gallery", 
+        "smile": "😍",
         "path": "portraitImage",
         "original": "https://www.linkpicture.com/q/Red-Cap-Seller.png",
         "thumbnail": "https://www.linkpicture.com/q/Red-Cap-Seller.png",
@@ -2235,6 +2239,8 @@
     "ar": [
       {
         "id": 1,
+        "headerTitle": "معرض الصور الشخصية", 
+        "smile": "😍",
         "path": "portraitImage",
         "original": "https://www.linkpicture.com/q/Red-Cap-Seller.png",
         "thumbnail": "https://www.linkpicture.com/q/Red-Cap-Seller.png",

@@ -8,6 +8,7 @@ import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 import useMediaQuery from '../../../Hooks/useMediaQuery';
 import SearchBar from '../../../components/SearchBar/SearchBar';
 import {ScrollToTopButton} from '../../../components/ScrollToTopButton/ScrollToTopButton'
+import rtlStyle from './rtl.module.css'
 
 
 const Portrait = () => {
@@ -42,8 +43,10 @@ const Portrait = () => {
 
   return (
     <div className={style.portrait}>
-      <div className={style.portraitHeader}>
-        <h1 className={style.header}>Portrait Gallery &#128525;</h1>
+      <div className={`${style.portraitHeader} ${isArabic && rtlStyle.portraitHeader}`}>
+        {portraitGallery.map(val =>{
+          return<h1 className={`${style.header} ${isArabic && rtlStyle.header}`}>{val.headerTitle} {val.smile}</h1>
+        })}
         {isLargeMobile && <SearchBar onSearchBarChange={handleSearchInputChange} /* customStyle={customHeaderStyle} */ onCityChange={setSelectedCity} />}
       </div>
       <div className={style.portraitContent}>
