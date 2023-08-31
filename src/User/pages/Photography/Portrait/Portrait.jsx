@@ -9,7 +9,7 @@ import useMediaQuery from '../../../Hooks/useMediaQuery';
 import SearchBar from '../../../components/SearchBar/SearchBar';
 import {ScrollToTopButton} from '../../../components/ScrollToTopButton/ScrollToTopButton'
 import rtlStyle from './rtl.module.css'
-
+import { Paginate } from '../../../components/Paginate/Paginate';
 
 const Portrait = () => {
   const { portraitGallery, isArabic } = useContext(GalleryContext);
@@ -17,6 +17,20 @@ const Portrait = () => {
   const [selectedCity, setSelectedCity] = useState('');
   const isLargeMobile = useMediaQuery('(min-width:992px)'); // Laptop 
   const [searchTerm, setSearchTerm] = useState('');
+
+  // Pagination setup
+  const itemsPerPage = 9 // Adjust this based on your requirements
+  const totalItems = portraitGallery.length // Total number of items you're paginating
+  const pageCount = Math.ceil(totalItems / itemsPerPage) /* calculates the total number of pages needed for pagination based on the total number of items and the number of items to display per page. */
+  const [currentPage, setCurrentPage] = useState(0)
+  // Calculate the start and end indexes of items for the current page
+  const startIndex = currentPage * itemsPerPage
+  const endIndex = startIndex + itemsPerPage
+  const handlePageChange = ({ selected }) => {
+    setCurrentPage(selected);
+  };
+  // Get the projects for the current page
+  const portraitGalleryToShow = portraitGallery.slice(startIndex, endIndex) /* used to create a subset of the original list of projects that should be displayed on the current page of your pagination. */
 
   const handleImageClick = (index) => {
     setSelectedImage(portraitGallery[index]);
@@ -35,7 +49,7 @@ const Portrait = () => {
   };
 
   // FILTER
-  const filteredGallery = portraitGallery.filter(
+  const filteredGallery = portraitGalleryToShow.filter(
     (val) =>
       (searchTerm === '' || val.title.toLowerCase().includes(searchTerm.toLowerCase())) &&
       (selectedCity === '' || val.city === selectedCity)
@@ -50,7 +64,7 @@ const Portrait = () => {
         {isLargeMobile && <SearchBar onSearchBarChange={handleSearchInputChange} /* customStyle={customHeaderStyle} */ onCityChange={setSelectedCity} />}
       </div>
       <div className={style.portraitContent}>
-        {filteredGallery.map((item, index) => (
+        {portraitGalleryToShow.map((item, index) => (
           <div key={item.id} className={style.gallery}>
             <div
               className={style.single}
@@ -78,6 +92,7 @@ const Portrait = () => {
         ))}
       </div>
       <ScrollToTopButton />
+      <Paginate pageCount={pageCount} onPageChange={handlePageChange} itemsPerPage={8}/>
     </div>
   );
 };
