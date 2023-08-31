@@ -1,0 +1,47 @@
+/* Styles for the pagination container */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: auto;
+  margin: 100px;
+  padding: 10px;
+}
+
+/* Styles for the pagination list */
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+/* Styles for pagination list items */
+.pagination li {
+  margin: 0 3px;
+}
+
+/* Styles for pagination links */
+.pagination a {
+  color: #333;
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover styles for pagination links */
+.pagination a:hover {
+  background-color: #181818;
+  color: #fff;
+  border-color: #000000;
+}
+
+/* Styles for the active page link */
+.pagination .active a {
+  background-color: #0a0a0a;
+  color: #fff;
+  border-color: #fcfcfc;
+  cursor: default;
+}
