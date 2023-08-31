@@ -9,6 +9,7 @@ import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 import useMediaQuery from '../../../Hooks/useMediaQuery';
 import { ScrollToTopButton } from '../../../components/ScrollToTopButton/ScrollToTopButton';
 import rtlStyle from './rtl.module.css'
+import { Paginate } from '../../../components/Paginate/Paginate';
 
 const Street = () => {
   const isLargeMobile = useMediaQuery('(min-width:992px)'); // Laptop 
@@ -16,6 +17,20 @@ const Street = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedCity, setSelectedCity] = useState('');
   const [searchTerm, setSearchTerm] = useState('');
+
+  // Pagination setup
+  const itemsPerPage = 9 // Adjust this based on your requirements
+  const totalItems = streetGallery.length // Total number of items you're paginating
+  const pageCount = Math.ceil(totalItems / itemsPerPage) /* calculates the total number of pages needed for pagination based on the total number of items and the number of items to display per page. */
+  const [currentPage, setCurrentPage] = useState(0)
+  // Calculate the start and end indexes of items for the current page
+  const startIndex = currentPage * itemsPerPage
+  const endIndex = startIndex + itemsPerPage
+  const handlePageChange = ({ selected }) => {
+    setCurrentPage(selected);
+  };
+  // Get the projects for the current page
+  const streetGalleryToShow = streetGallery.slice(startIndex, endIndex) /* used to create a subset of the original list of projects that should be displayed on the current page of your pagination. */
 
   const handleImageClick = (index) => {
     setSelectedImage(streetGallery[index]);
@@ -35,7 +50,7 @@ const Street = () => {
   };
 
   // FILTER
-  const filteredGallery = streetGallery.filter(
+  const filteredGallery = streetGalleryToShow.filter(
     (val) =>
       (searchTerm === '' || val.title.toLowerCase().includes(searchTerm.toLowerCase())) &&
       (selectedCity === '' || val.city === selectedCity)
@@ -44,7 +59,7 @@ const Street = () => {
   return (
     <div className={style.street}>
       <div className={`${style.streetHeader} ${isArabic && rtlStyle.streetHeader}`}>
-        {streetGallery.map(val => {
+        {streetGalleryToShow.map(val => {
           return <h1 key={val.id} className={`${style.header} ${isArabic && rtlStyle.header}`}>{val.headerTitle} {val.smile}</h1>
         })}
         {isLargeMobile && <SearchBar onSearchBarChange={handleSearchInputChange} /* customStyle={customHeaderStyle} */ onCityChange={setSelectedCity} />}
@@ -78,6 +93,8 @@ const Street = () => {
         ))}
       </div>
       <ScrollToTopButton />
+      <Paginate pageCount={pageCount} onPageChange={handlePageChange} itemsPerPage={8}/>
+
     </div>
   );
 };
