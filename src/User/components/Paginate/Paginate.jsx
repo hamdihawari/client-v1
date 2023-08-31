@@ -4,6 +4,7 @@ import style from './style.module.css'
 export const Paginate = ({ pageCount, onPageChange }) => {
     return (
         <ReactPaginate
+            key="paginate"
             nextLabel="next >"
             previousLabel="< previous"
             onPageChange={onPageChange}
@@ -22,7 +23,7 @@ export const Paginate = ({ pageCount, onPageChange }) => {
             containerClassName={style.pagination}
             activeClassName={style.active}
             renderOnZeroPageCount={null}
-            forcePage={0} // Reset to page 0
+            /* forcePage={0} */ // Reset to page 0
         />
     );
 }
