@@ -32,7 +32,6 @@ const Landscape = () => {
   // Get the projects for the current page
   const streetGalleryToShow = landscapeGallery.slice(startIndex, endIndex) /* used to create a subset of the original list of projects that should be displayed on the current page of your pagination. */
 
-
   const handleImageClick = (index) => {
     setSelectedImage(landscapeGallery[index]);
   };
@@ -45,7 +44,7 @@ const Landscape = () => {
     setSelectedImage(null);
   };
 
-  const filteredGallery = landscapeGallery.filter(
+  const filteredGallery = streetGalleryToShow.filter(
     (val) =>
       (searchTerm === '' || val.title.toLowerCase().includes(searchTerm.toLowerCase())) &&
       (selectedCity === '' || val.city === selectedCity)
