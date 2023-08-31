@@ -12,7 +12,6 @@ import rtlStyle from './rtl.module.css'
 export const ProjectItem = ({ id, title, image, description, imageHover, path }) => {
 
   const { isArabic } = useContext(ProjectContext);
-
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -24,7 +23,7 @@ export const ProjectItem = ({ id, title, image, description, imageHover, path })
   }
 
   return (
-
+<>
     <div className={`${style.projectContent} ${isArabic && rtlStyle.cardBody}`}>
       <div className={style.imgLink}>
         <Link to={`/project/${id}`}>
@@ -52,9 +51,13 @@ export const ProjectItem = ({ id, title, image, description, imageHover, path })
           </IconButton>
           <MenuToggle />
         </div>
+
       </div>
       <ScrollToTopButton />
+
     </div>
+
+    </>
   );
 };
 

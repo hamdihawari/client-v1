@@ -25,6 +25,7 @@
     "react-hook-form": "^7.44.2",
     "react-i18next": "^13.1.2",
     "react-image-gallery": "^1.2.12",
+    "react-paginate": "^8.2.0",
     "react-router-dom": "^6.11.2",
     "react-select": "^5.7.4",
     "yup": "^1.2.0"
