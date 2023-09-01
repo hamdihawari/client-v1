@@ -5,7 +5,10 @@
     cursor: pointer;
     z-index: 1000;
     opacity: 0;
-    transition: opacity 0.3s, visibility 0.3s;
+    z-index: 1000;
+    /* transition: opacity 0.3s, visibility 0.3s; */
+    transform: rotate(180deg);
+
   }
   
   .scrollToTop.visible {
