@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import style from './style.module.css'
-import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
-import BackupIcon from '@mui/icons-material/Backup';
 import ExpandCircleDownIcon from '@mui/icons-material/ExpandCircleDown';
 
 export const ScrollToTopButton = () => {

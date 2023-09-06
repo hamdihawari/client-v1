@@ -24,19 +24,16 @@ export const SidebarData = [
                 id: 3,
                 title: "Portrait / Love",
                 link: "/portrait",
-                /* icon: <PersonIcon /> */
             },
             {
                 id: 4,
                 title: "Portrait / Street",
                 link: "Street",
-                /* icon: <PermMediaIcon /> */
             },
             {
                 id: 5,
                 title: "Landscape",
                 link: "/landscape",
-                /* icon: <PetsIcon /> */
             }
         ]
     },

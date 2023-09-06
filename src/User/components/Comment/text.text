@@ -1,0 +1,182 @@
+
+/* console.log("BackendComments", beackendComments)
+console.log("BackendComments", beackendCommentsFilter) */
+
+comment: 
+
+import React from 'react'
+import style from './style.module.css'
+import userperson from '../../../../assets/images/user.png'
+
+export const Comment = ({ comment, replies }) => {
+  return (
+    <div className={style.comment}>
+      <div className='style.commentImageContainer'>
+        <img src={userperson} width={"50px"} />
+      </div>
+      <div className={style.commentRightPart}>
+        <div className={style.commentsContent}>
+          <div className={style.commentAuthor}>{comment.username}</div>
+          <div className={style.commentcreatedAt}>{comment.createdAt}</div>
+        </div>
+        <div className={style.commentText}>{comment.body}</div>
+
+        {replies.length > 0 && (
+          <div className={style.replies}>
+            {replies.map(reply => (
+              <Comment comment={reply} key={reply.id} replies={[]} />
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
+
+Comments: 
+
+import React, { useEffect, useState } from 'react'
+import axios from 'axios'
+import style from './style.module.css'
+import { Comment } from '../Comment/Comment'
+import { CommentForm } from '../CommentForm/CommentForm'
+
+export const Comments = ({ currentUserId }) => {
+  const getCommentstUrl = "http://localhost:9000/getComments"
+  const [beackendComments, setBackendComments] = useState([])
+
+  const beackendCommentsFilter = beackendComments.filter(
+    (beackendComment) => beackendComment.parentId === null
+  )
+  /* console.log("BackendComments", beackendComments)
+     console.log("BackendComments", beackendCommentsFilter) */
+
+  const getReplies = commentId => {
+    return beackendComments.filter(beackendComment => beackendComment.parentId === commentId)
+      .sort(
+        (a, b) =>
+          new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime()
+      )
+  }
+
+  const addComment = (text, parentId) => {
+    console.log("addComment", text, parentId);
+  };
+
+  useEffect(() => {
+    axios.get(getCommentstUrl).then((res) => {
+      setBackendComments(res.data)
+    })
+  }, [])
+
+  return (
+    <div className={style.comments}>
+      <h3 className={style.commentsTitle}>Comments</h3>
+      <div className={style.commentsFormTitle}>
+        Write  Comment
+      </div>
+      <CommentForm submitLabel="Send" handleSubmit={addComment} />
+      {/* <CommentForm submitLabel="Send" handleSubmit={(text) => addComment(text, null)} /> */}
+
+      <div className={style.commentsContainer}>
+        {
+          beackendCommentsFilter.map((val) => {
+            return (
+              <div key={val.id}>
+                <Comment key={val.id}
+                  comment={val}
+                  replies={getReplies(val.id)} />
+              </div>
+            )
+          })}
+      </div>
+    </div>
+  )
+}
+
+CommentForm: 
+
+import React, { useEffect, useState } from 'react'
+import style from './style.module.css'
+import Button from '@mui/material/Button'
+
+export const CommentForm = ({ handleSubmit, submitLabel }) => {
+  const [text, setText] = useState('')
+  const [parentId, setParentId] = useState(null);
+
+  // Add Comment:
+  useEffect(() => {
+    if (text && parentId !== null) {
+      createComment(text, parentId);
+    }
+  }, [text, parentId]);
+
+  const createComment = async (text, parentId) => {
+    try {
+      const response = await axios.post('http://localhost:9000/createComments', {
+        body: text,
+        parentId: parentId,
+        userId: '1', // Set the user ID as needed
+        username: 'John', // Set the username as needed
+        createdAt: new Date().toISOString(),
+      });
+      console.log('Created comment:', response.data);
+      setText('');
+      setParentId(null);
+    } catch (error) {
+      console.error('Error creating comment:', error);
+    }
+  };
+
+  const isTextareaDisable = text.length === 0
+
+  const handleOnSubmit = (event) => {
+    event.preventDefault()
+    setParentId(null); 
+    handleSubmit(text);
+    setText("")
+    /* console.log('Submitted text:', text); */
+  };
+
+  const handleInputChange = (e) => {
+    const newText = e.target.value;
+    setText(newText)
+    /* console.log('Text while typing:', newText); */
+  };
+  
+  return (
+    <>
+      <form onSubmit={handleOnSubmit}>
+        <textarea
+          className={style.commentFormTextarea}
+          value={text}
+          placeholder="Enter your comment..."
+          onChange={handleInputChange}
+        />
+        <Button variant="contained" className={style.commentFormButton} type="submit" disabled={isTextareaDisable}>
+          {submitLabel}
+        </Button>
+      </form>
+    </>
+  )
+}
+
+
+   // create Comment: 
+   /* const createComment = async (text, parentId = null) => {
+    try {
+      const response = await axios.post('http://localhost:9000/createComments', {
+        body: text,
+        parentId: parentId,
+        userId: '1', // Set the user ID as needed
+        username: 'John', // Set the username as needed
+        createdAt: new Date().toISOString(),
+      });
+        return response.data;
+    } catch (error) {
+      console.error('Error creating comment:', error);
+      throw error;
+    }
+  };
+   */

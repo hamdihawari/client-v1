@@ -1,15 +1,17 @@
-card {
+.card {
     margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     width: 100%;
+    height: auto;
+}
+
+.cardHeader {
+    background-color: #ffffff;
 }
 
 .cardHeader .iconsLink {
-    margin-right: 3rem;
-}
-
-.cardBody .title {
-    padding-top: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 40px;
 }
 
 .cardBody .cameraInfo {
@@ -42,5 +44,104 @@ card {
 
 .cardBody #like {
     text-decoration: none;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cardLeft {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    height: auto;
+    padding: 20px;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 10px);
+    /* 50% width with 10px margin-right */
+}
+
+.cardRight {
+    padding-top: 5rem;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 20px;
+    width: calc(100% - 10px);
+    /* 50% width with 10px margin-left */
+    margin-left: 1rem;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+    .cardContent {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 10px);
+    }
+    
+    .cardLeft {
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #ffffff;
+        height: auto;
+        padding: 20px;
+    }
+
+    .cardRight {
+        padding-top: 5rem;
+        padding: 20px;
+        width: calc(100% - 10px);
+        /* 50% width with 10px margin-left */
+        margin-left: 0rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .cardContent {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 10px);
+    }
+
+    .cardLeft {
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #ffffff;
+        height: auto;
+        padding: 20px;
+    }
+
+    .cardRight {
+        padding: 20px;
+        width: calc(100% - 10px);
+        margin-left: 0rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .cardLeft {
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #ffffff;
+        height: auto;
+        padding: 20px;
+    }
+
+    .cardContent {
+        display: flex;
+        flex-direction: row;
+        width: calc(100% - 10px);
+    }
+
+    .cardRight {
+        padding-top: 5rem;
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #ffffff;
+        padding: 20px;
+        width: calc(100% - 10px);
+        margin-left: 1rem;
+    }
 }

@@ -59,7 +59,7 @@ const Street = () => {
   return (
     <div className={style.street}>
       <div className={`${style.streetHeader} ${isArabic && rtlStyle.streetHeader}`}>
-        {streetGalleryToShow.map(val => {
+        {streetGallery.map(val => {
           return <h1 key={val.id} className={`${style.header} ${isArabic && rtlStyle.header}`}>{val.headerTitle} {val.smile}</h1>
         })}
         {isLargeMobile && <SearchBar onSearchBarChange={handleSearchInputChange} /* customStyle={customHeaderStyle} */ onCityChange={setSelectedCity} />}
