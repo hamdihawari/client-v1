@@ -3,7 +3,18 @@
     direction: rtl;
 }
 
-.cameraInfo{
-    text-align: right;
-    direction:ltr;
+.cardLeft {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    height: auto;
+    margin-left: 1rem;
+}
+
+.cardRight {
+    padding-top: 5rem;
+    width: 100%;
+    padding: 20px;
+    margin: 0rem;
+    /* direction: ltr; */
 }

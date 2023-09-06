@@ -9,6 +9,8 @@ import axios from 'axios';
 import { IconButton } from '@mui/material';
 import { ProjectContext } from '../../../Context/Context';
 import rtlStyle from './rtl.module.css'
+import { Comments } from '../../Comment/Comments/Comments';
+import CommentStyles from './style.module.css';
 
 const GalleryCard = ({ gallery, currentImageIndex }) => {
   if (!gallery || gallery.length === 0) {
@@ -17,7 +19,7 @@ const GalleryCard = ({ gallery, currentImageIndex }) => {
   const val = gallery[currentImageIndex];
   if (!val) {
     return null;
-  } 
+  }
 
   const { id, title, taken, uploaded, camera, objective, category } = val;
   const [likeCount, setLikeCount] = useState(0);
@@ -40,39 +42,49 @@ const GalleryCard = ({ gallery, currentImageIndex }) => {
   };
 
   return (
-    <div className={`${style.card} ${isArabic && rtlStyle.card}`}>
-      <div className={style.cardHeader}>
-        <IconButton className={style.iconsLink} onClick={handleLikeClick}  >
-          <FavoriteBorderIcon style={{ color: '#000000', fontSize: '28px' }} />
-        </IconButton>
-        <IconButton className={style.iconsLink}>
-          <ShareIcon style={{ color: '#000000', fontSize: '28px' }}/>
-        </IconButton>
-        <IconButton className={style.iconsLink}>
-          <MoreHorizIcon style={{ color: '#000000', fontSize: '28px' }}/>
-        </IconButton>
+    <>
+      <div className={`${style.card} ${isArabic && rtlStyle.card}`}>
+        <div className={`${style.cardContent} ${isArabic && rtlStyle.cardContent}`}>
+          <div className={`${style.cardLeft} ${isArabic && rtlStyle.cardLeft}`}>
+            <div className={style.cardHeader}>
+              <IconButton className={style.iconsLink} onClick={handleLikeClick}  >
+                <FavoriteBorderIcon style={{ color: '#000000', fontSize: '28px' }} />
+              </IconButton>
+              <IconButton className={style.iconsLink}>
+                <ShareIcon style={{ color: '#000000', fontSize: '28px' }} />
+              </IconButton>
+              <IconButton className={style.iconsLink}>
+                <MoreHorizIcon style={{ color: '#000000', fontSize: '28px' }} />
+              </IconButton>
+            </div>
+            <ul>
+              <nav className={`${style.cardBody} ${isArabic && rtlStyle.cardBody}`}>
+                <h2 className={style.title}>{title}</h2>
+                <h4 className={`${style.cameraInfo} ${isArabic && rtlStyle.cameraInfo}`}>Taken: {taken} - Uploaded: {uploaded}</h4>
+                <h4 className={style.cameraInfo} id={style.cameraInfo}>
+                  <CameraAltIcon id={style.contentIcons} />
+                  {camera}
+                </h4>
+                <h4 className={style.cameraInfo} id={style.cameraInfo}>
+                  <CameraIcon id={style.contentIcons} />
+                  {objective}
+                </h4>
+                <h4 className={style.cameraInfo} id={style.category}>
+                  Category: {category}
+                </h4>
+                <h4 className={style.cameraInfo} id={style.like}>
+                  {likeCount} people liked this photo
+                </h4>
+              </nav>
+            </ul>
+          </div>
+          <div className={`${style.cardRight} ${isArabic && rtlStyle.cardRight}`}>
+          <Comments imageID={val.id} />
+        </div>
+        </div>
+        
       </div>
-      <div className={style.cardContent}>
-        <ul>
-          <nav className={`${style.cardBody} ${isArabic && rtlStyle.cardBody}`}>
-            <h2 className={style.title}>{title}</h2>
-            <h4 className={`${style.cameraInfo} ${isArabic && rtlStyle.cameraInfo}`}>Taken: {taken} - Uploaded: {uploaded}</h4>
-            <h4 className={style.cameraInfo} id={style.cameraInfo}>
-              <CameraAltIcon id={style.contentIcons} />
-              {camera}
-            </h4>
-            <h4  className={style.cameraInfo} id={style.cameraInfo}>
-              <CameraIcon id={style.contentIcons} />
-              {objective}
-            </h4>
-            <h4  className={style.cameraInfo} id={style.category}>
-            Category: {category}
-            </h4>
-            <h4 className={style.cameraInfo}  id={style.like}>{likeCount} people liked this photo</h4>
-          </nav>
-        </ul>
-      </div>
-    </div>
+    </>
   );
 };
 

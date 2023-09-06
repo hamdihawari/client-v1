@@ -13,6 +13,7 @@ import CameraAltIcon from '@mui/icons-material/CameraAlt'
 import MailOutlineIcon from '@mui/icons-material/MailOutline'
 import TwitterIcon from '@mui/icons-material/Twitter'
 import InstagramIcon from '@mui/icons-material/Instagram'
+import { Menu } from '../Menu/Menu';
 
 export const SidebarLayout = () => {
   const { i18n } = useTranslation()
@@ -36,7 +37,7 @@ export const SidebarLayout = () => {
     InstagramIcon: <InstagramIcon />
   };
   const toggleHandle = (index) => {
-    index === 2 && setToggle(!toggle)
+    index === 6001 && setToggle(!toggle)
   }
 
   useEffect(() => {
@@ -64,7 +65,6 @@ export const SidebarLayout = () => {
       <div className={style.sidebarLayout}>
         <Logo />
         {sidebarData.map((item, index) => {
-            
             return (
               <ul className={`${style.sidebarList} ${isArabic && rtlStyle.rtlSidebarList}`} key={item.id}>
                 <nav className={`${style.row} ${isArabic && rtlStyle.rtlRow}`}>
@@ -100,6 +100,9 @@ export const SidebarLayout = () => {
             )
           }
         </div >
+        <Menu sidebarData={sidebarData} />
+       {/*  {console.log("HIIII :", sidebarData)} */}
+
       </div>
     </>
   )

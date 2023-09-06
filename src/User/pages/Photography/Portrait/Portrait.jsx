@@ -59,7 +59,7 @@ const Portrait = () => {
     <div className={style.portrait}>
       <div className={`${style.portraitHeader} ${isArabic && rtlStyle.portraitHeader}`}>
         {portraitGallery.map(val =>{
-          return<h1 className={`${style.header} ${isArabic && rtlStyle.header}`}>{val.headerTitle} {val.smile}</h1>
+          return<h1 key={val.id} className={`${style.header} ${isArabic && rtlStyle.header}`}>{val.headerTitle} {val.smile}</h1>
         })}
         {isLargeMobile && <SearchBar onSearchBarChange={handleSearchInputChange} /* customStyle={customHeaderStyle} */ onCityChange={setSelectedCity} />}
       </div>
