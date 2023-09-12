@@ -2281,33 +2281,42 @@
       "link": "http://instagram.com"
     }
   ],
-  "getComments": [
+  "comment": [
     {
       "body": "Ich ging da 1000 mal. Ich lebe diese Ort :)",
       "userId": "1",
-      "imageID": 3001,
+      "imageID": 3000,
       "parentId": null,
       "username": "John",
       "createdAt": "2023-09-05T00:25:12.615Z",
       "id": 1
     },
     {
-      "body": "Fridrischstraße :)",
+      "body": "Ich auch war da schon :)",
       "userId": "1",
-      "imageID": 3008,
-      "parentId": null,
+      "imageID": 3000,
+      "parentId": 1,
       "username": "John",
       "createdAt": "2023-09-06T15:24:43.527Z",
       "id": 2
     },
     {
-      "body": "Nice",
-      "userId": "1",
-      "imageID": 3008,
+      "id": "2ufmei1k7",
+      "body": "This is Amsterdam or Roterdam?",
       "parentId": null,
-      "username": "Johanna",
-      "createdAt": "2023-09-06T15:26:16.189Z",
-      "id": 3
+      "imageID": 3000,
+      "userId": "1",
+      "username": "John",
+      "createdAt": "2023-09-12T01:24:57.674Z"
+    },
+    {
+      "id": "lk5jqv3ar",
+      "body": "this is Amsterdam John :)",
+      "parentId": "2ufmei1k7",
+      "imageID": 3000,
+      "userId": "1",
+      "username": "John",
+      "createdAt": "2023-09-12T01:25:19.028Z"
     }
   ]
 }
