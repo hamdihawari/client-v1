@@ -12,7 +12,7 @@ import rtlStyle from './rtl.module.css'
 import { Comments } from '../../Comment/Comments/Comments';
 import CommentStyles from './style.module.css';
 
-const GalleryCard = ({ gallery, currentImageIndex }) => {
+const GalleryCard = ({ gallery, currentImageIndex, currentUserId }) => {
   if (!gallery || gallery.length === 0) {
     return null;
   }
@@ -79,10 +79,9 @@ const GalleryCard = ({ gallery, currentImageIndex }) => {
             </ul>
           </div>
           <div className={`${style.cardRight} ${isArabic && rtlStyle.cardRight}`}>
-          <Comments imageID={val.id} />
+            <Comments imageID={val.id} currentUserId="1" />
+          </div>
         </div>
-        </div>
-        
       </div>
     </>
   );
