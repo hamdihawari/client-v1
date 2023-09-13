@@ -1,12 +1,16 @@
 import React, { useState } from 'react'
-import axios from 'axios'
 import style from './style.module.css'
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import { Button } from '@mui/material'
 import rtlStyle from './rtl.module.css'
 
-export const CommentForm = ({ handleSubmit, submitLabel }) => {
-  const [text, setText] = useState('');
+export const CommentForm = ({
+  handleSubmit,
+  submitLabel,
+  hasCancelButton = false,
+  initialText = "",
+  handleCancel }) => {
+  const [text, setText] = useState(initialText);
   const [isInputFocused, setInputFocused] = useState(false);
 
   const handleOnSubmit = async (event) => {
@@ -14,7 +18,7 @@ export const CommentForm = ({ handleSubmit, submitLabel }) => {
     if (text.trim() === '') {
       return;
     }
-    handleSubmit(text, null); 
+    handleSubmit(text, null);
     setText('');
   }
 
@@ -33,7 +37,7 @@ export const CommentForm = ({ handleSubmit, submitLabel }) => {
 
   return (
     <form onSubmit={handleOnSubmit}>
-      <input
+      <textarea
         type="text"
         value={text}
         placeholder="Add a comment"
@@ -43,37 +47,23 @@ export const CommentForm = ({ handleSubmit, submitLabel }) => {
       />
       {isInputFocused && (
         <div className={style.buttonContainer}>
-          <Button variant="text" onClick={handleCancelButtonClick} className={style.cancelButton}>
+          <Button variant="text" onClick={handleCancelButtonClick} className={style.cancel}>
             Cancel
           </Button>
           <Button variant="contained" onClick={handleOnSubmit} className={style.enterButton}>
             Post
           </Button>
+          {/* {hasCancelButton && (
+            <Button variant="contained"
+            className={style.cancelButton}
+            onClick={handleCancel}
+            >
+            Cancel
+          </Button>
+          )} */}
         </div>
       )}
-      <ChatBubbleOutlineIcon className={style.icon} />
+      {/* <ChatBubbleOutlineIcon className={style.icon} /> */}
     </form>
   )
 }
-
-
-
-/* if (text.trim() === '') {
-  return
-}
-try {
-  const response = await axios.post('http://localhost:9000/comment', {
-    body: text,
-    userId: '1',
-    imageID: imageID,
-    parentId: null,
-    username: 'Johanna',
-    createdAt: new Date().toISOString(),
-  });
-  console.log('Created comment:', response.data)
-  setText('');
-  handleSubmit(response.data);
-} catch (error) {
-  console.error('Error creating comment:', error)
-}
-}; */
