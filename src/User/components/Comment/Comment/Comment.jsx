@@ -4,11 +4,15 @@ import userperson from '../../../../assets/images/girlUser.png'
 import { CommentForm } from '../CommentForm/CommentForm'
 import { AddComment } from '@mui/icons-material'
 
-export const Comment = ({ comment, replies, currentUserId, activeComment, setActiveComment, addComment, parentId=null }) => {
-  
+export const Comment = ({ comment, replies, deleteComment, currentUserId, updateComment, activeComment, setActiveComment, addComment, parentId = null }) => {
+  const fiveMinutes = 300000
+  const timePassed = new Date() - new Date(comment.createdAt) > fiveMinutes
   const canReply = Boolean(currentUserId) // Reply
+  const canEdit = currentUserId === comment.userId && !timePassed
+  const canDelete = currentUserId === comment.userId && !timePassed
   const createdAt = new Date(comment.createdAt).toLocaleDateString()
   const isReplying = activeComment && activeComment.type === 'replying' && activeComment.id === comment.id
+  const isEditing = activeComment && activeComment.type === 'editing' && activeComment.id === comment.id
   const replyId = parentId ? parentId : comment.id
   return (
     <>
@@ -21,32 +25,67 @@ export const Comment = ({ comment, replies, currentUserId, activeComment, setAct
             <p className={style.commentAuthor}>{comment.username}</p>
             <p className={style.commentcreatedAt}>{createdAt}</p>
           </div>
-          <div className={style.commentText}>{comment.body}</div>
+
+          {!isEditing && (<div className={style.commentText}>{comment.body}</div>)}
+
+          {isEditing && (
+            <CommentForm
+              submitLabel="Update"
+              hasCancelButton
+              initialText={comment.body}
+              handleSubmit={(text) => updateComment(text, comment.id)}
+              handleCancel={() => setActiveComment(null)}
+            />)}
           <div className={style.commentActions}>
-          {canReply && (
-          <div className={style.commentActions}
-          onClick={() => 
-            setActiveComment({id: comment.id, type: "replying"})}>
-              Reply
-              </div>
+            <div className={style.commentActionContent}>
+
+              {canReply && (
+                <div className={style.commentAction}
+                  onClick={() => setActiveComment({ id: comment.id, type: "replying" })}
+                >
+                  Reply
+                </div>
               )}
+
+              {canEdit && (
+                <div className={style.commentAction}
+                  onClick={() =>
+                    setActiveComment({ id: comment.id, type: "editing" })}
+                >
+                  Edit
+                </div>
+              )}
+              {canDelete && (
+                <div className={style.commentAction}
+                  onClick={() => {
+                    deleteComment(comment.id)
+                  }}>
+                  Delete
+                </div>
+              )}
+            </div>
           </div>
+
           {isReplying && (
-            <CommentForm 
-            submitLabel="Reply"
-            handleSubmit={(text) => 
-              addComment(text, replyId)}/>
+            <CommentForm
+              submitLabel="ReplyX"
+              handleSubmit={(text) =>
+                addComment(text, replyId)} />
           )}
           {replies.length > 0 && (
             <div className={style.replies}>
               {replies.map(reply => (
-                <Comment 
+                <Comment
                 comment={reply}
                 key={reply.id}
+                setActiveComment={setActiveComment}
+                activeComment={activeComment}
+                updateComment={updateComment}
+                deleteComment={deleteComment}
+                addComment={addComment}
+                parentId={comment.id}
                 replies={[]}
                 currentUserId={currentUserId}
-                parentId={comment.id}
-                addComment={addComment}
                 />
               ))}
             </div>
