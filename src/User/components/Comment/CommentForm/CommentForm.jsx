@@ -8,7 +8,7 @@ export const CommentForm = ({
   handleSubmit,
   submitLabel,
   hasCancelButton = false,
-  initialText = "",
+  initialText = '',
   handleCancel }) => {
   const [text, setText] = useState(initialText);
   const [isInputFocused, setInputFocused] = useState(false);
@@ -18,7 +18,7 @@ export const CommentForm = ({
     if (text.trim() === '') {
       return;
     }
-    handleSubmit(text, null);
+    handleSubmit(text , null );
     setText('');
   }
 
@@ -40,30 +40,29 @@ export const CommentForm = ({
       <textarea
         type="text"
         value={text}
-        placeholder="Add a comment"
+        /* placeholder="Add a comment" */
         onChange={handleInputChange}
         autoFocus={false}
         onFocus={handleInputFocus}
       />
-      {isInputFocused && (
+      {/* {isInputFocused && (
         <div className={style.buttonContainer}>
-          <Button variant="text" onClick={handleCancelButtonClick} className={style.cancel}>
-            Cancel
-          </Button>
-          <Button variant="contained" onClick={handleOnSubmit} className={style.enterButton}>
-            Post
-          </Button>
-          {/* {hasCancelButton && (
-            <Button variant="contained"
-            className={style.cancelButton}
-            onClick={handleCancel}
-            >
-            Cancel
-          </Button>
-          )} */}
+          <Button variant="contained" onClick={handleOnSubmit} className={style.enterButton}>{submitLabel}</Button>
+          <Button variant="text" onClick={handleCancelButtonClick} className={style.cancel}>Cancel</Button>
+        </div>
+      )} */}
+      <div className={style.buttonContainer}>
+          <Button variant="contained" onClick={handleOnSubmit} className={style.enterButton}>{submitLabel}</Button>
+          {/* <Button variant="text" onClick={handleCancelButtonClick} className={style.cancel}>Cancel</Button> */} 
+
+      {hasCancelButton && (
+        <div className={style.nestedbuttonContainer}>
+        <Button variant="text" onClick={handleCancel} className={style.cancel}>Close</Button>
         </div>
       )}
       {/* <ChatBubbleOutlineIcon className={style.icon} /> */}
+      </div>
+
     </form>
   )
 }

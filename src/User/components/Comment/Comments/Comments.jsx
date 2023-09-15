@@ -31,7 +31,7 @@ export const Comments = ({ imageID, customStyle, currentUserId }) => {
       )
   }
 
-  // Add Comment
+  // CREATE
   const createComment = (text, parentId = null) => {
     return {
       id: Math.random().toString(36).substr(2, 9),
@@ -54,8 +54,32 @@ export const Comments = ({ imageID, customStyle, currentUserId }) => {
     }
   };
 
-  // DELETE
-  const deleteComment = async (commentId) => {
+   // UPDATE
+  const updateComment = async (text, commentId) => {
+    try {
+      const existingComment = beackendComments.find((comment) => comment.id === commentId);
+      const updatedComment = {
+        ...existingComment,
+        body: text,
+      };
+      const response = await axios.put(`${getCommentstUrl}/${commentId}`, updatedComment);
+      if (response.status === 200) {
+        setBackendComments((prevComments) =>
+          prevComments.map((backendComment) =>
+            backendComment.id === commentId ? updatedComment : backendComment
+          )
+        );
+        setActiveComment(null);
+      } else {
+        console.error('Update comment failed with status:', response.status);
+      }
+    } catch (error) {
+      console.error('Error updating comment:', error);
+    }
+  };
+  
+   // DELETE
+   const deleteComment = async (commentId) => {
     if (window.confirm("Are you sure you want to remove comment?")) {
       try {
         await axios.delete(`${getCommentstUrl}/${commentId}`);
@@ -67,21 +91,6 @@ export const Comments = ({ imageID, customStyle, currentUserId }) => {
       }
     }
   };
-
-  // DELETE
-  const updateComment = (text, commentId) => {
-    beackendComments(text).then(() => {
-      const updatedBackendComments = beackendComments.map((backendComment) => {
-        if (backendComment.id === commentId) {
-          return { ...backendComment, body: text };
-        }
-        return backendComment;
-      });
-      setBackendComments(updatedBackendComments);
-      setActiveComment(null);
-    });
-  };
-
 
   return (
     <div className={`${style.comments} ${customStyle?.comments}`}>
@@ -109,3 +118,18 @@ export const Comments = ({ imageID, customStyle, currentUserId }) => {
     </div>
   )
 }
+
+
+  // UPDATE
+  /* const updateComment = (text, commentId) => {
+    beackendComments(text, commentId).then(() => {
+      const updatedBackendComments = beackendComments.map((backendComment) => {
+        if (backendComment.id === commentId) {
+          return { ...backendComment, body: text };
+        }
+        return backendComment;
+      });
+      setBackendComments(updatedBackendComments);
+      setActiveComment(null);
+    });
+  }; */

@@ -2,14 +2,13 @@ import React, { useState } from 'react'
 import style from './style.module.css'
 import userperson from '../../../../assets/images/girlUser.png'
 import { CommentForm } from '../CommentForm/CommentForm'
-import { AddComment } from '@mui/icons-material'
 
 export const Comment = ({ comment, replies, deleteComment, currentUserId, updateComment, activeComment, setActiveComment, addComment, parentId = null }) => {
-  const fiveMinutes = 300000
-  const timePassed = new Date() - new Date(comment.createdAt) > fiveMinutes
+  /* const fiveMinutes = null */
+  /* const timePassed = new Date() - new Date(comment.createdAt) > fiveMinutes */
   const canReply = Boolean(currentUserId) // Reply
-  const canEdit = currentUserId === comment.userId && !timePassed
-  const canDelete = currentUserId === comment.userId && !timePassed
+  const canEdit = currentUserId === comment.userId /* && !timePassed */
+  const canDelete = currentUserId === comment.userId /* && !timePassed */
   const createdAt = new Date(comment.createdAt).toLocaleDateString()
   const isReplying = activeComment && activeComment.type === 'replying' && activeComment.id === comment.id
   const isEditing = activeComment && activeComment.type === 'editing' && activeComment.id === comment.id
@@ -33,8 +32,8 @@ export const Comment = ({ comment, replies, deleteComment, currentUserId, update
               submitLabel="Update"
               hasCancelButton
               initialText={comment.body}
-              handleSubmit={(text) => updateComment(text, comment.id)}
-              handleCancel={() => setActiveComment(null)}
+              handleSubmit={(text) => updateComment(text, comment.id)}  // when click on update button
+              handleCancel={() => setActiveComment(null)} // Cancel Button
             />)}
           <div className={style.commentActions}>
             <div className={style.commentActionContent}>
@@ -68,9 +67,12 @@ export const Comment = ({ comment, replies, deleteComment, currentUserId, update
 
           {isReplying && (
             <CommentForm
-              submitLabel="ReplyX"
+              submitLabel="Reply"
               handleSubmit={(text) =>
-                addComment(text, replyId)} />
+                addComment(text, replyId)} 
+                setActiveComment={setActiveComment}
+
+                />
           )}
           {replies.length > 0 && (
             <div className={style.replies}>
