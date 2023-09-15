@@ -2281,42 +2281,5 @@
       "link": "http://instagram.com"
     }
   ],
-  "comment": [
-    {
-      "id": "7hme0pso9",
-      "body": "Cool",
-      "parentId": null,
-      "imageID": 3000,
-      "userId": "1",
-      "username": "John",
-      "createdAt": "2023-09-13T00:49:51.619Z"
-    },
-    {
-      "id": "q482st4ak",
-      "body": "sss",
-      "parentId": "7hme0pso9",
-      "imageID": 3000,
-      "userId": "1",
-      "username": "John",
-      "createdAt": "2023-09-13T00:50:32.672Z"
-    },
-    {
-      "id": "12o8l3ob8",
-      "body": "1",
-      "parentId": null,
-      "imageID": 3000,
-      "userId": "1",
-      "username": "John",
-      "createdAt": "2023-09-13T00:50:50.566Z"
-    },
-    {
-      "id": "gtqynlsdf",
-      "body": "2",
-      "parentId": "12o8l3ob8",
-      "imageID": 3000,
-      "userId": "1",
-      "username": "John",
-      "createdAt": "2023-09-13T00:50:53.771Z"
-    }
-  ]
+  "comment": []
 }
