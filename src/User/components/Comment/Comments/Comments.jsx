@@ -39,7 +39,7 @@ export const Comments = ({ imageID, customStyle, currentUserId }) => {
       parentId,
       imageID: imageID,
       userId: "1",
-      username: "John",
+      username: "Lina Müller",
       createdAt: new Date().toISOString()
     }
   }
@@ -94,7 +94,7 @@ export const Comments = ({ imageID, customStyle, currentUserId }) => {
 
   return (
     <div className={`${style.comments} ${customStyle?.comments}`}>
-      <div className={style.commentsFormTitle}>Write Comment</div>
+      {/* <div className={style.commentsFormTitle}>Write Comment</div> */}
       <CommentForm submitLabel="Post" handleSubmit={addComment} imageID={imageID} />
       <div className={style.commentsContainer}>
         {

@@ -59,18 +59,18 @@
     display: flex;
     flex-direction: row;
     width: calc(100% - 10px);
-    /* 50% width with 10px margin-right */
 }
 
-.cardRight {
+.cardContent .cardRight {
     padding-top: 5rem;
     width: 100%;
     box-sizing: border-box;
     background-color: #ffffff;
     padding: 20px;
-    width: calc(100% - 10px);
-    /* 50% width with 10px margin-left */
+    width: calc(70% - 10px);
     margin-left: 1rem;
+
+
 }
 
 /* Media Queries */

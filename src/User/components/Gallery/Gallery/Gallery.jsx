@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { memo, useRef, useState, useEffect } from 'react';
 import style from './style.module.css';
 import axios from 'axios';
@@ -23,7 +24,8 @@ const Gallery = () => {
     axios.get(galleryUrl).then((res) => {
       setGallery(res.data[currentLanguage]);
     });
-  }, [_gallery, currentLanguage]);
+  }, [_gallery, currentLanguage, galleryUrl]);
+  console.log('Gallery State:', gallery);
 
   const handleThumbnailClick = (event, index) => {
     setCurrentImageIndex(index);
@@ -40,7 +42,8 @@ const Gallery = () => {
         <h1 className={style.header}></h1>
         <ImageGallery
           items={gallery}
-          showPlayButton
+          className={style.customGallery}
+          showPlayButton={true}
           showFullscreenButton
           slideOnThumbnailOver
           showThumbnails

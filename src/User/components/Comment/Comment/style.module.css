@@ -1,12 +1,28 @@
 .comment {
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 10px 0px 10px 0px;
+    margin-top: 1rem;
+}
+
+/* User Image */
+.imageUser {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+ .commentActions .commentActionContent{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
 }
 
 .commentAuthor {
-    color: blue;
-    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3, 3, 3);
+    font-family: Arial, Helvetica, 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 5px;
 }
 
 .commentsContent {
@@ -19,25 +35,70 @@
     margin-left: 1rem;
     font-size: 12px;
     align-items: center;
+    color: rgb(255, 1, 1);
+    display: flex;
 }
 
 .commentText {
     margin: 10px 10px;
     margin-bottom: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* User Image */
-.imageUser {
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-}
- .commentActions .commentActionContent{
-    display: flex;
-    flex-direction: row;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 17px;
 }
 
 .commentAction{
-    padding-right: 10px;
+    padding-right: 15px;
 }
+
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {}
+
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 992px) {
+
+    /* .commentAuthor {
+        color: rgb(3, 3, 3);
+        font-family: Arial, Helvetica, 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    
+    .commentsContent {
+        padding-left: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .commentcreatedAt {
+        margin-left: 1rem;
+        font-size: 12px;
+        align-items: center;
+        color: rgb(193, 46, 168);
+        display: flex;
+    }
+    
+    .commentText {
+        margin: 10px 10px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .imageUser {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+    }
+     .commentActions .commentActionContent{
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+    }
+    
+    .commentAction{
+        padding-right: 15px;
+    } */
+}
+
+@media only screen and (min-width: 1200px) {}

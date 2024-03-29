@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { memo, useContext, useState } from 'react';
 import style from './style.module.css';
 import { Link } from 'react-router-dom';
@@ -11,6 +12,7 @@ import {ScrollToTopButton} from '../../../components/ScrollToTopButton/ScrollToT
 import rtlStyle from './rtl.module.css'
 import { Paginate } from '../../../components/Paginate/Paginate';
 
+// eslint-disable-next-line react-refresh/only-export-components
 const Portrait = () => {
   const { portraitGallery, isArabic } = useContext(GalleryContext);
   const [selectedImage, setSelectedImage] = useState(null);

@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useContext, useState } from 'react';
 import style from './style.module.css';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
@@ -12,6 +13,7 @@ import rtlStyle from './rtl.module.css'
 import { Comments } from '../../Comment/Comments/Comments';
 import CommentStyles from './style.module.css';
 
+// eslint-disable-next-line react/prop-types
 const GalleryCard = ({ gallery, currentImageIndex, currentUserId }) => {
   if (!gallery || gallery.length === 0) {
     return null;

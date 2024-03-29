@@ -11,14 +11,13 @@ export const CommentForm = ({
   initialText = '',
   handleCancel }) => {
   const [text, setText] = useState(initialText);
-  const [isInputFocused, setInputFocused] = useState(false);
 
   const handleOnSubmit = async (event) => {
     event.preventDefault();
     if (text.trim() === '') {
       return;
     }
-    handleSubmit(text , null );
+    handleSubmit(text, null);
     setText('');
   }
 
@@ -30,39 +29,40 @@ export const CommentForm = ({
     setInputFocused(true)
   };
 
-  const handleCancelButtonClick = () => {
-    setText('');
-    setInputFocused(false)
-  };
-
   return (
     <form onSubmit={handleOnSubmit}>
-      <textarea
+      <input
         type="text"
         value={text}
-        /* placeholder="Add a comment" */
+        placeholder='Add a comment'
         onChange={handleInputChange}
         autoFocus={false}
         onFocus={handleInputFocus}
       />
-      {/* {isInputFocused && (
+      <div className={style.buttonContainer}>
+        <Button variant="contained" onClick={handleOnSubmit} className={style.postButton}>{submitLabel}</Button>
+        {hasCancelButton && (
+          <div className={style.nestedbuttonContainer}>
+            <Button variant="text" onClick={handleCancel} className={style.cancel}>Close</Button>
+          </div>
+        )}
+      </div>
+      <ChatBubbleOutlineIcon className={style.icon} />
+    </form>
+  )
+}
+
+/* const [isInputFocused, setInputFocused] = useState(false); */
+/* const handleCancelButtonClick = () => {
+  setText('');
+  setInputFocused(false)
+}; */
+
+{/* {isInputFocused && (
         <div className={style.buttonContainer}>
           <Button variant="contained" onClick={handleOnSubmit} className={style.enterButton}>{submitLabel}</Button>
           <Button variant="text" onClick={handleCancelButtonClick} className={style.cancel}>Cancel</Button>
         </div>
       )} */}
-      <div className={style.buttonContainer}>
-          <Button variant="contained" onClick={handleOnSubmit} className={style.enterButton}>{submitLabel}</Button>
-          {/* <Button variant="text" onClick={handleCancelButtonClick} className={style.cancel}>Cancel</Button> */} 
 
-      {hasCancelButton && (
-        <div className={style.nestedbuttonContainer}>
-        <Button variant="text" onClick={handleCancel} className={style.cancel}>Close</Button>
-        </div>
-      )}
-      {/* <ChatBubbleOutlineIcon className={style.icon} /> */}
-      </div>
-
-    </form>
-  )
-}
+{/* <ChatBubbleOutlineIcon className={style.icon} /> */ }
