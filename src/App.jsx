@@ -26,14 +26,13 @@ function App() {
               <Route path="/" exact element={<About />} />
               <Route path="about" exact element={<About />} />
               <Route path="project" element={<Project />} />
+              <Route path="/project/:id" element={<ProjectDetails />} />
               <Route path="portrait" element={<Portrait />} />
               <Route path="street" element={<Street />} />
               <Route path="landscape" element={<Landscape />} />
-              <Route path="/project/:id" element={<ProjectDetails />} />
               <Route path="/landscape/:_gallery/:index?" element={<Gallery />} />
               <Route path="/street/:_gallery/:index?" element={<Gallery />} />
               <Route path="/portrait/:_gallery/:index?" element={<Gallery />} />
-
               <Route path="contact" element={<Contact />} />
               <Route path="*" element={<Error />} />
             </Routes>

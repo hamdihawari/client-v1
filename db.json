@@ -7,18 +7,18 @@
         "title": "A light of a rebirth",
         "icon": "",
         "data": "Berlin - 22.10.2017",
-        "image": "https://www.linkpicture.com/q/c-o_2.jpg",
-        "imageHover": "https://www.linkpicture.com/q/A-light-of-a-rebirth.png",
+        "image": "../src/assets/images/hamdiphotos/project/projectPage/c|o.JPG",
+        "imageHover": "../src/assets/images/hamdiphotos/project/projectHover/c|o.jpg",
         "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults.",
         "projectDetails": [
           {
             "id": 100,
             "cardDescription": "In 2017, I participated in an exhibition with many colleagues, and an exhibition was opened there, where I displayed my painting while it is still in the exhibition. I collected some details with the help of the supervisor, Esra Rotthoff, as the details of my arduous journey from Damascus to Germany in 2015. Jasmine is a well-known Damascene symbol, and the red light accompanied me on my way across the border towards Germany. The rest of the details, such as money and coffee, are a group of details engraved in my mind, and they are completely Damascene details.",
-            "alt": "A light",
+            "alt": "A light Of Project c|o",
             "imageGroup": {
-              "img_1": "https://www.linkpicture.com/q/IMG_5967.jpg",
-              "img_2": "https://www.linkpicture.com/q/IMG_2015.jpg",
-              "img_3": "https://www.linkpicture.com/q/IMG_2013.jpg"
+              "img_1": "../src/assets/images/hamdiphotos/project/projectDetails/c|o/c|oAustellungN1.jpg",
+              "img_2": "../src/assets/images/hamdiphotos/project/projectDetails/c|o/c|oAustellungN2.jpg",
+              "img_3": "../src/assets/images/hamdiphotos/project/projectDetails/c|o/c|oAustellungN3.jpg"
             }
           }
         ]
@@ -29,8 +29,8 @@
         "title": "You are Me",
         "icon": "",
         "data": "Berlin - 11.01.2015",
-        "image": "https://www.linkpicture.com/q/youme.jpg",
-        "imageHover": "https://www.linkpicture.com/q/youme_5.png",
+        "image": "../src/assets/images/hamdiphotos/project/projectPage/youme.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/projectHover/youme.jpg",
         "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults.",
         "projectDetails": [
           {
@@ -47,8 +47,8 @@
         "title": "Emothion of the moraine",
         "icon": "",
         "data": "Berlin - 25.06.2016",
-        "image": "https://www.linkpicture.com/q/childrenWar.jpg",
-        "imageHover": "https://www.linkpicture.com/q/Emotion.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/emothion.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/emothion.jpg",
         "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults.",
         "projectDetails": [
           {
@@ -56,15 +56,16 @@
             "cardDescription": "You are me, just an idea I had, and it means love. Let me penetrate the depths of your life, live on your voice and the warmth of your tones, and study the magic of your looks, you who melted me with the splendor of your beauty, for I loved the moment of your silence and the delicacy of your dialogue, you who was my date of birth the day I met you.",
             "alt": "Emothion of the moraine",
             "imageGroup": {
-              "img_1": "https://www.linkpicture.com/q/Emothion-1_1.png",
-              "img_2": "https://www.linkpicture.com/q/Emothion-2.png",
-              "img_3": "https://www.linkpicture.com/q/Emothion-3.png",
-              "img_4": "https://www.linkpicture.com/q/Emothion-4.png",
-              "img_5": "https://www.linkpicture.com/q/Emothion-5.png",
-              "img_6": "https://www.linkpicture.com/q/Emothion-6.png",
-              "img_7": "https://www.linkpicture.com/q/Emothion-7.png",
-              "img_8": "https://www.linkpicture.com/q/Emothion-8.png",
-              "img_9": "https://www.linkpicture.com/q/Emothion-9.png"
+              "img_1": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN1.jpg",
+              "img_2": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN2.jpg",
+              "img_3": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN3.jpg",
+              "img_4": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN4.jpg",
+              "img_5": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN5.jpg",
+              "img_6": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN6.jpg",
+              "img_7": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN7.jpg",
+              "img_8": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN8.jpg",
+              "img_9": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN9.jpg",
+              "img_10": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN10.jpg"
             }
           }
         ]
@@ -75,8 +76,8 @@
         "title": "The end of the world",
         "icon": "",
         "data": "Damascus - 4.09.2013",
-        "image": "https://www.linkpicture.com/q/IMG_2958_2.jpg",
-        "imageHover": "https://www.linkpicture.com/q/end_7.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/theEndofTheWorld.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/theEndofTheWorld.jpg",
         "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults.",
         "projectDetails": [
           {
@@ -93,8 +94,8 @@
         "title": "Silencer civilized coice",
         "icon": "",
         "data": "Damascus - 22.07.2012",
-        "image": "https://www.linkpicture.com/q/Children.jpg",
-        "imageHover": "https://www.linkpicture.com/q/Silencer-civilized-coice_2.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/silencerCivilizedVoice.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/silencerCivilizedVoice.jpg",
         "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults.",
         "projectDetails": [
           {
@@ -111,8 +112,8 @@
         "title": "Syria",
         "icon": "",
         "data": "Damascus - 07.07.2011",
-        "image": "https://www.linkpicture.com/q/Syria.jpg",
-        "imageHover": "https://www.linkpicture.com/q/Syria.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/syria.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/syria.jpg",
         "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults.",
         "projectDetails": [
           {
@@ -129,15 +130,28 @@
         "title": "Logo's",
         "icon": "",
         "data": "Berlin - 04.11.2018",
-        "image": "https://www.linkpicture.com/q/Damascus_1.jpg",
-        "imageHover": "https://www.linkpicture.com/q/log_1.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/logo.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/logo.jpg",
         "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults.",
         "projectDetails": [
           {
             "id": 106,
             "cardDescription": "You are me, just an idea I had, and it means love. Let me penetrate the depths of your life, live on your voice and the warmth of your tones, and study the magic of your looks, you who melted me with the splendor of your beauty, for I loved the moment of your silence and the delicacy of your dialogue, you who was my date of birth the day I met you.",
             "alt": "",
-            "imageGroup": {}
+            "imageGroup": {
+              "img_1": "../src/assets/images/hamdiphotos/project/projectDetails/logos/alepo.jpg",
+              "img_2": "../src/assets/images/hamdiphotos/project/projectDetails/logos/homs.jpg",
+              "img_3": "../src/assets/images/hamdiphotos/project/projectDetails/logos/dara.jpg",
+              "img_4": "../src/assets/images/hamdiphotos/project/projectDetails/logos/dairAlzour.jpg",
+              "img_5": "../src/assets/images/hamdiphotos/project/projectDetails/logos/latakia.jpg",
+              "img_6": "../src/assets/images/hamdiphotos/project/projectDetails/logos/alswedaa.jpg",
+              "img_7": "../src/assets/images/hamdiphotos/project/projectDetails/logos/alswedaa.jpg",
+              "img_8": "../src/assets/images/hamdiphotos/project/projectDetails/logos/tartous.jpg",
+              "img_9": "../src/assets/images/hamdiphotos/project/projectDetails/logos/hama.jpg",
+              "img_10": "../src/assets/images/hamdiphotos/project/projectDetails/logos/logoDamascus.jpg",
+              "img_11": "../src/assets/images/hamdiphotos/project/projectDetails/logos/logoCham.jpg",
+              "img_12": "../src/assets/images/hamdiphotos/project/projectDetails/logos/logoCham2.jpg"
+            }
           }
         ]
       },
@@ -147,8 +161,8 @@
         "title": "There is always hope",
         "icon": "",
         "data": "Damascus - 18.05.2012",
-        "image": "https://www.linkpicture.com/q/eye_1.png",
-        "imageHover": "https://www.linkpicture.com/q/eyeHover_1.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/thereIsAlwaysHope.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/thereIsAlwaysHope.jpg",
         "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults.",
         "projectDetails": [
           {
@@ -165,8 +179,8 @@
         "title": "Damascus Jasmin",
         "icon": "",
         "data": "Berlin - 10.03.2020",
-        "image": "https://www.linkpicture.com/q/jasmin.png",
-        "imageHover": "https://www.linkpicture.com/q/jasmin-2.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/damascusJasmin.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/damascusJasmin.jpg",
         "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults.",
         "projectDetails": [
           {
@@ -183,8 +197,8 @@
         "title": "We stay here for ever",
         "icon": "",
         "data": "Damascus - 18.03.2012",
-        "image": "https://www.linkpicture.com/q/stay.png",
-        "imageHover": "https://www.linkpicture.com/q/we-stay-2_1.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/weStayHere.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/weStayHere.jpg",
         "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults.",
         "projectDetails": [
           {
@@ -201,8 +215,8 @@
         "title": "Don't forget the poor",
         "icon": "",
         "data": "Berlin - 14.11.2013",
-        "image": "https://www.linkpicture.com/q/hungry-syr_1.png",
-        "imageHover": "https://www.linkpicture.com/q/dont-forget.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/poor.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/poor.jpg",
         "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults.",
         "projectDetails": [
           {
@@ -219,8 +233,8 @@
         "title": "Welcome to Syria",
         "icon": "",
         "data": "Damascus - 02.11.2012",
-        "image": "https://www.linkpicture.com/q/welcome-syr.png",
-        "imageHover": "https://www.linkpicture.com/q/welcom-to-syr-2.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/welcomeToSyria.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/welcomeToSyria.jpg",
         "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults.",
         "projectDetails": [
           {
@@ -237,8 +251,8 @@
         "title": "Love Story Under The Moon",
         "icon": "",
         "data": "Damascus - 02.10.2013",
-        "image": "https://www.linkpicture.com/q/love_6.png",
-        "imageHover": "https://www.linkpicture.com/q/love_7.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/love.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/love.jpg",
         "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults.",
         "projectDetails": [
           {
@@ -255,8 +269,8 @@
         "title": "Soul Cry",
         "icon": "",
         "data": "Damascus - 02.10.2013",
-        "image": "https://www.linkpicture.com/q/cry_1.png",
-        "imageHover": "https://www.linkpicture.com/q/Soul-cry.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/cry.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/cry.jpg",
         "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults.",
         "projectDetails": [
           {
@@ -275,8 +289,8 @@
         "title": "Ein Licht der Wiedergeburt",
         "icon": "",
         "data": "Berlin - 22.10.2017",
-        "image": "https://www.linkpicture.com/q/c-o_2.jpg",
-        "imageHover": "https://www.linkpicture.com/q/A-light-of-a-rebirth.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/c|o.JPG",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/c|o.jpg",
         "description": "Im Jahr 2017 habe ich mit vielen Kollegen an einer Ausstellung teilgenommen, und dort wurde eine Ausstellung eröffnet, in der ich mein Gemälde gezeigt habe, während es noch in der Ausstellung ist. Mit Hilfe der Betreuerin, Esra Rotthoff, habe ich einige Details zu meiner beschwerlichen Reise von Damaskus nach Deutschland im Jahr 2015 gesammelt. Jasmin ist ein bekanntes Damaszener Symbol",
         "projectDetails": [
           {
@@ -284,9 +298,9 @@
             "alt": "Ein Licht der Wiedergeburt",
             "cardDescription": "Du bist ich, nur eine Idee, die ich hatte, und sie bedeutet Liebe. Lass mich in die Tiefen deines Lebens eindringen, von deiner Stimme und der Wärme deiner Töne leben und den Zauber deiner Blicke studieren, du, der du mich mit dem Glanz deiner Schönheit zum Schmelzen gebracht hast, denn ich liebte den Moment deines Schweigens und die Zartheit deines Dialogs, du, der du mein Geburtsdatum an dem Tag warst, an dem ich dich kennenlernte.",
             "imageGroup": {
-              "img_1": "https://www.linkpicture.com/q/IMG_5967.jpg",
-              "img_2": "https://www.linkpicture.com/q/IMG_2015.jpg",
-              "img_3": "https://www.linkpicture.com/q/IMG_2013.jpg"
+              "img_1": "../src/assets/images/hamdiphotos/project/ProjectDetails/c|o/c|oAustellungN1.jpg",
+              "img_2": "../src/assets/images/hamdiphotos/project/ProjectDetails/c|o/c|oAustellungN2.jpg",
+              "img_3": "../src/assets/images/hamdiphotos/project/ProjectDetails/c|o/c|oAustellungN3.jpg"
             }
           }
         ]
@@ -297,8 +311,8 @@
         "title": "Du bist ich",
         "icon": "",
         "data": "Berlin - 11.01.2015",
-        "image": "https://www.linkpicture.com/q/youme.jpg",
-        "imageHover": "https://www.linkpicture.com/q/youme_5.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/youme.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/youme.jpg",
         "description": "With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design on a professional level and to playfully With the formats Junior, Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design.  Teens and Adults, C/O Berlin offers a chance to get to know photography, film and design Teens and Adults.",
         "projectDetails": [
           {
@@ -315,8 +329,8 @@
         "title": "Emothion of the moraine",
         "icon": "",
         "data": "Berlin - 25.06.2016",
-        "image": "https://www.linkpicture.com/q/childrenWar.jpg",
-        "imageHover": "https://www.linkpicture.com/q/Emotion.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/emothion.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/emothion.jpg",
         "description": "Im Jahr 2017 habe ich mit vielen Kollegen an einer Ausstellung teilgenommen, und dort wurde eine Ausstellung eröffnet, in der ich mein Gemälde gezeigt habe, während es noch in der Ausstellung ist. Mit Hilfe der Betreuerin, Esra Rotthoff, habe ich einige Details zu meiner beschwerlichen Reise von Damaskus nach Deutschland im Jahr 2015 gesammelt. Jasmin ist ein bekanntes Damaszener Symbol",
         "projectDetails": [
           {
@@ -324,15 +338,16 @@
             "cardDescription": "You are me, just an idea I had, and it means love. Let me penetrate the depths of your life, live on your voice and the warmth of your tones, and study the magic of your looks, you who melted me with the splendor of your beauty, for I loved the moment of your silence and the delicacy of your dialogue, you who was my date of birth the day I met you.",
             "alt": "Emothion of the moraine",
             "imageGroup": {
-              "img_1": "https://www.linkpicture.com/q/Emothion-1_1.png",
-              "img_2": "https://www.linkpicture.com/q/Emothion-2.png",
-              "img_3": "https://www.linkpicture.com/q/Emothion-3.png",
-              "img_4": "https://www.linkpicture.com/q/Emothion-4.png",
-              "img_5": "https://www.linkpicture.com/q/Emothion-5.png",
-              "img_6": "https://www.linkpicture.com/q/Emothion-6.png",
-              "img_7": "https://www.linkpicture.com/q/Emothion-7.png",
-              "img_8": "https://www.linkpicture.com/q/Emothion-8.png",
-              "img_9": "https://www.linkpicture.com/q/Emothion-9.png"
+              "img_1": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN1.jpg",
+              "img_2": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN2.jpg",
+              "img_3": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN3.jpg",
+              "img_4": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN4.jpg",
+              "img_5": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN5.jpg",
+              "img_6": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN6.jpg",
+              "img_7": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN7.jpg",
+              "img_8": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN8.jpg",
+              "img_9": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN9.jpg",
+              "img_10": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN10.jpg"
             }
           }
         ]
@@ -343,8 +358,8 @@
         "title": "Das Ende der Welt",
         "icon": "",
         "data": "Damascus - 4.09.2013",
-        "image": "https://www.linkpicture.com/q/IMG_2958_2.jpg",
-        "imageHover": "https://www.linkpicture.com/q/end_7.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/theEndofTheWorld.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/theEndofTheWorld.jpg",
         "description": "Im Jahr 2017 habe ich mit vielen Kollegen an einer Ausstellung teilgenommen, und dort wurde eine Ausstellung eröffnet, in der ich mein Gemälde gezeigt habe, während es noch in der Ausstellung ist. Mit Hilfe der Betreuerin, Esra Rotthoff, habe ich einige Details zu meiner beschwerlichen Reise von Damaskus nach Deutschland im Jahr 2015 gesammelt. Jasmin ist ein bekanntes Damaszener Symbol",
         "projectDetails": [
           {
@@ -361,8 +376,8 @@
         "title": "Zivilisierter Schalldämpfer",
         "icon": "",
         "data": "Damascus - 22.07.2012",
-        "image": "https://www.linkpicture.com/q/Children.jpg",
-        "imageHover": "https://www.linkpicture.com/q/Silencer-civilized-coice_2.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/silencerCivilizedVoice.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/silencerCivilizedVoice.jpg",
         "description": "Im Jahr 2017 habe ich mit vielen Kollegen an einer Ausstellung teilgenommen, und dort wurde eine Ausstellung eröffnet, in der ich mein Gemälde gezeigt habe, während es noch in der Ausstellung ist. Mit Hilfe der Betreuerin, Esra Rotthoff, habe ich einige Details zu meiner beschwerlichen Reise von Damaskus nach Deutschland im Jahr 2015 gesammelt. Jasmin ist ein bekanntes Damaszener Symbol",
         "projectDetails": [
           {
@@ -379,8 +394,8 @@
         "title": "Syrien",
         "icon": "",
         "data": "Damascus - 07.07.2011",
-        "image": "https://www.linkpicture.com/q/Syria.jpg",
-        "imageHover": "https://www.linkpicture.com/q/Syria.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/syria.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/syria.jpg",
         "description": "Im Jahr 2017 habe ich mit vielen Kollegen an einer Ausstellung teilgenommen, und dort wurde eine Ausstellung eröffnet, in der ich mein Gemälde gezeigt habe, während es noch in der Ausstellung ist. Mit Hilfe der Betreuerin, Esra Rotthoff, habe ich einige Details zu meiner beschwerlichen Reise von Damaskus nach Deutschland im Jahr 2015 gesammelt. Jasmin ist ein bekanntes Damaszener Symbol",
         "projectDetails": [
           {
@@ -397,15 +412,28 @@
         "title": "Logo's",
         "icon": "",
         "data": "Berlin - 04.11.2018",
-        "image": "https://www.linkpicture.com/q/Damascus_1.jpg",
-        "imageHover": "https://www.linkpicture.com/q/log_1.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/logo.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/logo.jpg",
         "description": "Im Jahr 2017 habe ich mit vielen Kollegen an einer Ausstellung teilgenommen, und dort wurde eine Ausstellung eröffnet, in der ich mein Gemälde gezeigt habe, während es noch in der Ausstellung ist. Mit Hilfe der Betreuerin, Esra Rotthoff, habe ich einige Details zu meiner beschwerlichen Reise von Damaskus nach Deutschland im Jahr 2015 gesammelt. Jasmin ist ein bekanntes Damaszener Symbol",
         "projectDetails": [
           {
             "id": 106,
             "cardDescription": "Du bist ich, nur eine Idee, die ich hatte, und sie bedeutet Liebe. Lass mich in die Tiefen deines Lebens eindringen, von deiner Stimme und der Wärme deiner Töne leben und den Zauber deiner Blicke studieren, du, der du mich mit dem Glanz deiner Schönheit zum Schmelzen gebracht hast, denn ich liebte den Moment deines Schweigens und die Zartheit deines Dialogs, du, der du mein Geburtsdatum an dem Tag warst, an dem ich dich kennenlernte.",
             "alt": "",
-            "imageGroup": {}
+            "imageGroup": {
+              "img_1": "../src/assets/images/hamdiphotos/project/projectDetails/logos/alepo.jpg",
+              "img_2": "../src/assets/images/hamdiphotos/project/projectDetails/logos/homs.jpg",
+              "img_3": "../src/assets/images/hamdiphotos/project/projectDetails/logos/dara.jpg",
+              "img_4": "../src/assets/images/hamdiphotos/project/projectDetails/logos/dairAlzour.jpg",
+              "img_5": "../src/assets/images/hamdiphotos/project/projectDetails/logos/latakia.jpg",
+              "img_6": "../src/assets/images/hamdiphotos/project/projectDetails/logos/alswedaa.jpg",
+              "img_7": "../src/assets/images/hamdiphotos/project/projectDetails/logos/alswedaa.jpg",
+              "img_8": "../src/assets/images/hamdiphotos/project/projectDetails/logos/tartous.jpg",
+              "img_9": "../src/assets/images/hamdiphotos/project/projectDetails/logos/hama.jpg",
+              "img_10": "../src/assets/images/hamdiphotos/project/projectDetails/logos/logoDamascus.jpg",
+              "img_11": "../src/assets/images/hamdiphotos/project/projectDetails/logos/logoCham.jpg",
+              "img_12": "../src/assets/images/hamdiphotos/project/projectDetails/logos/logoCham2.jpg"
+            }
           }
         ]
       },
@@ -415,8 +443,8 @@
         "title": "Es gibt immer Hoffnung",
         "icon": "",
         "data": "Damascus - 18.05.2012",
-        "image": "https://www.linkpicture.com/q/eye_1.png",
-        "imageHover": "https://www.linkpicture.com/q/eyeHover_1.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/thereIsAlwaysHope.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/thereIsAlwaysHope.jpg",
         "description": "Im Jahr 2017 habe ich mit vielen Kollegen an einer Ausstellung teilgenommen, und dort wurde eine Ausstellung eröffnet, in der ich mein Gemälde gezeigt habe, während es noch in der Ausstellung ist. Mit Hilfe der Betreuerin, Esra Rotthoff, habe ich einige Details zu meiner beschwerlichen Reise von Damaskus nach Deutschland im Jahr 2015 gesammelt. Jasmin ist ein bekanntes Damaszener Symbol",
         "projectDetails": [
           {
@@ -433,8 +461,8 @@
         "title": "Damaskus Jasmin",
         "icon": "",
         "data": "Berlin - 10.03.2020",
-        "image": "https://www.linkpicture.com/q/jasmin.png",
-        "imageHover": "https://www.linkpicture.com/q/jasmin-2.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/damascusJasmin.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/damascusJasmin.jpg",
         "description": "Im Jahr 2017 habe ich mit vielen Kollegen an einer Ausstellung teilgenommen, und dort wurde eine Ausstellung eröffnet, in der ich mein Gemälde gezeigt habe, während es noch in der Ausstellung ist. Mit Hilfe der Betreuerin, Esra Rotthoff, habe ich einige Details zu meiner beschwerlichen Reise von Damaskus nach Deutschland im Jahr 2015 gesammelt. Jasmin ist ein bekanntes Damaszener Symbol",
         "projectDetails": [
           {
@@ -451,8 +479,8 @@
         "title": "Wir bleiben für immer hier",
         "icon": "",
         "data": "Damascus - 18.03.2012",
-        "image": "https://www.linkpicture.com/q/stay.png",
-        "imageHover": "https://www.linkpicture.com/q/we-stay-2_1.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/weStayHere.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/weStayHere.jpg",
         "description": "Im Jahr 2017 habe ich mit vielen Kollegen an einer Ausstellung teilgenommen, und dort wurde eine Ausstellung eröffnet, in der ich mein Gemälde gezeigt habe, während es noch in der Ausstellung ist. Mit Hilfe der Betreuerin, Esra Rotthoff, habe ich einige Details zu meiner beschwerlichen Reise von Damaskus nach Deutschland im Jahr 2015 gesammelt. Jasmin ist ein bekanntes Damaszener Symbol",
         "projectDetails": [
           {
@@ -469,8 +497,8 @@
         "title": "Vergessen Sie die Armen nicht",
         "icon": "",
         "data": "Berlin - 14.11.2013",
-        "image": "https://www.linkpicture.com/q/hungry-syr_1.png",
-        "imageHover": "https://www.linkpicture.com/q/dont-forget.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/poor.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/poor.jpg",
         "description": "Im Jahr 2017 habe ich mit vielen Kollegen an einer Ausstellung teilgenommen, und dort wurde eine Ausstellung eröffnet, in der ich mein Gemälde gezeigt habe, während es noch in der Ausstellung ist. Mit Hilfe der Betreuerin, Esra Rotthoff, habe ich einige Details zu meiner beschwerlichen Reise von Damaskus nach Deutschland im Jahr 2015 gesammelt. Jasmin ist ein bekanntes Damaszener Symbol",
         "projectDetails": [
           {
@@ -487,8 +515,8 @@
         "title": "Welkommen to Syria",
         "icon": "",
         "data": "Damascus - 02.11.2012",
-        "image": "https://www.linkpicture.com/q/welcome-syr.png",
-        "imageHover": "https://www.linkpicture.com/q/welcom-to-syr-2.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/welcomeToSyria.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/welcomeToSyria.jpg",
         "description": "Im Jahr 2017 habe ich mit vielen Kollegen an einer Ausstellung teilgenommen, und dort wurde eine Ausstellung eröffnet, in der ich mein Gemälde gezeigt habe, während es noch in der Ausstellung ist. Mit Hilfe der Betreuerin, Esra Rotthoff, habe ich einige Details zu meiner beschwerlichen Reise von Damaskus nach Deutschland im Jahr 2015 gesammelt. Jasmin ist ein bekanntes Damaszener Symbol",
         "projectDetails": [
           {
@@ -505,8 +533,8 @@
         "title": "Liebesgeschichte unter dem Mond",
         "icon": "",
         "data": "Damascus - 02.10.2013",
-        "image": "https://www.linkpicture.com/q/love_6.png",
-        "imageHover": "https://www.linkpicture.com/q/love_7.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/love.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/love.jpg",
         "description": "Im Jahr 2017 habe ich mit vielen Kollegen an einer Ausstellung teilgenommen, und dort wurde eine Ausstellung eröffnet, in der ich mein Gemälde gezeigt habe, während es noch in der Ausstellung ist. Mit Hilfe der Betreuerin, Esra Rotthoff, habe ich einige Details zu meiner beschwerlichen Reise von Damaskus nach Deutschland im Jahr 2015 gesammelt. Jasmin ist ein bekanntes Damaszener Symbol",
         "projectDetails": [
           {
@@ -523,8 +551,8 @@
         "title": "Seelenschrei",
         "icon": "",
         "data": "Damascus - 02.10.2013",
-        "image": "https://www.linkpicture.com/q/cry_1.png",
-        "imageHover": "https://www.linkpicture.com/q/Soul-cry.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/cry.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/cry.jpg",
         "description": "Im Jahr 2017 habe ich mit vielen Kollegen an einer Ausstellung teilgenommen, und dort wurde eine Ausstellung eröffnet, in der ich mein Gemälde gezeigt habe, während es noch in der Ausstellung ist. Mit Hilfe der Betreuerin, Esra Rotthoff, habe ich einige Details zu meiner beschwerlichen Reise von Damaskus nach Deutschland im Jahr 2015 gesammelt. Jasmin ist ein bekanntes Damaszener Symbol",
         "projectDetails": [
           {
@@ -543,8 +571,8 @@
         "title": "ضوء ولادة جديدة",
         "icon": "",
         "data": "22.10.2017 - برلين",
-        "image": "https://www.linkpicture.com/q/c-o_2.jpg",
-        "imageHover": "https://www.linkpicture.com/q/A-light-of-a-rebirth.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/c|o.JPG",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/c|o.jpg",
         "description": "في عام ٢٠١٥ تركت موطني بعيداً ورحلت.. انه الموت المفاجئ والظلم الذي بات يطرق بابنا مهدداً حياتنا.. اما الموت أو الرحيل. لم يكن أمامنا سوا الرحيل لكي لا نرتكب حماقتاً ونقتل اطفالاً تحت حجه الوطن.. فالوطن هو المكان الذي يحميك ويقدم لك الأمان والحرية والكرامة.. برلين هي وطني الثاني الذي لولاها ما كنت أنا.. في عام ٢٠١٦ قمت بالمشاركه في معرض في برلين وقدمت لوحتي التي تعني لي الكثير.. فكل ما تراه في هذه اللوحه ما هي الا تفاصيل تروي لي حكايات عشتها هناك وعلى طريق اللجوء",
         "projectDetails": [
           {
@@ -552,9 +580,9 @@
             "alt": "ضوء ولادة جديدة",
             "cardDescription": "في عام ٢٠١٥ تركت موطني بعيداً ورحلت.. انه الموت المفاجئ والظلم الذي بات يطرق بابنا مهدداً حياتنا.. اما الموت أو الرحيل. لم يكن أمامنا سوا الرحيل لكي لا نرتكب حماقتاً ونقتل اطفالاً تحت حجه الوطن.. فالوطن هو المكان الذي يحميك ويقدم لك الأمان والحرية والكرامة.. برلين هي وطني الثاني الذي لولاها ما كنت أنا.. في عام ٢٠١٦ قمت بالمشاركه في معرض في برلين وقدمت لوحتي التي تعني لي الكثير.. فكل ما تراه في هذه اللوحه ما هي الا تفاصيل تروي لي حكايات عشتها هناك وعلى طريق اللجوء",
             "imageGroup": {
-              "img_1": "https://www.linkpicture.com/q/IMG_5967.jpg",
-              "img_2": "https://www.linkpicture.com/q/IMG_2015.jpg",
-              "img_3": "https://www.linkpicture.com/q/IMG_2013.jpg"
+              "img_1": "../src/assets/images/hamdiphotos/project/ProjectDetails/c|o/c|oAustellungN1.jpg",
+              "img_2": "../src/assets/images/hamdiphotos/project/ProjectDetails/c|o/c|oAustellungN2.jpg",
+              "img_3": "../src/assets/images/hamdiphotos/project/ProjectDetails/c|o/c|oAustellungN3.jpg"
             }
           }
         ]
@@ -565,8 +593,8 @@
         "title": "أنـتِ أنَـا",
         "icon": "",
         "data": "برلين - 11.01.2015",
-        "image": "https://www.linkpicture.com/q/youme.jpg",
-        "imageHover": "https://www.linkpicture.com/q/youme_5.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/youme.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/youme.jpg",
         "description": ".حبيبتي، إنّ حروفي وكلماتي وعدتني أن تجعلك تلتمسيها وأمنّتُها لكل عائدٍ إلى بلادي أن يوصلها لأحضانك، فهل وصلتكِ أيٌّ من رسائلي لك؟ حبيبتي، إن قلت نعم فقد عرفتِ مكنونها، وإن قلتِ لا فعلّي أبوح بسرّها خوفاً أن تغدر بي الدّنيا ولا تصلك إحداها، وخوفاً على أنفاسي وروحي من مفارقة مضمون رسائلها, لحبّ هو اللعبة الوحيدة التي يشترك فيها اثنان ويكسبان فيها معاً أو يخسران معاً. شوق الذين زاروا دار الأحبة ثم مُنِعوا عنها أشدّ من شوق الذين لم يزوروها بعد",
         "projectDetails": [
           {
@@ -583,8 +611,8 @@
         "title": "عاطفة الركام",
         "icon": "",
         "data": "برلين - 25.06.2016",
-        "image": "https://www.linkpicture.com/q/childrenWar.jpg",
-        "imageHover": "https://www.linkpicture.com/q/Emotion.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/emothion.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/emothion.jpg",
         "description": "في عام ٢٠١٥ تركت موطني بعيداً ورحلت.. انه الموت المفاجئ والظلم الذي بات يطرق بابنا مهدداً حياتنا.. اما الموت أو الرحيل. لم يكن أمامنا سوا الرحيل لكي لا نرتكب حماقتاً ونقتل اطفالاً تحت حجه الوطن.. فالوطن هو المكان الذي يحميك ويقدم لك الأمان والحرية والكرامة.. برلين هي وطني الثاني الذي لولاها ما كنت أنا.. في عام ٢٠١٦ قمت بالمشاركه في معرض في برلين وقدمت لوحتي التي تعني لي الكثير.. فكل ما تراه في هذه اللوحه ما هي الا تفاصيل تروي لي حكايات عشتها هناك وعلى طريق اللجوء",
         "projectDetails": [
           {
@@ -592,15 +620,16 @@
             "cardDescription": "You are me, just an idea I had, and it means love. Let me penetrate the depths of your life, live on your voice and the warmth of your tones, and study the magic of your looks, you who melted me with the splendor of your beauty, for I loved the moment of your silence and the delicacy of your dialogue, you who was my date of birth the day I met you.",
             "alt": "عاطفة الركام",
             "imageGroup": {
-              "img_1": "https://www.linkpicture.com/q/Emothion-1_1.png",
-              "img_2": "https://www.linkpicture.com/q/Emothion-2.png",
-              "img_3": "https://www.linkpicture.com/q/Emothion-3.png",
-              "img_4": "https://www.linkpicture.com/q/Emothion-4.png",
-              "img_5": "https://www.linkpicture.com/q/Emothion-5.png",
-              "img_6": "https://www.linkpicture.com/q/Emothion-6.png",
-              "img_7": "https://www.linkpicture.com/q/Emothion-7.png",
-              "img_8": "https://www.linkpicture.com/q/Emothion-8.png",
-              "img_9": "https://www.linkpicture.com/q/Emothion-9.png"
+              "img_1": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN1.jpg",
+              "img_2": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN2.jpg",
+              "img_3": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN3.jpg",
+              "img_4": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN4.jpg",
+              "img_5": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN5.jpg",
+              "img_6": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN6.jpg",
+              "img_7": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN7.jpg",
+              "img_8": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN8.jpg",
+              "img_9": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN9.jpg",
+              "img_10": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN10.jpg"
             }
           }
         ]
@@ -611,8 +640,8 @@
         "title": "نهاية العالم",
         "icon": "",
         "data": "Damascus - 4.09.2013",
-        "image": "https://www.linkpicture.com/q/IMG_2958_2.jpg",
-        "imageHover": "https://www.linkpicture.com/q/end_7.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/theEndofTheWorld.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/theEndofTheWorld.jpg",
         "description": "في عام ٢٠١٥ تركت موطني بعيداً ورحلت.. انه الموت المفاجئ والظلم الذي بات يطرق بابنا مهدداً حياتنا.. اما الموت أو الرحيل. لم يكن أمامنا سوا الرحيل لكي لا نرتكب حماقتاً ونقتل اطفالاً تحت حجه الوطن.. فالوطن هو المكان الذي يحميك ويقدم لك الأمان والحرية والكرامة.. برلين هي وطني الثاني الذي لولاها ما كنت أنا.. في عام ٢٠١٦ قمت بالمشاركه في معرض في برلين وقدمت لوحتي التي تعني لي الكثير.. فكل ما تراه في هذه اللوحه ما هي الا تفاصيل تروي لي حكايات عشتها هناك وعلى طريق اللجوء",
         "projectDetails": [
           {
@@ -629,8 +658,8 @@
         "title": "كاتم صوت حضاري",
         "icon": "",
         "data": "Damascus - 22.07.2012",
-        "image": "https://www.linkpicture.com/q/Children.jpg",
-        "imageHover": "https://www.linkpicture.com/q/Silencer-civilized-coice_2.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/silencerCivilizedVoice.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/silencerCivilizedVoice.jpg",
         "description": "في عام ٢٠١٥ تركت موطني بعيداً ورحلت.. انه الموت المفاجئ والظلم الذي بات يطرق بابنا مهدداً حياتنا.. اما الموت أو الرحيل. لم يكن أمامنا سوا الرحيل لكي لا نرتكب حماقتاً ونقتل اطفالاً تحت حجه الوطن.. فالوطن هو المكان الذي يحميك ويقدم لك الأمان والحرية والكرامة.. برلين هي وطني الثاني الذي لولاها ما كنت أنا.. في عام ٢٠١٦ قمت بالمشاركه في معرض في برلين وقدمت لوحتي التي تعني لي الكثير.. فكل ما تراه في هذه اللوحه ما هي الا تفاصيل تروي لي حكايات عشتها هناك وعلى طريق اللجوء",
         "projectDetails": [
           {
@@ -647,8 +676,8 @@
         "title": "سوريــا",
         "icon": "",
         "data": "Damascus - 07.07.2011",
-        "image": "https://www.linkpicture.com/q/Syria.jpg",
-        "imageHover": "https://www.linkpicture.com/q/Syria.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/syria.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/syria.jpg",
         "description": "في عام ٢٠١٥ تركت موطني بعيداً ورحلت.. انه الموت المفاجئ والظلم الذي بات يطرق بابنا مهدداً حياتنا.. اما الموت أو الرحيل. لم يكن أمامنا سوا الرحيل لكي لا نرتكب حماقتاً ونقتل اطفالاً تحت حجه الوطن.. فالوطن هو المكان الذي يحميك ويقدم لك الأمان والحرية والكرامة.. برلين هي وطني الثاني الذي لولاها ما كنت أنا.. في عام ٢٠١٦ قمت بالمشاركه في معرض في برلين وقدمت لوحتي التي تعني لي الكثير.. فكل ما تراه في هذه اللوحه ما هي الا تفاصيل تروي لي حكايات عشتها هناك وعلى طريق اللجوء",
         "projectDetails": [
           {
@@ -665,15 +694,28 @@
         "title": "شعارات",
         "icon": "",
         "data": "Berlin - 04.11.2018",
-        "image": "https://www.linkpicture.com/q/Damascus_1.jpg",
-        "imageHover": "https://www.linkpicture.com/q/log_1.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/logo.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/logo.jpg",
         "description": "في عام ٢٠١٥ تركت موطني بعيداً ورحلت.. انه الموت المفاجئ والظلم الذي بات يطرق بابنا مهدداً حياتنا.. اما الموت أو الرحيل. لم يكن أمامنا سوا الرحيل لكي لا نرتكب حماقتاً ونقتل اطفالاً تحت حجه الوطن.. فالوطن هو المكان الذي يحميك ويقدم لك الأمان والحرية والكرامة.. برلين هي وطني الثاني الذي لولاها ما كنت أنا.. في عام ٢٠١٦ قمت بالمشاركه في معرض في برلين وقدمت لوحتي التي تعني لي الكثير.. فكل ما تراه في هذه اللوحه ما هي الا تفاصيل تروي لي حكايات عشتها هناك وعلى طريق اللجوء",
         "projectDetails": [
           {
             "id": 106,
             "cardDescription": "Du bist ich, nur eine Idee, die ich hatte, und sie bedeutet Liebe. Lass mich in die Tiefen deines Lebens eindringen, von deiner Stimme und der Wärme deiner Töne leben und den Zauber deiner Blicke studieren, du, der du mich mit dem Glanz deiner Schönheit zum Schmelzen gebracht hast, denn ich liebte den Moment deines Schweigens und die Zartheit deines Dialogs, du, der du mein Geburtsdatum an dem Tag warst, an dem ich dich kennenlernte.",
             "alt": "",
-            "imageGroup": {}
+            "imageGroup": {
+              "img_1": "../src/assets/images/hamdiphotos/project/projectDetails/logos/alepo.jpg",
+              "img_2": "../src/assets/images/hamdiphotos/project/projectDetails/logos/homs.jpg",
+              "img_3": "../src/assets/images/hamdiphotos/project/projectDetails/logos/dara.jpg",
+              "img_4": "../src/assets/images/hamdiphotos/project/projectDetails/logos/dairAlzour.jpg",
+              "img_5": "../src/assets/images/hamdiphotos/project/projectDetails/logos/latakia.jpg",
+              "img_6": "../src/assets/images/hamdiphotos/project/projectDetails/logos/alswedaa.jpg",
+              "img_7": "../src/assets/images/hamdiphotos/project/projectDetails/logos/alswedaa.jpg",
+              "img_8": "../src/assets/images/hamdiphotos/project/projectDetails/logos/tartous.jpg",
+              "img_9": "../src/assets/images/hamdiphotos/project/projectDetails/logos/hama.jpg",
+              "img_10": "../src/assets/images/hamdiphotos/project/projectDetails/logos/logoDamascus.jpg",
+              "img_11": "../src/assets/images/hamdiphotos/project/projectDetails/logos/logoCham.jpg",
+              "img_12": "../src/assets/images/hamdiphotos/project/projectDetails/logos/logoCham2.jpg"
+            }
           }
         ]
       },
@@ -683,8 +725,8 @@
         "title": "هناك دائماً أمل",
         "icon": "",
         "data": "Damascus - 18.05.2012",
-        "image": "https://www.linkpicture.com/q/eye_1.png",
-        "imageHover": "https://www.linkpicture.com/q/eyeHover_1.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/thereIsAlwaysHope.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/thereIsAlwaysHope.jpg",
         "description": "في عام ٢٠١٥ تركت موطني بعيداً ورحلت.. انه الموت المفاجئ والظلم الذي بات يطرق بابنا مهدداً حياتنا.. اما الموت أو الرحيل. لم يكن أمامنا سوا الرحيل لكي لا نرتكب حماقتاً ونقتل اطفالاً تحت حجه الوطن.. فالوطن هو المكان الذي يحميك ويقدم لك الأمان والحرية والكرامة.. برلين هي وطني الثاني الذي لولاها ما كنت أنا.. في عام ٢٠١٦ قمت بالمشاركه في معرض في برلين وقدمت لوحتي التي تعني لي الكثير.. فكل ما تراه في هذه اللوحه ما هي الا تفاصيل تروي لي حكايات عشتها هناك وعلى طريق اللجوء",
         "projectDetails": [
           {
@@ -701,8 +743,8 @@
         "title": "أبجدية الياسمين",
         "icon": "",
         "data": "برلين - 10.03.2020",
-        "image": "https://www.linkpicture.com/q/jasmin.png",
-        "imageHover": "https://www.linkpicture.com/q/jasmin-2.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/damascusJasmin.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/damascusJasmin.jpg",
         "description": "في عام ٢٠١٥ تركت موطني بعيداً ورحلت.. انه الموت المفاجئ والظلم الذي بات يطرق بابنا مهدداً حياتنا.. اما الموت أو الرحيل. لم يكن أمامنا سوا الرحيل لكي لا نرتكب حماقتاً ونقتل اطفالاً تحت حجه الوطن.. فالوطن هو المكان الذي يحميك ويقدم لك الأمان والحرية والكرامة.. برلين هي وطني الثاني الذي لولاها ما كنت أنا.. في عام ٢٠١٦ قمت بالمشاركه في معرض في برلين وقدمت لوحتي التي تعني لي الكثير.. فكل ما تراه في هذه اللوحه ما هي الا تفاصيل تروي لي حكايات عشتها هناك وعلى طريق اللجوء",
         "projectDetails": [
           {
@@ -719,8 +761,8 @@
         "title": "سوف نبقى هنا",
         "icon": "",
         "data": "Damascus - 18.03.2012",
-        "image": "https://www.linkpicture.com/q/stay.png",
-        "imageHover": "https://www.linkpicture.com/q/we-stay-2_1.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/weStayHere.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/weStayHere.jpg",
         "description": "في عام ٢٠١٥ تركت موطني بعيداً ورحلت.. انه الموت المفاجئ والظلم الذي بات يطرق بابنا مهدداً حياتنا.. اما الموت أو الرحيل. لم يكن أمامنا سوا الرحيل لكي لا نرتكب حماقتاً ونقتل اطفالاً تحت حجه الوطن.. فالوطن هو المكان الذي يحميك ويقدم لك الأمان والحرية والكرامة.. برلين هي وطني الثاني الذي لولاها ما كنت أنا.. في عام ٢٠١٦ قمت بالمشاركه في معرض في برلين وقدمت لوحتي التي تعني لي الكثير.. فكل ما تراه في هذه اللوحه ما هي الا تفاصيل تروي لي حكايات عشتها هناك وعلى طريق اللجوء",
         "projectDetails": [
           {
@@ -737,8 +779,8 @@
         "title": "لا تنسى الفقراء",
         "icon": "",
         "data": "Berlin - 14.11.2013",
-        "image": "https://www.linkpicture.com/q/hungry-syr_1.png",
-        "imageHover": "https://www.linkpicture.com/q/dont-forget.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/poor.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/poor.jpg",
         "description": "في عام ٢٠١٥ تركت موطني بعيداً ورحلت.. انه الموت المفاجئ والظلم الذي بات يطرق بابنا مهدداً حياتنا.. اما الموت أو الرحيل. لم يكن أمامنا سوا الرحيل لكي لا نرتكب حماقتاً ونقتل اطفالاً تحت حجه الوطن.. فالوطن هو المكان الذي يحميك ويقدم لك الأمان والحرية والكرامة.. برلين هي وطني الثاني الذي لولاها ما كنت أنا.. في عام ٢٠١٦ قمت بالمشاركه في معرض في برلين وقدمت لوحتي التي تعني لي الكثير.. فكل ما تراه في هذه اللوحه ما هي الا تفاصيل تروي لي حكايات عشتها هناك وعلى طريق اللجوء",
         "projectDetails": [
           {
@@ -755,8 +797,8 @@
         "title": "أهلاً بكم في سوريا",
         "icon": "",
         "data": "Damascus - 02.11.2012",
-        "image": "https://www.linkpicture.com/q/welcome-syr.png",
-        "imageHover": "https://www.linkpicture.com/q/welcom-to-syr-2.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/welcomeToSyria.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/welcomeToSyria.jpg",
         "description": "في عام ٢٠١٥ تركت موطني بعيداً ورحلت.. انه الموت المفاجئ والظلم الذي بات يطرق بابنا مهدداً حياتنا.. اما الموت أو الرحيل. لم يكن أمامنا سوا الرحيل لكي لا نرتكب حماقتاً ونقتل اطفالاً تحت حجه الوطن.. فالوطن هو المكان الذي يحميك ويقدم لك الأمان والحرية والكرامة.. برلين هي وطني الثاني الذي لولاها ما كنت أنا.. في عام ٢٠١٦ قمت بالمشاركه في معرض في برلين وقدمت لوحتي التي تعني لي الكثير.. فكل ما تراه في هذه اللوحه ما هي الا تفاصيل تروي لي حكايات عشتها هناك وعلى طريق اللجوء",
         "projectDetails": [
           {
@@ -773,8 +815,8 @@
         "title": "قصة حب تحت القمر",
         "icon": "",
         "data": "Damascus - 02.10.2013",
-        "image": "https://www.linkpicture.com/q/love_6.png",
-        "imageHover": "https://www.linkpicture.com/q/love_7.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/love.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/love.jpg",
         "description": "في عام ٢٠١٥ تركت موطني بعيداً ورحلت.. انه الموت المفاجئ والظلم الذي بات يطرق بابنا مهدداً حياتنا.. اما الموت أو الرحيل. لم يكن أمامنا سوا الرحيل لكي لا نرتكب حماقتاً ونقتل اطفالاً تحت حجه الوطن.. فالوطن هو المكان الذي يحميك ويقدم لك الأمان والحرية والكرامة.. برلين هي وطني الثاني الذي لولاها ما كنت أنا.. في عام ٢٠١٦ قمت بالمشاركه في معرض في برلين وقدمت لوحتي التي تعني لي الكثير.. فكل ما تراه في هذه اللوحه ما هي الا تفاصيل تروي لي حكايات عشتها هناك وعلى طريق اللجوء",
         "projectDetails": [
           {
@@ -791,8 +833,8 @@
         "title": "صرخة روح",
         "icon": "",
         "data": "Damascus - 02.10.2013",
-        "image": "https://www.linkpicture.com/q/cry_1.png",
-        "imageHover": "https://www.linkpicture.com/q/Soul-cry.png",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/cry.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/cry.jpg.jpg",
         "description": "في عام ٢٠١٥ تركت موطني بعيداً ورحلت.. انه الموت المفاجئ والظلم الذي بات يطرق بابنا مهدداً حياتنا.. اما الموت أو الرحيل. لم يكن أمامنا سوا الرحيل لكي لا نرتكب حماقتاً ونقتل اطفالاً تحت حجه الوطن.. فالوطن هو المكان الذي يحميك ويقدم لك الأمان والحرية والكرامة.. برلين هي وطني الثاني الذي لولاها ما كنت أنا.. في عام ٢٠١٦ قمت بالمشاركه في معرض في برلين وقدمت لوحتي التي تعني لي الكثير.. فكل ما تراه في هذه اللوحه ما هي الا تفاصيل تروي لي حكايات عشتها هناك وعلى طريق اللجوء",
         "projectDetails": [
           {
@@ -812,8 +854,8 @@
         "headerTitle": "Portrait Gallery",
         "smile": "😍",
         "path": "portraitImage",
-        "original": "https://www.linkpicture.com/q/Red-Cap-Seller.png",
-        "thumbnail": "https://www.linkpicture.com/q/Red-Cap-Seller.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/portrait/redCapSeller.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/portrait/redCapSeller.jpg",
         "taken": "March 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -826,8 +868,8 @@
       {
         "id": 1001,
         "path": "portraitImage",
-        "original": "https://www.linkpicture.com/q/portrait_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/portrait_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/portrait/anasHawari.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/portrait/anasHawari.jpg",
         "taken": "March 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -844,8 +886,8 @@
         "headerTitle": "Porträt Gallery",
         "smile": "😍",
         "path": "portraitImage",
-        "original": "https://www.linkpicture.com/q/Red-Cap-Seller.png",
-        "thumbnail": "https://www.linkpicture.com/q/Red-Cap-Seller.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/portrait/redCapSeller.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/portrait/redCapSeller.jpg",
         "taken": "März 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -858,8 +900,8 @@
       {
         "id": 1001,
         "path": "portraitImage",
-        "original": "https://www.linkpicture.com/q/portrait_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/portrait_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/portrait/anasHawari.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/portrait/anasHawari.jpg",
         "taken": "Juli 20, 2018",
         "uploaded": "vor 3 Jahre",
         "camera": "Canon EOS 6D Mark II",
@@ -876,8 +918,8 @@
         "headerTitle": "معرض الصور الشخصية",
         "smile": "😍",
         "path": "portraitImage",
-        "original": "https://www.linkpicture.com/q/Red-Cap-Seller.png",
-        "thumbnail": "https://www.linkpicture.com/q/Red-Cap-Seller.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/portrait/redCapSeller.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/portrait/redCapSeller.jpg",
         "taken": "٢٠ آذار ٢٠١٨",
         "uploaded": "منذ ٣ سنوات",
         "camera": "Canon EOS 6D Mark II",
@@ -890,8 +932,8 @@
       {
         "id": 1001,
         "path": "portraitImage",
-        "original": "https://www.linkpicture.com/q/portrait_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/portrait_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/portrait/anasHawari.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/portrait/anasHawari.jpg",
         "taken": "١١ كانون الثاني ٢٠١٦",
         "uploaded": "منذ ٤ سنوات",
         "camera": "Canon EOS 6D Mark II",
@@ -910,8 +952,8 @@
         "headerTitle": "Street Gallery",
         "smile": "😍",
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/AlexanderPlatz-2_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/AlexanderPlatz-2_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/alexanderPlatz.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/alexanderPlatz.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -924,8 +966,8 @@
       {
         "id": 2001,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/AlexanderPlatz_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/AlexanderPlatz_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/alexanderPlatz1.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/alexanderPlatz1.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -938,8 +980,8 @@
       {
         "id": 2002,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/AlexanderPlatz-3_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/AlexanderPlatz-3_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/alexanderPlatz3.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/alexanderPlatz3.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -952,22 +994,22 @@
       {
         "id": 2003,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/children_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/children_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/potsdamBrunnen.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/potsdamBrunnen.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
         "objective": "85 mm  f/2,2  ISO 125",
         "category": "street, streetphotography",
         "originalAlt": "alt",
-        "title": "Children - Berlin",
+        "title": "fountain - Potsdam",
         "city": "Deutschland"
       },
       {
         "id": 2004,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/friedresstr-Musum_2.png",
-        "thumbnail": "https://www.linkpicture.com/q/friedresstr-Musum_2.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/friedresstrMusum.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/friedresstrMusum.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -980,8 +1022,8 @@
       {
         "id": 2005,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/friedrestr-Musum.png",
-        "thumbnail": "https://www.linkpicture.com/q/friedrestr-Musum.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/friedresstrMusum1.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/friedresstrMusum1.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -994,22 +1036,22 @@
       {
         "id": 2006,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/potsdam-water.png",
-        "thumbnail": "https://www.linkpicture.com/q/potsdam-water.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/children.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/children.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
         "objective": "85 mm  f/2,2  ISO 125",
         "category": "street, streetphotography",
         "originalAlt": "alt",
-        "title": "Reflexiv - Potsdam",
+        "title": "Children - Berlin",
         "city": "Deutschland"
       },
       {
         "id": 2007,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/reflex_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/reflex_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/flowers.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/flowers.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -1022,8 +1064,8 @@
       {
         "id": 2008,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/frinds_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/frinds_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/frinds.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/frinds.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -1036,36 +1078,36 @@
       {
         "id": 2009,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/park.png",
-        "thumbnail": "https://www.linkpicture.com/q/park.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/park.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/park.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
         "objective": "85 mm  f/2,2  ISO 125",
         "category": "street, streetphotography",
         "originalAlt": "alt",
-        "title": "Park - Berlin",
+        "title": "Parks - Berlin",
         "city": "Deutschland"
       },
       {
         "id": 2010,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/flowers.png",
-        "thumbnail": "https://www.linkpicture.com/q/flowers.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/neukollnBuild.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/neukollnBuild.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
         "objective": "85 mm  f/2,2  ISO 125",
         "category": "street, streetphotography",
         "originalAlt": "alt",
-        "title": "Flowers - Berlin",
+        "title": "Neukolln - Berlin",
         "city": "Deutschland"
       },
       {
         "id": 2011,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/sky.png",
-        "thumbnail": "https://www.linkpicture.com/q/sky.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/sky.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/sky.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -1078,8 +1120,8 @@
       {
         "id": 2012,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/u-bahn.png",
-        "thumbnail": "https://www.linkpicture.com/q/u-bahn.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/straßenbahn.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/straßenbahn.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -1092,8 +1134,8 @@
       {
         "id": 2013,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/warschauerstr-street.png",
-        "thumbnail": "https://www.linkpicture.com/q/warschauerstr-street.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/potsdamFluss.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/potsdamFluss.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -1106,8 +1148,8 @@
       {
         "id": 2014,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/neukolln_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/neukolln_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/u-bahn.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/u-bahn.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -1120,8 +1162,8 @@
       {
         "id": 2015,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/street-halle-saale.png",
-        "thumbnail": "https://www.linkpicture.com/q/street-halle-saale.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/warschauerstrStreet.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/warschauerstrStreet.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -1134,8 +1176,8 @@
       {
         "id": 2016,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/strassenbahn.png",
-        "thumbnail": "https://www.linkpicture.com/q/strassenbahn.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/halleSaale.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/halleSaale.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -1148,8 +1190,8 @@
       {
         "id": 2017,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/alexa.png",
-        "thumbnail": "https://www.linkpicture.com/q/alexa.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/reflex.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/reflex.jpg",
         "taken": "Juli 03, 2020",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -1166,8 +1208,8 @@
         "headerTitle": "Straße Gallery",
         "smile": "😍",
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/AlexanderPlatz-2_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/AlexanderPlatz-2_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/alexanderPlatz.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/alexanderPlatz.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "vor 3 Jahre",
         "camera": "Canon EOS 6D Mark II",
@@ -1180,8 +1222,8 @@
       {
         "id": 2001,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/AlexanderPlatz_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/AlexanderPlatz_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/alexanderPlatz1.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/alexanderPlatz1.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "vor 3 Jahre",
         "camera": "Canon EOS 6D Mark II",
@@ -1194,8 +1236,8 @@
       {
         "id": 2002,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/AlexanderPlatz-3_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/AlexanderPlatz-3_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/alexanderPlatz3.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/alexanderPlatz3.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "vor 3 Jahre",
         "camera": "Canon EOS 6D Mark II",
@@ -1208,8 +1250,8 @@
       {
         "id": 2003,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/children_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/children_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/potsdamBrunnen.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/potsdamBrunnen.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "vor 3 Jahre",
         "camera": "Canon EOS 6D Mark II",
@@ -1222,8 +1264,8 @@
       {
         "id": 2004,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/friedresstr-Musum_2.png",
-        "thumbnail": "https://www.linkpicture.com/q/friedresstr-Musum_2.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/friedresstrMusum.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/friedresstrMusum.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "vor 3 Jahre",
         "camera": "Canon EOS 6D Mark II",
@@ -1236,8 +1278,8 @@
       {
         "id": 2005,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/friedrestr-Musum.png",
-        "thumbnail": "https://www.linkpicture.com/q/friedrestr-Musum.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/friedresstrMusum1.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/friedresstrMusum1.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "vor 3 Jahre",
         "camera": "Canon EOS 6D Mark II",
@@ -1250,8 +1292,8 @@
       {
         "id": 2006,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/potsdam-water.png",
-        "thumbnail": "https://www.linkpicture.com/q/potsdam-water.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/children.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/children.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "vor 3 Jahre",
         "camera": "Canon EOS 6D Mark II",
@@ -1264,8 +1306,8 @@
       {
         "id": 2007,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/reflex_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/reflex_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/flowers.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/flowers.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "vor 3 Jahre",
         "camera": "Canon EOS 6D Mark II",
@@ -1278,8 +1320,8 @@
       {
         "id": 2008,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/frinds_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/frinds_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/frinds.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/frinds.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "vor 3 Jahre",
         "camera": "Canon EOS 6D Mark II",
@@ -1292,8 +1334,8 @@
       {
         "id": 2009,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/park.png",
-        "thumbnail": "https://www.linkpicture.com/q/park.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/park.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/park.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "vor 3 Jahre",
         "camera": "Canon EOS 6D Mark II",
@@ -1306,8 +1348,8 @@
       {
         "id": 2010,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/flowers.png",
-        "thumbnail": "https://www.linkpicture.com/q/flowers.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/neukollnBuild.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/neukollnBuild.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "vor 3 Jahre",
         "camera": "Canon EOS 6D Mark II",
@@ -1320,8 +1362,8 @@
       {
         "id": 2011,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/sky.png",
-        "thumbnail": "https://www.linkpicture.com/q/sky.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/sky.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/sky.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "vor 3 Jahre",
         "camera": "Canon EOS 6D Mark II",
@@ -1334,8 +1376,8 @@
       {
         "id": 2012,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/u-bahn.png",
-        "thumbnail": "https://www.linkpicture.com/q/u-bahn.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/straßenbahn.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/straßenbahn.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "vor 3 Jahre",
         "camera": "Canon EOS 6D Mark II",
@@ -1348,8 +1390,8 @@
       {
         "id": 2013,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/warschauerstr-street.png",
-        "thumbnail": "https://www.linkpicture.com/q/warschauerstr-street.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/potsdamFluss.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/potsdamFluss.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "vor 3 Jahre",
         "camera": "Canon EOS 6D Mark II",
@@ -1362,8 +1404,8 @@
       {
         "id": 2014,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/neukolln_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/neukolln_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/u-bahn.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/u-bahn.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "vor 3 Jahre",
         "camera": "Canon EOS 6D Mark II",
@@ -1376,8 +1418,8 @@
       {
         "id": 2015,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/street-halle-saale.png",
-        "thumbnail": "https://www.linkpicture.com/q/street-halle-saale.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/warschauerstrStreet.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/warschauerstrStreet.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "vor 3 Jahre",
         "camera": "Canon EOS 6D Mark II",
@@ -1390,8 +1432,8 @@
       {
         "id": 2016,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/strassenbahn.png",
-        "thumbnail": "https://www.linkpicture.com/q/strassenbahn.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/halleSaale.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/halleSaale.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "vor 3 Jahre",
         "camera": "Canon EOS 6D Mark II",
@@ -1404,8 +1446,8 @@
       {
         "id": 2017,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/alexa.png",
-        "thumbnail": "https://www.linkpicture.com/q/alexa.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/reflex.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/reflex.jpg",
         "taken": "Juli 03, 2020",
         "uploaded": "vor 3 Jahre",
         "camera": "Canon EOS 6D Mark II",
@@ -1422,8 +1464,8 @@
         "headerTitle": "معرض الشارع",
         "smile": "😍",
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/AlexanderPlatz-2_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/AlexanderPlatz-2_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/alexanderPlatz.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/alexanderPlatz.jpg",
         "taken": "٢٢ حزيران ٢٠١٧",
         "uploaded": "منذ ٤ سنوات",
         "camera": "Canon EOS 6D Mark II",
@@ -1436,8 +1478,8 @@
       {
         "id": 2001,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/AlexanderPlatz_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/AlexanderPlatz_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/alexanderPlatz1.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/alexanderPlatz1.jpg",
         "taken": "٢٢ حزيران ٢٠١٧",
         "uploaded": "منذ ٤ سنوات",
         "camera": "Canon EOS 6D Mark II",
@@ -1450,8 +1492,8 @@
       {
         "id": 2002,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/AlexanderPlatz-3_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/AlexanderPlatz-3_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/alexanderPlatz3.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/alexanderPlatz3.jpg",
         "taken": "٢٢ حزيران ٢٠١٧",
         "uploaded": "منذ ٤ سنوات",
         "camera": "Canon EOS 6D Mark II",
@@ -1464,8 +1506,8 @@
       {
         "id": 2003,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/children_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/children_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/potsdamBrunnen.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/potsdamBrunnen.jpg",
         "taken": "٢٢ حزيران ٢٠١٧",
         "uploaded": "منذ ٤ سنوات",
         "camera": "Canon EOS 6D Mark II",
@@ -1478,8 +1520,8 @@
       {
         "id": 2004,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/friedresstr-Musum_2.png",
-        "thumbnail": "https://www.linkpicture.com/q/friedresstr-Musum_2.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/friedresstrMusum.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/friedresstrMusum.jpg",
         "taken": "٣ ايار ٢٠١٦",
         "uploaded": "منذ ٤ سنوات",
         "camera": "Canon EOS 6D Mark II",
@@ -1492,8 +1534,8 @@
       {
         "id": 2005,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/friedrestr-Musum.png",
-        "thumbnail": "https://www.linkpicture.com/q/friedrestr-Musum.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/friedresstrMusum1.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/friedresstrMusum1.jpg",
         "taken": "٣ ايار ٢٠١٦",
         "uploaded": "منذ ٤ سنوات",
         "camera": "Canon EOS 6D Mark II",
@@ -1506,8 +1548,8 @@
       {
         "id": 2006,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/potsdam-water.png",
-        "thumbnail": "https://www.linkpicture.com/q/potsdam-water.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/children.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/children.jpg",
         "taken": "٣ ايار ٢٠١٦",
         "uploaded": "منذ ٤ سنوات",
         "camera": "Canon EOS 6D Mark II",
@@ -1520,8 +1562,8 @@
       {
         "id": 2007,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/reflex_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/reflex_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/flowers.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/flowers.jpg",
         "taken": "٣ ايار ٢٠١٦",
         "uploaded": "منذ ٤ سنوات",
         "camera": "Canon EOS 6D Mark II",
@@ -1534,8 +1576,8 @@
       {
         "id": 2008,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/frinds_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/frinds_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/frinds.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/frinds.jpg",
         "taken": "٣ ايار ٢٠١٦",
         "uploaded": "منذ ٤ سنوات",
         "camera": "Canon EOS 6D Mark II",
@@ -1548,8 +1590,8 @@
       {
         "id": 2009,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/park.png",
-        "thumbnail": "https://www.linkpicture.com/q/park.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/park.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/park.jpg",
         "taken": "٣ ايار ٢٠١٦",
         "uploaded": "منذ ٤ سنوات",
         "camera": "Canon EOS 6D Mark II",
@@ -1562,8 +1604,8 @@
       {
         "id": 2010,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/flowers.png",
-        "thumbnail": "https://www.linkpicture.com/q/flowers.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/neukollnBuild.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/neukollnBuild.jpg",
         "taken": "٣ ايار ٢٠١٦",
         "uploaded": "منذ ٤ سنوات",
         "camera": "Canon EOS 6D Mark II",
@@ -1576,8 +1618,8 @@
       {
         "id": 2011,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/sky.png",
-        "thumbnail": "https://www.linkpicture.com/q/sky.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/sky.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/sky.jpg",
         "taken": "٣ ايار ٢٠١٦",
         "uploaded": "منذ ٤ سنوات",
         "camera": "Canon EOS 6D Mark II",
@@ -1590,8 +1632,8 @@
       {
         "id": 2012,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/u-bahn.png",
-        "thumbnail": "https://www.linkpicture.com/q/u-bahn.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/straßenbahn.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/straßenbahn.jpg",
         "taken": "٣ ايار ٢٠١٦",
         "uploaded": "منذ ٤ سنوات",
         "camera": "Canon EOS 6D Mark II",
@@ -1604,8 +1646,8 @@
       {
         "id": 2013,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/warschauerstr-street.png",
-        "thumbnail": "https://www.linkpicture.com/q/warschauerstr-street.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/potsdamFluss.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/potsdamFluss.jpg",
         "taken": "٣ تموز ٢٠١٩",
         "uploaded": "منذ ٤ سنوات",
         "camera": "Canon EOS 6D Mark II",
@@ -1618,8 +1660,8 @@
       {
         "id": 2014,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/neukolln_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/neukolln_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/u-bahn.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/u-bahn.jpg",
         "taken": "٣ تموز ٢٠١٩",
         "uploaded": "منذ ٤ سنوات",
         "camera": "Canon EOS 6D Mark II",
@@ -1632,8 +1674,8 @@
       {
         "id": 2015,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/street-halle-saale.png",
-        "thumbnail": "https://www.linkpicture.com/q/street-halle-saale.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/warschauerstrStreet.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/warschauerstrStreet.jpg",
         "taken": "٣ تموز ٢٠١٩",
         "uploaded": "منذ ٤ سنوات",
         "camera": "Canon EOS 6D Mark II",
@@ -1646,8 +1688,8 @@
       {
         "id": 2016,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/strassenbahn.png",
-        "thumbnail": "https://www.linkpicture.com/q/strassenbahn.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/halleSaale.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/halleSaale.jpg",
         "taken": "٣ تموز ٢٠١٩",
         "uploaded": "منذ ٤ سنوات",
         "camera": "Canon EOS 6D Mark II",
@@ -1660,8 +1702,8 @@
       {
         "id": 2017,
         "path": "streetImage",
-        "original": "https://www.linkpicture.com/q/alexa.png",
-        "thumbnail": "https://www.linkpicture.com/q/alexa.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/street/reflex.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/street/reflex.jpg",
         "taken": "٣ تموز ٢٠١٩",
         "uploaded": "منذ ٤ سنوات",
         "camera": "Canon EOS 6D Mark II",
@@ -1680,8 +1722,8 @@
         "headerTitle": "Landscape Galerie",
         "smile": "😍",
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/Amsterdam-fluss.png",
-        "thumbnail": "https://www.linkpicture.com/q/Amsterdam-fluss.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/amsterdamfluss.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/amsterdamfluss.jpg",
         "taken": "Mar 20, 2022",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -1695,8 +1737,8 @@
       {
         "id": 3001,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/Friedrisstr-Kirsche_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/Friedrisstr-Kirsche_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/berlinCathedral.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/berlinCathedral.jpg",
         "taken": "Juli 28, 2019",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -1709,8 +1751,8 @@
       {
         "id": 3002,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/friedrisstr.png",
-        "thumbnail": "https://www.linkpicture.com/q/friedrisstr.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/museumIsland.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/museumIsland.jpg",
         "taken": "Mar 11, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -1723,8 +1765,8 @@
       {
         "id": 3003,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/Sanssouci-Palace.png",
-        "thumbnail": "https://www.linkpicture.com/q/Sanssouci-Palace.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/potsdamSchloss.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/potsdamSchloss.jpg",
         "taken": "Mar 22, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -1737,8 +1779,8 @@
       {
         "id": 3004,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/potsdam-schloss-2.png",
-        "thumbnail": "https://www.linkpicture.com/q/potsdam-schloss-2.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/potsdamSchlossN2.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/potsdamSchlossN2.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -1751,8 +1793,8 @@
       {
         "id": 3005,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/potsdam-schloss.png",
-        "thumbnail": "https://www.linkpicture.com/q/potsdam-schloss.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/rhizomatischeBruecke.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/rhizomatischeBruecke.jpg",
         "taken": "Mar 24, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -1765,8 +1807,8 @@
       {
         "id": 3006,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/Rhizomatische.png",
-        "thumbnail": "https://www.linkpicture.com/q/Rhizomatische.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/sanssouciPalace.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/sanssouciPalace.jpg",
         "taken": "Mar 18, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -1779,8 +1821,8 @@
       {
         "id": 3007,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/triptowepark.png",
-        "thumbnail": "https://www.linkpicture.com/q/triptowepark.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/triptowepark.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/triptowepark.jpg",
         "taken": "Mar 05, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -1793,8 +1835,8 @@
       {
         "id": 3008,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/musium-island.png",
-        "thumbnail": "https://www.linkpicture.com/q/musium-island.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/museum Island.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/museum Island.jpg",
         "taken": "Mar 05, 2018",
         "uploaded": "almost 3 yrs ago",
         "camera": "Canon EOS 6D Mark II",
@@ -1811,8 +1853,8 @@
         "headerTitle": "Landschaft Galerie",
         "smile": "😍",
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/Amsterdam-fluss.png",
-        "thumbnail": "https://www.linkpicture.com/q/Amsterdam-fluss.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/amsterdamFluss.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/amsterdamFluss.jpg",
         "taken": "Mar 20, 2022",
         "uploaded": "vor 4 jahren",
         "camera": "Canon EOS 6D Mark II",
@@ -1826,8 +1868,8 @@
       {
         "id": 3001,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/Friedrisstr-Kirsche_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/Friedrisstr-Kirsche_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/berlinCathedral.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/berlinCathedral.jpg",
         "taken": "Juli 28, 2019",
         "uploaded": "vor 4 jahren",
         "camera": "Canon EOS 6D Mark II",
@@ -1840,8 +1882,8 @@
       {
         "id": 3002,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/friedrisstr.png",
-        "thumbnail": "https://www.linkpicture.com/q/friedrisstr.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/museumIsland.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/museumIsland.jpg",
         "taken": "Mar 11, 2018",
         "uploaded": "vor 4 jahren",
         "camera": "Canon EOS 6D Mark II",
@@ -1854,8 +1896,8 @@
       {
         "id": 3003,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/Sanssouci-Palace.png",
-        "thumbnail": "https://www.linkpicture.com/q/Sanssouci-Palace.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/potsdamSchloss.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/potsdamSchloss.jpg",
         "taken": "Mar 22, 2018",
         "uploaded": "vor 4 jahren",
         "camera": "Canon EOS 6D Mark II",
@@ -1868,8 +1910,8 @@
       {
         "id": 3004,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/potsdam-schloss-2.png",
-        "thumbnail": "https://www.linkpicture.com/q/potsdam-schloss-2.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/potsdamSchlossN2.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/potsdamSchlossN2.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "vor 4 jahren",
         "camera": "Canon EOS 6D Mark II",
@@ -1882,8 +1924,8 @@
       {
         "id": 3005,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/potsdam-schloss.png",
-        "thumbnail": "https://www.linkpicture.com/q/potsdam-schloss.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/rhizomatischeBruecke.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/rhizomatischeBruecke.jpg",
         "taken": "Mar 24, 2018",
         "uploaded": "vor 4 jahren",
         "camera": "Canon EOS 6D Mark II",
@@ -1896,8 +1938,8 @@
       {
         "id": 3006,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/Rhizomatische.png",
-        "thumbnail": "https://www.linkpicture.com/q/Rhizomatische.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/sanssouciPalace.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/sanssouciPalace.jpg",
         "taken": "Mar 18, 2018",
         "uploaded": "vor 4 jahren",
         "camera": "Canon EOS 6D Mark II",
@@ -1910,8 +1952,8 @@
       {
         "id": 3007,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/triptowepark.png",
-        "thumbnail": "https://www.linkpicture.com/q/triptowepark.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/triptowepark.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/triptowepark.jpg",
         "taken": "Mar 05, 2018",
         "uploaded": "vor 4 jahren",
         "camera": "Canon EOS 6D Mark II",
@@ -1924,8 +1966,8 @@
       {
         "id": 3008,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/musium-island.png",
-        "thumbnail": "https://www.linkpicture.com/q/musium-island.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/museum Island.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/museum Island.jpg",
         "taken": "Mar 05, 2018",
         "uploaded": "vor 4 jahren",
         "camera": "Canon EOS 6D Mark II",
@@ -1939,11 +1981,11 @@
     "ar": [
       {
         "id": 3000,
-        "headerTitle": "Landschaft Galerie",
+        "headerTitle": "معرض المناظر الطبيعية",
         "smile": "😍",
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/Amsterdam-fluss.png",
-        "thumbnail": "https://www.linkpicture.com/q/Amsterdam-fluss.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/amsterdamFluss.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/amsterdamFluss.jpg",
         "taken": "Mar 20, 2022",
         "uploaded": "vor 4 jahren",
         "camera": "Canon EOS 6D Mark II",
@@ -1957,8 +1999,8 @@
       {
         "id": 3001,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/Friedrisstr-Kirsche_1.png",
-        "thumbnail": "https://www.linkpicture.com/q/Friedrisstr-Kirsche_1.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/berlinCathedral.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/berlinCathedral.jpg",
         "taken": "Juli 28, 2019",
         "uploaded": "vor 4 jahren",
         "camera": "Canon EOS 6D Mark II",
@@ -1971,8 +2013,8 @@
       {
         "id": 3002,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/friedrisstr.png",
-        "thumbnail": "https://www.linkpicture.com/q/friedrisstr.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/museumIsland.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/museumIsland.jpg",
         "taken": "Mar 11, 2018",
         "uploaded": "vor 4 jahren",
         "camera": "Canon EOS 6D Mark II",
@@ -1985,8 +2027,8 @@
       {
         "id": 3003,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/Sanssouci-Palace.png",
-        "thumbnail": "https://www.linkpicture.com/q/Sanssouci-Palace.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/potsdamSchloss.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/potsdamSchloss.jpg",
         "taken": "Mar 22, 2018",
         "uploaded": "vor 4 jahren",
         "camera": "Canon EOS 6D Mark II",
@@ -1999,8 +2041,8 @@
       {
         "id": 3004,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/potsdam-schloss-2.png",
-        "thumbnail": "https://www.linkpicture.com/q/potsdam-schloss-2.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/potsdamSchlossN2.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/potsdamSchlossN2.jpg",
         "taken": "Mar 20, 2018",
         "uploaded": "vor 4 jahren",
         "camera": "Canon EOS 6D Mark II",
@@ -2013,8 +2055,8 @@
       {
         "id": 3005,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/potsdam-schloss.png",
-        "thumbnail": "https://www.linkpicture.com/q/potsdam-schloss.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/rhizomatischeBruecke.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/rhizomatischeBruecke.jpg",
         "taken": "Mar 24, 2018",
         "uploaded": "vor 4 jahren",
         "camera": "Canon EOS 6D Mark II",
@@ -2027,8 +2069,8 @@
       {
         "id": 3006,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/Rhizomatische.png",
-        "thumbnail": "https://www.linkpicture.com/q/Rhizomatische.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/sanssouciPalace.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/sanssouciPalace.jpg",
         "taken": "Mar 18, 2018",
         "uploaded": "vor 4 jahren",
         "camera": "Canon EOS 6D Mark II",
@@ -2041,8 +2083,8 @@
       {
         "id": 3007,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/triptowepark.png",
-        "thumbnail": "https://www.linkpicture.com/q/triptowepark.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/triptowepark.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/triptowepark.jpg",
         "taken": "Mar 05, 2018",
         "uploaded": "vor 4 jahren",
         "camera": "Canon EOS 6D Mark II",
@@ -2055,8 +2097,8 @@
       {
         "id": 3008,
         "path": "landscapeImage",
-        "original": "https://www.linkpicture.com/q/musium-island.png",
-        "thumbnail": "https://www.linkpicture.com/q/musium-island.png",
+        "original": "../../src/assets/images/hamdiphotos/photography/landscape/museum Island.jpg",
+        "thumbnail": "../../src/assets/images/hamdiphotos/photography/landscape/museum Island.jpg",
         "taken": "Mar 05, 2018",
         "uploaded": "vor 4 jahren",
         "camera": "Canon EOS 6D Mark II",
@@ -2072,7 +2114,7 @@
     "en": [
       {
         "id": 4000,
-        "photo": "https://www.linkpicture.com/q/personalPhoto.jpeg",
+        "photo": "../src/assets/images/hamdiphotos/about/personal.jpeg",
         "title": "Hey there!, I’m Hamdi",
         "description": "I'm a creative blend of a designer, developer, and photographer, all wrapped up into one. My passion lies in crafting experiences that capture the magic of those in-between moments. Through my photography, I breathe life into love stories, infusing them with creative flair. I have a knack for envisioning a world where cutting-edge technology reigns supreme. My journey has been a mix of carving my own path and overcoming challenges. In 2022, I earned my stripes as an application developer. Back in Damascus, I dipped my toes into the world of graphic design and UX-UI. I'm on a mission to leave my unique mark wherever I go. As an application designer and developer, I dive headfirst into concocting ideas that make life better for people. I code these ideas into applications and websites that seamlessly blend with our modern reality. I'm always on the hunt for attention-grabbing concepts. And yes, with a touch of artificial intelligence, I sprinkle those finishing touches that elevate a project from good to great. Join me on this exciting journey, and let's create something incredible together!"
       }
@@ -2080,7 +2122,7 @@
     "de": [
       {
         "id": 4000,
-        "photo": "https://www.linkpicture.com/q/personalPhoto.jpeg",
+        "photo": "../src/assets/images/hamdiphotos/about/personal.jpeg",
         "title": "Hallo! Ich bin Hamdi",
         "description": "Ich bin eine kreative Mischung aus Designer, Entwickler und Fotograf, alles in einem. Meine Leidenschaft ist es, Erfahrungen zu kreieren, die den Zauber dieser Momente dazwischen einfangen. Durch meine Fotografie hauche ich Liebesgeschichten zum Leben ein und erwecke sie mit kreativem Flair. Ich habe ein Händchen dafür, mir eine Welt vorzustellen, in der Spitzentechnologie die Oberhand gewinnt. Meine Reise war eine Mischung aus meinem eigenen Weg zu gehen und Herausforderungen zu meistern. 2022 habe ich mir meine Streifen als Anwendungsentwickler verdient. Zurück in Damaskus tauchte ich in die Welt des Grafikdesigns und der UX-UI ein. Ich bin auf einer Mission, meine Spuren zu hinterlassen, wo auch immer ich hingehe. Als Applikationsdesigner und Entwickler tauche ich kopfüber in Ideen ein, die das Leben der Menschen verbessern. Ich kodiere diese Ideen in Anwendungen und Websites, die sich nahtlos in unsere moderne Realität einfügen. Ich bin immer auf der Suche nach aufmerksamkeitsstarken Konzepten."
       }
@@ -2088,7 +2130,7 @@
     "ar": [
       {
         "id": 4000,
-        "photo": "https://www.linkpicture.com/q/personalPhoto.jpeg",
+        "photo": "../src/assets/images/hamdiphotos/about/personal.jpeg",
         "title": "مرحبا",
         "description": "أنا مزيج إبداعي من مصمم ومطور ومصور فوتوغرافي ، كل ذلك في واحد. يكمن شغفي في صياغة التجارب التي تجسد سحر تلك اللحظات البينية. من خلال التصوير الفوتوغرافي ، أبث الحياة في قصص الحب ، وأغمرها بالذوق الإبداعي. لدي موهبة في تخيل عالم تسود فيه التكنولوجيا المتطورة. كانت رحلتي مزيجًا من شق طريقي والتغلب على التحديات. في عام 2022 ، حصلت على شرائطي كمطور تطبيقات. في دمشق ، غطست أصابع قدمي في عالم التصميم الجرافيكي و تصميم الويب. أنا في مهمة لأترك بصمتي الفريدة أينما ذهبت. بصفتي مصممًا ومطورًا للتطبيق ، فأنا أتعمق في ابتكار الأفكار التي تجعل الحياة أفضل للناس. أقوم بترميز هذه الأفكار في التطبيقات والمواقع الإلكترونية التي تمتزج بسلاسة مع واقعنا الحديث. أنا دائمًا أبحث عن مفاهيم تجذب الانتباه. ونعم ، بلمسة من الذكاء الاصطناعي ، أرش تلك اللمسات الأخيرة التي ترفع المشروع من جيد إلى عظيم. فمت بانشاء عدة معارض في الخليج العربي ولبنان ومزخراً قمت بالمشاركه في معرض للتصوير في برلين وكان لدي بصمة جيدة هناك. اليوم مع تقدم التكنولوجيا في العالم بالاضافه الى الذكاء الاصطناعي, يدفعني دائماً في تطوير نفسي ومواكبه الحداثه التي وصلنا اليها في العصر الحديث الحالي, وما زال هناك الكثير مما ينبغي اعادة النظر اليه بصورة حديثه تواكب هذا العصر الحديث.. يسعدني ان اقدم مساعدتي لمن يبحثون عن تطوير مشاريعهم استطيع بكل سرور ان أقدم لك خدماتي في برمجة وتصميم مواقع الويب والتطبيقات الحديثة.. انضموا إلي في هذه الرحلة المثيرة ، ودعونا نصنع شيئًا رائعًا معًا"
       }
@@ -2281,5 +2323,150 @@
       "link": "http://instagram.com"
     }
   ],
-  "comment": []
+  "comment": [
+    {
+      "id": "aqzxb7z2q",
+      "body": "nice pic",
+      "parentId": null,
+      "imageID": 3004,
+      "userId": "1",
+      "username": "Lina Müller",
+      "createdAt": "2023-09-15T14:12:14.251Z"
+    },
+    {
+      "id": "itlhvhybg",
+      "body": "Nice :)",
+      "parentId": null,
+      "imageID": 3000,
+      "userId": "1",
+      "username": "Lina Müller",
+      "createdAt": "2023-09-15T14:36:44.300Z"
+    },
+    {
+      "id": "oqzp2kqq8",
+      "body": "what?",
+      "parentId": "ph1xagp9g",
+      "imageID": 3000,
+      "userId": "1",
+      "username": "Lina Müller",
+      "createdAt": "2023-09-15T15:09:06.361Z"
+    },
+    {
+      "id": "e4llyv07c",
+      "body": "2000",
+      "parentId": "ph1xagp9g",
+      "imageID": 3000,
+      "userId": "1",
+      "username": "Lina Müller",
+      "createdAt": "2023-09-16T01:47:05.658Z"
+    },
+    {
+      "id": "9v9yqu4fv",
+      "body": "8888",
+      "parentId": null,
+      "imageID": 3000,
+      "userId": "1",
+      "username": "Lina Müller",
+      "createdAt": "2023-09-16T01:47:17.769Z"
+    },
+    {
+      "id": "87dye89wi",
+      "body": "999",
+      "parentId": null,
+      "imageID": 3000,
+      "userId": "1",
+      "username": "Lina Müller",
+      "createdAt": "2023-09-16T01:47:26.218Z"
+    },
+    {
+      "id": "dxbltkzc5",
+      "body": "55",
+      "parentId": null,
+      "imageID": 3000,
+      "userId": "1",
+      "username": "Lina Müller",
+      "createdAt": "2023-09-16T01:47:27.223Z"
+    },
+    {
+      "id": "6kefnbesh",
+      "body": "111",
+      "parentId": null,
+      "imageID": 3000,
+      "userId": "1",
+      "username": "Lina Müller",
+      "createdAt": "2023-09-16T01:47:28.162Z"
+    },
+    {
+      "id": "k01ngpq4s",
+      "body": "022",
+      "parentId": null,
+      "imageID": 3000,
+      "userId": "1",
+      "username": "Lina Müller",
+      "createdAt": "2023-09-16T01:47:29.074Z"
+    },
+    {
+      "id": "f7xeojnfq",
+      "body": "8008",
+      "parentId": "6kefnbesh",
+      "imageID": 3000,
+      "userId": "1",
+      "username": "Lina Müller",
+      "createdAt": "2023-09-16T01:48:05.164Z"
+    },
+    {
+      "id": "blaiazm0s",
+      "body": "80808",
+      "parentId": "6kefnbesh",
+      "imageID": 3000,
+      "userId": "1",
+      "username": "Lina Müller",
+      "createdAt": "2023-09-16T01:48:10.707Z"
+    },
+    {
+      "id": "5fxk6u1w2",
+      "body": "This is very cool PIC :\":",
+      "parentId": null,
+      "imageID": 3000,
+      "userId": "1",
+      "username": "Lina Müller",
+      "createdAt": "2023-09-18T19:06:39.529Z"
+    },
+    {
+      "id": "v8ke7wz2e",
+      "body": "kjkjkljn",
+      "parentId": null,
+      "imageID": 2003,
+      "userId": "1",
+      "username": "Lina Müller",
+      "createdAt": "2024-02-12T10:36:27.413Z"
+    },
+    {
+      "id": "r3fk8fbcd",
+      "body": "wow",
+      "parentId": "66ldbarlc",
+      "imageID": 3004,
+      "userId": "1",
+      "username": "Lina Müller",
+      "createdAt": "2024-03-27T20:08:54.409Z"
+    },
+    {
+      "id": "7ihgt1bno",
+      "body": "حلوة كتير ",
+      "parentId": null,
+      "imageID": 3003,
+      "userId": "1",
+      "username": "Lina Müller",
+      "createdAt": "2024-03-27T21:17:25.090Z"
+    },
+    {
+      "id": "34wplg1v5",
+      "body": "حلوة كتير",
+      "parentId": null,
+      "imageID": 3007,
+      "userId": "1",
+      "username": "Lina Müller",
+      "createdAt": "2024-03-27T21:18:36.082Z"
+    }
+  ]
 }
