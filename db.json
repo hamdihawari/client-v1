@@ -2110,32 +2110,6 @@
       }
     ]
   },
-  "aboutData": {
-    "en": [
-      {
-        "id": 4000,
-        "photo": "../src/assets/images/hamdiphotos/about/personal.jpeg",
-        "title": "Hey there!, I’m Hamdi",
-        "description": "I'm a creative blend of a designer, developer, and photographer, all wrapped up into one. My passion lies in crafting experiences that capture the magic of those in-between moments. Through my photography, I breathe life into love stories, infusing them with creative flair. I have a knack for envisioning a world where cutting-edge technology reigns supreme. My journey has been a mix of carving my own path and overcoming challenges. In 2022, I earned my stripes as an application developer. Back in Damascus, I dipped my toes into the world of graphic design and UX-UI. I'm on a mission to leave my unique mark wherever I go. As an application designer and developer, I dive headfirst into concocting ideas that make life better for people. I code these ideas into applications and websites that seamlessly blend with our modern reality. I'm always on the hunt for attention-grabbing concepts. And yes, with a touch of artificial intelligence, I sprinkle those finishing touches that elevate a project from good to great. Join me on this exciting journey, and let's create something incredible together!"
-      }
-    ],
-    "de": [
-      {
-        "id": 4000,
-        "photo": "../src/assets/images/hamdiphotos/about/personal.jpeg",
-        "title": "Hallo! Ich bin Hamdi",
-        "description": "Ich bin eine kreative Mischung aus Designer, Entwickler und Fotograf, alles in einem. Meine Leidenschaft ist es, Erfahrungen zu kreieren, die den Zauber dieser Momente dazwischen einfangen. Durch meine Fotografie hauche ich Liebesgeschichten zum Leben ein und erwecke sie mit kreativem Flair. Ich habe ein Händchen dafür, mir eine Welt vorzustellen, in der Spitzentechnologie die Oberhand gewinnt. Meine Reise war eine Mischung aus meinem eigenen Weg zu gehen und Herausforderungen zu meistern. 2022 habe ich mir meine Streifen als Anwendungsentwickler verdient. Zurück in Damaskus tauchte ich in die Welt des Grafikdesigns und der UX-UI ein. Ich bin auf einer Mission, meine Spuren zu hinterlassen, wo auch immer ich hingehe. Als Applikationsdesigner und Entwickler tauche ich kopfüber in Ideen ein, die das Leben der Menschen verbessern. Ich kodiere diese Ideen in Anwendungen und Websites, die sich nahtlos in unsere moderne Realität einfügen. Ich bin immer auf der Suche nach aufmerksamkeitsstarken Konzepten."
-      }
-    ],
-    "ar": [
-      {
-        "id": 4000,
-        "photo": "../src/assets/images/hamdiphotos/about/personal.jpeg",
-        "title": "مرحبا",
-        "description": "أنا مزيج إبداعي من مصمم ومطور ومصور فوتوغرافي ، كل ذلك في واحد. يكمن شغفي في صياغة التجارب التي تجسد سحر تلك اللحظات البينية. من خلال التصوير الفوتوغرافي ، أبث الحياة في قصص الحب ، وأغمرها بالذوق الإبداعي. لدي موهبة في تخيل عالم تسود فيه التكنولوجيا المتطورة. كانت رحلتي مزيجًا من شق طريقي والتغلب على التحديات. في عام 2022 ، حصلت على شرائطي كمطور تطبيقات. في دمشق ، غطست أصابع قدمي في عالم التصميم الجرافيكي و تصميم الويب. أنا في مهمة لأترك بصمتي الفريدة أينما ذهبت. بصفتي مصممًا ومطورًا للتطبيق ، فأنا أتعمق في ابتكار الأفكار التي تجعل الحياة أفضل للناس. أقوم بترميز هذه الأفكار في التطبيقات والمواقع الإلكترونية التي تمتزج بسلاسة مع واقعنا الحديث. أنا دائمًا أبحث عن مفاهيم تجذب الانتباه. ونعم ، بلمسة من الذكاء الاصطناعي ، أرش تلك اللمسات الأخيرة التي ترفع المشروع من جيد إلى عظيم. فمت بانشاء عدة معارض في الخليج العربي ولبنان ومزخراً قمت بالمشاركه في معرض للتصوير في برلين وكان لدي بصمة جيدة هناك. اليوم مع تقدم التكنولوجيا في العالم بالاضافه الى الذكاء الاصطناعي, يدفعني دائماً في تطوير نفسي ومواكبه الحداثه التي وصلنا اليها في العصر الحديث الحالي, وما زال هناك الكثير مما ينبغي اعادة النظر اليه بصورة حديثه تواكب هذا العصر الحديث.. يسعدني ان اقدم مساعدتي لمن يبحثون عن تطوير مشاريعهم استطيع بكل سرور ان أقدم لك خدماتي في برمجة وتصميم مواقع الويب والتطبيقات الحديثة.. انضموا إلي في هذه الرحلة المثيرة ، ودعونا نصنع شيئًا رائعًا معًا"
-      }
-    ]
-  },
   "contactData": {
     "en": [
       {

@@ -2,40 +2,45 @@
   text-align: right;
   direction: rtl;
 }
-.titlecontent .title{
+
+.titlecontent .title {
   font-family: 'DroidArabicKufiRegular';
-    font-weight: normal;
-    font-style: normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
-/* Extra small devices (phones, 600px and down) DOWN 600 */
-@media only screen and (max-width: 600px){
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
   .containerText {
-    text-align: center;
-    direction: rtl;
+    text-align: center; /* Centering text for smaller screens */
+    direction: rtl; /* Keeping right-to-left direction */
   }
 }
-/* Extra small devices (phones, 600px and down) DOWN 600 */
-@media only screen and (min-width: 600px){
+
+/* Small devices (tablets, 600px and up) */
+@media only screen and (min-width: 600px) {
   .containerText {
-    text-align: center;
-    direction: rtl;
+    text-align: center; /* Centering text for medium screens */
+    direction: rtl; /* Keeping right-to-left direction */
   }
 }
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .containerText {
-    text-align: right;
-    direction: rtl;
+    text-align: right; /* Aligning text to the right for larger screens */
+    direction: rtl; /* Keeping right-to-left direction */
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .containerText {
-    text-align: right;
-    direction: rtl;
+    text-align: right; /* Aligning text to the right for extra-large screens */
+    direction: rtl; /* Keeping right-to-left direction */
   }
-  .titlecontent .title{
-      font-size: 28px;
+
+  .titlecontent .title {
+    font-size: 1.75rem; /* Adjusting font size for larger screens */
+    /* Alternatively, you can use 28px if you prefer a fixed size */
   }
 }
