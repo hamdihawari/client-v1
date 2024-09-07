@@ -1,4 +1,5 @@
-import { Link, useParams } from 'react-router-dom';
+
+import { useParams } from 'react-router-dom';
 import { useContext } from 'react';
 import { ProjectContext } from '../../../Context/Context';
 import style from './style.module.css';
@@ -15,7 +16,7 @@ const ProjectDetails = () => {
       {filteredProjects.map((val) => (
         <div key={val.id} className={`${style.projectDetailsContener} ${isArabic && rtlStyle.projectDetailsContener}`} >
           <div className={`${style.header} ${isArabic && rtlStyle.header}`}>
-          <img src={val.image} alt={val.title} class={style.avatar} />
+          <img src={val.image} alt={val.title} className={style.avatar} />
           <div className={`${style.headerContent} ${isArabic && rtlStyle.headerContent}`}>
           <h2 className={`${style.title} ${isArabic && rtlStyle.title}`}>{val.title}</h2>
           <p className={`${style.data} ${isArabic && rtlStyle.data}`}>{val.data}</p>

@@ -13,6 +13,121 @@
   border-radius: 50%;
 }
 
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  text-align: left;
+  font-size: 28px;
+  color: rgb(36, 36, 36);
+  padding-left: 1rem;
+  padding-top: 0.8rem;
+}
+
+.data {
+  padding-left: 1.2rem;
+  font-size: 16px;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.img {
+  height: auto;
+  margin-top: 1rem;
+}
+
+.cardDescription {
+  color: #7d7d7d;
+  text-align: left;
+  padding: 1rem;
+}
+
+/* Devices with max-width of 600px */
+@media only screen and (max-width: 600px) {
+  .projectDetails {
+    flex-direction: column; /* Updated to column for consistency */
+    padding: 2rem;
+    padding-top: 0.5rem;
+  }
+
+  .avatar {
+    width: 70px;
+    height: 70px;
+  }
+
+  .title {
+    font-size: 20px;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+  }
+
+  .data {
+    font-size: 14px;
+    padding-top: 0.4rem;
+  }
+
+  .cardDescription {
+    font-size: 16px;
+  }
+}
+
+/* Devices with min-width of 600px */
+@media only screen and (min-width: 600px) {
+  .projectDetails {
+    flex-direction: row; /* Corrected to match the larger screen layout */
+    padding: 2rem;
+  }
+
+  .header {
+    font-size: 22px;
+  }
+
+  .cardDescription {
+    font-size: 20px;
+  }
+}
+
+/* Devices with min-width of 992px (Laptops/Desktops) */
+@media only screen and (min-width: 992px) {
+  .projectDetails {
+    flex-direction: column; /* Maintaining column layout */
+    margin-left: 16rem;
+
+
+    padding: 0 4rem 0 4rem;
+    width: 70%;
+  }
+
+  .cardDescription {
+    font-size: 1.1rem;
+  }
+}
+
+/* Devices with min-width of 1200px (Large Laptops/Desktops) */
+@media only screen and (min-width: 1200px) {
+  /* Specific styles for larger devices can be added here if necessary */
+}
+
+/*
+.projectDetails {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-left: 17rem;
+  width: 100%;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
 .header{
   display: flex;
   flex-direction: row;
@@ -43,7 +158,7 @@
   padding: 1rem;
 }
 
-/* 600 Down */
+!* 600 Down *!
 @media only screen and (max-width: 600px) {
   .projectDetails {
     display: flex;
@@ -79,7 +194,7 @@
   }
 }
 
-/* 600 up */
+!* 600 up *!
 @media only screen and (min-width: 600px) {
   .projectDetails {
     display: flex;
@@ -100,7 +215,7 @@
   }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+!* Large devices (laptops/desktops, 992px and up) *!
 @media only screen and (min-width: 992px) {
   .projectDetails {
     display: flex;
@@ -117,7 +232,7 @@
 }
 
 @media only screen and (min-width: 1200px) {
-  /*   .projectContent {
+  !*   .projectContent {
       border: none;
       padding: 0;
       margin-top: 3rem;
@@ -131,5 +246,5 @@
       text-align: left;
       font-size: 26px;
       color: rgb(37, 37, 37);
-    } */
-}
+    } *!
+}*/

@@ -1,19 +1,31 @@
-.contact{
+.contact {
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
-.contactContener {
+
+.contactContainer {
     margin: 0 auto;
+    padding: 2rem;
+    /*background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);*/
     font-family: 'PT Serif', serif;
 }
 
 .formHeader h1 {
     font-size: 36px;
     color: #111827;
+    text-align: center;
 }
 
 .formHeader p {
     padding-top: 1rem;
     padding-bottom: 1.5rem;
+    text-align: center;
+    font-size: 18px;
 }
 
 #flname {
@@ -22,7 +34,8 @@
 }
 
 label {
-    margin-bottom: 0.1rem;
+    margin-bottom: 0.5rem;
+    font-size: 16px;
 }
 
 #link {
@@ -35,45 +48,46 @@ form {
     padding: 0;
     display: flex;
     flex-direction: column;
+    gap: 1rem;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="number"],
-input[type="message"],
-input[type="textarea"],
 textarea,
-input[type="data"] {
+input[type="date"] {
     width: 100%;
     display: block;
-    height: 34px;
+    height: 40px;
+    padding: 0.5rem;
     margin-bottom: 0.4rem;
     font-family: 'PT Serif', serif;
     font-size: 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
-input:focus {
-    border-color: red;
+textarea {
+    height: 120px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
 }
 
 input:focus:invalid {
     border-color: red;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
 }
 
 input[type="text"]:hover,
 input[type="email"]:hover,
-input[type="number"]:hover,
-input[type="message"]:hover,
-input[type="textarea"]:hover,
-input[type="data"]:hover,
 textarea:hover {
-    border-color: red;
-}
-
-textarea {
-    height: 100px;
-    width: 100%;
-    font-size: 14px;
+    border-color: #2563eb;
 }
 
 .submit {
@@ -82,8 +96,11 @@ textarea {
     width: 100%;
     margin-top: 0.4rem;
     color: white;
-    padding: 0.5rem;
-    font-size: 16px;
+    padding: 0.75rem;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .submit:hover {
@@ -99,9 +116,10 @@ textarea {
 
 /* Media Queries */
 @media only screen and (max-width: 600px) {
-    .contactContener {
+    .contactContainer {
         margin: 40px auto;
-        width: 75%;
+        width: 85%;
+        padding: 1rem;
     }
 
     h1 {
@@ -114,7 +132,7 @@ textarea {
 }
 
 @media only screen and (min-width: 600px) {
-    .contactContener {
+    .contactContainer {
         margin: 30px auto;
         width: 75%;
     }
@@ -129,10 +147,11 @@ textarea {
 }
 
 @media only screen and (min-width: 992px) {
-    .contactContener {
-        margin-left: 22rem;
-        margin-top: 4rem;  
-        width: 40%;
+    .contactContainer {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4rem;
+        width: 50%;
     }
 
     h1 {
@@ -140,20 +159,37 @@ textarea {
     }
 
     p {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
-    .contactContener {
-        width: 45%;
+    .contactContainer {
+        width: 50%;
         margin: 60px auto;
     }
+
     h1 {
         font-size: 36px;
     }
 
     p {
-        font-size: 19px;
+        font-size: 20px;
     }
+}
+
+/* Right-to-left styling */
+.rtl .formHeader {
+    text-align: right;
+    direction: rtl;
+}
+
+.rtl .form {
+    text-align: right;
+    direction: rtl;
+}
+
+.rtl input,
+.rtl textarea {
+    text-align: right;
 }

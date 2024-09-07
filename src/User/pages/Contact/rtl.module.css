@@ -1,11 +1,13 @@
-.formHeader {
+.form {
+    direction: rtl;
     text-align: right;
-    direction: rtl;
-  }
-  .link {
-    padding-right: 0.5rem;
 }
-.form{
-  text-align: right;
+
+.formHeader {
     direction: rtl;
+    text-align: right;
+}
+
+.link {
+    padding-right: 0.5rem;
 }

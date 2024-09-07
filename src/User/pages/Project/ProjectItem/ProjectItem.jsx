@@ -1,5 +1,8 @@
+
+
 import style from './style.module.css'
 import { Link } from 'react-router-dom'
+// eslint-disable-next-line no-unused-vars
 import React, { useContext, useState } from 'react'
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder'
 import ShareIcon from '@mui/icons-material/Share'
@@ -9,7 +12,8 @@ import { ScrollToTopButton } from '../../../components/ScrollToTopButton/ScrollT
 import { ProjectContext } from '../../../Context/Context'
 import rtlStyle from './rtl.module.css'
 
-export const ProjectItem = ({ id, title, image, description, imageHover, path }) => {
+// eslint-disable-next-line react/prop-types
+export const ProjectItem = ({ id, title, image, description, imageHover}) => {
 
   const { isArabic } = useContext(ProjectContext);
   const [isHovered, setIsHovered] = useState(false);

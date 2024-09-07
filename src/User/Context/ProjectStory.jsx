@@ -1,13 +1,16 @@
+
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import { ProjectContext } from "./Context";
 import { useState, useEffect } from "react";
 import axios from 'axios'
 import { useTranslation } from 'react-i18next'
 
+// eslint-disable-next-line react/prop-types
 export const ProjectStory = ({ children }) => {
     const [project, setProject] = useState([])
     const projectUrl = "http://localhost:9000/projectCard"
-    const { i18n } = useTranslation()
+    const {i18n} = useTranslation()
     const currentLanguage = i18n.language
     const isArabic = currentLanguage === 'ar'
 
