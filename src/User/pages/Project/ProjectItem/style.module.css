@@ -46,6 +46,7 @@
     color: #7d7d7d;
 }
 
+/*
 .title {
     text-align: left;
     font-size: 34px;
@@ -56,6 +57,21 @@
     -webkit-text-fill-color: transparent;
     transition: font-size 0.3s ease, background 0.3s ease;
 }
+.projectTitle:hover {
+    font-size: 32px;
+}
+*/
+.title {
+    text-align: left;
+    font-size: 34px;
+    color: black; /* Black color */
+    font-family: "Recoleta Bold", sans-serif;
+    background: linear-gradient(90deg, #B8860B, #000000); /* Dark golden (#B8860B) and black */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: font-size 0.3s ease, background 0.3s ease;
+}
+
 .projectTitle:hover {
     font-size: 32px;
 }
