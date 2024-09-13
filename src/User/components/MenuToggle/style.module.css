@@ -1,74 +1,106 @@
-.menuToggle{
-    margin-left: 3.2rem;
+/* Main menu toggle container */
+.menuToggle {
+    position: relative; /* Position relative for absolute children */
+    margin-left: 3rem;
+    z-index: 1000; /* Ensure it’s above other elements */
 }
 
-.controll {
-    background-color: rgb(255, 255, 255);
+/* Icon button for menu toggle */
+.icon {
+    color: #333;
+    font-size: 26px;
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+/* Icon button hover effect */
+.icon:hover {
+    color: #007bff; /* Change color on hover */
+    transform: scale(1.1); /* Slightly enlarge the icon */
+}
+
+/* Menu container */
+.controller {
+    background-color: #ffffff; /* White background for contrast */
     position: absolute;
-    display: inline-grid;
-    z-index: 1000;
-  }
-  
-.menuNav{
-    background-color: rgb(255, 255, 255);
+    top: 100%; /* Position below the menu toggle */
+    right: 0;
+    width: 250px; /* Slightly wider for better fit */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Increased shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow for rounded corners */
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transitions */
+    opacity: 1; /* Visible by default */
+    visibility: visible; /* Visible by default */
+}
+
+
+/* Menu toggle is active */
+.menuToggle.active .controll {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Individual menu items */
+.menuNav {
     display: flex;
     align-items: center;
-}
-
-.menuList{
-    text-decoration: none;
-    color: black;
-    padding: 14px;
-    font-size: 17px;
-}
-
-.menuNav:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(36, 36, 36);
-}
-
-.menuList:hover, .icon:hover  {
-    color: rgb(255, 255, 255);
-}
-
-.icon{
     padding: 10px;
+    border-bottom: 1px solid #e0e0e0; /* Light separator */
 }
 
-/* Extra small devices (phones, 600px and down) DOWN 600 */
-@media only screen and (max-width: 600px){
-    .menuToggle{
-        margin-left: 3rem;
+/* Remove border from last item */
+.menuNav:last-child {
+    border-bottom: none;
+}
+
+/* Menu links */
+.menuList {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+    flex: 1; /* Make links take full width */
+}
+
+/* Menu link hover effect */
+.menuList:hover {
+    background-color: #007bff; /* Background color on hover */
+    color: #ffffff; /* Text color on hover */
+}
+
+/* Icon within menu items */
+.icon {
+    margin-right: 12px; /* Space between icon and text */
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    .menuToggle {
+        margin-left: 2rem;
     }
-    .menuList{
-        text-decoration: none;
-        color: black;
-        padding: 10px;
+
+    .menuList {
+        padding: 8px;
         font-size: 14px;
     }
 }
 
-/* Extra small devices (phones, 600px and down) UP 601 */
-@media only screen and (min-width: 600px){
-    .menuToggle{
+@media only screen and (min-width: 600px) {
+    .menuToggle {
         margin-left: 2.4rem;
     }
-    .menuList{
-        text-decoration: none;
-        color: black;
+
+    .menuList {
         padding: 10px;
         font-size: 16px;
     }
-
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .menuList{
+    .menuList {
         font-size: 15px;
     }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
 }

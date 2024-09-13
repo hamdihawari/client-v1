@@ -1,25 +1,25 @@
-
-
-// eslint-disable-next-line no-unused-vars
 import React, { useContext, useState, useEffect, useMemo } from 'react';
-import style from './style.module.css';
-import ProjectItem from '../ProjectItem/ProjectItem';
 import { ProjectContext } from '../../../Context/Context';
 import { Paginate } from '../../../components/Paginate/Paginate';
+import ProjectItem from '../ProjectItem/ProjectItem';
+import style from './style.module.css';
+
+// Safely formats description by splitting it into lines
+function formatDescription(description) {
+  return typeof description === 'string' ? description.split('\n') : [];
+}
 
 const Project = () => {
   const { project } = useContext(ProjectContext);
   const [isLoading, setIsLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(0);
 
-  // This effect runs whenever `project` changes
   useEffect(() => {
-    if (project.length) {
+    if (project?.length > 0) {
       setIsLoading(false);
     }
-  }, [project]); // Dependency array
+  }, [project]);
 
-  // Ensure the number of hooks remains constant
   const itemsPerPage = 4;
   const totalItems = project.length;
   const pageCount = Math.ceil(totalItems / itemsPerPage);
@@ -31,31 +31,33 @@ const Project = () => {
     setCurrentPage(selectedPage.selected);
   };
 
-  const projectsToShow = useMemo(() => project.slice(startIndex, endIndex), [project, startIndex, endIndex]);
+  const projectsToShow = useMemo(() => project.slice(startIndex, endIndex), [startIndex, endIndex, project]);
 
-  // Render loading state
   if (isLoading) {
     return <div>Loading...</div>;
   }
 
-  // Render empty state if no projects are available
-  if (project.length === 0) {
+  if (!project || project.length === 0) {
     return <div>No projects available.</div>;
   }
 
-  // Render the main content
   return (
       <div className={style.project}>
         {projectsToShow.map((val) => (
             <ProjectItem
+                // projectItem
                 key={val.id}
                 id={val.id}
-                path={val.path}
                 title={val.title}
-                icon={val.icon}
                 image={val.image}
                 imageHover={val.imageHover}
-                description={val.description}
+                subject={val.subject}
+
+                // projectDetail
+                description={formatDescription(val.description)}
+                cardDescription={formatDescription(val.cardDescription)}
+                subjectDetails={formatDescription(val.subjectDetails)}
+                descriptionData={formatDescription(val.descriptionData)}
             />
         ))}
         <Paginate pageCount={pageCount} onPageChange={handlePageChange} />

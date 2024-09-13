@@ -26,6 +26,7 @@
     color: #9d9d9d;
     font-family: 'PT Serif', serif;
     font-size: 15px;
+    /*text-align: justify;*/
 }
 #click {
     text-decoration: none;

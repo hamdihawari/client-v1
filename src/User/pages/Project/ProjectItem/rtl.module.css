@@ -1,85 +1,143 @@
-.projectContent {
-    width: 70%;
+.projectCard{
+    padding-top: 0.9rem;
 }
 
-.cardBody .cardTitle {
-    direction: ltr;
-    text-align: right;
-    font-family: 'DroidArabicKufiRegular';
-    font-weight: bold;
-    width: 70%;
-    font-size: 28px;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
+/* Arabic RTL Styles */
+.cardBody .title {
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
 }
 
-.cardBody .cardText {
-    margin-top: 0.8rem;
-    font-size: 16px;
-    direction: ltr;
+.cardBody .description {
+    font-size: 18px;
+    direction: rtl;
     text-align: right;
 }
 
-.cardBody .cardFooter {
-    direction: ltr;
-    float: right;
-    width: 73%;
-    margin-top: 0.5rem;
+.subject {
+    width:70%;
 }
 
-@media only screen and (max-width: 600px) {}
+.subject .subjectLink{
+    font-size: 18px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
 
-@media only screen and (min-width: 600px) {}
+.cardBody .footer {
+    direction: rtl;
+    float: left; /* Footer on the left side for RTL */
+    margin-top: 0;
+}
 
-@media only screen and (min-width: 992px) {
-    /* .cardBody .cardTitle {
-        direction: ltr;
+/* Styles for Menu Button in Footer */
+.footer .menuButton {
+    direction: rtl;
+    float: left; /* Button on the left side for RTL */
+    margin-right: auto; /* Space on the right to align the button on the left */
+}
+
+/* General Footer Styles for RTL */
+.footer {
+    display: flex;
+    justify-content: flex-start; /* Align items to the start for RTL layout */
+    align-items: center;
+}
+
+/* Icon Hover Effect */
+.icon:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#icon {
+    padding-right: 3rem;
+}
+
+.footer .favorit {
+    margin-left: 3rem;
+}
+
+/* Responsive Styles */
+
+/* Devices with max-width of 600px */
+@media only screen and (max-width: 600px) {
+    .cardBody .title,
+    .cardBody .description,
+    .cardBody .subject {
+        direction: rtl;
         text-align: right;
-        font-family: 'DroidArabicKufiRegular';
-        font-size: 21px;
-        margin-top: 0rem;
-        margin-bottom: 0rem;
     }
 
-    .cardBody .cardText {
-        margin-top: 0.5rem;
+    .cardBody .footer {
+        float: left; /* Footer on the left side for RTL */
+    }
+
+    .footer .menuButton {
+        float: left; /* Button on the left side for RTL */
+    }
+}
+
+/* Devices with min-width of 600px */
+@media only screen and (min-width: 600px) {
+    .cardBody .title,
+    .cardBody .description,
+    .cardBody .subject {
+        direction: rtl;
+        text-align: right;
+    }
+
+    .cardBody .footer {
+        float: left; /* Footer on the left side for RTL */
+    }
+
+    .footer .menuButton {
+        float: left; /* Button on the left side for RTL */
+    }
+}
+
+/* Devices with min-width of 992px (Laptops/Desktops) */
+@media only screen and (min-width: 992px) {
+    .cardBody .title {
+        font-size: 21px;
+    }
+
+    .cardBody .description {
         font-size: 12px;
         width: 70%;
-        direction: ltr;
-        text-align: right;
     }
 
-    .cardBody .cardFooter {
-        direction: ltr;
-        float: right;
+    .cardBody .footer {
         width: 85%;
-    }*/
+    }
+
+    .footer .menuButton {
+        float: left; /* Button on the left side for RTL */
+    }
 }
 
+/* Devices with min-width of 1200px (Large Laptops/Desktops) */
 @media only screen and (min-width: 1200px) {
-    /* .cardBody .cardTitle {
+    .cardBody .title {
         width: 70%;
-        font-family: 'DroidArabicKufiRegular';
-        font-size: 28px;
-        margin-top: 0rem;
-        margin-bottom: 0rem;
+        font-size: 36px;
+        margin: 0 16px;
     }
 
-    .cardBody .cardText {
-        margin-top: 0.3rem;
-        font-size: 16px;
+    .subject .subjectLink{
+        font-size: 22px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+    }
+    .cardBody .description {
+        font-size: 18px;
         width: 70%;
-        direction: ltr;
-        text-align: right;
-        margin-top: 1rem;
-
     }
 
-    .cardBody .cardFooter {
-        direction: ltr;
-        float: right;
-        width: 73%;
-        margin-top: 1.1rem;
+    .cardBody .footer {
+        width: 75%;
+    }
 
-    } */
+    .footer .menuButton {
+        float: left; /* Button on the left side for RTL */
+    }
 }

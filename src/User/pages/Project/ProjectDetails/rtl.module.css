@@ -1,20 +1,54 @@
-.projectDetails {
+.projectDetailsWrapper {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Cairo', sans-serif;
+}
+
+.projectTitle {
+    font-size: 36px;
+    margin: 0 12px 0 0; /* Combined margin-top and margin-right */
+    font-family: 'Cairo', sans-serif;
+    color: #615E20;
+}
+
+.projectSubject {
+    font-size: 32px;
+    color: rgb(36, 36, 36);
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem; /* Added spacing for separation */
+}
+
+.projectImageSubject {
+    color: #7d7d7d;
+    margin: 1rem 12px 3rem 0; /* Combined margin-top and margin-right */
+    font-size: smaller;
+    text-align: right;
+}
+
+.projectDetailsWrapper .projectDate {
+    padding-right: 1.1rem;
+    font-size: 18px;
+    margin-top: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+.projectDetailsSection .projectDataDescription {
+    font-size: 18px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.projectCardDetails {
     direction: rtl;
     text-align: right;
 }
 
-.projectDetailsContener .title {
-    text-align: right;
-    margin-right: 12px;
-    font-family: 'DroidArabicKufiRegular';
-}
-
-.projectDetailsContener .data {
-    text-align: right;
-    margin-right: 12px;
-}
-
-.cardDescription {
+.projectDescription {
     direction: rtl;
     text-align: right;
+    margin-bottom: 2rem;
+    font-family: 'Cairo', sans-serif;
+    font-size: 21px;
+    line-height: 1.6; /* Improves readability for longer text */
 }
