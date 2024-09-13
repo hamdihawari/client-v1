@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 import style from './style.module.css';
 import rtlStyle from './rtl.module.css';
