@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useState } from 'react';
+import React from 'react';
 import style from './style.module.css';
 import rtlStyle from './rtl.module.css';
 import { useForm } from 'react-hook-form';
@@ -16,7 +16,7 @@ const Contact = () => {
 
     const isArabic = currentLanguage === 'ar';
 
-    // Statische Daten basierend auf der aktuellen Sprache
+    // Static data based on current language
     const contactData = {
         en: {
             id: 5000,
@@ -50,7 +50,7 @@ const Contact = () => {
         }
     };
 
-    // Dynamisches Yup-Validierungsschema basierend auf der Sprache
+    // Dynamic Yup validation schema based on language
     const schema = yup.object().shape({
         firstname: yup.string().required(i18n.t("validation.firstname")),
         lastname: yup.string().required(i18n.t("validation.lastname")),
@@ -69,10 +69,18 @@ const Contact = () => {
     });
 
     const submitForm = async (formData) => {
+        // Ensure all required fields are included
+        const completeFormData = {
+            ...formData,
+            title: contactData[currentLanguage].title,
+            description: contactData[currentLanguage].description,
+            submit: contactData[currentLanguage].submit,
+            language: currentLanguage // Add this line if the backend expects it
+        };
         try {
-            const response = await axios.post(postContactUrl, formData);
+            const response = await axios.post(postContactUrl, completeFormData);
             console.log("Form submission successful:", response);
-            reset(); // Formular zurücksetzen nach erfolgreicher Einsendung
+            reset(); // Reset form after successful submission
         } catch (error) {
             if (error.response) {
                 console.error(`Submission failed: ${error.response.data.message || "Unknown error"}`);
@@ -83,6 +91,7 @@ const Contact = () => {
             }
         }
     };
+
 
     const renderInput = (name, type = "text", label) => (
         <>

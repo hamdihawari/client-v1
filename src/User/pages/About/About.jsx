@@ -31,25 +31,6 @@ const About = () => {
             });
     }, [currentLanguage]);
 
-
-
-    /*return (
-        <div className={style.about}>
-            {data.map((item) => {
-                return (
-                    <div key={item.id} className={style.aboutContainer}>
-                        <img src={item.photo} className={style.personal} alt="personal photo" />
-                        <div className={`${style.containerText} ${isArabic && rtlStyle.containerText}`}>
-                            <div className={`${style.titlecontent} ${isArabic ? rtlStyle.titlecontent : ""}`}>
-                                <h3 className={`${style.title} ${isArabic ? rtlStyle.title : ""}`}>{item.title} &#128515;</h3>
-                            </div>
-                            <p className={style.description}>{item.description}</p>
-                        </div>
-                    </div>
-                )
-            })}
-        </div>
-    )*/
     return (
         <div className={style.about}>
             {Array.isArray(data) && data.length > 0 ? (

@@ -12,7 +12,7 @@ function LanguageSwitcher() {
     setLanguageToggle(!languageToggle);
   };
 
-  return (
+    return (
     <div className={style.LanguageSelector}>
       <div className={style.btn}>
         <IconButton className={style.languageIcon}  onClick={toggleLanguage}>
