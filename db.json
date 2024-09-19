@@ -1,4 +1,1278 @@
 {
+  "projectCard": {
+    "en": [
+      {
+        "id": 1,
+        "path": "projectCard",
+        "title": "A Light of a Rebirth",
+        "icon": "",
+        "data": "Berlin - 22.10.2017",
+        "image": "../src/assets/images/hamdiphotos/project/projectPage/c|o.JPG",
+        "imageHover": "../src/assets/images/hamdiphotos/project/projectHover/c|o.jpg",
+        "subject": "A symbol of memory and hope.",
+        "description": "This image reflects an emotional journey from loss to hope, where feelings of sorrow blend with the anticipation of a new and brighter beginning. It symbolizes change and transformation, embodying a shared human experience of facing challenges and building a new life filled with hope and optimism.",
+        "projectDetails": [
+          {
+            "id": 1,
+            "subjectDetails": "Between Damascus and Berlin: A Story of Resilience",
+            "cardDescription": "A Light of a Rebirth captures the emotional complexity of displacement and the journey from a war-torn homeland to a new life. This graphic design project artfully blends personal memories and symbolic imagery, representing both loss and renewal. Central to the piece is the red night light, a beacon that not only illuminated the physical journey from Damascus to Berlin but also serves as a metaphor for resilience in the face of adversity. The watch, worn through moments of uncertainty, becomes a symbol of time passing, highlighting the distance between the past and the future. It reflects how the value of what was once familiar—home, culture, and identity—can become obscured by conflict. The inclusion of everyday objects, such as apple juice and Damascene jasmine, adds layers of nostalgia and sentimentality, invoking a connection to simpler times while underscoring the bittersweet nature of memory. Together, these elements tell a powerful story of a life disrupted but not destroyed, where hope and sadness coexist. The project is not only a tribute to survival but also an invitation for reflection on the broader human experience of migration and the search for belonging.\n\nThe inclusion of everyday objects, such as apple juice and Damascene jasmine, adds layers of nostalgia and sentimentality, invoking a connection to simpler times while underscoring the bittersweet nature of memory. Together, these elements tell a powerful story of a life disrupted but not destroyed, where hope and sadness coexist. The project is not only a tribute to survival but also an invitation for reflection on the broader human experience of migration and the search for belonging. \n\nThrough its vivid colors, delicate textures, and thoughtful composition, A Light of a Rebirth evokes a deep emotional response, making it not just a visual work of art, but a narrative of transformation.",
+            "imageGroup": {
+              "img_1": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/c|o/c|oAustellungN1.jpg",
+                "imageSubject": "PIC 1 - @c|o Deutschland, Berlin 2017"
+              },
+              "img_2": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/c|o/c|oAustellungN2.jpg",
+                "imageSubject": "PIC 2 - @c|o Deutschland, Berlin 2017"
+              },
+              "img_3": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/c|o/c|oAustellungN3.jpg",
+                "imageSubject": "PIC 3 - @c|o Deutschland, Berlin 2017"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "path": "projectCard",
+        "title": "You and Me",
+        "icon": "",
+        "data": "Berlin - 11.01.2015",
+        "image": "../src/assets/images/hamdiphotos/project/projectPage/youme.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/projectHover/youme.jpg",
+        "subject": "A Deep Emotional Bond",
+        "description": "This graphic design merges the faces of a young man and woman, symbolizing their connection. Smooth transitions between features depict closeness, while the absence of boundaries reflects harmony. The design highlights empathy, expressing the strength of bonds that unite relationships.",
+        "projectDetails": [
+          {
+            "id": 101,
+            "subjectDetails": "Seamless Bond",
+            "cardDescription": "The graphic design titled \"Seamless Bond\" captures the profound essence of unity and connection through a masterful blend of two faces. This piece portrays a young man and a young woman whose features are seamlessly merged, symbolizing an intimate and emotional bond. The artist has skillfully crafted a gentle transition between their faces, highlighting their similarities and the deep connection they share.\n\nIn this design, the absence of distinct boundaries between the two faces emphasizes the harmony and closeness between them. The delicate balance of details and the smooth fusion of their expressions reflect a powerful sense of empathy and mutual understanding. This visual representation goes beyond mere aesthetics; it serves as a poignant reminder of the shared human experience and the emotional ties that bind us together.\n\nThe work invites viewers to contemplate the beauty of relationships and the idea that, at a fundamental level, we are all interconnected. The imagery eloquently embodies the notion that within each of us, there exists a reflection of another, reinforcing the theme of universal kinship and emotional resonance.\n\nAs you explore this design further, let it inspire you to think about the ways in which we relate to one another and find common ground. The design not only celebrates the individual but also underscores the significance of our connections with others.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "path": "projectCard",
+        "title": "The Emotion of the Rubble",
+        "icon": "",
+        "data": "Berlin - 25.06.2016",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/emothion.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/emothion.jpg",
+        "description": "This artwork depicts the face of a child blending with a devastated scene, reflecting tragedy. The child's sorrowful eyes merge with the rubble, embodying ongoing suffering. The fusion expresses the emotional and psychological scars that disasters leave on individuals and communities, remaining in collective memory.",
+        "subject": "Impact and Emotional Connection",
+        "projectDetails": [
+          {
+            "id": 102,
+            "subjectDetails": "Emotional aftermath of rubble",
+            "cardDescription": "In this evocative graphic design, titled \"Emotion of the Moraine,\" a child’s face, imbued with sorrow and innocence, merges with a devastated landscape. This visual contrast highlights the profound impact of environmental and human-induced destruction. The child’s tearful eyes, blending with the chaotic terrain, symbolize the emotional weight of such tragedies. The term \"moraine\" metaphorically represents the residual emotional and physical debris left by disasters, underscoring the lasting scars of destruction. This powerful imagery prompts reflection on the broader implications of environmental and human impacts, urging viewers to address and mitigate these issues.",
+            "imageGroup": {
+              "img_2": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN2.jpg",
+                "imageSubject": "PIC 1"
+              },
+              "img_3": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN3.jpg",
+                "imageSubject": "PIC 2"
+              },
+              "img_4": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN4.jpg",
+                "imageSubject": "PIC 3"
+              },
+              "img_5": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN5.jpg",
+                "imageSubject": "PIC 4"
+              },
+              "img_6": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN6.jpg",
+                "imageSubject": "PIC 5"
+              },
+              "img_7": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN7.jpg",
+                "imageSubject": "PIC 6"
+              },
+              "img_8": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN8.jpg",
+                "imageSubject": "PIC 7"
+              },
+              "img_9": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN9.jpg",
+                "imageSubject": "PIC 8"
+              },
+              "img_10": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN10.jpg",
+                "imageSubject": "PIC 9"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "path": "projectCard",
+        "title": "Journey Through the Ruins",
+        "icon": "",
+        "data": "Damascus - 4.09.2013",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/theEndofTheWorld.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/theEndofTheWorld.jpg",
+        "subject": "Searching for Hope",
+        "description": "This painting depicts two Syrian men emerging from the ruins of devastated neighborhoods, searching for a place in an unknown world. They walk between hope and despair, reflecting the sense of displacement and the search for a future. They stand as symbols of suffering, embodying the struggle of identity in a troubled world.",
+        "projectDetails": [
+          {
+            "id": 103,
+            "subjectDetails": "The End of the World",
+            "cardDescription": "In this powerful and evocative artwork, titled \"The End of the World,\" the artist delves deep into the harrowing narrative of displacement and survival amidst the aftermath of conflict. The scene unfolds with two Syrian men emerging from the debris of once-thriving neighborhoods that have been ravaged by the relentless tide of war. Their surroundings are a stark tableau of devastation: crumbled buildings, scattered rubble, and remnants of lives interrupted.\n\nThe men stand at the threshold of a new and uncertain chapter, their figures silhouetted against a backdrop of ruin. Their expressions are a poignant amalgamation of hope and despair—a complex emotional state that reflects their tumultuous journey. The artist masterfully captures the fragility of their situation and the immense psychological weight of their predicament. Their faces, etched with weariness, convey a deep longing for stability and peace, while their eyes hint at a glimmer of hope for a better future.\n\nThe composition of the artwork starkly contrasts the chaotic destruction surrounding the men with the vast, open expanse of the world before them. This juxtaposition symbolizes the daunting and unpredictable nature of their search for a new home. The environment is rendered with a stark realism that underscores the profound sense of loss and dislocation experienced by those forced to flee their homes.\n\nThe use of color and light in the piece plays a critical role in amplifying the emotional depth of the scene. The muted tones of the ruins are contrasted with the slightly warmer hues of the horizon, suggesting the possibility of renewal and recovery even amid the desolation. The interplay of light and shadow serves to highlight the men’s isolation while also hinting at the potential for hope and rebirth.\n\n\"The End of the World\" is more than a visual representation; it is a visceral exploration of the human condition in the face of catastrophic change. It invites viewers to reflect on the profound impact of conflict and displacement, and to empathize with the countless individuals whose lives have been irreversibly altered by such events. The artwork stands as a poignant reminder of the resilience of the human spirit and the enduring quest for hope and belonging, even in the bleakest of circumstances.\n\nAs you delve deeper into this evocative piece, you are encouraged to consider the broader implications of its narrative. It speaks to the universal experience of seeking refuge and the indomitable will to forge a path forward despite overwhelming odds. Through its depiction of these two men’s journey, \"The End of the World\" captures a moment of profound human vulnerability and the enduring quest for a place to call home.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 104,
+        "path": "projectCard",
+        "title": "Voices Encased",
+        "icon": "",
+        "data": "Damascus - 22.07.2012",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/silencerCivilizedVoice.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/silencerCivilizedVoice.jpg",
+        "subject": "Children’s Voices Ignored by Media",
+        "description": "This artwork depicts children inside a microphone, symbolizing how their voices are often ignored by media. It critiques the neglect of children's rights and highlights the gap between their concerns and acknowledgment. By encasing these voices, the piece emphasizes the need for genuine representation and right to be heard.",
+        "projectDetails": [
+          {
+            "id": 104,
+            "subjectDetails": "Voices Encased",
+            "cardDescription": "\"Voices Encased\" is a compelling and evocative piece of graphic design that serves as a powerful critique of the ways in which children's voices are often marginalized and disregarded by contemporary media and societal structures. At first glance, the artwork presents a striking visual: a microphone, an emblem of communication and voice, is filled with children. This juxtaposition serves as a profound metaphor for the silencing of youthful perspectives in the broader discourse.\n\nCentral Theme and Symbolism\n\nThe microphone, typically a tool for amplifying voices and facilitating communication, is transformed into a vessel for children, who represent the future and the essence of untapped potential. Instead of amplifying their voices, the microphone in this artwork paradoxically contains them, symbolizing how their concerns are frequently overlooked or suppressed. This imagery starkly contrasts the usual function of a microphone, underscoring the dissonance between the potential for representation and the reality of their exclusion.\n\nCritique of Media and Societal Neglect\n\nThis design critically addresses the media's role in shaping public discourse and highlights its failure to adequately represent the voices of children. In many societies, children's opinions and experiences are often relegated to the background, overshadowed by more dominant narratives. The artwork critiques this neglect by visually representing the gap between the volume of children's voices and the deafening silence that often surrounds their issues.\n\nHighlighting the Need for Representation\n\nThe piece is a call to action, urging for a shift towards genuine representation and acknowledgment of children's rights and perspectives. By encasing these voices within the microphone, the artist emphasizes the urgency of addressing the disparity between the actual voices of children and their representation in media and policy-making. This visual metaphor challenges viewers to reconsider how children’s voices are perceived and acted upon within our societies.\n\nEmphasis on Rights and Perspectives\n\nThe artist's use of the microphone as a containment vessel rather than a conduit for expression highlights the pressing need for societal change. The piece serves as a visual advocacy for the rights of children, calling attention to the systemic issues that result in their perspectives being undervalued. It is a reminder of the importance of listening to and incorporating the voices of the younger generation in conversations that shape our future.\n\nConclusion\n\n\"Voices Encased\" is more than just a graphic design; it is a poignant commentary on the state of children's rights and representation in modern media. Through its powerful symbolism and critique, the artwork not only draws attention to the often invisible voices of children but also serves as a catalyst for dialogue about how we can better integrate these voices into the societal narrative. It challenges viewers to reflect on their own roles in either perpetuating or dismantling the structures that silence these vital perspectives.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "path": "projectCard",
+        "title": "The Fall from Paradise",
+        "icon": "",
+        "data": "Damascus - 07.07.2011",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/syria.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/syria.jpg",
+        "description": "This artwork shows the name \"Syria\" burning fiercely above Earth, set against space. The flames symbolize the impact of ongoing conflict on the nation. The contrast between the destruction and the indifferent expanse of space highlights the suffering and isolation experienced by Syria.",
+        "subject": "Welcome, to Syria",
+        "projectDetails": [
+          {
+            "id": 105,
+            "subjectDetails": "Syria",
+            "cardDescription": "\"Syria\" is a powerful artwork that vividly depicts the name of the nation burning fiercely above the Earth, set against the backdrop of space. This visual metaphor powerfully represents the devastating impact of the ongoing conflict on Syria. The intense flames engulfing the name reflect the relentless destruction and suffering that have marked the country's recent history.\n\nThe choice of space as the background underscores the profound sense of isolation and abandonment felt by Syria. The vast, indifferent void contrasts sharply with the fiery destruction, emphasizing the lack of meaningful international intervention. The burning name symbolizes the loss of heritage, culture, and national identity, highlighting both physical devastation and the erosion of Syria's cultural and historical essence.\n\nThe artwork also reflects on the long-term consequences of the conflict. The lingering flames and smoke suggest that while the immediate destruction may subside, the impacts of the war will continue to affect Syria for generations. The piece serves as a poignant reminder of the human suffering behind the headlines and invites viewers to reflect on the ongoing struggle of a nation in the face of overwhelming adversity.\n\nThis artwork captures the viewer’s attention through its striking visuals and the heavy emotional weight it carries. It is both a tribute to Syria’s enduring spirit and a call to remember the deeper stories of resilience and hope amidst the devastation.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 106,
+        "path": "projectCard",
+        "title": "Syrian Logo's",
+        "icon": "",
+        "data": "Berlin - 04.11.2018",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/logo.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectPage/logo.jpg",
+        "subject": "Syrian cities through unique logos.",
+        "description": "This artwork presents the logo for Damascus, the oldest continuously inhabited capital. As the first logo in a series featuring every Syrian city, this intricate design captures the rich cultural heritage and historical significance of Damascus. Each logo represents a unique city, showcasing Syria’s diverse history and cultural legacy.",
+        "projectDetails": [
+          {
+            "id": 106,
+            "subjectDetails": "Logo's",
+            "cardDescription": "This artwork is a meticulously crafted logo representing Damascus, a city that holds the distinction of being the oldest continuously inhabited capital in the world. The logo is not just a symbol; it is a visual narrative that encapsulates the rich history, culture, and significance of Damascus within the context of Syria’s vast and diverse heritage. As the first in a series of logos dedicated to Syrian cities, this emblem sets the tone for a collection that aims to celebrate the unique identities and legacies of each city in the nation.\n\nThe design of the Damascus logo is deeply symbolic, with each element carefully chosen to reflect different aspects of the city’s identity. The intricate patterns and motifs echo the ancient architecture and artistic traditions that have flourished in Damascus over millennia. The use of traditional colors and shapes serves to remind viewers of the city’s deep roots in history, while also highlighting its enduring presence as a cultural and spiritual hub in the Middle East.\n\nAt the heart of the logo is a central symbol that represents Damascus itself. This could be a stylized version of a famous landmark, such as the Umayyad Mosque, or a more abstract representation of the city’s historical essence. Surrounding this central symbol, the design may include elements that reference Damascus’ contributions to art, science, and literature, as well as its role as a crossroads of civilizations throughout history. The logo’s design language speaks to the timeless nature of the city—an urban space where the past, present, and future coexist in a delicate balance.\n\nThe typography used in the logo is also a key component, with the name \"Damascus\" rendered in a font that blends tradition with modernity. The letters might be stylized in a way that evokes Arabic calligraphy, yet they remain accessible to a global audience, underscoring the universal relevance of Damascus as a symbol of resilience and continuity. The text complements the visual elements, creating a cohesive identity that honors the city’s legacy while positioning it within the broader narrative of Syrian culture.\n\nAs the first logo in a broader series, this artwork serves as a cornerstone for a collection that will ultimately represent all major Syrian cities. Each logo in the series is designed to be distinct, reflecting the unique character and history of the city it represents, yet they are all connected through a shared visual language. This approach not only highlights the diversity within Syria but also emphasizes the unity and common heritage that binds these cities together.\n\nThe Damascus logo, therefore, is more than just an emblem; it is a gateway to understanding the broader cultural and historical landscape of Syria. It invites viewers to explore the layers of meaning embedded in the design, encouraging a deeper appreciation of Damascus’ role in shaping Syrian identity. Through this logo, the ancient city is celebrated not just as a place on the map, but as a living, breathing entity that continues to inspire and influence.\n\nThis artwork is intended to resonate with a wide audience, from those who have personal connections to Damascus to those who are discovering its significance for the first time. It serves as a visual ambassador for the city, conveying its importance in a way that is both visually striking and deeply meaningful. By anchoring the series with Damascus, the artist sets a high standard for the logos that will follow, ensuring that each subsequent design will also capture the essence of its respective city with the same level of care and detail.\n\nThe logo collection as a whole aims to offer a visual journey through Syria, with each logo acting as a chapter in the story of the nation. The Damascus logo, in particular, is a celebration of a city that has stood the test of time, a testament to its resilience, and a tribute to its people who continue to carry its legacy forward.",
+            "imageGroup": {
+              "img_1": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/alepo.jpg",
+                "imageSubject": "Aleppo Logo"
+              },
+              "img_2": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/homs.jpg",
+                "imageSubject": "Homs Logo"
+              },
+              "img_3": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/dara.jpg",
+                "imageSubject": "Dara Logo"
+              },
+              "img_4": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/dairAlzour.jpg",
+                "imageSubject": "Deir El-Zour Logo"
+              },
+              "img_5": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/latakia.jpg",
+                "imageSubject": "Latakia Logo"
+              },
+              "img_6": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/alswedaa.jpg",
+                "imageSubject": "Sweida Logo"
+              },
+              "img_7": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/tartous.jpg",
+                "imageSubject": "Tartous Logo"
+              },
+              "img_8": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/hama.jpg",
+                "imageSubject": "Hama Logo"
+              },
+              "img_9": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/logoDamascus.jpg",
+                "imageSubject": "Damascus Logo"
+              },
+              "img_10": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/logoCham.jpg",
+                "imageSubject": "Cham Logo"
+              },
+              "img_11": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/Cham-Umawe1.jpg",
+                "imageSubject": "Cham Umawe Logo"
+              },
+              "img_12": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/Cham-Umawe2.jpg",
+                "imageSubject": "Cham Umawe 2 Logo"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 107,
+        "path": "projectCard",
+        "title": "There is always hope",
+        "icon": "",
+        "data": "Damascus - 18.05.2012",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/thereIsAlwaysHope.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/thereIsAlwaysHope.jpg",
+        "subject": "Eye in Prison:",
+        "description": "This artwork features an eye trapped inside a globe, behind prison bars. The eye reflects pain and suffering, while the globe symbolizes hope and the spirit still striving for freedom. The piece reminds us that hope remains alive even in the darkest times.",
+        "projectDetails": [
+          {
+            "id": 107,
+            "subjectDetails": "A Vision of Hope Through the Chains",
+            "cardDescription": "This evocative artwork, titled \"There is Always Hope,\" centers around a powerful visual metaphor: an eye enclosed within the cold, unforgiving confines of a prison cell. The design speaks volumes about the harrowing reality faced by those who are unjustly imprisoned, whether for their beliefs, actions, or simply being at the wrong place at the wrong time. The prison bars, stark and unyielding, represent the physical and psychological barriers that keep countless individuals in captivity, cut off from the outside world and the lives they once knew.\n\nAt the heart of this composition is the eye—wide open, vigilant, and unyielding. The eye, a universal symbol of perception, awareness, and the human spirit, stands in stark contrast to the surrounding bleakness of the prison cell. It is not just an eye, but a symbol of the inner light that refuses to be extinguished, no matter how dark the circumstances. The eye peers out from between the bars, its gaze fixed on a world it can no longer touch but still yearns for. This gaze represents the deep longing for freedom, justice, and the restoration of dignity that every prisoner carries within them.\n\nThe presence of the eye within such a confined space also serves as a poignant reminder of the resilience of the human spirit. Even when the body is imprisoned, the mind and soul continue to strive for hope, clinging to memories, dreams, and the possibility of a better future. This piece underscores the idea that hope is an indomitable force, one that can survive even in the most oppressive conditions. It is this hope that keeps the eye open, watchful, and connected to the world beyond the bars, refusing to be defeated by the surrounding darkness.\n\nThe artwork’s composition compels the viewer to confront the harsh realities of imprisonment, urging them not to look away from the suffering of those who are trapped within such walls. It is easy to forget about those who are out of sight, but this piece insists on remembrance. The eye, staring directly at the viewer, creates an immediate connection, as if pleading not to be forgotten. It challenges the observer to acknowledge the humanity of the imprisoned, to remember their struggles, and to advocate for their rights.\n\nMoreover, the design suggests that while the prisoners are physically confined, their thoughts and hopes cannot be chained. The eye’s focus and intensity convey a message of silent resistance, a refusal to give in to despair. This resistance is not loud or violent but is embodied in the simple act of remaining hopeful, of continuing to look towards a horizon that, though out of sight, is not out of mind.\n\nThe surrounding prison cell, though a symbol of oppression, also becomes a backdrop against which the power of hope is highlighted. The eye’s determination to see beyond the immediate, to hold onto hope even in the face of overwhelming adversity, is a testament to the strength of the human will. It suggests that no matter how dire the situation, there is always a glimmer of hope—a spark that can ignite change, inspire movements, and ultimately, lead to liberation.\n\nIn this context, the artwork is not just a commentary on the physical act of imprisonment but also on the broader theme of oppression. It resonates with anyone who has felt trapped, marginalized, or silenced, offering a message of solidarity and encouragement. The piece speaks to the universal experience of struggle and the universal truth that hope, no matter how small, is a powerful force for change.\n\nUltimately, \"There is Always Hope\" is a call to action. It implores us to maintain our awareness of the oppressed, to continue fighting for justice, and to never lose sight of the fact that as long as there is hope, there is a possibility for change. This artwork is a reminder that the human spirit, though it can be challenged and confined, can never be truly extinguished. The eye within the cell remains open, watching, hoping, and waiting for the day when the bars will fall away, and freedom will be reclaimed.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 108,
+        "path": "projectCard",
+        "title": "Alphabet of Jasmine",
+        "icon": "",
+        "data": "Berlin - 10.03.2020",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/damascusJasmin.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/damascusJasmin.jpg",
+        "subject": "Ancient Damascus Jasmine",
+        "description": "This artwork celebrates the Damascus Jasmine, a symbol of Damascus's heritage. The painting captures the elegance and fragrance of the flowers, expressing their timeless charm and cultural significance. It invites viewers to explore Damascus through its flowers and feel a sense of pride.",
+        "projectDetails": [
+          {
+            "id": 108,
+            "subjectDetails": "Damascus Jasmin",
+            "cardDescription": "This captivating artwork is a tribute to the Damascene jasmine, a flower that is not only a botanical wonder but also a symbol deeply woven into the cultural and historical fabric of Damascus. The piece elegantly captures the delicate, aromatic blossoms that have become emblematic of the city’s beauty and resilience. Each petal is meticulously detailed, reflecting the artist's reverence for the flower and its significance to the people of Damascus.\n\nDamascene jasmine, known locally as \"Zahrat Al Yasmin,\" is celebrated for its delicate beauty and intoxicating fragrance. It has graced the courtyards, streets, and homes of Damascus for centuries, becoming an integral part of the city’s identity. The artist’s depiction of these blossoms, with their star-shaped petals and soft white hues, transports viewers to the heart of Damascus, where the scent of jasmine lingers in the air, bringing a sense of peace and nostalgia.\n\nThe artwork does more than simply portray a flower; it tells a story of a city and its people. Damascus, one of the oldest continuously inhabited cities in the world, has seen countless empires rise and fall. Through it all, the jasmine has remained a constant, blooming year after year, a testament to the city’s enduring spirit. Despite the challenges and conflicts that have plagued the city, the jasmine continues to bloom, symbolizing hope, continuity, and the persistence of beauty even in the most difficult times.\n\nThe intricate detail in the artwork invites viewers to appreciate the subtle elegance of each flower. The petals, arranged in perfect harmony, create a sense of balance and serenity. This meticulous attention to detail not only highlights the artist’s skill but also serves to emphasize the significance of the jasmine in Damascene culture. The flower is more than just an ornamental plant; it is a symbol of hospitality, love, and the rich cultural heritage of Damascus.\n\nMoreover, the painting evokes a deep sense of nostalgia and pride among those who have a connection to the city. For many, the jasmine is a reminder of home, a scent that carries memories of childhood, family gatherings, and the simple joys of life in Damascus. The artwork taps into these emotions, inviting viewers to immerse themselves in the sensory experience of being surrounded by jasmine, feeling its soft petals, and inhaling its sweet, calming fragrance.\n\nThe soft color palette used in the artwork—primarily whites, greens, and subtle hints of yellow—further enhances the feeling of tranquility and timelessness. The background, kept intentionally minimal, allows the jasmine to take center stage, reinforcing its importance in the composition. The simplicity of the setting contrasts with the complexity of the flower’s symbolism, creating a powerful visual and emotional impact.\n\nIn summary, this piece is a celebration of the Damascene jasmine, an emblem of a city’s enduring spirit and beauty. It pays homage to the flower’s role in Damascus’s cultural heritage, capturing its elegance and significance with a depth of feeling and artistic skill. The painting serves as both a visual feast and a heartfelt tribute, offering viewers a glimpse into the essence of Damascus through the lens of its beloved jasmine flower.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 109,
+        "path": "projectCard",
+        "title": "We Will Remain There",
+        "icon": "",
+        "data": "Damascus - 18.03.2012",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/weStayHere.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/weStayHere.jpg",
+        "subject": "The Permanent Connection to Our Roots.",
+        "description": "This artwork expresses a deep connection to our roots. A hand clinging to a tree branch symbolizes the bond with our origins. The grasp reflects holding on to heritage despite changes in life. The design highlights the honor of our origins and reminds us they are part of our identity, enhancing a sense of belonging.",
+        "projectDetails": [
+          {
+            "id": 109,
+            "subjectDetails": "Enduring connection to one’s roots",
+            "cardDescription": "This artwork, titled \"We Stay Here Forever,\" is a profound visual representation of the enduring connection to one’s roots. The central element of the composition is a hand grasping a large tree branch, which serves as a powerful metaphor for the deep and unbreakable bond between an individual and their origins. The imagery speaks to the innate human need to stay connected to where we come from, regardless of the paths our lives may take.\n\nThe hand in the artwork is depicted with a firm and determined grip on the branch, symbolizing a commitment that is unwavering. This grip is not just a physical act but an expression of an inner resolve to never let go of one’s heritage and identity. The strength of the hand conveys the idea that our roots are not merely a part of our past but are integral to our present and future as well. They provide stability and a sense of belonging, anchoring us even as we navigate the ever-changing currents of life.\n\nThe tree branch itself is robust and thick, representing the richness and vitality of our heritage. Trees, with their extensive networks of roots, are natural symbols of growth, life, and continuity. By focusing on the branch, the artwork highlights the idea that our roots, like the tree’s roots, are the foundation from which we grow. They provide us with the nourishment and strength necessary to thrive. The choice of a large branch suggests that these roots are strong and enduring, capable of weathering any storm.\n\nThe background of the piece is deliberately understated, ensuring that the viewer’s focus remains on the hand and the branch. This simplicity emphasizes the timeless and universal nature of the theme—no matter where we are or what challenges we face, our connection to our roots remains steadfast. The background’s subtle tones may evoke a sense of the earth, further reinforcing the idea of grounding and stability. It serves as a reminder that our origins are the bedrock upon which our lives are built.\n\nThe message of \"We Stay Here Forever\" is one of resilience and honor. It speaks to the importance of holding onto our origins, not just as a matter of personal pride, but as a source of strength. The artwork suggests that in a world that is constantly changing, where identities and connections can sometimes feel transient, our roots are something that we can always rely on. They are a source of power, providing us with the courage and determination to face whatever comes our way.\n\nThis piece also touches on the idea of legacy. By holding onto our roots, we are not only preserving our own identity but also ensuring that future generations have a strong foundation from which to grow. The image of the hand gripping the branch can be seen as a symbol of the transmission of values, traditions, and wisdom from one generation to the next. It suggests that by staying connected to our roots, we are honoring the past and paving the way for the future.\n\nIn this sense, \"We Stay Here Forever\" is not just a statement of personal identity, but a declaration of continuity. It is a tribute to the enduring power of heritage, a reminder that our roots are a vital part of who we are and will always be with us, no matter where life’s journey takes us. The artwork invites viewers to reflect on their own connections to their roots, encouraging them to cherish and protect these ties as an essential part of their being.\n\nThe visual simplicity of the piece is matched by its emotional depth. The hand’s grip on the branch is a powerful image that resonates on multiple levels, symbolizing strength, continuity, and the unbreakable bond with one’s origins. It serves as a timeless reminder that, no matter where we go, we carry our roots with us. They are the silent but steadfast companions that guide us, support us, and remind us of where we come from. This artwork is a celebration of the enduring strength that comes from staying true to one’s roots, a strength that will indeed last forever.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 110,
+        "path": "projectCard",
+        "title": "Do Not Forget the Poor",
+        "icon": "",
+        "data": "Berlin - 14.11.2013",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/poor.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/poor.jpg",
+        "description": "This artwork embodies the impact of war on orphans and the poor. One eye, filled with hungry people, symbolizes the unseen suffering. The surrounding devastation highlights the harsh reality they face, underscoring the need for aid and compassion. This piece urges viewers to remember and support the poor",
+        "subject": "The Suffering of Orphans in Times of War",
+        "projectDetails": [
+          {
+            "id": 110,
+            "subjectDetails": "Enduring connection to one’s roots",
+            "cardDescription": "This evocative artwork, titled \"Don't Forget the Poor,\" serves as a powerful reminder of the profound and often unseen suffering endured by the most vulnerable—orphans and the poor—especially in the wake of war. Central to the piece is a single, large eye, which dominates the canvas. Within this eye, a haunting scene unfolds: lines of emaciated, starving people, their faces etched with despair, stand as if awaiting judgment. The eye itself becomes a metaphorical window into their world—a world filled with pain, hunger, and loss. It is as if this eye, representing the collective conscience of humanity, is forced to witness the dire circumstances that these individuals face daily.\n\nThe people within the eye are depicted in a way that evokes the image of a final reckoning, as though they are standing before an unseen judge, their suffering laid bare. This imagery is deeply symbolic, suggesting that the plight of the poor and orphaned is a moral issue that demands urgent attention. The lines of people, stretching endlessly within the confines of the eye, serve as a stark reminder of the sheer scale of this humanitarian crisis. Each figure, though small, carries the weight of an untold story of hardship, loss, and struggle for survival. The eye, filled with these figures, reflects the overwhelming burden of their collective suffering—a burden that, all too often, goes unnoticed by the wider world.\n\nOutside the eye, the landscape is one of devastation. The desolate surroundings contrast sharply with the inner scene, highlighting the harsh reality that these individuals must endure. The destruction depicted outside the eye symbolizes the external factors that have contributed to their suffering: war, poverty, displacement, and societal neglect. This stark contrast between the eye’s internal suffering and the external devastation serves to emphasize the disconnect between those who suffer and the world that often turns a blind eye to their plight. The destruction is not just physical but also metaphorical, representing the broken systems and failed promises that have left these individuals abandoned and forgotten.\n\nThe choice to focus on an eye is particularly poignant. Eyes are often said to be the windows to the soul, and in this artwork, the eye serves as a mirror to the soul of humanity. It forces the viewer to confront the uncomfortable truth that while we may see the suffering of others, we do not always truly see them. The eye, filled with the suffering of the poor and orphaned, challenges us to look deeper, to see beyond the surface, and to acknowledge the humanity of those who are often marginalized and overlooked.\n\nThis artwork is not just a depiction of suffering but a call to action. It urges viewers to remember the poor and the orphans, to not turn away from their suffering, and to recognize our shared responsibility in alleviating their pain. The piece speaks to the moral obligation we have to extend compassion and aid to those in need. It is a reminder that in times of crisis, it is the most vulnerable who are often the most affected, and it is their voices that must be heard and their needs that must be met.\n\nThe eye, filled with starving, desperate people, serves as a metaphor for the collective guilt of a world that has allowed such suffering to continue. Yet, within this eye, there is also a glimmer of hope—a reminder that with awareness and action, change is possible. The artwork calls on us to not forget the poor, to see their suffering, and to respond with compassion and humanity. It is a poignant reminder that true vision requires not just seeing but understanding and acting upon what we see.\n\nUltimately, this piece is a testament to the resilience of the human spirit in the face of unimaginable adversity. It honors those who have endured so much and reminds us all of the power of empathy and the necessity of never forgetting those who suffer in silence. The artwork leaves a lasting impression, encouraging viewers to carry its message with them and to act on it in their own lives, ensuring that the poor and the orphans are never forgotten, and their suffering is never ignored.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 111,
+        "path": "projectCard",
+        "title": "Welcome to Syria",
+        "icon": "",
+        "data": "Damascus - 02.11.2012",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/welcomeToSyria.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/welcomeToSyria.jpg",
+        "description": "This artwork reflects the pain and loss of Syria's transformation from a peaceful haven to a land of turmoil. It depicts a long road leading to a large tree with a door shaped like Syria's map, symbolizing the country's lost paradise. Created in 2013, this piece captures the sorrow and heartbreak over Syria's devastating changes.",
+        "subject": "Syria’s transformation from paradise to turmoil",
+        "projectDetails": [
+          {
+            "id": 111,
+            "subjectDetails": "Welcome to Syria",
+            "cardDescription": "\"Welcome to Syria\" is a profound and evocative piece of art that captures the stark contrast between Syria's past and its present. Created in 2013, this artwork provides a poignant commentary on the country's drastic transformation from a land of peace and prosperity to one marred by conflict and suffering.\n\nAt the center of the composition is a long, desolate road that stretches endlessly towards the horizon. This road symbolizes the journey through time and the passage of events that have led to Syria’s current state. As viewers follow the path, they are led to a striking focal point: a large, ancient tree that stands resolutely at the end of the road.\n\nThe tree, with its gnarled branches and sturdy trunk, represents the enduring spirit of Syria and its people amidst adversity. It is a symbol of resilience and hope, despite the overwhelming challenges faced. However, this symbol of strength is juxtaposed with a powerful element: a door embedded in the tree's trunk, shaped like the map of Syria.\n\nThis door is not just a literal opening but a metaphorical gateway to the past. It signifies the country’s former identity as a \"paradise\"—a place of safety and beauty that has now been overshadowed by turmoil and unrest. The map-shaped door emphasizes the disconnection between Syria’s glorious history and its present reality, highlighting the sense of loss and displacement that many Syrians feel.\n\nThe choice of this imagery underscores the theme of transformation and the emotional weight of change. The long road leading to the tree and the symbolic door invites viewers to reflect on the journey Syria has undergone and the profound sorrow that accompanies such drastic shifts.\n\nThrough this artwork, the artist captures the essence of Syria's tragic evolution, offering a visual representation of the heartbreak and loss experienced by a nation once renowned for its beauty and tranquility. \"Welcome to Syria\" is not just a depiction of a physical landscape but a deeply emotional exploration of the human experience in the face of profound change.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 112,
+        "path": "projectCard",
+        "title": "Heart of the Night",
+        "icon": "",
+        "data": "Damascus - 02.10.2013",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/love.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/love.jpg",
+        "description": "This artwork captures the essence of true love, symbolized by a heart-shaped moon. The night sky and moonlight reflect the purity and depth of love, highlighting tender feelings and respect. This piece celebrates the beauty of love under the moon's glow and reminds us of its enchanting essence.",
+        "subject": "The purity of love is reflected in the light of the moon.",
+        "projectDetails": [
+          {
+            "id": 112,
+            "subjectDetails": "Pure love under the enchanting moonlight",
+            "cardDescription": "This exquisite artwork, Love Story Under The Moon, is a captivating portrayal of the profound and transformative power of true love. The piece masterfully combines elements of romance and serenity, creating a visual symphony that speaks to the heart's deepest yearnings.\n\nAt the core of the artwork is a heart-shaped moon, radiating a soft, ethereal glow that bathes the entire scene in a magical light. This moon is not just a celestial body but a symbol of the pure and boundless nature of love. It illuminates the night sky with a gentle brilliance that contrasts beautifully against the deep, velvety expanse of the cosmos. This celestial heart reflects the harmony and tenderness that characterize a loving relationship.\n\nThe background of the image features a serene night sky, dotted with twinkling stars that mirror the flicker of affection between the subjects of the painting. The stars add a sense of wonder and infinity, suggesting that true love is as eternal as the universe itself. The subtle interplay of light and shadow further enhances the emotional depth of the scene, drawing the viewer into a world where every glance and gesture speaks of devotion and understanding.\n\nIn the foreground, the lovers are portrayed in a moment of quiet intimacy, their figures gently illuminated by the moon’s glow. Their expressions are tender and filled with a deep respect for one another, capturing the essence of a bond that is both passionate and enduring. This portrayal of affection underlines the theme of mutual respect and emotional connection that defines their relationship.\n\nThe overall composition of the artwork is designed to evoke a sense of tranquility and awe, inviting viewers to reflect on their own experiences of love and connection. The heart-shaped moon serves as a constant reminder of the magic and wonder that love can bring into our lives. As the moonlight weaves through the scene, it transforms the ordinary into the extraordinary, celebrating the beauty and depth of true affection.\n\nLove Story Under The Moon is more than just an artwork; it is a tribute to the timeless and universal experience of love, captured in a moment of serene beauty and heartfelt emotion. It invites us to cherish and celebrate the special connections we share with those we hold dear, reminding us of the enchanting power of love under the moon’s gentle watch.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 113,
+        "path": "projectCard",
+        "title": "Silent Cries",
+        "icon": "",
+        "data": "Damascus - 02.10.2013",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/cry.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/cry.jpg",
+        "description": "This artwork captures silent screams of injustice and despair. A woman’s contorted face conveys deep anguish, while the ruins of cities behind her symbolize widespread devastation. The contrast between her pain and the desolate backdrop highlights profound sorrow and loss, reflecting the silent cries after destruction.",
+        "subject": "Silent Screams Amidst Devastation",
+        "projectDetails": [
+          {
+            "id": 113,
+            "subjectDetails": "Shades of Silent Despair",
+            "cardDescription": "In the evocative graphic design titled \"Soul Cry,\" the artist masterfully portrays the profound and often unspoken anguish that accompanies personal and collective suffering. The central figure in the artwork is a woman, her visage a poignant tableau of despair and frustration. Her expression, a visceral scream frozen in time, encapsulates the silent yet resounding cries of those who suffer in solitude and those whose pain remains unheard in the chaos of a world marred by devastation.\n\nThe backdrop of this powerful image features the crumbling remains of once-thriving urban landscapes. These ruins, once vibrant with life and activity, now stand as stark symbols of the desolation that follows destruction. They serve as a haunting reminder of the transient nature of human achievements and the often-overlooked repercussions of societal breakdowns. The contrast between the woman's anguished face and the desolate cityscape underscores the depth of the emotional and societal collapse that can occur when people and places are stripped of their vitality.\n\n\"Soul Cry\" is a visual lament for the suffering that persists beyond the immediate aftermath of devastation. It speaks to the unvoiced agony of individuals whose cries for justice, peace, and acknowledgment go unheard amidst the ruins. This artwork is not merely a depiction of pain but a call to recognize and address the silent screams that linger in the void left by destruction. It challenges viewers to reflect on the human cost of conflict and disaster, urging a deeper understanding and empathy for those whose suffering is often invisible.\n\nIn summary, \"Soul Cry\" is a profound commentary on the emotional scars left by calamity. It portrays the clash between the raw emotional response of the individual and the stark reality of the world around them, inviting viewers to engage with the silent, often unseen, aspects of human suffering and resilience.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 114,
+        "path": "projectCard",
+        "title": "Economic Collapse",
+        "icon": "",
+        "data": "Syria - 15.03.2015",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/economicCollapse.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/economicCollapse.jpg",
+        "description": "A somber reflection of the economic collapse in the country, this artwork depicts the harsh reality of a crumbling economy. The image shows shattered currencies and collapsed structures, symbolizing the disintegration of financial stability. The bleak landscapes, lacking in color, reflect the despair that follows this collapse.",
+        "subject": "The Failing Economy of a Nation",
+        "projectDetails": [
+          {
+            "id": 114,
+            "subjectDetails": "Echoes of Financial Ruin",
+            "cardDescription": "In this evocative piece titled 'Economic Collapse,' the artist delivers a haunting portrayal of the societal and emotional impact of a nation’s financial downfall. The foreground features crumpled bills, coins, and shattered banknotes, which visually convey the sense of collapse and devaluation. Behind the scattered remains of currency, towering ruins of buildings reflect the broader devastation that ensues when the economy crumbles.\n\nThis design is more than a representation of financial destruction—it captures the hopelessness, the loss of security, and the human toll taken by economic collapse. The lack of vibrant colors emphasizes the drained vitality of a community where resources, livelihoods, and dreams have been extinguished by the harsh realities of poverty. The grey tones dominate the image, driving home the depth of despair and loss.\n\nThe message of 'Economic Collapse' extends beyond financial ruin—it’s a powerful reminder of how deeply people are connected to the health of their economy. The ruin of currency is symbolic of the ruin of lives, and this visual commentary urges viewers to reflect on the often unseen consequences of financial disaster on families, communities, and entire nations.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 115,
+        "path": "projectCard",
+        "title": "Escape from Death",
+        "icon": "",
+        "data": "Aleppo - 20.05.2016",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/escapeFromDeath.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/escapeFromDeath.jpg",
+        "description": "This powerful artwork depicts a desperate journey of survival. A figure running through an apocalyptic landscape symbolizes the fight to escape the grasp of death. The wreckage around them portrays the aftermath of violence, while the figure’s forward momentum represents resilience and the hope for a future.",
+        "subject": "A Journey Through Ruins to Survive",
+        "projectDetails": [
+          {
+            "id": 115,
+            "cardDescription": "'Escape from Death' is an intense and emotionally charged graphic design that captures a person’s desperate flight from destruction. The central figure in the artwork is a lone silhouette, racing through a dark and ruined landscape, fleeing the ever-looming shadow of death. Surrounding the figure are remnants of bombed-out buildings and debris, symbolizing the destruction left behind by conflict.\n\nThe running figure conveys a sense of urgency and determination, embodying the instinct for survival in the face of seemingly insurmountable odds. The dark tones and muted colors of the background create a stark contrast to the faint glimmer of hope in the figure’s path forward. Despite the devastation that surrounds them, the figure’s forward movement serves as a metaphor for resilience and the human will to survive.\n\n' Escape from Death' speaks to the universal struggle to endure in the face of overwhelming adversity. It’s a tribute to the strength of those who face conflict and hardship but continue to move forward, driven by the hope for safety, for peace, and for life. The artwork challenges viewers to confront the reality of war and displacement, while also reminding them of the indomitable spirit of those who seek to escape its grasp.",
+            "subjectDetails": "Escape Through Ruins",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 116,
+        "path": "projectCard",
+        "title": "Asylum and hope",
+        "icon": "",
+        "data": "Europe - 01.09.2017",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/asylum.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/asylum.jpg",
+        "description": "The journey towards asylum is fraught with uncertainty. This artwork captures the emotional landscape of refugees seeking safety, with distant borders representing both opportunity and challenge. The figures huddled together embody the trauma of those displaced by conflict, while the distant horizon hints at a better tomorrow.",
+        "subject": "Seeking Refuge Across Distant Borders",
+        "projectDetails": [
+          {
+            "id": 116,
+            "cardDescription": "In the graphic design titled 'Asylum,' the artist presents a poignant depiction of the refugee experience. The piece showcases a group of displaced individuals huddled together, their figures cast in shadow as they stand on the edge of an unknown horizon. The distant, faintly lit border ahead symbolizes both hope and uncertainty, as the path to asylum is never clear and often filled with unimaginable hardships.\n\nThe use of light and shadow in 'Asylum' plays a key role in expressing the emotional tension of the refugees’ journey. While the border in the distance is illuminated, suggesting safety and a new beginning, the figures are cloaked in darkness, representing the trauma and fear that come with displacement. The muted colors of the landscape reflect the bleakness of their current reality, but the sliver of light at the horizon offers a glimmer of hope.\n\nThis artwork is a powerful reminder of the difficult choices that refugees face and the emotional toll of seeking asylum. It asks viewers to reflect on the vulnerability of those forced to leave their homes and the courage it takes to journey into the unknown in search of a better life. 'Asylum' is both a tribute to their resilience and a call for empathy and understanding.",
+            "subjectDetails": "Journey to Safety",
+            "imageGroup": {}
+          }
+        ]
+      }
+    ],
+    "de": [
+      {
+        "id": 1,
+        "path": "projectCard",
+        "title": "Ein Licht der Wiedergeburt",
+        "icon": "",
+        "data": "Berlin - 22.10.2017",
+        "image": "../src/assets/images/hamdiphotos/project/projectPage/c|o.JPG",
+        "imageHover": "../src/assets/images/hamdiphotos/project/projectHover/c|o.jpg",
+        "subject": "Ein Symbol für Erinnerung und Hoffnung.",
+        "description": "Dieses Bild spiegelt eine emotionale Reise vom Verlust zur Hoffnung wider, in der sich Trauer mit der Erwartung eines neuen Anfangs vermischt. Es symbolisiert Wandel und verkörpert die menschliche Erfahrung, Herausforderungen zu meistern und ein neues Leben voller Hoffnung aufzubauen.",
+        "projectDetails": [
+          {
+            "id": 1,
+            "subjectDetails": "Damaskus bis Berlin: Resilienzgeschichte",
+            "cardDescription": "Ein Licht der Wiedergeburt fängt die emotionale Komplexität von Vertreibung und der Reise von einem kriegszerrissenen Heimatland zu einem neuen Leben ein. Dieses Grafikdesign-Projekt verbindet gekonnt persönliche Erinnerungen und symbolische Bildsprache, die sowohl Verlust als auch Erneuerung darstellen. Im Mittelpunkt steht das rote Nachtlicht, ein Leuchtfeuer, das nicht nur die physische Reise von Damaskus nach Berlin erhellte, sondern auch als Metapher für Widerstandskraft inmitten von Widrigkeiten dient. Die Uhr, getragen in Momenten der Unsicherheit, wird zu einem Symbol für den Verlauf der Zeit und hebt die Distanz zwischen Vergangenheit und Zukunft hervor. Sie spiegelt wider, wie der Wert dessen, was einst vertraut war – Heimat, Kultur und Identität – durch den Konflikt verschleiert werden kann. Die Einbeziehung alltäglicher Gegenstände wie Apfelsaft und Damaskener Jasmin fügt Schichten von Nostalgie und Sentimentalität hinzu, weckt eine Verbindung zu einfacheren Zeiten und betont gleichzeitig die bittersüße Natur der Erinnerung. Diese Elemente erzählen eine kraftvolle Geschichte eines Lebens, das zwar unterbrochen, aber nicht zerstört wurde, wo Hoffnung und Traurigkeit nebeneinander existieren.\n\nDie Einbeziehung alltäglicher Gegenstände wie Apfelsaft und Damaskener Jasmin fügt Schichten von Nostalgie und Sentimentalität hinzu, weckt eine Verbindung zu einfacheren Zeiten und betont gleichzeitig die bittersüße Natur der Erinnerung. Diese Elemente erzählen eine kraftvolle Geschichte eines Lebens, das zwar unterbrochen, aber nicht zerstört wurde, wo Hoffnung und Traurigkeit nebeneinander existieren. Das Projekt ist nicht nur ein Tribut an das Überleben, sondern auch eine Einladung zur Reflexion über die breitere menschliche Erfahrung von Migration und dem Streben nach Zugehörigkeit.\n\nDurch seine lebhaften Farben, zarten Texturen und durchdachte Komposition löst Ein Licht der Wiedergeburt eine tiefe emotionale Reaktion aus und macht es nicht nur zu einem visuellen Kunstwerk, sondern zu einer Erzählung von Transformation.",
+            "imageGroup": {
+              "img_1": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/c|o/c|oAustellungN1.jpg",
+                "imageSubject": "BILD 1 - @c|o Deutschland, Berlin 2017"
+              },
+              "img_2": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/c|o/c|oAustellungN2.jpg",
+                "imageSubject": "BILD 2 - @c|o Deutschland, Berlin 2017"
+              },
+              "img_3": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/c|o/c|oAustellungN3.jpg",
+                "imageSubject": "BILD 3 - @c|o Deutschland, Berlin 2017"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "path": "projectCard",
+        "title": "Du und Ich",
+        "icon": "",
+        "data": "Berlin - 11.01.2015",
+        "image": "../src/assets/images/hamdiphotos/project/projectPage/youme.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/projectHover/youme.jpg",
+        "subject": "Eine tiefe emotionale Bindung",
+        "description": "Dieses Grafikdesign vereint die Gesichter eines jungen Mannes und einer Frau und symbolisiert ihre Verbindung. Sanfte Übergänge zwischen den Gesichtszügen zeigen ihre Nähe, während das Fehlen von Grenzen Harmonie widerspiegelt. Das Design betont Empathie und drückt die Stärke der Bindungen aus, die Beziehungen vereinen.",
+        "projectDetails": [
+          {
+            "id": 101,
+            "subjectDetails": "Nahtlose Verbindung",
+            "cardDescription": "Das Grafikdesign \"Nahtlose Verbindung\" fängt die Essenz von Einheit und Verbindung durch eine meisterhafte Verschmelzung zweier Gesichter ein. Es zeigt einen jungen Mann und eine junge Frau, deren Merkmale nahtlos verbunden sind und eine intime Bindung symbolisieren. Der sanfte Übergang zwischen ihren Gesichtern hebt ihre Ähnlichkeiten und tiefe Verbindung hervor.\n\nDas Fehlen deutlicher Grenzen zwischen den Gesichtern betont ihre Harmonie und Nähe. Die geschickte Gestaltung reflektiert Empathie und gegenseitiges Verständnis und erinnert an die gemeinsame menschliche Erfahrung und emotionale Bindungen. Das Werk lädt dazu ein, über die Schönheit von Beziehungen und die universelle Verbindung aller Menschen nachzudenken.\n\nEs feiert nicht nur das Individuum, sondern unterstreicht auch die Bedeutung unserer Verbindungen zu anderen.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "path": "projectCard",
+        "title": "Die Emotionen der Trümmer",
+        "icon": "",
+        "data": "Berlin - 25.06.2016",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/emothion.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/emothion.jpg",
+        "description": "Dieses Kunstwerk zeigt das Gesicht eines Kindes, das mit einer zerstörten Szenerie verschmilzt. Die traurigen Augen des Kindes verschmelzen mit den Trümmern und verkörpern das anhaltende Leid. Die Verschmelzung drückt die emotionalen Narben aus, die Katastrophen bei Gemeinschaften hinterlassen.",
+        "subject": "Wirkung und emotionale Verbundenheit",
+        "projectDetails": [
+          {
+            "id": 102,
+            "cardDescription": "In this evocative graphic design, titled \"Emotion of the Moraine,\" a child’s face, imbued with sorrow and innocence, merges with a devastated landscape. This visual contrast highlights the impact of environmental and human-induced destruction, symbolizing the emotional weight of such tragedies.",
+            "subjectDetails": "Emotionale Narben der Trümmer",
+            "imageGroup": {
+              "img_2": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN2.jpg",
+                "imageSubject": "PIC 1"
+              },
+              "img_3": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN3.jpg",
+                "imageSubject": "PIC 2"
+              },
+              "img_4": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN4.jpg",
+                "imageSubject": "PIC 3"
+              },
+              "img_5": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN5.jpg",
+                "imageSubject": "PIC 4"
+              },
+              "img_6": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN6.jpg",
+                "imageSubject": "PIC 5"
+              },
+              "img_7": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN7.jpg",
+                "imageSubject": "PIC 6"
+              },
+              "img_8": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN8.jpg",
+                "imageSubject": "PIC 7"
+              },
+              "img_9": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN9.jpg",
+                "imageSubject": "PIC 8"
+              },
+              "img_10": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN10.jpg",
+                "imageSubject": "PIC 9"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "path": "projectCard",
+        "title": "Reise durch die Trümmer",
+        "icon": "",
+        "data": "Damaskus - 4.09.2013",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/theEndofTheWorld.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/theEndofTheWorld.jpg",
+        "subject": "Auf der Suche nach Hoffnung",
+        "description": "Dieses Gemälde zeigt zwei syrische Männer aus den Ruinen zerstörter Stadtteile, die nach einem Platz in einer unbekannten Welt suchen. Sie bewegen sich zwischen Hoffnung und Verzweiflung und spiegeln das Gefühl der Vertreibung und Suche nach Zukunft. Sie stehen als Symbole des Leidens und Kampf.",
+        "projectDetails": [
+          {
+            "id": 103,
+            "subjectDetails": "Das Ende der Welt",
+            "cardDescription": "In \"Das Ende der Welt\" erforscht der Künstler die Erzählung von Vertreibung und Überleben nach einem Konflikt. Zwei syrische Männer treten aus Trümmern ehemals blühender Stadtteile hervor, die vom Krieg zerstört wurden. Ihre Umgebung ist Bild der Verwüstung: eingestürzte Gebäude, verstreuter Schutt, Überreste unterbrochener Leben.\n\nDie Männer stehen am Rande eines neuen Kapitels, ihre Figuren silhouettiert vor Ruinen. Ihre Ausdrücke sind Mischung aus Hoffnung und Verzweiflung – ein Zustand, der ihre Reise widerspiegelt. Der Künstler fängt die Zerbrechlichkeit ihrer Situation und das Gewicht ihres Dilemmas ein. Ihre Gesichter, gezeichnet von Erschöpfung, vermitteln Verlangen nach Stabilität und Frieden, während ihre Augen auf Hoffnung hinweisen.\n\nDie Komposition des Kunstwerks kontrastiert die Zerstörung um die Männer mit der Welt vor ihnen. Diese Gegenüberstellung symbolisiert die unvorhersehbare Natur ihrer Suche nach einem neuen Zuhause. Die Umgebung wird realistisch dargestellt und unterstreicht das Gefühl von Verlust und Entwurzelung.\n\nDie Verwendung von Farbe und Licht verstärkt die emotionale Tiefe der Szene. Die gedämpften Töne der Ruinen stehen im Kontrast zu den wärmeren Farben des Horizonts und deuten auf Erneuerung hin. Das Zusammenspiel von Licht und Schatten hebt die Isolation der Männer hervor und deutet auf Hoffnung hin.\n\n\"Das Ende der Welt\" ist mehr als eine visuelle Darstellung; es ist eine Erkundung der menschlichen Bedingung bei katastrophalen Veränderungen. Es lädt ein, über die Auswirkungen von Konflikten und Vertreibung nachzudenken und Empathie für Menschen zu empfinden, deren Leben durch solche Ereignisse verändert wurde. Das Kunstwerk erinnert an die Widerstandsfähigkeit des menschlichen Geistes und die anhaltende Suche nach Hoffnung und Zugehörigkeit, selbst in bedrückendsten Umständen.\n\nBeim Betrachten dieses Werkes wird man angeregt, über die breiteren Implikationen seiner Erzählung nachzudenken. Es spricht die Erfahrung des Zufluchtssuchens und den Willen an, trotz Umstände einen Weg nach vorne zu finden. Durch die Darstellung der Reise dieser Männer fängt \"Das Ende der Welt\" einen Moment menschlicher Verletzlichkeit und die Suche nach einem Ort, den man Zuhause nennen kann, ein.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 104,
+        "path": "projectCard",
+        "title": "Eingeschlossene Stimmen",
+        "icon": "",
+        "data": "Damaskus - 22.07.2012",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/silencerCivilizedVoice.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/silencerCivilizedVoice.jpg",
+        "subject": "Die von den Medien ignorierten Kinderstimmen",
+        "description": "Dieses Kunstwerk zeigt Kinder in einem Mikrofon, wie ihre Stimmen oft ignoriert werden. Es kritisiert die Vernachlässigung der Kinderrechte und hebt die Lücke zwischen Anliegen und Anerkennung hervor. Durch das Einschließen betont das Werk die Notwendigkeit echter Darstellung und Recht, gehört zu werden.",
+        "projectDetails": [
+          {
+            "id": 104,
+            "subjectDetails": "Eingeschlossene Stimmen",
+            "cardDescription": "\"Eingeschlossene Stimmen\" ist ein fesselndes und eindringliches Grafikdesign, das als kraftvolle Kritik an den Wegen dient, wie die Stimmen von Kindern oft marginalisiert und von den zeitgenössischen Medien und gesellschaftlichen Strukturen ignoriert werden. Auf den ersten Blick zeigt das Kunstwerk ein auffälliges Bild: Ein Mikrofon, ein Symbol für Kommunikation und Stimme, ist mit Kindern gefüllt. Diese Gegenüberstellung dient als tiefgreifende Metapher für das Schweigen der jugendlichen Perspektiven im weiteren Diskurs.\n\nZentrales Thema und Symbolik\n\nDas Mikrofon, normalerweise ein Werkzeug zur Verstärkung von Stimmen und zur Kommunikation, wird in ein Gefäß für Kinder verwandelt, die die Zukunft und das ungenutzte Potenzial repräsentieren. Anstatt ihre Stimmen zu verstärken, enthält das Mikrofon in diesem Kunstwerk paradoxerweise diese, was symbolisiert, wie ihre Anliegen oft übersehen oder unterdrückt werden. Dieses Bild kontrastiert stark mit der üblichen Funktion eines Mikrofons und unterstreicht die Diskrepanz zwischen dem Potenzial für Repräsentation und der Realität ihrer Ausschluss.\n\nKritik an Medien und gesellschaftlicher Vernachlässigung\n\nDieses Design thematisiert kritisch die Rolle der Medien bei der Gestaltung des öffentlichen Diskurses und hebt deren Versagen hervor, die Stimmen von Kindern angemessen zu vertreten. In vielen Gesellschaften werden die Meinungen und Erfahrungen von Kindern oft in den Hintergrund gedrängt und von dominanteren Narrativen überschattet. Das Kunstwerk kritisiert diese Vernachlässigung, indem es visuell die Kluft zwischen der Lautstärke der Kinderstimmen und der oft ohrenbetäubenden Stille, die ihre Themen umgibt, darstellt.\n\nHervorhebung der Notwendigkeit von Repräsentation\n\nDas Werk ist ein Aufruf zum Handeln und fordert einen Wechsel hin zu echter Repräsentation und Anerkennung der Kinderrechte und -perspektiven. Indem es diese Stimmen im Mikrofon einschließt, betont der Künstler die Dringlichkeit, die Diskrepanz zwischen den tatsächlichen Stimmen der Kinder und deren Repräsentation in den Medien und der Politik anzugehen. Diese visuelle Metapher fordert die Betrachter auf, darüber nachzudenken, wie die Stimmen von Kindern in unseren Gesellschaften wahrgenommen und behandelt werden.\n\nBetonung der Rechte und Perspektiven\n\nDer Einsatz des Mikrofons als Behälter statt als Übertragungsweg für Ausdrucksformen hebt die dringende Notwendigkeit gesellschaftlichen Wandels hervor. Das Werk dient als visuelle Advocacy für die Rechte der Kinder und lenkt die Aufmerksamkeit auf die systemischen Probleme, die dazu führen, dass ihre Perspektiven nicht ausreichend gewürdigt werden. Es ist eine Erinnerung an die Bedeutung, den Stimmen der jüngeren Generation Gehör zu schenken und sie in die Gespräche einzubeziehen, die unsere Zukunft gestalten.\n\nFazit\n\n\"Eingeschlossene Stimmen\" ist mehr als nur ein Grafikdesign; es ist ein eindringlicher Kommentar zum Zustand der Kinderrechte und -repräsentation in den modernen Medien. Durch seine kraftvolle Symbolik und Kritik lenkt das Kunstwerk nicht nur die Aufmerksamkeit auf die oft unsichtbaren Stimmen der Kinder, sondern dient auch als Katalysator für den Dialog darüber, wie wir diese Stimmen besser in die gesellschaftliche Erzählung integrieren können. Es fordert die Betrachter heraus, über ihre eigene Rolle beim Aufrechterhalten oder Abbau der Strukturen nachzudenken, die diese wichtigen Perspektiven zum Schweigen bringen.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "path": "projectCard",
+        "title": "Der Fall aus dem Paradies",
+        "icon": "",
+        "data": "Damaskus - 07.07.2011",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/syria.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/syria.jpg",
+        "description": "Dieses Kunstwerk zeigt den Namen \"Syrien\", der heftig über der Erde brennt, vor dem Hintergrund des Weltraums. Die Flammen symbolisieren die Auswirkungen des Konflikts auf die Nation. Der Kontrast zwischen der Zerstörung und der gleichgültigen Weite des Weltraums hebt das Leid und die Isolation hervor, die Syrien erfährt.",
+        "subject": "Willkommen in Syrien",
+        "projectDetails": [
+          {
+            "id": 105,
+            "subjectDetails": "Syrien",
+            "cardDescription": "\"Syrien\" ist ein kraftvolles Kunstwerk, das den Namen der Nation eindrucksvoll über der Erde brennend vor dem Hintergrund des Weltraums darstellt. Diese visuelle Metapher repräsentiert eindrucksvoll die verheerenden Auswirkungen des andauernden Konflikts auf Syrien. Die intensiven Flammen, die den Namen umhüllen, spiegeln die unaufhörliche Zerstörung und das Leid wider, die die jüngste Geschichte des Landes geprägt haben.\n\nDie Wahl des Weltraums als Hintergrund unterstreicht das tiefgehende Gefühl der Isolation und Verlassenheit, das Syrien empfindet. Die weite, gleichgültige Leere steht in starkem Kontrast zur feurigen Zerstörung und betont das Fehlen bedeutender internationaler Intervention. Der brennende Name symbolisiert den Verlust von Erbe, Kultur und nationaler Identität und hebt sowohl die physische Zerstörung als auch die Erosion des kulturellen und historischen Wesens Syriens hervor.\n\nDas Kunstwerk reflektiert auch die langfristigen Folgen des Konflikts. Die anhaltenden Flammen und der Rauch deuten darauf hin, dass, obwohl die unmittelbare Zerstörung nachlassen mag, die Auswirkungen des Krieges Syrien noch über Generationen hinweg beeinflussen werden. Das Werk dient als eindringliche Erinnerung an das menschliche Leid hinter den Schlagzeilen und lädt die Betrachter ein, über den fortwährenden Kampf einer Nation im Angesicht überwältigender Widrigkeiten nachzudenken.\n\nDieses Kunstwerk zieht durch seine eindrucksvollen visuellen Darstellungen und die schwere emotionale Last die Aufmerksamkeit der Betrachter auf sich. Es ist sowohl ein Tribut an den unerschütterlichen Geist Syriens als auch ein Aufruf, die tieferliegenden Geschichten von Widerstandskraft und Hoffnung angesichts der Zerstörung nicht zu vergessen.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 106,
+        "path": "projectCard",
+        "title": "Syrische Logos",
+        "icon": "",
+        "data": "Berlin - 04.11.2018",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/logo.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectPage/logo.jpg",
+        "subject": "Syrische Städte durch einzigartige Logos.",
+        "description": "Dieses Kunstwerk zeigt das Logo für Damaskus, die älteste kontinuierlich bewohnte Hauptstadt. Als erstes Logo in einer Serie, die jede syrische Stadt zeigt, fängt dieses detaillierte Design das reiche kulturelle Erbe und die historische Bedeutung von Damaskus ein. Jedes Logo repräsentiert eine Stadt und zeigt Syriens vielfältige Geschichte und kulturelles Erbe.",
+        "projectDetails": [
+          {
+            "id": 106,
+            "subjectDetails": "Logos",
+            "cardDescription": "Dieses Kunstwerk ist ein sorgfältig gestaltetes Logo, das Damaskus repräsentiert, eine Stadt, die den Ruf als älteste kontinuierlich bewohnte Hauptstadt der Welt trägt. Das Logo ist nicht nur ein Symbol, sondern eine visuelle Erzählung, die die reiche Geschichte, Kultur und Bedeutung von Damaskus im Kontext von Syriens umfangreichem und vielfältigem Erbe einfängt. Als erstes in einer Serie von Logos, die syrischen Städten gewidmet sind, setzt dieses Emblem den Ton für eine Sammlung, die darauf abzielt, die einzigartigen Identitäten und Vermächtnisse jeder Stadt im Land zu feiern.\n\nDas Design des Damaskus-Logos ist tief symbolisch, wobei jedes Element sorgfältig ausgewählt wurde, um verschiedene Aspekte der Identität der Stadt widerzuspiegeln. Die detaillierten Muster und Motive spiegeln die antike Architektur und die künstlerischen Traditionen wider, die in Damaskus über Jahrtausende floriert haben. Die Verwendung traditioneller Farben und Formen erinnert die Betrachter an die tiefen Wurzeln der Stadt in der Geschichte, während sie gleichzeitig ihre anhaltende Präsenz als kulturelles und spirituelles Zentrum im Nahen Osten hervorhebt.\n\nIm Mittelpunkt des Logos steht ein zentrales Symbol, das Damaskus selbst darstellt. Dies könnte eine stilisierte Version eines berühmten Wahrzeichens wie der Umayyaden-Moschee oder eine abstraktere Darstellung des historischen Wesens der Stadt sein. Um dieses zentrale Symbol herum kann das Design Elemente enthalten, die auf Damaskus' Beiträge zur Kunst, Wissenschaft und Literatur sowie auf seine Rolle als Kreuzung von Zivilisationen im Laufe der Geschichte hinweisen. Die Gestaltung des Logos spricht von der zeitlosen Natur der Stadt—einem urbanen Raum, in dem Vergangenheit, Gegenwart und Zukunft in einem empfindlichen Gleichgewicht koexistieren.\n\nDie Typografie des Logos ist ebenfalls ein wichtiger Bestandteil, wobei der Name \"Damaskus\" in einer Schriftart gestaltet ist, die Tradition mit Modernität vereint. Die Buchstaben könnten stilisiert sein, um an arabische Kalligrafie zu erinnern, bleiben aber für ein globales Publikum zugänglich und unterstreichen die universelle Relevanz Damaskus als Symbol für Widerstandsfähigkeit und Kontinuität. Der Text ergänzt die visuellen Elemente und schafft eine kohärente Identität, die das Erbe der Stadt ehrt, während sie im größeren Kontext der syrischen Kultur positioniert wird.\n\nAls erstes Logo in einer umfassenderen Serie dient dieses Kunstwerk als Grundpfeiler für eine Sammlung, die letztendlich alle wichtigen syrischen Städte repräsentieren wird. Jedes Logo in der Serie ist so gestaltet, dass es einzigartig ist, die Charakteristik und Geschichte der Stadt widerspiegelt, die es repräsentiert, jedoch sind sie alle durch eine gemeinsame visuelle Sprache verbunden. Dieser Ansatz hebt nicht nur die Vielfalt innerhalb Syriens hervor, sondern betont auch die Einheit und das gemeinsame Erbe, das diese Städte miteinander verbindet.\n\nDas Damaskus-Logo ist daher mehr als nur ein Emblem; es ist ein Zugang zum Verständnis der breiteren kulturellen und historischen Landschaft Syriens. Es lädt die Betrachter ein, die Bedeutungsschichten im Design zu erkunden und eine tiefere Wertschätzung für die Rolle Damaskus bei der Formung der syrischen Identität zu entwickeln. Durch dieses Logo wird die alte Stadt nicht nur als Ort auf der Karte gefeiert, sondern als lebendiges, atmendes Wesen, das weiterhin inspiriert und Einfluss nimmt.\n\nDieses Kunstwerk soll ein breites Publikum ansprechen, von denen, die persönliche Verbindungen zu Damaskus haben, bis hin zu denen, die seine Bedeutung zum ersten Mal entdecken. Es dient als visueller Botschafter der Stadt und vermittelt ihre Bedeutung auf eine Weise, die sowohl visuell auffällig als auch tiefgründig ist. Indem die Serie mit Damaskus verankert wird, setzt der Künstler einen hohen Standard für die nachfolgenden Logos, sodass jedes weitere Design ebenfalls das Wesen seiner jeweiligen Stadt mit derselben Sorgfalt und Detailgenauigkeit einfängt.\n\nDie gesamte Logo-Sammlung zielt darauf ab, eine visuelle Reise durch Syrien zu bieten, wobei jedes Logo als Kapitel in der Geschichte der Nation fungiert. Das Damaskus-Logo ist insbesondere eine Feier einer Stadt, die die Zeit überstanden hat, ein Zeugnis ihrer Widerstandsfähigkeit und eine Hommage an ihre Menschen, die ihr Erbe weitertragen.",
+            "imageGroup": {
+              "img_1": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/alepo.jpg",
+                "imageSubject": "Aleppo Logo"
+              },
+              "img_2": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/homs.jpg",
+                "imageSubject": "Homs Logo"
+              },
+              "img_3": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/dara.jpg",
+                "imageSubject": "Dara Logo"
+              },
+              "img_4": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/dairAlzour.jpg",
+                "imageSubject": "Deir El-Zour Logo"
+              },
+              "img_5": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/latakia.jpg",
+                "imageSubject": "Latakia Logo"
+              },
+              "img_6": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/alswedaa.jpg",
+                "imageSubject": "Sweida Logo"
+              },
+              "img_7": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/tartous.jpg",
+                "imageSubject": "Tartous Logo"
+              },
+              "img_8": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/hama.jpg",
+                "imageSubject": "Hama Logo"
+              },
+              "img_9": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/logoDamascus.jpg",
+                "imageSubject": "Damascus Logo"
+              },
+              "img_10": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/logoCham.jpg",
+                "imageSubject": "Cham Logo"
+              },
+              "img_11": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/Cham-Umawe1.jpg",
+                "imageSubject": "Cham Umawe Logo"
+              },
+              "img_12": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/Cham-Umawe2.jpg",
+                "imageSubject": "Cham Umawe 2 Logo"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 107,
+        "path": "projectCard",
+        "title": "Augen im Gefängnis",
+        "icon": "",
+        "data": "Damaskus - 18.05.2012",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/thereIsAlwaysHope.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/thereIsAlwaysHope.jpg",
+        "subject": "Hoffnung inmitten des Leidens",
+        "description": "Dieses Kunstwerk zeigt ein Auge, das in einer Erdkugel gefangen ist, hinter Gefängnisgittern. Das Auge spiegelt Schmerz und Leiden wider, während die Erdkugel Hoffnung und den Geist symbolisiert, der weiterhin nach Freiheit strebt. Das Kunstwerk erinnert uns daran, dass Hoffnung selbst in den dunkelsten Zeiten lebendig bleibt.",
+        "projectDetails": [
+          {
+            "id": 107,
+            "subjectDetails": "Es gibt immer Hoffnung",
+            "cardDescription": "Dieses eindrucksvolle Kunstwerk mit dem Titel \"Es gibt immer Hoffnung\" zeigt ein kraftvolles visuelles Symbol: ein Auge, das in den kalten, unnachgiebigen Wänden einer Gefängniszelle eingeschlossen ist. Das Design beschreibt eindrucksvoll die harte Realität der ungerecht gefangenen Menschen, sei es aufgrund ihrer Überzeugungen, Handlungen oder einfach durch ungünstige Umstände. Die Gefängnisstäbe repräsentieren die physischen und psychologischen Barrieren, die unzählige Menschen gefangen halten, abgeschnitten von der Außenwelt und ihrem früheren Leben.\n\nIm Zentrum der Komposition steht das Auge—weit geöffnet, wachsam und unnachgiebig. Das Auge, ein universelles Symbol für Wahrnehmung, Bewusstsein und den menschlichen Geist, steht in starkem Kontrast zur tristen Umgebung der Gefängniszelle. Es ist nicht nur ein Auge, sondern ein Symbol des inneren Lichts, das trotz der dunklen Umstände nicht erlischt. Das Auge blickt durch die Stäbe, seine Augen auf eine Welt gerichtet, die es nicht mehr berühren kann, aber weiterhin ersehnt. Dieser Blick repräsentiert die tiefe Sehnsucht nach Freiheit, Gerechtigkeit und der Wiederherstellung der Würde, die jeder Gefangene in sich trägt.\n\nDie Anwesenheit des Auges in einem so engen Raum dient auch als eindringliche Erinnerung an die Widerstandskraft des menschlichen Geistes. Selbst wenn der Körper gefangen ist, strebt der Geist nach Hoffnung, klammert sich an Erinnerungen, Träume und die Möglichkeit einer besseren Zukunft. Dieses Werk betont die Vorstellung, dass Hoffnung eine unbesiegbare Kraft ist, die selbst unter den drückendsten Bedingungen überleben kann. Es ist diese Hoffnung, die das Auge offen hält, wachsam und mit der Welt jenseits der Stäbe verbunden, und sich weigert, sich von der umgebenden Dunkelheit besiegen zu lassen.\n\nDie Komposition des Kunstwerks zwingt den Betrachter, sich mit den harten Realitäten der Gefangenschaft auseinanderzusetzen und nicht von dem Leiden der inhaftierten Personen abzuwenden. Es ist leicht, die aus dem Blickfeld geratenen Menschen zu vergessen, aber dieses Werk fordert dazu auf, sich zu erinnern. Das Auge, das direkt auf den Betrachter starrt, schafft eine sofortige Verbindung, als ob es darum bittet, nicht vergessen zu werden. Es fordert den Beobachter auf, die Menschlichkeit der Gefangenen anzuerkennen, ihre Kämpfe zu erinnern und für ihre Rechte einzutreten.\n\nDarüber hinaus deutet das Design darauf hin, dass, obwohl die Gefangenen körperlich eingesperrt sind, ihre Gedanken und Hoffnungen nicht gekettet werden können. Der Fokus und die Intensität des Auges vermitteln eine Botschaft des stillen Widerstands, der sich weigert, der Verzweiflung nachzugeben. Dieser Widerstand ist nicht laut oder gewalttätig, sondern äußert sich im einfachen Akt des Hoffens, des fortwährenden Blicks auf einen Horizont, der zwar außer Sichtweite, aber nicht aus dem Sinn ist.\n\nDie umgebende Gefängniszelle, obwohl ein Symbol der Unterdrückung, wird auch zu einem Hintergrund, vor dem die Kraft der Hoffnung hervorgehoben wird. Die Entschlossenheit des Auges, über das unmittelbare hinauszublicken und Hoffnung selbst angesichts überwältigender Widrigkeiten zu bewahren, ist ein Zeugnis für die Stärke des menschlichen Willens. Es deutet darauf hin, dass es immer einen Funken Hoffnung gibt—einen Funken, der Veränderung entzünden, Bewegungen inspirieren und letztendlich zur Befreiung führen kann.\n\nIn diesem Kontext ist das Kunstwerk nicht nur ein Kommentar zur physischen Gefangenschaft, sondern auch zum breiteren Thema der Unterdrückung. Es spricht jeden an, der sich gefangen, marginalisiert oder zum Schweigen gebracht fühlt, und bietet eine Botschaft der Solidarität und Ermutigung. Das Werk spricht die universelle Erfahrung des Kampfes an und die universelle Wahrheit, dass Hoffnung, egal wie klein, eine kraftvolle Kraft für Veränderung ist.\n\nLetztlich ist \"Es gibt immer Hoffnung\" ein Aufruf zum Handeln. Es fordert uns auf, unser Bewusstsein für die Unterdrückten aufrechtzuerhalten, weiterhin für Gerechtigkeit zu kämpfen und niemals aus den Augen zu verlieren, dass, solange es Hoffnung gibt, die Möglichkeit für Veränderung besteht. Dieses Kunstwerk erinnert daran, dass der menschliche Geist, obwohl herausgefordert und eingesperrt, niemals wirklich erloschen werden kann. Das Auge in der Zelle bleibt offen, beobachtet, hofft und wartet auf den Tag, an dem die Stäbe fallen und die Freiheit zurückgewinnen wird.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 108,
+        "path": "projectCard",
+        "title": "Alphabet des Jasmins",
+        "icon": "",
+        "data": "Berlin - 10.03.2020",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/damascusJasmin.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/damascusJasmin.jpg",
+        "subject": "Antiker Damaskus-Jasmin",
+        "description": "Dieses Kunstwerk feiert den Damaskus-Jasmin, ein Symbol des Erbes von Damaskus. Das Gemälde fängt die Eleganz und den Duft der Blumen ein und drückt ihren zeitlosen Charme aus. Es lädt die Betrachter ein, Damaskus durch seine Blumen zu entdecken und Stolz zu empfinden.",
+        "projectDetails": [
+          {
+            "id": 108,
+            "subjectDetails": "Damaskus Jasmin",
+            "cardDescription": "Dieses fesselnde Kunstwerk ist eine Hommage an den Damaskus-Jasmin, eine Blume, die nicht nur ein botanisches Wunder, sondern auch ein tief in das kulturelle und historische Gefüge von Damaskus verwobenes Symbol ist. Das Werk fängt elegant die zarten, aromatischen Blüten ein, die emblematisch für die Schönheit und Widerstandsfähigkeit der Stadt stehen. Jedes Blatt ist sorgfältig detailliert und spiegelt die Verehrung des Künstlers für die Blume und ihre Bedeutung für die Menschen von Damaskus wider.\n\nDer Damaskus-Jasmin, lokal bekannt als \"Zahrat Al Yasmin\", ist für seine zarte Schönheit und betörende Duft bekannt. Seit Jahrhunderten schmückt er die Höhlen, Straßen und Häuser von Damaskus und ist ein integraler Bestandteil der Identität der Stadt. Die Darstellung dieser Blüten, mit ihren sternförmigen Blütenblättern und sanften weißen Farbtönen, versetzt die Betrachter ins Herz von Damaskus, wo der Duft des Jasmins in der Luft liegt und ein Gefühl von Frieden und Nostalgie vermittelt.\n\nDas Kunstwerk zeigt mehr als nur eine Blume; es erzählt die Geschichte einer Stadt und ihrer Menschen. Damaskus, eine der ältesten kontinuierlich bewohnten Städte der Welt, hat unzählige Reiche aufsteigen und fallen sehen. Trotz der Herausforderungen und Konflikte, die die Stadt geplagt haben, blüht der Jasmin weiterhin und symbolisiert Hoffnung, Kontinuität und die Beständigkeit der Schönheit selbst in den schwierigsten Zeiten.\n\nDie detaillierte Ausführung des Kunstwerks lädt die Betrachter ein, die subtile Eleganz jeder Blume zu schätzen. Die Blütenblätter, die in perfekter Harmonie angeordnet sind, schaffen ein Gefühl von Ausgeglichenheit und Ruhe. Diese akribische Aufmerksamkeit für Details unterstreicht nicht nur das Können des Künstlers, sondern hebt auch die Bedeutung des Jasmins in der damaskusischen Kultur hervor. Die Blume ist mehr als nur eine Zierpflanze; sie ist ein Symbol für Gastfreundschaft, Liebe und das reiche kulturelle Erbe von Damaskus.\n\nDarüber hinaus weckt das Gemälde ein tiefes Gefühl von Nostalgie und Stolz bei denen, die eine Verbindung zur Stadt haben. Für viele ist der Jasmin eine Erinnerung an die Heimat, ein Duft, der Erinnerungen an Kindheit, Familienzusammenkünfte und die einfachen Freuden des Lebens in Damaskus weckt. Das Kunstwerk greift diese Emotionen auf und lädt die Betrachter ein, sich in das sensorische Erlebnis des umgebenen Jasmins einzutauchen, seine sanften Blütenblätter zu fühlen und seinen süßen, beruhigenden Duft einzuatmen.\n\nDie sanfte Farbpalette des Kunstwerks - hauptsächlich Weiß, Grün und subtile Gelbtöne - verstärkt das Gefühl von Ruhe und Zeitlosigkeit. Der Hintergrund, bewusst minimal gehalten, lässt den Jasmin in den Mittelpunkt treten und unterstreicht seine Bedeutung in der Komposition. Die Einfachheit des Settings steht im Kontrast zur Komplexität der Symbolik der Blume und schafft eine kraftvolle visuelle und emotionale Wirkung.\n\nZusammenfassend feiert dieses Werk den Damaskus-Jasmin, ein Emblem des anhaltenden Geistes und der Schönheit einer Stadt. Es zollt der Rolle der Blume im kulturellen Erbe von Damaskus Respekt und fängt ihre Eleganz und Bedeutung mit großer Gefühlstiefe und künstlerischem Können ein. Das Gemälde ist sowohl ein visueller Genuss als auch eine herzliche Hommage und bietet den Betrachtern einen Einblick in das Wesen von Damaskus durch die Linse der geliebten Jasminblume.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 109,
+        "path": "projectCard",
+        "title": "Wir werden dort bleiben",
+        "icon": "",
+        "data": "Damaskus - 18.03.2012",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/weStayHere.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/weStayHere.jpg",
+        "subject": "Die dauerhafte Verbindung zu unseren Wurzeln.",
+        "description": "Dieses Kunstwerk drückt eine tiefe Verbindung zu unseren Wurzeln aus. Eine Hand, die sich an einen Ast klammert, symbolisiert die Bindung an unsere Herkunft. Der Griff spiegelt das Festhalten am Erbe trotz Veränderungen wider. Das Design hebt die Ehrung unserer Ursprünge hervor und erinnert, dass sie Teil unserer Identität sind.",
+        "projectDetails": [
+          {
+            "id": 109,
+            "subjectDetails": "Beständige Verbindung zu den Wurzeln",
+            "cardDescription": "Dieses Kunstwerk mit dem Titel \"Wir bleiben hier für immer\" ist eine tiefgreifende visuelle Darstellung der beständigen Verbindung zu den eigenen Wurzeln. Das zentrale Element der Komposition ist eine Hand, die einen großen Baumzweig hält, was als kraftvolle Metapher für die tiefe und unzerbrechliche Bindung zwischen einem Individuum und seinen Ursprüngen dient. Das Bild spricht das angeborene menschliche Bedürfnis an, mit dem Ort, von dem wir kommen, verbunden zu bleiben, egal welche Wege unser Leben nehmen mag.\n\nDie Hand im Kunstwerk ist mit einem festen und entschlossenen Griff am Zweig dargestellt, was ein unerschütterliches Engagement symbolisiert. Dieser Griff ist nicht nur eine körperliche Handlung, sondern ein Ausdruck eines inneren Entschlusses, niemals von seinem Erbe und seiner Identität loszulassen. Die Stärke der Hand vermittelt die Idee, dass unsere Wurzeln nicht nur ein Teil unserer Vergangenheit sind, sondern auch integraler Bestandteil unserer Gegenwart und Zukunft. Sie bieten Stabilität und ein Gefühl von Zugehörigkeit, auch wenn wir uns durch die sich ständig verändernden Strömungen des Lebens bewegen.\n\nDer Baumzweig selbst ist robust und dick und repräsentiert den Reichtum und die Vitalität unseres Erbes. Bäume, mit ihren weitreichenden Wurzeln, sind natürliche Symbole für Wachstum, Leben und Kontinuität. Durch den Fokus auf den Zweig hebt das Kunstwerk die Idee hervor, dass unsere Wurzeln, wie die Wurzeln des Baumes, die Grundlage sind, aus der wir wachsen. Sie versorgen uns mit der Nahrung und Kraft, die notwendig sind, um zu gedeihen. Die Wahl eines großen Zweigs deutet darauf hin, dass diese Wurzeln stark und beständig sind und jedem Sturm standhalten können.\n\nDer Hintergrund des Stücks ist bewusst zurückhaltend gestaltet, um sicherzustellen, dass der Fokus des Betrachters auf der Hand und dem Zweig bleibt. Diese Einfachheit betont die zeitlose und universelle Natur des Themas - egal wo wir sind oder welche Herausforderungen wir gegenüberstehen, unsere Verbindung zu unseren Wurzeln bleibt standhaft. Die subtilen Töne des Hintergrunds können ein Gefühl von Erde hervorrufen und die Idee von Verankerung und Stabilität weiter verstärken. Es dient als Erinnerung daran, dass unsere Ursprünge das Fundament sind, auf dem unser Leben aufgebaut ist.\n\nDie Botschaft von \"Wir bleiben hier für immer\" ist eine von Resilienz und Ehre. Sie spricht die Bedeutung an, unsere Ursprünge festzuhalten, nicht nur als eine Frage des persönlichen Stolzes, sondern als Quelle der Stärke. Das Kunstwerk suggeriert, dass in einer sich ständig verändernden Welt, in der Identitäten und Verbindungen manchmal flüchtig erscheinen können, unsere Wurzeln etwas sind, auf das wir uns immer verlassen können. Sie sind eine Quelle der Kraft, die uns den Mut und die Entschlossenheit gibt, allem zu begegnen, was uns begegnet.\n\nDieses Werk berührt auch die Idee des Erbes. Indem wir an unseren Wurzeln festhalten, bewahren wir nicht nur unsere eigene Identität, sondern stellen auch sicher, dass zukünftige Generationen eine starke Grundlage zum Wachsen haben. Das Bild der Hand, die den Zweig festhält, kann als Symbol für die Übertragung von Werten, Traditionen und Weisheit von einer Generation zur nächsten gesehen werden. Es deutet darauf hin, dass wir durch das Festhalten an unseren Wurzeln die Vergangenheit ehren und den Weg für die Zukunft ebnen.\n\nIn diesem Sinne ist \"Wir bleiben hier für immer\" nicht nur eine Aussage über persönliche Identität, sondern eine Erklärung der Kontinuität. Es ist eine Hommage an die beständige Kraft des Erbes, eine Erinnerung daran, dass unsere Wurzeln ein wesentlicher Teil von uns sind und uns immer begleiten werden, egal wohin uns der Lebensweg führt. Das Kunstwerk lädt die Betrachter ein, über ihre eigene Verbindung zu ihren Wurzeln nachzudenken und diese Bindungen als wesentlichen Bestandteil ihres Seins zu schätzen und zu schützen.\n\nDie visuelle Einfachheit des Stücks wird von seiner emotionalen Tiefe begleitet. Der Griff der Hand am Zweig ist ein kraftvolles Bild, das auf mehreren Ebenen resoniert und Stärke, Kontinuität und die unzerbrechliche Bindung zu den eigenen Ursprüngen symbolisiert. Es dient als zeitlose Erinnerung daran, dass wir, egal wohin wir gehen, unsere Wurzeln mit uns tragen. Sie sind die stillen, aber standhaften Begleiter, die uns führen, unterstützen und uns an unseren Ursprung erinnern. Dieses Kunstwerk ist eine Feier der beständigen Stärke, die daraus resultiert, dass man seinen Wurzeln treu bleibt, eine Stärke, die tatsächlich für immer anhalten wird.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 110,
+        "path": "projectCard",
+        "title": "Vergiss die Armen nicht",
+        "icon": "",
+        "data": "Berlin - 14.11.2013",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/poor.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/poor.jpg",
+        "description": "Dieses Kunstwerk zeigt die Auswirkungen des Krieges auf Waisen und die Armen. Ein Auge, gefüllt mit hungernden Menschen, symbolisiert unsichtbares Leiden. Die Verwüstung hebt die Realität hervor und betont die Notwendigkeit von Hilfe. Dieses Werk ruft die Betrachter auf, sich an die Verwundbaren zu erinnern.",
+        "subject": "Das Leid der Waisen in Kriegszeiten",
+        "projectDetails": [
+          {
+            "id": 110,
+            "subjectDetails": "Solidarität und soziale Gerechtigkeit",
+            "cardDescription": "\"Vergesst die Armen nicht\" ist ein eindringliches Kunstwerk, das als kraftvolle Erinnerung an das tiefgreifende und oft unsichtbare Leiden der verwundbarsten Menschen – Waisen und Armen – insbesondere nach einem Krieg dient. Im Mittelpunkt des Werkes steht ein großes, einzelnes Auge, das die Leinwand dominiert. In diesem Auge entfaltet sich eine eindringliche Szene: Reihen von ausgehungerten, hungernden Menschen, deren Gesichter von Verzweiflung gezeichnet sind, stehen da, als warteten sie auf ein Urteil. Das Auge selbst wird zu einem metaphorischen Fenster in ihre Welt – eine Welt voller Schmerz, Hunger und Verlust. Es ist, als ob dieses Auge, das das kollektive Gewissen der Menschheit repräsentiert, gezwungen ist, die erbärmlichen Umstände, denen diese Menschen täglich gegenüberstehen, zu ertragen.\n\nDie Menschen im Auge sind so dargestellt, dass sie das Bild eines letzten Urteils hervorrufen, als stünden sie vor einem unsichtbaren Richter, ihr Leiden offengelegt. Diese Bildsprache ist tief symbolisch und deutet darauf hin, dass das Leid der Armen und Waisen eine moralische Frage darstellt, die dringend Aufmerksamkeit verlangt. Die Reihen von Menschen, die endlos im Inneren des Auges verlaufen, dienen als eindringliche Erinnerung an das gewaltige Ausmaß dieser humanitären Krise. Jede Figur, obwohl klein, trägt das Gewicht einer unerzählten Geschichte von Not, Verlust und Überlebenskampf. Das Auge, das mit diesen Figuren gefüllt ist, spiegelt die überwältigende Last ihres kollektiven Leidens wider – eine Last, die allzu oft von der breiteren Welt übersehen wird.\n\nAußerhalb des Auges herrscht eine Landschaft der Verwüstung. Die trostlosen Umgebungen stehen in starkem Kontrast zur inneren Szene und heben die harte Realität hervor, der diese Menschen ausgesetzt sind. Die Zerstörung außerhalb des Auges symbolisiert die externen Faktoren, die zu ihrem Leid beigetragen haben: Krieg, Armut, Vertreibung und gesellschaftliche Vernachlässigung. Dieser scharfe Kontrast zwischen dem inneren Leiden des Auges und der äußeren Verwüstung dient dazu, die Kluft zwischen den Leidenden und der Welt, die oft die Augen vor ihrem Elend verschließt, zu betonen. Die Zerstörung ist nicht nur physisch, sondern auch metaphorisch und repräsentiert die zerbrochenen Systeme und fehlgeschlagenen Versprechen, die diese Menschen verlassen und vergessen haben.\n\nDie Wahl, sich auf ein Auge zu konzentrieren, ist besonders eindringlich. Augen werden oft als Fenster zur Seele bezeichnet, und in diesem Kunstwerk dient das Auge als Spiegel der Seele der Menschheit. Es zwingt den Betrachter dazu, die unangenehme Wahrheit zu konfrontieren, dass wir zwar das Leid anderer sehen, aber sie nicht immer wirklich sehen. Das Auge, gefüllt mit dem Leid der Armen und Waisen, fordert uns heraus, tiefer zu blicken, über die Oberfläche hinaus zu sehen und die Menschlichkeit der oft marginalisierten und übersehenen Menschen anzuerkennen.\n\nDieses Kunstwerk ist nicht nur eine Darstellung von Leid, sondern ein Aufruf zum Handeln. Es drängt die Betrachter dazu, sich an die Armen und Waisen zu erinnern, sich nicht von ihrem Leiden abzuwenden und unsere gemeinsame Verantwortung zur Linderung ihres Schmerzes zu erkennen. Das Werk spricht die moralische Verpflichtung an, Mitgefühl und Hilfe denen zu gewähren, die es benötigen. Es ist eine Erinnerung daran, dass in Krisenzeiten oft die Verwundbarsten am meisten betroffen sind, und dass ihre Stimmen gehört und ihre Bedürfnisse erfüllt werden müssen.\n\nDas Auge, gefüllt mit hungernden, verzweifelten Menschen, dient als Metapher für die kollektive Schuld einer Welt, die solches Leid weiterhin zulässt. Doch innerhalb dieses Auges gibt es auch einen Funken Hoffnung – eine Erinnerung daran, dass durch Bewusstsein und Handeln Veränderung möglich ist. Das Kunstwerk ruft uns dazu auf, die Armen nicht zu vergessen, ihr Leid zu sehen und mit Mitgefühl und Menschlichkeit zu reagieren. Es ist eine eindringliche Erinnerung daran, dass wahres Sehen nicht nur das Sehen, sondern das Verstehen und Handeln auf das, was wir sehen, erfordert.\n\nLetztendlich ist dieses Werk ein Zeugnis für die Widerstandskraft des menschlichen Geistes angesichts unvorstellbarer Widrigkeiten. Es ehrt diejenigen, die so viel erlitten haben, und erinnert uns alle an die Kraft der Empathie und die Notwendigkeit, die im Stillen Leidenden nie zu vergessen. Das Kunstwerk hinterlässt einen bleibenden Eindruck, ermutigt die Betrachter, seine Botschaft mit sich zu tragen und in ihrem eigenen Leben zu handeln, um sicherzustellen, dass die Armen und Waisen nie vergessen werden und ihr Leid niemals ignoriert wird.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 111,
+        "path": "projectCard",
+        "title": "Willkommen in Syrien",
+        "icon": "",
+        "data": "Damaskus - 02.11.2012",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/welcomeToSyria.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/welcomeToSyria.jpg",
+        "description": "Dieses Kunstwerk spiegelt den Schmerz Syrien bei seiner Transformation von einem Paradies zu einem Land des Tumults wider. Es zeigt eine Straße zu einem Baum mit einer Tür in Form der syrischen Karte, die das verlorene Paradies symbolisiert. Dieses Werk von 2013 erfasst die Trauer über die Veränderungen in Syrien.",
+        "subject": "Vom Paradies zur Ruine",
+        "projectDetails": [
+          {
+            "id": 111,
+            "cardDescription": "\"Willkommen in Syrien\" ist ein tiefgreifendes und eindringliches Kunstwerk, das den starken Kontrast zwischen Syrien’s Vergangenheit und Gegenwart einfängt. Im Jahr 2013 geschaffen, bietet dieses Kunstwerk einen bewegenden Kommentar zur drastischen Transformation des Landes von einer Zeit des Friedens und Wohlstands zu einem von Konflikten und Leiden geprägten Ort.\n\nIm Mittelpunkt der Komposition steht eine lange, trostlose Straße, die sich endlos bis zum Horizont erstreckt. Diese Straße symbolisiert die Reise durch die Zeit und die Ereignisse, die zum gegenwärtigen Zustand Syriens geführt haben. Wenn die Betrachter dem Weg folgen, gelangen sie zu einem eindrucksvollen Fokuspunkt: einem großen, alten Baum, der entschlossen am Ende der Straße steht.\n\nDer Baum, mit seinen knorrigen Ästen und robustem Stamm, repräsentiert den unerschütterlichen Geist Syriens und seiner Menschen angesichts von Widrigkeiten. Er ist ein Symbol für Widerstandskraft und Hoffnung, trotz der überwältigenden Herausforderungen. Doch dieses Symbol der Stärke wird durch ein kraftvolles Element kontrastiert: Eine Tür, die in den Stamm des Baumes eingebettet ist und die Form der Karte Syriens hat.\n\nDiese Tür ist nicht nur ein buchstäbliches Tor, sondern ein metaphorisches Zugang zum Vergangenen. Sie steht für die frühere Identität des Landes als \"Paradies\" – ein Ort der Sicherheit und Schönheit, der jetzt von Unruhe und Unruhen überschattet wird. Die kartenförmige Tür betont die Entfremdung zwischen Syriens glorreicher Geschichte und seiner gegenwärtigen Realität und hebt das Gefühl von Verlust und Vertreibung hervor, das viele Syrer empfinden.\n\nDie Wahl dieser Bildsprache unterstreicht das Thema der Transformation und das emotionale Gewicht des Wandels. Die lange Straße, die zum Baum führt, und die symbolische Tür laden die Betrachter ein, über die Reise nachzudenken, die Syrien durchlaufen hat, und über die tiefgreifende Traurigkeit, die mit solch drastischen Veränderungen einhergeht.\n\nDurch dieses Kunstwerk fängt der Künstler das Wesen von Syriens tragischer Evolution ein und bietet eine visuelle Darstellung der Trauer und des Verlusts, die eine Nation erlebt hat, die einst für ihre Schönheit und Ruhe bekannt war. \"Willkommen in Syrien\" ist nicht nur eine Darstellung einer physischen Landschaft, sondern eine tief emotionale Erkundung der menschlichen Erfahrung angesichts tiefgreifender Veränderungen.",
+            "subjectDetails": "Willkommen in Syrien",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 112,
+        "path": "projectCard",
+        "title": "Herz der Nacht",
+        "icon": "",
+        "data": "Damaskus - 02.10.2013",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/love.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/love.jpg",
+        "description": "Dieses Kunstwerk fängt die wahre Liebe ein, symbolisiert durch einen herzförmigen Mond. Der Nachthimmel und das Mondlicht reflektieren die Reinheit und Tiefe der Liebe, betonen zarte Gefühle, innige Verbundenheit und Respekt. Dieses Werk feiert die zeitlose Schönheit der Liebe im Glanz des Mondes.",
+        "subject": "Die Reinheit der Liebe spiegelt sich im Mond wider.",
+        "projectDetails": [
+          {
+            "id": 112,
+            "cardDescription": "Dieses exquisite Kunstwerk, \"Liebesgeschichte unter dem Mond\", ist eine fesselnde Darstellung der tiefgreifenden und transformierenden Kraft wahrer Liebe. Das Werk kombiniert meisterhaft Elemente von Romantik und Gelassenheit und schafft eine visuelle Symphonie, die die tiefsten Sehnsüchte des Herzens anspricht.\n\nIm Mittelpunkt des Kunstwerks steht ein herzförmiger Mond, der mit einem sanften, ätherischen Glanz strahlt und die gesamte Szene in ein magisches Licht taucht. Dieser Mond ist nicht nur ein Himmelskörper, sondern ein Symbol für die reine und grenzenlose Natur der Liebe. Er erleuchtet den Nachthimmel mit einer sanften Brillanz, die einen schönen Kontrast zum tiefen, samtigen Kosmos bildet. Dieses himmlische Herz spiegelt die Harmonie und Zärtlichkeit wider, die eine liebevolle Beziehung kennzeichnen.\n\nDer Hintergrund des Bildes zeigt einen ruhigen Nachthimmel, der mit funkelnden Sternen übersät ist, die das Flackern der Zuneigung zwischen den Figuren des Gemäldes widerspiegeln. Die Sterne verleihen der Szene ein Gefühl von Wunder und Unendlichkeit und deuten darauf hin, dass wahre Liebe ebenso ewig ist wie das Universum selbst. Das subtile Zusammenspiel von Licht und Schatten verstärkt die emotionale Tiefe der Szene und zieht den Betrachter in eine Welt, in der jeder Blick und jede Geste von Hingabe und Verständnis zeugen.\n\nIm Vordergrund werden die Liebenden in einem Moment der stillen Intimität dargestellt, ihre Figuren sanft vom Mondlicht beleuchtet. Ihre Ausdrücke sind zärtlich und von tiefem Respekt füreinander geprägt und fangen die Essenz eines Bandes ein, das sowohl leidenschaftlich als auch beständig ist. Diese Darstellung von Zuneigung unterstreicht das Thema des gegenseitigen Respekts und der emotionalen Verbindung, das ihre Beziehung definiert.\n\nDie gesamte Komposition des Kunstwerks ist so gestaltet, dass sie ein Gefühl von Ruhe und Ehrfurcht hervorruft und die Betrachter einlädt, über ihre eigenen Erfahrungen von Liebe und Verbindung nachzudenken. Der herzförmige Mond dient als ständige Erinnerung an die Magie und das Wunder, das Liebe in unser Leben bringen kann. Während das Mondlicht durch die Szene fließt, verwandelt es das Gewöhnliche in etwas Außergewöhnliches und feiert die Schönheit und Tiefe wahrer Zuneigung.\n\n\"Liebesgeschichte unter dem Mond\" ist mehr als nur ein Kunstwerk; es ist ein Tribut an die zeitlose und universelle Erfahrung der Liebe, festgehalten in einem Moment ruhiger Schönheit und herzlicher Emotion. Es lädt uns ein, die besonderen Verbindungen, die wir mit den Menschen, die uns wichtig sind, teilen, zu schätzen und zu feiern, und erinnert uns an die bezaubernde Kraft der Liebe unter der sanften Aufsicht des Mondes.",
+            "subjectDetails": "Reine Liebe im bezaubernden Mondlicht",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 113,
+        "path": "projectCard",
+        "title": "Stille Schreie",
+        "icon": "",
+        "data": "Damaskus - 02.10.2013",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/cry.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/cry.jpg",
+        "description": "Dieses Kunstwerk fängt stille Schreie von Ungerechtigkeit und Verzweiflung ein. Das verzerrte Gesicht einer Frau vermittelt Schmerz, während die Ruinen von Städten im Hintergrund Verwüstung symbolisieren. Der Kontrast zwischen ihrem Schmerz und dem Hintergrund hebt Verlust und stille Schreie hervor.",
+        "subject": "Stille Schreie inmitten der Verwüstung",
+        "projectDetails": [
+          {
+            "id": 113,
+            "cardDescription": "Im eindrucksvollen Grafikdesign mit dem Titel \"Seelen-Schrei\" stellt der Künstler meisterhaft die tiefgreifende und oft unausgesprochene Qual dar, die persönliches und kollektives Leid begleitet. Die zentrale Figur im Kunstwerk ist eine Frau, deren Gesicht ein ergreifendes Bild von Verzweiflung und Frustration ist. Ihr Ausdruck, ein viszeraler Schrei, der in der Zeit eingefroren ist, verkörpert die stillen und doch durchdringenden Schreie derjenigen, die in Einsamkeit leiden und deren Schmerz inmitten des Chaos einer durch Zerstörung geprägten Welt ungehört bleibt.\n\nDer Hintergrund dieses kraftvollen Bildes zeigt die zerfallenden Überreste einst blühender urbaner Landschaften. Diese Ruinen, einst lebendig und aktiv, stehen nun als stumme Symbole der Verwüstung, die auf Zerstörung folgt. Sie dienen als gespenstische Erinnerung an die vergängliche Natur menschlicher Errungenschaften und die oft übersehenen Folgen gesellschaftlicher Zusammenbrüche. Der Kontrast zwischen dem verzweifelten Gesicht der Frau und der trostlosen Stadtlandschaft unterstreicht die Tiefe des emotionalen und gesellschaftlichen Zusammenbruchs, der auftreten kann, wenn Menschen und Orte ihrer Lebenskraft beraubt werden.\n\n\"Seelen-Schrei\" ist eine visuelle Klagemauer für das Leid, das über die unmittelbare Nachwirkung von Zerstörung hinausgeht. Es spricht das unhörbare Elend der Individuen an, deren Schreie nach Gerechtigkeit, Frieden und Anerkennung in den Ruinen ungehört bleiben. Dieses Kunstwerk ist nicht nur eine Darstellung von Schmerz, sondern ein Aufruf, die stillen Schreie zu erkennen und anzugehen, die im Leeren, das Zerstörung hinterlässt, verhallen. Es fordert die Betrachter dazu auf, über die menschlichen Kosten von Konflikten und Katastrophen nachzudenken und ein tieferes Verständnis und Mitgefühl für diejenigen zu entwickeln, deren Leid oft unsichtbar ist.\n\nZusammenfassend ist \"Seelen-Schrei\" ein tiefgehender Kommentar zu den emotionalen Narben, die durch Katastrophen hinterlassen werden. Es stellt den Gegensatz zwischen der rohen emotionalen Reaktion des Individuums und der starren Realität der Welt um sie herum dar und lädt die Betrachter ein, sich mit den stillen, oft unsichtbaren Aspekten menschlichen Leidens und der Resilienz auseinanderzusetzen.",
+            "subjectDetails": "Farben der stillen Verzweiflung",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 114,
+        "path": "projectCard",
+        "title": "Economic Collapse",
+        "icon": "",
+        "data": "Syrien - 15.03.2015",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/economicCollapse.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/economicCollapse.jpg",
+        "description": "Ein düsteres Bild des wirtschaftlichen Niedergangs, dieses Kunstwerk zeigt zerbrochenes Geld und zusammengebrochene Strukturen, die das Auseinanderfallen finanzieller Stabilität symbolisieren. Die farblose Landschaft spiegelt die Hoffnungslosigkeit eines Zusammenbruchs wider.",
+        "subject": "Der zerfallende Wirtschaftsstand eines Landes",
+        "projectDetails": [
+          {
+            "id": 114,
+            "cardDescription": "In diesem eindringlichen Stück mit dem Titel \"Wirtschaftlicher Zusammenbruch\" liefert der Künstler eine gespenstische Darstellung der gesellschaftlichen und emotionalen Auswirkungen des finanziellen Niedergangs einer Nation. Im Vordergrund sind zerknitterte Banknoten, Münzen und zerschlagene Geldscheine zu sehen, die visuell das Gefühl des Zusammenbruchs und der Entwertung vermitteln. Hinter den verstreuten Überresten der Währung spiegeln die hoch aufragenden Ruinen von Gebäuden die umfassendere Verwüstung wider, die eintritt, wenn die Wirtschaft zusammenbricht.\n\nDieses Design ist mehr als nur eine Darstellung finanzieller Zerstörung—es erfasst die Hoffnungslosigkeit, den Verlust von Sicherheit und den menschlichen Tribut, den der wirtschaftliche Zusammenbruch fordert. Das Fehlen lebendiger Farben betont die ausgelaugte Vitalität einer Gemeinschaft, in der Ressourcen, Lebensgrundlagen und Träume durch die harten Realitäten der Armut ausgelöscht wurden. Die Grautöne dominieren das Bild und verdeutlichen die Tiefe der Verzweiflung und des Verlusts.\n\nDie Botschaft von \"Wirtschaftlicher Zusammenbruch\" geht über finanzielle Ruinen hinaus—es ist eine kraftvolle Erinnerung daran, wie tief die Menschen mit der Gesundheit ihrer Wirtschaft verbunden sind. Der Ruin der Währung ist symbolisch für das Ruinieren von Leben, und dieser visuelle Kommentar fordert die Betrachter auf, über die oft unsichtbaren Konsequenzen finanzieller Katastrophen für Familien, Gemeinschaften und ganze Nationen nachzudenken.",
+            "subjectDetails": "Echos des finanziellen Ruins",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 115,
+        "path": "projectCard",
+        "title": "Flucht vor dem Tod",
+        "icon": "",
+        "data": "Aleppo - 20.05.2016",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/escapeFromDeath.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/escapeFromDeath.jpg",
+        "description": "Dieses Kunstwerk zeigt eine verzweifelte Überlebensreise. Eine Figur, die durch eine apokalyptische Landschaft rennt, symbolisiert den Kampf, dem Tod zu entkommen. Trümmer und die Vorwärtsbewegung repräsentieren Widerstandskraft und Hoffnung auf Zukunft.",
+        "subject": "Eine Reise durch die Trümmer",
+        "projectDetails": [
+          {
+            "id": 115,
+            "cardDescription": "\"Flucht vor dem Tod\" ist ein intensives und emotional aufgeladenes Grafikdesign, das die verzweifelte Flucht einer Person vor der Zerstörung einfängt. Die zentrale Figur im Kunstwerk ist eine einsame Silhouette, die durch eine dunkle und zerstörte Landschaft rennt und vor dem drohenden Schatten des Todes flieht. Um die Figur herum sind Überreste von bombardierten Gebäuden und Trümmern zu sehen, die die Zerstörung widerspiegeln, die durch Konflikte hinterlassen wird.\n\nDie rennende Figur vermittelt ein Gefühl von Dringlichkeit und Entschlossenheit und verkörpert den Überlebensinstinkt angesichts scheinbar unüberwindbarer Widrigkeiten. Die dunklen Töne und gedämpften Farben des Hintergrunds schaffen einen krassen Kontrast zum schwachen Hoffnungsstrahl auf dem Weg der Figur nach vorne. Trotz der Verwüstung, die sie umgibt, dient die Vorwärtsbewegung der Figur als Metapher für Widerstandskraft und den menschlichen Willen zum Überleben.\n\n\"Flucht vor dem Tod\" spricht den universellen Kampf an, inmitten überwältigender Widrigkeiten durchzuhalten. Es ist eine Hommage an die Stärke derjenigen, die Konflikte und Schwierigkeiten gegenüberstehen, aber weiterhin vorwärtsgehen, angetrieben von der Hoffnung auf Sicherheit, Frieden und Leben. Das Kunstwerk fordert die Betrachter heraus, sich der Realität von Krieg und Vertreibung zu stellen, während es gleichzeitig an den unbezwingbaren Geist derjenigen erinnert, die versuchen, ihm zu entkommen.",
+            "subjectDetails": "Flucht Durch Trümmer",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 116,
+        "path": "projectCard",
+        "title": "Asyl und Hoffnung",
+        "icon": "",
+        "data": "Europa - 01.09.2017",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/asylum.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/asylum.jpg",
+        "description": "Dieses Kunstwerk fängt die emotionale Landschaft von Flüchtlingen ein, die Sicherheit suchen. Die zusammengekauerten Figuren verkörpern das Trauma der Vertriebenen, während der ferne Horizont auf eine bessere Zukunft hindeutet.",
+        "subject": "Suche nach Schutz über Grenzen",
+        "projectDetails": [
+          {
+            "id": 116,
+            "cardDescription": "Im Grafikdesign mit dem Titel 'Asyl' präsentiert der Künstler eine bewegende Darstellung der Flüchtlingserfahrung. Das Werk zeigt eine Gruppe von vertriebenen Personen, die sich zusammenkauern, ihre Figuren im Schatten stehend, während sie am Rand eines unbekannten Horizonts stehen. Die entfernte, schwach beleuchtete Grenze symbolisiert sowohl Hoffnung als auch Unsicherheit, da der Weg zum Asyl nie klar und oft mit unvorstellbaren Schwierigkeiten verbunden ist.\n\nDer Einsatz von Licht und Schatten in 'Asyl' spielt eine Schlüsselrolle bei der Darstellung der emotionalen Spannung der Flüchtlingsreise. Während die Grenze in der Ferne erleuchtet ist und Sicherheit und einen Neuanfang suggeriert, sind die Figuren in Dunkelheit gehüllt, was das Trauma und die Angst, die mit der Vertreibung einhergehen, darstellt. Die gedämpften Farben der Landschaft spiegeln die Trostlosigkeit ihrer gegenwärtigen Realität wider, doch der Lichtstreifen am Horizont bietet einen Hoffnungsschimmer.\n\nDieses Kunstwerk ist eine kraftvolle Erinnerung an die schwierigen Entscheidungen, denen Flüchtlinge gegenüberstehen, und die emotionale Belastung der Asylsuche. Es fordert die Betrachter auf, über die Verletzlichkeit derjenigen nachzudenken, die gezwungen sind, ihre Heimat zu verlassen, und den Mut zu würdigen, den es erfordert, in das Unbekannte aufzubrechen, um ein besseres Leben zu suchen. 'Asyl' ist sowohl eine Hommage an ihre Widerstandskraft als auch ein Aufruf zu Empathie und Verständnis.",
+            "subjectDetails": "Reise zur Sicherheit",
+            "imageGroup": {}
+          }
+        ]
+      }
+    ],
+    "ar": [
+      {
+        "id": 1,
+        "path": "projectCard",
+        "title": "ضوء ولادة جديدة",
+        "icon": "",
+        "data": "برلين - 22.10.2017",
+        "image": "../src/assets/images/hamdiphotos/project/projectPage/c|o.JPG",
+        "imageHover": "../src/assets/images/hamdiphotos/project/projectHover/c|o.jpg",
+        "subject": "رمزٌ للذكرى والأمل.",
+        "description": "تعكس هذه الصورة رحلة عاطفية مؤثرة من الفقدان إلى الأمل، حيث تمتزج مشاعر الحزن بالتطلع إلى بداية جديدة ومشرقة. ترمز إلى التغيير والتحول، وتجسد تجربة إنسانية مشتركة في مواجهة التحديات وبناء حياة جديدة مليئة بالأمل والتفاؤل.",
+        "projectDetails": [
+          {
+            "id": 1,
+            "subjectDetails": "من دمشق إلى برلين قصة صمود",
+            "cardDescription": "ضوء ولادة جديدة يلتقط التعقيد العاطفي للتشريد والرحلة من وطن مزقته الحرب إلى حياة جديدة. يمزج هذا المشروع الفني بين الذكريات الشخصية والصور الرمزية، مما يمثل كل من الفقدان والتجديد. في قلب العمل هو الضوء الأحمر الليلي، منارة لم تنر فقط الرحلة المادية من دمشق إلى برلين ولكنها أيضًا تعمل كاستعارة للصمود في مواجهة الشدائد. الساعة، التي ارتديت في لحظات من عدم اليقين، تصبح رمزًا لمرور الوقت، مما يبرز المسافة بين الماضي والمستقبل. إنها تعكس كيف يمكن أن تتشوش قيمة ما كان مألوفًا ذات يوم—الوطن، الثقافة، والهوية—بسبب النزاع. تضمين العناصر اليومية مثل عصير التفاح والياسمين الدمشقي يضيف طبقات من الحنين والعاطفية، مما يثير اتصالاً بالأوقات الأبسط بينما يبرز الطبيعة المؤلمة للذاكرة. معًا، تروي هذه العناصر قصة قوية عن حياة مضطربة ولكن غير مدمرة، حيث يتعايش الأمل والحزن. المشروع ليس فقط تكريماً للبقاء ولكن أيضًا دعوة للتفكير في التجربة الإنسانية الأوسع للهجرة والبحث عن الانتماء. من خلال ألوانه الزاهية، وملمسه الرقيق، وتكوينه المدروس، يثير ضوء ولادة جديدة استجابة عاطفية عميقة، مما يجعله ليس مجرد عمل فني بصري، ولكن سرداً للتحول.",
+            "imageGroup": {
+              "img_1": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/c|o/c|oAustellungN1.jpg",
+                "imageSubject": "صورة 1 - @c|o ألمانيا، برلين 2017"
+              },
+              "img_2": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/c|o/c|oAustellungN2.jpg",
+                "imageSubject": "صورة 2 - @c|o ألمانيا، برلين 2017"
+              },
+              "img_3": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/c|o/c|oAustellungN3.jpg",
+                "imageSubject": "صورة 3 - @c|o ألمانيا، برلين 2017"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "path": "projectCard",
+        "title": "انت وأنا",
+        "icon": "",
+        "data": "برلين - 11.01.2015",
+        "image": "../src/assets/images/hamdiphotos/project/projectPage/youme.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/projectHover/youme.jpg",
+        "subject": "رابط عاطفي عميق",
+        "description": "يجسد هذا التصميم الجرافيكي اندماج وجهي شاب وشابة، رمزًا لرابطهم العاطفي. تظهر الانتقالات السلسة بين ملامحهم قربهم، فيما يعكس غياب الحدود انسجامًا وتواصلًا. التصميم يبرز مشاعر التعاطف والتفاهم، معبّرًا عن قوة الروابط التي تجمع العلاقات",
+        "projectDetails": [
+          {
+            "id": 101,
+            "subjectDetails": "أنا وأنتِ",
+            "cardDescription": "التصميم الجرافيكي بعنوان \"رابطة سلسة\" يلتقط جوهر الوحدة والاتصال من خلال دمج ماهر لوجهي شاب وشابة. يعرض هذا العمل الشاب والشابة اللذان يتم دمج ملامحهما بسلاسة، مما يرمز إلى رابطة عاطفية حميمية. لقد أبدع الفنان في إحداث انتقال لطيف بين وجهيهما، مما يبرز أوجه التشابه والاتصال العميق بينهما. في هذا التصميم، يبرز غياب الحدود المميزة بين الوجوهين الانسجام والقرب بينهما. توازن التفاصيل بدقة والدمج السلس لتعبيراتهم يعكس إحساسًا قويًا بالتعاطف والتفاهم المتبادل. هذه الصورة تمثل أكثر من مجرد جماليات؛ إنها تذكير مؤثر بالتجربة الإنسانية المشتركة والروابط العاطفية التي تجمعنا. يدعو العمل المشاهدين للتفكر في جمال العلاقات وفكرة أنه على مستوى أساسي، نحن جميعًا مترابطون. تجسد الصورة بشكل eloquent الفكرة أنه داخل كل واحد منا، يوجد انعكاس للآخر، مما يعزز موضوع الروح العالمية والتآزر العاطفي. بينما تستكشف هذا التصميم بشكل أعمق، دعها تلهمك للتفكير في طرق تواصلنا مع بعضنا البعض والعثور على القواسم المشتركة. التصميم لا يحتفل بالفرد فقط ولكن أيضًا يبرز أهمية روابطنا مع الآخرين.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "path": "projectCard",
+        "title": "عاطفة الركام",
+        "icon": "",
+        "data": "برلين - 25.06.2016",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/emothion.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/emothion.jpg",
+        "description": "تُصوّر هذه الرسمة وجه طفل يندمج مع مشهد مدمر، مما يعكس المأساة الإنسانية. عيون الطفل الحزينة تتداخل مع الأنقاض، وتجسد المعاناة المستمرة. يعبر الدمج عن الندوب العاطفية والنفسية التي تتركها الكوارث على الأفراد والمجتمعات، لتبقى في الذاكرة الجماعية.",
+        "subject": "التأثير والترابط العاطفي",
+        "projectDetails": [
+          {
+            "id": 102,
+            "cardDescription": "في هذا التصميم الجرافيكي المؤثر، الذي يحمل عنوان \"مشاعر المورين\"، تندمج ملامح وجه طفل يغمره الحزن والبراءة مع منظر طبيعي مدمر. يعكس هذا التباين البصري التأثير العميق للدمار البيئي والبشري. تعبر العيون الدامعة للطفل، التي تمتزج مع التضاريس الفوضوية، عن الثقل العاطفي لهذه المآسي. يُستخدم مصطلح \"المورين\" بشكل مجازي لتمثيل الحطام العاطفي والمادي المتبقي بعد الكوارث، مما يبرز الندوب العميقة التي تتركها هذه التدميرات. يحث هذا التصوير القوي على التفكير في التداعيات الأوسع للتأثيرات البيئية والبشرية، داعياً إلى العمل للحد من هذه المشاكل.",
+            "subjectDetails": "نبض المشاعر وسط الدمار",
+            "imageGroup": {
+              "img_2": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN2.jpg",
+                "imageSubject": "الصورة 1"
+              },
+              "img_3": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN3.jpg",
+                "imageSubject": "الصورة 2"
+              },
+              "img_4": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN4.jpg",
+                "imageSubject": "الصورة 3"
+              },
+              "img_5": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN5.jpg",
+                "imageSubject": "الصورة 4"
+              },
+              "img_6": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN6.jpg",
+                "imageSubject": "الصورة 5"
+              },
+              "img_7": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN7.jpg",
+                "imageSubject": "الصورة 6"
+              },
+              "img_8": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN8.jpg",
+                "imageSubject": "الصورة 7"
+              },
+              "img_9": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN9.jpg",
+                "imageSubject": "الصورة 8"
+              },
+              "img_10": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/emothion/emothionN10.jpg",
+                "imageSubject": "الصورة 9"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "path": "projectCard",
+        "title": "رحلة عبر الأنقاض",
+        "icon": "",
+        "data": "دمشق - 04.09.2013",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/theEndofTheWorld.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/theEndofTheWorld.jpg",
+        "subject": "البحث عن الأمل",
+        "description": "تصوّر هذه اللوحة رجلين سوريين يخرجان من أنقاض الأحياء المدمرة، باحثين عن مكان جديد في عالم مجهول. يسيران بين الأمل واليأس، تعكس اللوحة إحساس التهجير والبحث عن مستقبل. يظهران كرمز للمعاناة والأمل في إيجاد ملاذ جديد، وتجسد صراع الهوية في عالم مضطرب.",
+        "projectDetails": [
+          {
+            "id": 103,
+            "subjectDetails": "نهاية العالم",
+            "cardDescription": "في هذه اللوحة القوية والمؤثرة، التي تحمل عنوان \"نهاية العالم\"، يغوص الفنان بعمق في السرد المأساوي للتهجير والبقاء في أعقاب الصراع. تتكشف المشهد مع رجلين سوريين يظهران من بين حطام أحياء كانت مزدهرة يوماً، والتي دمرها تيار الحرب المستمر بلا رحمة. البيئة المحيطة بهم هي لوحة صارخة للدمار: المباني المنهارة، الحطام المتناثر، وبقايا حياة مقطوعة.\n\nيقف الرجال على عتبة فصل جديد وغير مؤكد، وتظهر أشكالهم مظللة ضد خلفية الخراب. تعبيراتهم مزيج مؤثر من الأمل واليأس - حالة عاطفية معقدة تعكس رحلتهم العاصفة. يجسد الفنان ببراعة هشاشة وضعهم والوزن النفسي الهائل لمأزقهم. وجوههم، المليئة بالإرهاق، تنقل رغبة عميقة في الاستقرار والسلام، بينما عيونهم تشير إلى بريق أمل في مستقبل أفضل.\n\nتتباين تكوين اللوحة بشكل حاد مع الدمار الفوضوي المحيط بالرجال مع الفضاء الواسع والمفتوح أمامهم. هذا التباين يرمز إلى طبيعة بحثهم عن منزل جديد الذي يبدو شاقاً وغير قابل للتنبؤ. البيئة مرسومة بواقعية صارمة، مما يبرز شعوراً عميقاً بالضياع والانفصال الذي يواجهه أولئك الذين يجبرون على مغادرة أوطانهم.\n\nيلعب استخدام اللون والضوء في العمل دوراً حاسماً في تعزيز العمق العاطفي للمشهد. الألوان الخافتة للخراب تتناقض مع الألوان الدافئة قليلاً للأفق، مما يوحي بإمكانية التجديد والشفاء حتى في وسط الدمار. تبرز التلاعبات بين الضوء والظل عزلة الرجال بينما تشير في الوقت نفسه إلى إمكانية الأمل والبدء من جديد.\n\n\"نهاية العالم\" ليست مجرد تمثيل بصري؛ إنها استكشاف حسّي للحالة الإنسانية في مواجهة التغييرات الكارثية. تدعو المشاهدين للتفكير في التأثيرات العميقة للصراع والتهجير، والتعاطف مع أولئك الذين تغيرت حياتهم بشكل لا رجعة فيه بسبب هذه الأحداث. العمل هو تذكير مؤثر بصمود الروح البشرية والبحث الدائم عن الأمل والانتماء، حتى في أحلك الظروف.\n\nعند تعمقك في هذه القطعة المؤثرة، يُشجّعك على التفكير في الآثار الأوسع لروايتها. تتحدث عن التجربة العالمية في البحث عن ملاذ والإرادة الصلبة للمضي قدماً على الرغم من الصعوبات الهائلة. من خلال تصوير رحلة هذين الرجلين، \"نهاية العالم\" يلتقط لحظة من الضعف البشري العميق والبحث المستمر عن مكان يمكن أن يُطلق عليه اسم الوطن.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 104,
+        "path": "projectCard",
+        "title": "أصوات مغلقة",
+        "icon": "",
+        "data": "دمشق - 22.07.2012",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/silencerCivilizedVoice.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/silencerCivilizedVoice.jpg",
+        "subject": "أصوات مهملة إعلامياً",
+        "description": "يصور هذا العمل الفني الأطفال داخل ميكروفون، مما يرمز إلى تجاهل أصواتهم من الإعلام. ينتقد العمل إهمال حقوق الأطفال ويسلط الضوء على الفجوة بين مخاوفهم واعتراف الإعلام بها. يبرز العمل الحاجة إلى تمثيل حقيقي وحق الأطفال في أن يُسمع صوتهم",
+        "projectDetails": [
+          {
+            "id": 104,
+            "subjectDetails": "أصوات مغلقة",
+            "cardDescription": "'أصوات مغلقة' هو عمل فني قوي ومؤثر يقدّم نقدًا لاذعًا لكيفية تهميش أصوات الأطفال وغالبًا ما يتم تجاهلها من قبل وسائل الإعلام والهياكل المجتمعية المعاصرة. في النظرة الأولى، يقدم العمل صورة بصرية مذهلة: ميكروفون، رمز للتواصل والصوت، مليء بالأطفال. هذا التباين يقدم تشبيهًا قويًا للصمت الذي تفرضه هذه الهياكل على أصوات الشباب.\n\nالميكروفون، الذي يُستخدم عادة لتضخيم الأصوات وتسهيل التواصل، يُحوّل في هذا العمل إلى وعاء يحتوي الأطفال، الذين يمثلون المستقبل وجوهر الإمكانات غير المستغلة. بدلاً من تضخيم أصواتهم، يقوم الميكروفون في هذا العمل بإسكاتها، مما يرمز إلى كيفية تجاهل مخاوفهم.\n\nينتقد هذا التصميم دور الإعلام في تشكيل الخطاب العام ويسلط الضوء على فشله في تمثيل أصوات الأطفال بشكل كافٍ. في العديد من المجتمعات، يتم تهميش آراء الأطفال وتجاربهم وغالبًا ما تُظَلّل من خلال السرديات الأكثر بروزًا.\n\nالعمل هو دعوة إلى العمل، يطالب بالاعتراف بحقوق الأطفال وتمثيلهم في الخطاب الإعلامي. يجسد التصميم احتياجًا ملحًا للاهتمام بالصوت الشبابي، ويعتبر تذكرة مهمة بأهمية الاستماع إلى أصوات الأجيال الجديدة ودمجها في المحادثات التي تشكل مستقبلنا.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "path": "projectCard",
+        "title": "السقوط من الجنة",
+        "icon": "",
+        "data": "دمشق - 07.07.2011",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/syria.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/syria.jpg",
+        "description": "هذا العمل الفني يُظهر اسم \"سوريا\" وهو يحترق بشدة فوق الأرض، في خلفية الفضاء. تمثل النيران آثار الصراع على البلاد. يبرز التناقض بين الدمار واتساع الفضاء اللامبالي المعاناة والعزلة التي تعيشها سوريا.",
+        "subject": "مرحبًا بكم في سوريا",
+        "projectDetails": [
+          {
+            "id": 105,
+            "subjectDetails": "سوريا",
+            "cardDescription": "\"سوريا\" هو عمل فني قوي يظهر اسم البلاد وهو يحترق بشدة فوق الأرض في خلفية الفضاء. تمثل هذه الاستعارة البصرية بشكل مؤثر التأثير المدمر للصراع المستمر على سوريا. تعكس النيران المكثفة التي تحيط بالاسم الدمار والمعاناة المستمرة التي شكلت تاريخ البلاد الحديث.\n\nيبرز اختيار الفضاء كخلفية الشعور العميق بالعزلة والهجر الذي تعاني منه سوريا. يتناقض الفراغ الواسع واللامبالي بشدة مع الدمار الناري، ويؤكد على غياب التدخل الدولي المؤثر. يرمز الاسم المحترق إلى فقدان التراث والثقافة والهوية الوطنية، ويسلط الضوء على التدمير المادي وتآكل الجوهر الثقافي والتاريخي لسوريا.\n\nيعكس العمل الفني أيضًا العواقب طويلة الأمد للصراع. تشير النيران المستمرة والدخان إلى أنه رغم احتمال انحسار الدمار الفوري، إلا أن تأثيرات الحرب ستظل تؤثر على سوريا عبر الأجيال. يخدم هذا العمل كتذكير مؤثر للمعاناة البشرية خلف العناوين، ويدعو المشاهدين للتفكير في النضال المستمر للأمة في مواجهة الصعوبات الهائلة.\n\nيجذب هذا العمل الفني الانتباه من خلال تصوراته البصرية القوية وحملته العاطفية الثقيلة. إنه تكريم لروح سوريا التي لا تنكسر، ونداء لعدم نسيان القصص العميقة عن المقاومة والأمل في مواجهة الدمار.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 106,
+        "path": "projectCard",
+        "title": "شعارات سورية",
+        "icon": "",
+        "data": "برلين - 04.11.2018",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/logo.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectPage/logo.jpg",
+        "subject": "شعارات مميزة لمدن سورية.",
+        "description": "يعرض هذا العمل الفني شعار دمشق، أقدم عاصمة مأهولة. كأول شعار في سلسلة تضم جميع المدن السورية، يجسد هذا التصميم المعقد التراث الثقافي الغني والأهمية التاريخية لمدينة دمشق. يمثل كل شعار مدينة فريدة، ويسلط الضوء على التنوع التاريخي والثقافي لسوريا.",
+        "projectDetails": [
+          {
+            "id": 106,
+            "subjectDetails": "شعارات مدن سورية",
+            "cardDescription": "هذا العمل الفني هو شعار مصنوع بدقة يمثل مدينة دمشق، وهي المدينة التي تحمل تمييز كونها أقدم عاصمة مأهولة بشكل مستمر في العالم. الشعار ليس مجرد رمز؛ بل هو سرد بصري يجسد التاريخ الغني والثقافة والأهمية التي تحملها دمشق ضمن السياق الواسع لتراث سوريا المتنوع. كأول شعار في سلسلة مخصصة لمدن سورية، يمثل هذا الشعار الأساس لمجموعة تهدف إلى الاحتفاء بالهويات والتراثات الفريدة لكل مدينة في البلاد.\n\nتصميم شعار دمشق مليء بالرمزية، حيث تم اختيار كل عنصر بعناية ليعكس جوانب مختلفة من هوية المدينة. الأنماط المعقدة والزخارف تعكس العمارة القديمة والتقاليد الفنية التي ازدهرت في دمشق على مدى آلاف السنين. الألوان والأشكال التقليدية المستخدمة في التصميم تهدف إلى تذكير المشاهدين بالجذور العميقة للمدينة في التاريخ، بينما تسلط الضوء أيضًا على حضورها المستمر كمركز ثقافي وروحي في الشرق الأوسط.\n\nفي قلب الشعار يوجد رمز مركزي يمثل دمشق نفسها. قد يكون هذا رمزًا مصممًا لعلم بارز مثل المسجد الأموي، أو تمثيلًا أكثر تجريدًا لجوهر المدينة التاريخي. قد تتضمن العناصر المحيطة بهذا الرمز الرئيسي إشارات إلى مساهمات دمشق في الفن والعلوم والأدب، وكذلك دورها كمفترق طرق للحضارات عبر التاريخ. لغة التصميم تعبر عن الطبيعة الأبدية للمدينة، كونها مساحة حضرية يتعايش فيها الماضي والحاضر والمستقبل بتوازن دقيق.\n\nالخط المستخدم في الشعار هو أيضًا عنصر أساسي، حيث يتم تقديم اسم \"دمشق\" في خط يمزج بين التقليد والحداثة. قد يتم تصميم الأحرف بطريقة تذكر بالخط العربي، لكنها تظل متاحة لجمهور عالمي، مما يبرز الأهمية العالمية لدمشق كرمز للصمود والاستمرارية. النص يكمل العناصر المرئية، مما يخلق هوية متماسكة تكرم تراث المدينة وتضعها ضمن السياق الأوسع للثقافة السورية.\n\nباعتباره أول شعار في سلسلة أوسع، فإن هذا العمل الفني يعد حجر الزاوية لمجموعة تمثل في النهاية جميع المدن السورية الكبرى. تم تصميم كل شعار في السلسلة ليكون مميزًا، يعكس الطابع الفريد والتاريخ الخاص بالمدينة التي يمثله، لكنهم جميعًا مرتبطون من خلال لغة بصرية مشتركة. هذا النهج لا يسلط الضوء على التنوع داخل سوريا فحسب، بل يؤكد أيضًا على الوحدة والتراث المشترك الذي يجمع هذه المدن معًا.\n\nلذلك فإن شعار دمشق هو أكثر من مجرد رمز؛ بل هو بوابة لفهم المشهد الثقافي والتاريخي الأوسع لسوريا. يدعو المشاهدين إلى استكشاف طبقات المعنى المدمجة في التصميم، مما يشجع على تقدير أعمق لدور دمشق في تشكيل الهوية السورية. من خلال هذا الشعار، يتم الاحتفاء بالمدينة القديمة ليس فقط كمكان على الخريطة، بل ككيان حي مستمر في إلهام وتأثير الآخرين.\n\nهذا العمل الفني مخصص لجمهور واسع، من أولئك الذين لديهم ارتباطات شخصية بدمشق إلى أولئك الذين يكتشفون أهميتها لأول مرة. إنه يعمل كسفير بصري للمدينة، ينقل أهميتها بطريقة بصرية لافتة ومعبرة للغاية. من خلال جعل دمشق نقطة الانطلاق للسلسلة، يضع الفنان معيارًا عاليًا للشعارات التي ستتبع، مما يضمن أن كل تصميم لاحق سيعكس جوهر المدينة الخاصة به بنفس المستوى من العناية والتفاصيل.\n\nتهدف مجموعة الشعارات ككل إلى تقديم رحلة بصرية عبر سوريا، حيث يعمل كل شعار كفصل في قصة الأمة. شعار دمشق على وجه الخصوص هو احتفال بمدينة اجتازت اختبارات الزمن، وشهادة على صمودها، وتكريم لشعبها الذي يستمر في حمل إرثها إلى الأمام.",
+            "imageGroup": {
+              "img_1": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/alepo.jpg",
+                "imageSubject": "شعار حلب"
+              },
+              "img_2": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/homs.jpg",
+                "imageSubject": "شعار حمص"
+              },
+              "img_3": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/dara.jpg",
+                "imageSubject": "شعار درعا"
+              },
+              "img_4": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/dairAlzour.jpg",
+                "imageSubject": "شعار دير الزور"
+              },
+              "img_5": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/latakia.jpg",
+                "imageSubject": "شعار اللاذقية"
+              },
+              "img_6": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/alswedaa.jpg",
+                "imageSubject": "شعار السويداء"
+              },
+              "img_7": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/tartous.jpg",
+                "imageSubject": "شعار طرطوس"
+              },
+              "img_8": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/hama.jpg",
+                "imageSubject": "شعار حماة"
+              },
+              "img_9": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/logoDamascus.jpg",
+                "imageSubject": "شعار دمشق"
+              },
+              "img_10": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/logoCham.jpg",
+                "imageSubject": "شعار شام"
+              },
+              "img_11": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/Cham-Umawe1.jpg",
+                "imageSubject": "شعار شام أموي 1"
+              },
+              "img_12": {
+                "url": "../src/assets/images/hamdiphotos/project/projectDetails/logos/Cham-Umawe2.jpg",
+                "imageSubject": "شعار شام أموي 2"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 107,
+        "path": "projectCard",
+        "title": "عين في السجن",
+        "icon": "",
+        "data": "دمشق - 18.05.2012",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/thereIsAlwaysHope.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/thereIsAlwaysHope.jpg",
+        "subject": "رؤية الأمل من خلال القيود",
+        "description": "تُظهِر هذه القطعة الفنية عينًا محبوسة داخل كرة الأرضية، خلف قضبان السجن. تعكس العين الألم والمعاناة، بينما تمثل الكرة الأرضية الأمل والروح التي لا تزال تسعى للتحرر. تذكّرنا القطعة بأن الأمل يبقى حيًا حتى في أحلك الأوقات.",
+        "projectDetails": [
+          {
+            "id": 107,
+            "subjectDetails": "هناك دائمًا أمل",
+            "cardDescription": "تدور هذه القطعة الفنية المؤثرة، التي تحمل عنوان \"هناك دائمًا أمل\"، حول استعارة بصرية قوية: عين محبوسة داخل حدود زنزانة قاسية وغير رحيمة. يتحدث التصميم بوضوح عن الواقع المرير الذي يواجهه أولئك المسجونين ظلمًا، سواء لأسباب تتعلق بمعتقداتهم، أفعالهم، أو لمجرد وجودهم في المكان الخطأ في الوقت الخطأ. تمثل القضبان السجنية، الصارمة وغير القابلة للتغيير، الحواجز الجسدية والنفسية التي تبقي العديد من الأفراد في الأسر، بعيدين عن العالم الخارجي وحياتهم السابقة.\n\nفي قلب هذه التركيبة توجد العين - مفتوحة، يقظة، وغير قابلة للإخماد. العين، رمز عالمي للإدراك، الوعي، وروح الإنسان، تقف في تناقض حاد مع المحيط الكئيب للزنزانة. إنها ليست مجرد عين، بل رمز للضوء الداخلي الذي يرفض أن ينطفئ، مهما كانت الظروف مظلمة. العين تراقب من بين القضبان، نظرتها مركزة على عالم لا يمكنها لمسه ولكن لا تزال تتوق إليه. تمثل هذه النظرة الشوق العميق للحرية، العدالة، واستعادة الكرامة التي يحملها كل سجين بداخله.\n\nوجود العين داخل مساحة ضيقة هكذا يعمل أيضًا كتذكير مؤثر بصمود الروح البشرية. حتى عندما يكون الجسد محبوسًا، تواصل العقل والروح السعي نحو الأمل، متمسكة بالذكريات، الأحلام، وإمكانية مستقبل أفضل. تبرز هذه القطعة فكرة أن الأمل هو قوة لا يمكن قهرها، يمكنها أن تبقى حتى في أكثر الظروف قسوة. إنه الأمل الذي يبقي العين مفتوحة، يقظة، ومتصلة بالعالم وراء القضبان، رافضة الاستسلام للظلام المحيط.\n\nتجبر تكوينات العمل الفني المشاهد على مواجهة الحقائق القاسية للاعتقال، داعية إياهم لعدم التظاهر بالجهل مع معاناة أولئك المحبوسين داخل هذه الجدران. من السهل نسيان أولئك الذين هم خارج الأنظار، لكن هذه القطعة تصر على التذكير. العين، التي تحدق مباشرة في المشاهد، تخلق ارتباطًا فوريًا، كما لو كانت تطلب عدم نسيانها. إنها تتحدى المشاهد للاعتراف بإنسانية المسجونين، لتذكر نضالهم، والدفاع عن حقوقهم.\n\nعلاوة على ذلك، يقترح التصميم أنه بينما يكون السجناء مقيدين جسديًا، فإن أفكارهم وآمالهم لا يمكن سجنها. تركز العين على الرسالة الصامتة للمقاومة، الرفض للاستسلام لليأس. هذه المقاومة ليست صاخبة أو عنيفة بل تتجسد في الفعل البسيط للبقاء على أمل، بالاستمرار في النظر نحو أفق، على الرغم من أنه خارج نطاق الرؤية، إلا أنه ليس خارج الذهن.\n\nالخلفية المحيطة بالزنزانة، رغم كونها رمزًا للاضطهاد، تصبح أيضًا خلفية يتم تسليط الضوء على قوة الأمل من خلالها. إصرار العين على رؤية ما وراء الفوري، على التمسك بالأمل حتى في مواجهة الشدائد الساحقة، هو شهادة على قوة الإرادة البشرية. إنها تقترح أنه بغض النظر عن مدى سوء الوضع، هناك دائمًا بصيص من الأمل - شرارة يمكن أن تشعل التغيير، تلهم الحركات، وفي النهاية، تؤدي إلى التحرر.\n\nفي هذا السياق، لا تعتبر القطعة الفنية مجرد تعليق على الفعل المادي للاعتقال ولكن أيضًا على الموضوع الأوسع للاضطهاد. إنها تتناغم مع أي شخص شعر بالحصار، التهميش، أو الصمت، مقدمة رسالة تضامن وتشجيع. تتحدث القطعة إلى التجربة العالمية للنضال والحقيقة العالمية أن الأمل، مهما كان صغيرًا، هو قوة قوية للتغيير.\n\nفي النهاية، \"هناك دائمًا أمل\" هي دعوة للعمل. إنها تطلب منا الحفاظ على وعينا بالمضطهدين، لمواصلة النضال من أجل العدالة، وعدم فقدان الرؤية أنه طالما هناك أمل، هناك إمكانية للتغيير. هذه القطعة الفنية تذكير أن الروح البشرية، رغم أنها يمكن أن تتعرض للتحدي والتقييد، لا يمكن إخمادها حقًا. العين داخل الزنزانة تظل مفتوحة، تراقب، تأمل، وتنتظر اليوم الذي ستسقط فيه القضبان، ويتم استعادة الحرية.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 108,
+        "path": "projectCard",
+        "title": "أبجدية الياسمين",
+        "icon": "",
+        "data": "برلين - 10.03.2020",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/damascusJasmin.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/damascusJasmin.jpg",
+        "subject": "الياسمين الدمشقي العتيق",
+        "description": "يحتفي هذا العمل الفني بياسمين دمشق، رمز تراث دمشق. يجسد الرسم أناقة وعطر الأزهار، معبراً عن سحرها الخالد وأهميتها الثقافية. يدعو المشاهدين لاكتشاف دمشق من خلال أزهارها والشعور بالفخر.",
+        "projectDetails": [
+          {
+            "id": 108,
+            "subjectDetails": "ياسمين دمشق",
+            "cardDescription": "هذا العمل الفني الساحر هو تحية لياسمين دمشق، زهرة ليست مجرد إعجاز نباتي بل أيضًا رمز متجذر بعمق في النسيج الثقافي والتاريخي لدمشق. يلتقط العمل بخفة الأزهار الرقيقة العطرية، التي تمثل جمال دمشق وصمودها. كل ورقة مفصلة بدقة تعكس تقدير الفنان للزهرة وأهميتها لشعب دمشق.\n\nياسمين دمشق، المعروف محليًا بـ \"زهرة الياسمين\"، مشهور بجماله الرقيق وعطره الساحر. لقرون عديدة، زيّن الياسمين ساحات وشوارع وبيوت دمشق، وهو جزء لا يتجزأ من هوية المدينة. تمثل هذه الأزهار، ببتلاتها النجمية البيضاء، قلب دمشق وتنقل المشاهدين إلى مكان حيث يملأ عطر الياسمين الهواء، مانحًا إحساسًا بالسلام والحنين.\n\nالعمل الفني يجسد أكثر من مجرد زهرة؛ فهو يحكي قصة مدينة وشعبها. دمشق، إحدى أقدم المدن المأهولة باستمرار في العالم، شهدت صعود وسقوط العديد من الإمبراطوريات. على الرغم من التحديات والصراعات التي مرت بها المدينة، لا يزال ياسمينها يزهر، رمزًا للأمل والاستمرارية وجمال يبقى حتى في أصعب الأوقات.\n\nتدعو التفاصيل الدقيقة للعمل المشاهدين لتقدير الأناقة الرقيقة لكل زهرة. بترتيب بتلاتها المتناسق، تخلق الزهرة إحساسًا بالتوازن والهدوء. هذه العناية الفائقة بالتفاصيل لا تعكس فقط براعة الفنان، بل تبرز أيضًا أهمية الياسمين في الثقافة الدمشقية. فالزهرة ليست مجرد نبات للزينة؛ بل هي رمز للضيافة والحب والتراث الثقافي الغني لدمشق.\n\nبالإضافة إلى ذلك، يثير العمل الفني شعورًا عميقًا بالحنين والفخر لدى أولئك الذين لديهم صلة بالمدينة. بالنسبة للكثيرين، يعتبر الياسمين تذكارًا للوطن، عطرًا يوقظ ذكريات الطفولة والاجتماعات العائلية واللحظات البسيطة في حياة دمشق. يجسد العمل هذه المشاعر ويدعو المشاهدين للغوص في تجربة حسية، حيث يمكنهم لمس بتلات الياسمين واستنشاق عطره الحلو المهدئ.\n\nتعزز الألوان الناعمة للعمل الفني - من الأبيض والأخضر والأصفر الباهت - الشعور بالهدوء والخلود. الخلفية البسيطة المتعمدة تبرز الياسمين، مما يسلط الضوء على أهميته في التكوين. هذا التباين بين بساطة الإعداد وتعقيد رمزية الزهرة يخلق تأثيرًا بصريًا وعاطفيًا قويًا.\n\nباختصار، يحتفي هذا العمل بياسمين دمشق، رمز الروح المستمرة وجمال المدينة. يكرم دور الزهرة في التراث الثقافي لدمشق ويجسد أناقتها وأهميتها بعمق عاطفي وبراعة فنية. يقدم اللوحة تجربة بصرية ووجدانية، ويمنح المشاهدين لمحة عن جوهر دمشق من خلال عدسة زهرة الياسمين المحبوبة.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 109,
+        "path": "projectCard",
+        "title": "سوف نبقى هناك",
+        "icon": "",
+        "data": "دمشق - 18.03.2012",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/weStayHere.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/weStayHere.jpg",
+        "subject": "الارتباط الدائم بالجذور.",
+        "description": "يعبر هذا العمل الفني عن الارتباط العميق بالجذور. يدٌ تتشبث بغصن شجرة، ترمز إلى العلاقة غير القابلة للكسر مع الأصول. تعكس القبضة التمسك بالتراث رغم تغيرات الحياة. يبرز التصميم تكريم الأصول والتذكير بأنها جزء من هويتنا، مما يعزز الانتماء والفخر.",
+        "projectDetails": [
+          {
+            "id": 109,
+            "cardDescription": "ذا العمل الفني بعنوان \"نبقى هنا إلى الأبد\" هو تمثيل بصري عميق للعلاقة الدائمة بالجذور. العنصر المركزي في التكوين هو يد تمسك بغصن شجرة كبير، والذي يعمل كاستعارة قوية للرابط العميق وغير القابل للكسر بين الفرد وأصوله. الصورة تتحدث عن الحاجة الإنسانية الفطرية للبقاء متصلين بجذورنا، بغض النظر عن المسارات التي قد تأخذنا حياتنا فيها.\n\nاليد في العمل الفني تمسك بالغصن بقوة وتصميم، مما يرمز إلى التزام لا يتزعزع. هذا القبض ليس مجرد فعل جسدي، بل هو تعبير عن العزم الداخلي على عدم التخلي عن التراث والهوية. قوة اليد تعكس فكرة أن جذورنا ليست مجرد جزء من ماضينا، بل هي جزء أساسي من حاضرنا ومستقبلنا أيضًا. إنها توفر لنا الاستقرار والشعور بالانتماء، وتثبتنا حتى ونحن نبحر في تيارات الحياة المتغيرة باستمرار.\n\nالغصن نفسه قوي وسميك، مما يمثل غنى وحيوية تراثنا. الأشجار بجذورها الواسعة تعتبر رموزًا طبيعية للنمو والحياة والاستمرارية. من خلال التركيز على الغصن، يبرز العمل الفني فكرة أن جذورنا، مثل جذور الشجرة، هي الأساس الذي ننمو منه. إنها توفر لنا التغذية والقوة التي نحتاجها للزدهار. اختيار غصن كبير يشير إلى أن هذه الجذور قوية ودائمة، قادرة على الصمود أمام أي عاصفة.\n\nخلفية القطعة بسيطة عمدًا، مما يضمن أن تركيز المشاهد يبقى على اليد والغصن. هذه البساطة تؤكد على الطبيعة الزمنية والعالمية للموضوع—بغض النظر عن المكان الذي نحن فيه أو التحديات التي نواجهها، تظل صلتنا بجذورنا راسخة. قد تثير ألوان الخلفية الباهتة إحساسًا بالأرض، مما يعزز فكرة الثبات والاستقرار. إنها تذكرنا بأن أصولنا هي الأساس الذي نبني عليه حياتنا.\n\nرسالة \"نبقى هنا إلى الأبد\" هي رسالة من الصمود والشرف. تتحدث عن أهمية التمسك بأصولنا، ليس فقط كمسألة فخر شخصي، بل أيضًا كمصدر للقوة. يقترح العمل الفني أنه في عالم يتغير باستمرار، حيث يمكن أن تبدو الهوية والروابط في بعض الأحيان مؤقتة، فإن جذورنا هي شيء يمكننا دائمًا الاعتماد عليه. إنها مصدر للقوة، تمنحنا الشجاعة والعزم لمواجهة كل ما يأتينا.\n\nيتناول هذا العمل أيضًا فكرة الإرث. من خلال التمسك بجذورنا، لا نحافظ فقط على هويتنا الشخصية، بل نضمن أيضًا أن الأجيال القادمة لديها أساس قوي يمكنها النمو منه. يمكن رؤية صورة اليد التي تمسك بالغصن كرمز لنقل القيم والتقاليد والحكمة من جيل إلى جيل. يشير إلى أنه من خلال البقاء مرتبطين بجذورنا، فإننا نكرم الماضي ونمهد الطريق للمستقبل.\n\nبهذا المعنى، \"نبقى هنا إلى الأبد\" ليس مجرد بيان عن الهوية الشخصية، بل هو إعلان عن الاستمرارية. إنه تكريم للقوة الدائمة للتراث، وتذكير بأن جذورنا هي جزء حيوي مما نحن عليه وستظل دائمًا معنا، بغض النظر عن المكان الذي تأخذنا فيه رحلة الحياة. يدعو العمل الفني المشاهدين للتفكير في ارتباطاتهم بجذورهم، وتشجيعهم على تقدير هذه الروابط وحمايتها كجزء أساسي من كيانهم.\n\nبساطة القطعة المرئية تتوافق مع عمقها العاطفي. القبضة على الغصن هي صورة قوية ترن على مستويات متعددة، ترمز إلى القوة والاستمرارية والرابطة التي لا تنفصم مع الجذور. إنها تذكير دائم بأنه، بغض النظر عن المكان الذي نذهب إليه، نحمل جذورنا معنا. إنها الرفقاء الصامتون ولكن الثابتون الذين يرشدوننا ويدعموننا ويذكروننا بأصولنا. هذا العمل الفني هو احتفال بالقوة الدائمة التي تأتي من البقاء أوفياء لجذورنا، قوة ستظل بالفعل إلى الأبد.",
+            "subjectDetails": "الارتباط الدائم بالجذور",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 110,
+        "path": "projectCard",
+        "title": "لا تنسَ الفقراء",
+        "icon": "",
+        "data": "برلين - 14.11.2013",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/poor.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/poor.jpg",
+        "subject": "معاناة الأيتام في زمن الحرب",
+        "description": "يجسد هذا العمل الفني تأثير الحرب على الأيتام والفقراء. عين واحدة، مملوءة بالناس الجائعين، ترمز إلى المعاناة غير المرئية. الدمار المحيط يبرز الواقع القاسي الذي يواجهونه، مؤكداً الحاجة إلى المساعدة والتعاطف. يدعو هذا العمل المشاهدين إلى تذكر الفقراء ودعمهم.",
+        "projectDetails": [
+          {
+            "id": 110,
+            "cardDescription": "في هذا التصميم الجرافيكي القوي والمؤثر، يلتقط الفنان المعاناة العميقة والمخفية في كثير من الأحيان لليتامى والمجتمعات الفقيرة التي دمرتها الحروب. العنصر المركزي في العمل الفني هو عين واحدة نافذة، تعمل كرمز مؤثر للتمحيص العميق والرحمة التي تحتاجها هذه الفئات المهمشة بشكل عاجل.\n\nفي نظرة العين، تتكشف المشهد كتصوير مرعب لأشخاص يعانون من الجوع، مصطفين كما لو كانوا في انتظار الحكم. تعكس هذه الصورة الظروف اليائسة التي يواجهها هؤلاء الأشخاص يومياً، وتبرز يأسهم وضعفهم. العين، رغم أنها تبدو كعنصر بصري بسيط، تمثل سرداً أوسع لعدم الاكتراث الاجتماعي والالتزام الأخلاقي بالعمل.\n\nمحاطة بالعين، توجد منظر طبيعي فوضوي وموحش، مرسوم بتفاصيل خام وغير مفلترة. التدمير والتخريب في هذا الخلفية يعكسان الدمار الجسدي والعاطفي الذي يعاني منه الذين تُركوا وراءهم في أعقاب الصراعات. هذا التباين بين العين المفصلة والبيئة القاتمة يبرز واقع معاناتهم ويحث المشاهدين على مواجهة حقيقة مؤلمة لوجودهم.\n\nالعمل الفني ليس مجرد انعكاس للمعاناة، بل هو دعوة للعمل. فهو يعمل كتذكير قوي بأن نضالات الفقراء والمشردين يجب ألا تُنسى أو تُظلل. يطلب الفنان من المشاهدين الاعتراف بمعاناتهم، وتقديم الدعم، وتعزيز التعاطف. من خلال التركيز على العين، يبرز العمل أهمية التعاطف وضرورة عدم إغماض العين عن احتياجات الأكثر ضعفاً.\n\nبشكل أساسي، \"لا تنس الفقراء\" هو بيان بصري يدعو الأفراد والمجتمعات إلى تذكر الذين يعانون بصمت والتصرف بسرعة ولطف. إنه يتحدىنا للتعرف على الظلم الذي يواجهه أولئك الذين غالباً ما يكونون غير مرئيين في فوضى النزاعات العالمية، ويؤكد على ضرورة التضامن والعمل الإنساني.",
+            "subjectDetails": "التضامن والعدالة الاجتماعية",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 111,
+        "path": "projectCard",
+        "title": "أهلاً وسهلاً في سوريا",
+        "icon": "",
+        "data": "دمشق - 02.11.2012",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/welcomeToSyria.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/welcomeToSyria.jpg",
+        "description": "يعكس هذا العمل الفني تحول سوريا من ملاذ إلى أرض من الاضطرابات. يُظهر الطريق الطويل الذي يؤدي إلى شجرة كبيرة بها باب على شكل خريطة سوريا، مما يرمز إلى الجنة المفقودة. تم إنشاؤه في عام 2013، يعبر هذا العمل عن الحزن الناتج عن التغيرات المدمرة في سوريا.",
+        "subject": "من الجنة الى الخراب",
+        "projectDetails": [
+          {
+            "id": 111,
+            "subjectDetails": "أهلا بكم في سوريا",
+            "cardDescription": "\"أهلاً وسهلاً في سوريا\" هو عمل فني عميق وموحي يلتقط التباين الحاد بين الماضي والحاضر في سوريا. تم إنشاؤه في عام 2013، يوفر هذا العمل تعليقًا مؤثرًا على التحول الجذري في البلاد من أرض السلام والازدهار إلى واحدة مشوهة بالصراع والمعاناة.\n\nفي مركز التكوين، يوجد طريق طويل وقاحل يمتد بلا نهاية نحو الأفق. هذا الطريق يرمز إلى الرحلة عبر الزمن وتدفق الأحداث التي أدت إلى حالة سوريا الحالية. بينما يتبع المشاهدون الطريق، يتم توجيههم إلى نقطة تركيز بارزة: شجرة كبيرة وعتيقة تقف بثبات في نهاية الطريق.\n\nالشجرة، بفرعها المتجعد وجذعها القوي، تمثل الروح الدائمة لسوريا وشعبها في مواجهة adversity. إنها رمز للمرونة والأمل، على الرغم من التحديات الهائلة التي تواجهها. ومع ذلك، يتم مقارنة هذا الرمز بالقوة بعنصر قوي: باب مدفون في جذع الشجرة، على شكل خريطة سوريا.\n\nهذا الباب ليس مجرد فتح حرفي ولكنه بوابة رمزية إلى الماضي. إنه يرمز إلى الهوية السابقة للبلاد كـ\"جنة\" - مكان للأمان والجمال الذي طغت عليه الآن الاضطرابات وعدم الاستقرار. يبرز الباب على شكل خريطة الشعور بالانفصال بين تاريخ سوريا المجيد وواقعها الحالي، مما يسلط الضوء على الإحساس بالخسارة والتهجير الذي يشعر به العديد من السوريين.\n\nاختيار هذه الصورة يبرز موضوع التحول والوزن العاطفي للتغيير. الطريق الطويل المؤدي إلى الشجرة والباب الرمزي يدعو المشاهدين للتفكير في الرحلة التي مرت بها سوريا والحزن العميق الذي يرافق مثل هذه التحولات الجذرية.\n\nمن خلال هذا العمل الفني، يلتقط الفنان جوهر تطور سوريا المأساوي، مقدماً تمثيلاً بصرياً للألم والخسارة التي عانت منها الأمة التي كانت مشهورة بجمالها وهدوءها. \"أهلاً وسهلاً في سوريا\" ليس مجرد تصوير لمنظر طبيعي مادي ولكن استكشاف عاطفي عميق للتجربة الإنسانية في مواجهة التغيير العميق.",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 112,
+        "path": "projectCard",
+        "title": "قلب الليل",
+        "icon": "",
+        "data": "دمشق - 02.10.2013",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/love.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/love.jpg",
+        "description": "يجسد هذا العمل الفني جوهر الحب الحقيقي، الذي يرمز إليه قمر على شكل قلب. تعكس السماء الليلية وضوء القمر نقاء وعمق الحب، مما يبرز المشاعر الرقيقة والاحترام. يحتفل هذا العمل بجمال الحب تحت وهج القمر، ويذكرنا بجوهره الساحر.",
+        "subject": "نقاء الحب ينعكس في ضوء القمر",
+        "projectDetails": [
+          {
+            "id": 112,
+            "cardDescription": "هذه اللوحة الفنية الرائعة، \"قصة حب تحت القمر\"، هي تصوير ساحر لقوة الحب الحقيقي العميقة والمتحولة. تجمع القطعة بين عناصر الرومانسية والهدوء، مكونة سيمفونية بصرية تتحدث إلى أعمق رغبات القلب.\n\nفي قلب العمل الفني يوجد قمر على شكل قلب، يشع توهجًا ناعمًا وأثيريًا يغمر المشهد كله في ضوء سحري. هذا القمر ليس مجرد جسم سماوي، بل هو رمز لنقاء الحب اللامحدود. إنه ينير السماء الليلية بلمعان لطيف يتباين بشكل جميل مع الفضاء المخملي العميق. هذا القلب السماوي يعكس التناغم والحنان اللذين يميزان العلاقة المحبة.\n\nتظهر الخلفية سماءً ليلية هادئة مرصعة بنجوم تومض، تعكس شرارة الحب بين الشخصيات في اللوحة. تضيف النجوم إحساسًا بالدهشة واللانهاية، مما يشير إلى أن الحب الحقيقي أبدي مثل الكون نفسه. يعزز التفاعل الدقيق بين الضوء والظل من العمق العاطفي للمشهد، مما يجذب المشاهد إلى عالم حيث كل نظرة وكل حركة تعبر عن التفاني والفهم.\n\nفي المقدمة، يتم تصوير العشاق في لحظة من الحميمية الهادئة، مضاءة أشكالهم برفق من وهج القمر. تعكس تعابيرهم الحنان والاحترام العميق لبعضهم البعض، مما يلتقط جوهر رابطة عاطفية عميقة ومستدامة. تؤكد هذه اللوحة على موضوع الاحترام المتبادل والارتباط العاطفي الذي يحدد علاقتهما.\n\nتم تصميم التركيبة الكلية للعمل الفني لتثير شعورًا بالسكينة والرهبة، داعيةً المشاهدين للتفكير في تجاربهم الخاصة بالحب والارتباط. القمر على شكل قلب هو تذكير دائم بالسحر والعجائب التي يمكن أن يجلبها الحب إلى حياتنا. بينما ينسج ضوء القمر عبر المشهد، يحول العادي إلى شيء استثنائي، محتفلًا بجمال وعمق العاطفة الحقيقية.\n\n\"قصة حب تحت القمر\" ليست مجرد لوحة فنية؛ بل هي تحية للتجربة الزمنية والعالمية للحب، ملتقطة في لحظة من الجمال الهادئ والعاطفة العميقة. تدعونا إلى تقدير والاحتفال بالروابط الخاصة التي نشاركها مع من نحب، مذكريننا بقوة الحب الساحرة تحت حراسة القمر اللطيفة.",
+            "subjectDetails": "حب نقي تحت ضوء القمر الساحر",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 113,
+        "path": "projectCard",
+        "title": "صرخات صامتة",
+        "icon": "",
+        "data": "دمشق - 02.10.2013",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/cry.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/cry.jpg",
+        "description": "يجسد هذا العمل الفني صرخات صامتة من الظلم واليأس. يعكس وجه المرأة المتشنج عذابًا عميقًا، في حين ترمز أنقاض المدن خلفها إلى الدمار الواسع. يبرز التباين بين ألمها والمشهد الخلفي المقفر الحزن والخسارة العميقة، مما يعكس الصرخات الصامتة بعد الدمار.",
+        "subject": "صرخات صامتة وسط الدمار",
+        "projectDetails": [
+          {
+            "id": 113,
+            "cardDescription": "في التصميم الجرافيكي المؤثر بعنوان \"صرخة الروح\"، يصور الفنان ببراعة الألم العميق الذي غالبًا ما يكون غير مُعبر عنه، والذي يصاحب المعاناة الشخصية والجماعية. الشخصية المركزية في العمل هي امرأة، وجهها يعبر عن لوحة مؤثرة من اليأس والإحباط. تجسد تعابيرها، وهي صرخة حادة مجمدة في الزمن، الصرخات الصامتة ولكن المدويّة لأولئك الذين يعانون في العزلة، وأولئك الذين يظل ألمهم غير مسموع وسط الفوضى في عالم مشوه بالدمار.\n\nالخلفية في هذه الصورة القوية تتميز ببقايا متداعية من مناظر حضرية كانت مزدهرة. هذه الأطلال، التي كانت يومًا ما نابضة بالحياة والنشاط، تقف الآن كرموز صارخة للخراب الذي يتبع الدمار. إنها تذكرنا بشكل مؤلم بالطبيعة العابرة للإنجازات البشرية والتداعيات التي تُغفل في كثير من الأحيان جراء الانهيارات المجتمعية. يبرز التباين بين وجه المرأة المعذّب والمشهد الحضري المقفر عمق الانهيار العاطفي والاجتماعي الذي يمكن أن يحدث عندما تُجرد الأماكن والأشخاص من حيويتهم.\n\n\"صرخة الروح\" هو رثاء بصري للمعاناة التي تستمر بعد الدمار الفوري. يتحدث عن الألم غير المعلن للأفراد الذين تظل صرخاتهم من أجل العدالة والسلام والاعتراف غير مسموعة وسط الأنقاض. هذا العمل الفني ليس مجرد تصوير للألم، بل هو دعوة للاعتراف بالصرخات الصامتة التي تبقى في الفراغ الذي يتركه الدمار. يتحدى هذا العمل المشاهدين للتفكير في التكلفة البشرية للنزاع والكوارث، داعيًا إلى فهم أعمق وتعاطف مع أولئك الذين غالبًا ما تكون معاناتهم غير مرئية.\n\nباختصار، \"صرخة الروح\" هو تعليق عميق على الندوب العاطفية التي يتركها الخراب. إنه يصور الصدام بين الاستجابة العاطفية الخام للفرد والواقع القاسي للعالم من حوله، ويدعو المشاهدين إلى التفاعل مع الجوانب الصامتة وغير المرئية في كثير من الأحيان للمعاناة البشرية والصمود.",
+            "subjectDetails": "ألوان الصمت العميق",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 114,
+        "path": "projectCard",
+        "title": "الانهيار الاقتصادي",
+        "icon": "",
+        "data": "سوريا - 15.03.2015",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/economicCollapse.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/economicCollapse.jpg",
+        "description": "انعكاس قاتم لانهيار الاقتصاد في البلاد، هذا العمل الفني يصور الواقع القاسي لاقتصاد متهالك. تُظهر الصورة عملات محطمة وهياكل منهارة، ترمز إلى تفكك الاستقرار المالي. المناظر الطبيعية القاتمة التي تفتقر إلى الألوان تعكس اليأس الذي يتبع هذا الانهيار.",
+        "subject": "الاقتصاد المتداعي لأمة",
+        "projectDetails": [
+          {
+            "id": 114,
+            "cardDescription": "في هذا العمل المؤثر بعنوان \"الانهيار الاقتصادي\"، يقدم الفنان تصويرًا مؤلمًا للتأثير الاجتماعي والعاطفي لانهيار الاقتصاد في الأمة. تظهر في المقدمة الأوراق المالية المجعدة، العملات المعدنية، والأوراق النقدية المحطمة، مما ينقل بشكل بصري إحساسًا بالانهيار وفقدان القيمة. خلف بقايا العملات المتناثرة، تعكس أطلال المباني الشاهقة الدمار الأوسع الذي يحدث عندما ينهار الاقتصاد.\n\nهذا التصميم هو أكثر من مجرد تمثيل للدمار المالي - فهو يلتقط اليأس، وفقدان الأمن، والتأثير الإنساني الذي يخلفه الانهيار الاقتصادي. افتقار الصورة للألوان الزاهية يبرز الحيوية المفقودة لمجتمع أُطفئت فيه الموارد وسبل العيش والأحلام بسبب قسوة الفقر. تسيطر الدرجات الرمادية على الصورة، مما يؤكد على عمق اليأس والخسارة.\n\nيمتد رسالة \"الانهيار الاقتصادي\" إلى ما هو أبعد من الدمار المالي - إنه تذكير قوي بمدى ارتباط الناس العميق بصحة اقتصادهم. خراب العملات هو رمز لخراب الأرواح، وهذا التعليق البصري يحث المشاهدين على التفكير في العواقب غير المرئية غالبًا للكوارث المالية على الأسر، المجتمعات، والأمم بأكملها.",
+            "subjectDetails": "أصداء الخراب المالي",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 115,
+        "path": "projectCard",
+        "title": "الهروب من الموت",
+        "icon": "",
+        "data": "حلب - 20.05.2016",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/escapeFromDeath.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/escapeFromDeath.jpg",
+        "description": "يصور هذا العمل الفني القوي رحلة يائسة للبقاء على قيد الحياة. تجسد الشخصية التي تركض في مشهد نهاية العالم الصراع من أجل الهروب من قبضة الموت. يمثل الحطام من حولهم آثار العنف، بينما يعبر اندفاع الشخصية نحو الأمام عن الصمود والأمل في المستقبل.",
+        "subject": "رحلة عبر الأنقاض",
+        "projectDetails": [
+          {
+            "id": 115,
+            "cardDescription": "\"الهروب من الموت\" هو تصميم جرافيكي مكثف وشديد العاطفية، يلتقط هروب شخص يائس من الدمار. الشخصية المركزية في العمل الفني هي صورة ظلية لشخص وحيد يركض عبر مشهد مظلم ومهدم، هاربًا من ظل الموت المتربص دائمًا. يحيط بالشخص بقايا مبانٍ مدمرة وحطام، مما يرمز إلى الدمار الذي خلفه الصراع.\n\nتبعث الشخصية الراكضة إحساسًا بالإلحاح والتصميم، مجسدة غريزة البقاء في مواجهة تحديات تبدو مستحيلة. تضفي الألوان الداكنة والنغمات الخافتة للخلفية تباينًا صارخًا مع بريق الأمل الخافت في طريق الشخصية نحو الأمام. رغم الخراب الذي يحيط بهم، تعبر حركة الشخصية نحو الأمام عن الاستمرارية والصمود والإرادة البشرية للبقاء.\n\nيخاطب \"الهروب من الموت\" النضال العالمي للبقاء في مواجهة الشدائد الهائلة. إنه تحية للقوة التي يمتلكها أولئك الذين يواجهون الصراع والمعاناة لكنهم يواصلون المضي قدمًا، مدفوعين بالأمل في الأمان والسلام والحياة. يدعو العمل الفني المشاهدين إلى مواجهة حقيقة الحرب والنزوح، بينما يذكرهم بروح أولئك الذين يسعون للهروب من قبضتها.",
+            "subjectDetails": "رحلة عبر الأنقاض",
+            "imageGroup": {}
+          }
+        ]
+      },
+      {
+        "id": 116,
+        "path": "projectCard",
+        "title": "اللجوء والأمل",
+        "icon": "",
+        "data": "أوروبا - 01.09.2017",
+        "image": "../src/assets/images/hamdiphotos/project/ProjectPage/asylum.jpg",
+        "imageHover": "../src/assets/images/hamdiphotos/project/ProjectHover/asylum.jpg",
+        "description": "الرحلة نحو اللجوء مليئة بعدم اليقين. يلتقط هذا العمل الفني المشهد العاطفي للاجئين الباحثين عن الأمان، حيث تمثل الحدود البعيدة كلاً من الفرصة والتحدي. يجسد الأشخاص المتجمعون معًا صدمة النازحين بسبب النزاع، بينما تلمح الأفق البعيد إلى غدٍ أفضل.",
+        "subject": "البحث عن ملجأ عبر الحدود البعيدة",
+        "projectDetails": [
+          {
+            "id": 116,
+            "cardDescription": "في تصميم الجرافيك بعنوان 'اللجوء'، يقدم الفنان تصويرًا مؤثرًا لتجربة اللاجئين. يُظهر العمل مجموعة من الأفراد النازحين يتجمعون معًا، وأجسادهم مغطاة بالظل وهم يقفون على حافة أفق مجهول. الحدود البعيدة المضاءة بشكل خافت ترمز إلى كل من الأمل وعدم اليقين، حيث أن طريق اللجوء ليس واضحًا أبدًا وغالبًا ما يكون مليئًا بالصعوبات التي لا تُتصور.\n\nيلعب استخدام الضوء والظل في 'اللجوء' دورًا رئيسيًا في التعبير عن التوتر العاطفي الذي يواجهه اللاجئون في رحلتهم. بينما تُضاء الحدود في المسافة، مما يشير إلى الأمان وبداية جديدة، تظل الشخصيات غارقة في الظلام، مما يعبر عن الصدمة والخوف الناتجين عن التهجير. تعكس الألوان الهادئة للمنظر الطبيعي الكآبة التي يعيشها اللاجئون، ولكن الشريط الضيق من الضوء في الأفق يشير إلى بصيص من الأمل.\n\nهذا العمل الفني هو تذكير قوي بالخيارات الصعبة التي يواجهها اللاجئون والتأثير العاطفي الذي يتركه السعي للجوء. يدعو العمل المشاهدين إلى التفكير في هشاشة هؤلاء الذين أجبروا على مغادرة منازلهم والشجاعة التي يتطلبها الرحيل إلى المجهول بحثًا عن حياة أفضل. 'اللجوء' هو تكريم لصمودهم ودعوة للتعاطف والتفهم.",
+            "subjectDetails": "رحلة إلى الأمان",
+            "imageGroup": {}
+          }
+        ]
+      }
+    ]
+  },
   "portraitImage": {
     "en": [
       {

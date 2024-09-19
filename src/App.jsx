@@ -11,7 +11,7 @@ import Street from './User/pages/Photography/Street/Street';
 import { Footer } from './User/pages/Footer/Footer';
 import { Header } from './User/components/Header/Header';
 import Gallery from './User/components/Gallery/Gallery/Gallery';
-import Project from './User/pages/Project/Project/Project';
+import Project from './User/pages/Project/Project/Project.jsx';
 import ProjectDetails from './User/pages/Project/ProjectDetails/ProjectDetails';
 
 function App() {

@@ -1,9 +1,13 @@
+
+
+/* Common Styles */
 .projectDetailsWrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding-left: 17rem;
+  padding: 1rem;
   width: 100%;
+  font-family: 'Cairo', sans-serif;
 }
 
 .projectThumbnail {
@@ -16,33 +20,25 @@
 .projectHeader {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
-/*
-.projectTitle {
-  margin-top: 0.7rem;
-  text-align: left;
-  font-size: 34px;
-  color: rgb(36, 36, 36);
-  padding-left: 1rem;
-  font-family: "Recoleta Bold", sans-serif;
-  background: linear-gradient(90deg, #af0f0f, #000000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: font-size 0.3s ease, background 0.3s ease; /
+.projectMainImage {
+  height: auto;
+  margin-top: 1rem;
 }
 
-.projectTitle:hover {
-  font-size: 32px;
+.projectImageGroupItem {
+  position: relative;
 }
-*/
+
+/* Title */
 .projectTitle {
   margin-top: 0.7rem;
-  text-align: left;
   font-size: 34px;
-  color: black; /* Black color */
   padding-left: 1rem;
   font-family: "Recoleta Bold", sans-serif;
+  color: black; /* Black color for better readability */
   background: linear-gradient(90deg, #B8860B, #000000); /* Dark golden (#B8860B) and black */
   -webkit-background-clip: text; /* Clip background to text */
   -webkit-text-fill-color: transparent; /* Make text color transparent */
@@ -53,32 +49,22 @@
   font-size: 32px; /* Reduced font size on hover */
 }
 
-.projectDetailsWrapper .projectDate {
-  padding-left: 1.2rem;
-  font-family: 'PT Serif', serif;
+/* Date and Description */
+.projectDate, .projectDataDescription {
+  font-size: 18px;
   color: #323232;
 }
 
-/*
-.projectSubject{
-  margin-top: 0.7rem;
-  text-align: left;
-  font-size: 32px;
-  color: rgb(36, 36, 36);
-  font-family: "Recoleta Bold", sans-serif;
-  background: linear-gradient(90deg, #af0f0f, #000000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: font-size 0.3s ease, background 0.3s ease;
+.projectDescription {
+  font-size: 21px;
+  color: #7d7d7d;
+  margin-bottom: 2rem;
+  white-space: pre-wrap;
+  line-height: 1.6; /* Improves readability */
 }
 
-.projectImageGroupItem {
-  position: relative;
-}
-*/
+/* Subject and Image Subject */
 .projectSubject {
-  margin-top: 0.7rem;
-  text-align: left;
   font-size: 32px;
   color: black; /* Black color */
   font-family: "Recoleta Bold", sans-serif;
@@ -88,46 +74,32 @@
   transition: font-size 0.3s ease, background 0.3s ease;
 }
 
-
-.projectMainImage {
-  height: auto;
-  margin-top: 1rem;
-}
-
-.projectSubject {
-  color: #7d7d7d;
-  text-align: left;
-  margin-top: 1rem;
-  /*font-style: italic;*/
-}
-
-.projectDetailsWrapper .projectDataDescription {
-  font-family: 'PT Serif', serif;
-  color: #939393;
-}
-
-.projectDescription {
-  color: #7d7d7d;
-  text-align: left;
-  margin-top: 1rem;
-  white-space: pre-wrap;
-}
-
 .projectImageSubject {
   color: #7d7d7d;
-  margin-top: 1rem;
-  /*font-style: italic;*/
   font-size: smaller;
   text-align: center;
-  margin-bottom: 3rem;
+  margin: 1rem 12px 3rem 0; /* Adjust spacing */
 }
 
-/* Devices with max-width of 600px */
+/* RTL Specific Styles */
+.projectDetailsWrapper.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.projectTitle.rtl,
+.projectSubject.rtl,
+.projectDataDescription.rtl,
+.projectDescription.rtl,
+.projectImageSubject.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Media Queries */
 @media only screen and (max-width: 600px) {
   .projectDetailsWrapper {
-    flex-direction: column;
     padding: 2rem;
-    padding-top: 0.5rem;
   }
 
   .projectThumbnail {
@@ -141,24 +113,15 @@
     padding-top: 0.5rem;
   }
 
-  .projectData {
-    padding-top: 0.4rem;
-  }
-
   .projectDescription {
     font-size: 16px;
   }
 }
 
-/* Devices with min-width of 600px */
 @media only screen and (min-width: 600px) {
   .projectDetailsWrapper {
     flex-direction: row;
     padding: 2rem;
-  }
-
-  .projectHeader {
-    font-size: 22px;
   }
 
   .projectDescription {
@@ -166,21 +129,14 @@
   }
 }
 
-/* Devices with min-width of 992px (Laptops/Desktops) */
 @media only screen and (min-width: 992px) {
   .projectDetailsWrapper {
-    flex-direction: column;
     margin-left: 16rem;
-    padding: 0 4rem 0 4rem;
+    padding: 0 4rem;
     width: 70%;
   }
 
   .projectDescription {
     font-size: 1.1rem;
   }
-}
-
-/* Devices with min-width of 1200px (Large Laptops/Desktops) */
-@media only screen and (min-width: 1200px) {
-  /* Additional styles for larger devices can be added here */
 }
