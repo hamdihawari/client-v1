@@ -1,20 +1,10 @@
-
-
-/* Common Styles */
-.projectDetailsWrapper {
+.projectContainer {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 1rem;
+  padding: 1em;
   width: 100%;
   font-family: 'Cairo', sans-serif;
-}
-
-.projectThumbnail {
-  vertical-align: middle;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
 }
 
 .projectHeader {
@@ -23,19 +13,16 @@
   align-items: center;
 }
 
-.projectMainImage {
-  height: auto;
-  margin-top: 1rem;
-}
-
-.projectImageGroupItem {
-  position: relative;
+.projectThumbnail {
+  vertical-align: middle;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
 }
 
 /* Title */
 .projectTitle {
-  margin-top: 0.7rem;
-  font-size: 34px;
+  font-size: 40px;
   padding-left: 1rem;
   font-family: "Recoleta Bold", sans-serif;
   color: black; /* Black color for better readability */
@@ -44,56 +31,48 @@
   -webkit-text-fill-color: transparent; /* Make text color transparent */
   transition: font-size 0.3s ease, background 0.3s ease; /* Smooth transition for font size and background */
 }
-
 .projectTitle:hover {
-  font-size: 32px; /* Reduced font size on hover */
+  font-size: 36px;
 }
 
-/* Date and Description */
-.projectDate, .projectDataDescription {
-  font-size: 18px;
-  color: #323232;
-}
-
-.projectDescription {
-  font-size: 21px;
-  color: #7d7d7d;
-  margin-bottom: 2rem;
-  white-space: pre-wrap;
-  line-height: 1.6; /* Improves readability */
+/*image*/
+.projectMainImage {
+  height: auto;
+  margin-top: 1rem;
 }
 
 /* Subject and Image Subject */
-.projectSubject {
-  font-size: 32px;
+.subjectDetails {
+  font-size: 34px;
   color: black; /* Black color */
   font-family: "Recoleta Bold", sans-serif;
   background: linear-gradient(90deg, #B8860B, #000000); /* Dark golden (#B8860B) and black */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: font-size 0.3s ease, background 0.3s ease;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
-.projectImageSubject {
+.cardDescription {
+  font-size: 20px;
   color: #7d7d7d;
-  font-size: smaller;
+  margin-bottom: 2rem;
+  white-space: pre-wrap;
+  line-height: 1.6; /* Improves readability */
+}
+
+.projectDetailImage {
+  height: auto;
+  margin-top: 1rem;
+  width: 850px;
+}
+
+.imageSubject{
+  font-size: 18px;
+  color: #7d7d7d;
   text-align: center;
-  margin: 1rem 12px 3rem 0; /* Adjust spacing */
-}
-
-/* RTL Specific Styles */
-.projectDetailsWrapper.rtl {
-  direction: rtl;
-  text-align: right;
-}
-
-.projectTitle.rtl,
-.projectSubject.rtl,
-.projectDataDescription.rtl,
-.projectDescription.rtl,
-.projectImageSubject.rtl {
-  direction: rtl;
-  text-align: right;
+  margin-bottom: 1.5rem;
 }
 
 /* Media Queries */
@@ -139,4 +118,6 @@
   .projectDescription {
     font-size: 1.1rem;
   }
+
+
 }
