@@ -13,6 +13,7 @@ import { Header } from './User/components/Header/Header';
 import Gallery from './User/components/Gallery/Gallery/Gallery';
 import Project from './User/pages/Project/Project/Project.jsx';
 import ProjectDetails from './User/pages/Project/ProjectDetails/ProjectDetails';
+import ProjectItem from "./User/pages/Project/ProjectItem/ProjectItem.jsx";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
               <Route path="/landscape/:_gallery/:index?" element={<Gallery />} />
               <Route path="/street/:_gallery/:index?" element={<Gallery />} />
               <Route path="/portrait/:_gallery/:index?" element={<Gallery />} />
+              <Route path="/project/:id" component={<ProjectItem />} />
               <Route path="contact" element={<Contact />} />
               <Route path="*" element={<Error />} />
             </Routes>

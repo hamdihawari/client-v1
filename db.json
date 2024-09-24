@@ -2,7 +2,7 @@
   "projectCard": {
     "en": [
       {
-        "id": 1,
+        "id": 100,
         "path": "projectCard",
         "title": "A Light of a Rebirth",
         "icon": "",
@@ -13,7 +13,7 @@
         "description": "This image reflects an emotional journey from loss to hope, where feelings of sorrow blend with the anticipation of a new and brighter beginning. It symbolizes change and transformation, embodying a shared human experience of facing challenges and building a new life filled with hope and optimism.",
         "projectDetails": [
           {
-            "id": 1,
+            "id": 100,
             "subjectDetails": "Between Damascus and Berlin: A Story of Resilience",
             "cardDescription": "A Light of a Rebirth captures the emotional complexity of displacement and the journey from a war-torn homeland to a new life. This graphic design project artfully blends personal memories and symbolic imagery, representing both loss and renewal. Central to the piece is the red night light, a beacon that not only illuminated the physical journey from Damascus to Berlin but also serves as a metaphor for resilience in the face of adversity. The watch, worn through moments of uncertainty, becomes a symbol of time passing, highlighting the distance between the past and the future. It reflects how the value of what was once familiar—home, culture, and identity—can become obscured by conflict. The inclusion of everyday objects, such as apple juice and Damascene jasmine, adds layers of nostalgia and sentimentality, invoking a connection to simpler times while underscoring the bittersweet nature of memory. Together, these elements tell a powerful story of a life disrupted but not destroyed, where hope and sadness coexist. The project is not only a tribute to survival but also an invitation for reflection on the broader human experience of migration and the search for belonging.\n\nThe inclusion of everyday objects, such as apple juice and Damascene jasmine, adds layers of nostalgia and sentimentality, invoking a connection to simpler times while underscoring the bittersweet nature of memory. Together, these elements tell a powerful story of a life disrupted but not destroyed, where hope and sadness coexist. The project is not only a tribute to survival but also an invitation for reflection on the broader human experience of migration and the search for belonging. \n\nThrough its vivid colors, delicate textures, and thoughtful composition, A Light of a Rebirth evokes a deep emotional response, making it not just a visual work of art, but a narrative of transformation.",
             "imageGroup": {
@@ -32,7 +32,8 @@
             }
           }
         ]
-      },
+      }
+    ,
       {
         "id": 101,
         "path": "projectCard",
@@ -426,7 +427,7 @@
     ],
     "de": [
       {
-        "id": 1,
+        "id": 100,
         "path": "projectCard",
         "title": "Ein Licht der Wiedergeburt",
         "icon": "",
@@ -437,7 +438,7 @@
         "description": "Dieses Bild spiegelt eine emotionale Reise vom Verlust zur Hoffnung wider, in der sich Trauer mit der Erwartung eines neuen Anfangs vermischt. Es symbolisiert Wandel und verkörpert die menschliche Erfahrung, Herausforderungen zu meistern und ein neues Leben voller Hoffnung aufzubauen.",
         "projectDetails": [
           {
-            "id": 1,
+            "id": 100,
             "subjectDetails": "Damaskus bis Berlin: Resilienzgeschichte",
             "cardDescription": "Ein Licht der Wiedergeburt fängt die emotionale Komplexität von Vertreibung und der Reise von einem kriegszerrissenen Heimatland zu einem neuen Leben ein. Dieses Grafikdesign-Projekt verbindet gekonnt persönliche Erinnerungen und symbolische Bildsprache, die sowohl Verlust als auch Erneuerung darstellen. Im Mittelpunkt steht das rote Nachtlicht, ein Leuchtfeuer, das nicht nur die physische Reise von Damaskus nach Berlin erhellte, sondern auch als Metapher für Widerstandskraft inmitten von Widrigkeiten dient. Die Uhr, getragen in Momenten der Unsicherheit, wird zu einem Symbol für den Verlauf der Zeit und hebt die Distanz zwischen Vergangenheit und Zukunft hervor. Sie spiegelt wider, wie der Wert dessen, was einst vertraut war – Heimat, Kultur und Identität – durch den Konflikt verschleiert werden kann. Die Einbeziehung alltäglicher Gegenstände wie Apfelsaft und Damaskener Jasmin fügt Schichten von Nostalgie und Sentimentalität hinzu, weckt eine Verbindung zu einfacheren Zeiten und betont gleichzeitig die bittersüße Natur der Erinnerung. Diese Elemente erzählen eine kraftvolle Geschichte eines Lebens, das zwar unterbrochen, aber nicht zerstört wurde, wo Hoffnung und Traurigkeit nebeneinander existieren.\n\nDie Einbeziehung alltäglicher Gegenstände wie Apfelsaft und Damaskener Jasmin fügt Schichten von Nostalgie und Sentimentalität hinzu, weckt eine Verbindung zu einfacheren Zeiten und betont gleichzeitig die bittersüße Natur der Erinnerung. Diese Elemente erzählen eine kraftvolle Geschichte eines Lebens, das zwar unterbrochen, aber nicht zerstört wurde, wo Hoffnung und Traurigkeit nebeneinander existieren. Das Projekt ist nicht nur ein Tribut an das Überleben, sondern auch eine Einladung zur Reflexion über die breitere menschliche Erfahrung von Migration und dem Streben nach Zugehörigkeit.\n\nDurch seine lebhaften Farben, zarten Texturen und durchdachte Komposition löst Ein Licht der Wiedergeburt eine tiefe emotionale Reaktion aus und macht es nicht nur zu einem visuellen Kunstwerk, sondern zu einer Erzählung von Transformation.",
             "imageGroup": {
@@ -850,7 +851,7 @@
     ],
     "ar": [
       {
-        "id": 1,
+        "id": 100,
         "path": "projectCard",
         "title": "ضوء ولادة جديدة",
         "icon": "",
@@ -861,7 +862,7 @@
         "description": "تعكس هذه الصورة رحلة عاطفية مؤثرة من الفقدان إلى الأمل، حيث تمتزج مشاعر الحزن بالتطلع إلى بداية جديدة ومشرقة. ترمز إلى التغيير والتحول، وتجسد تجربة إنسانية مشتركة في مواجهة التحديات وبناء حياة جديدة مليئة بالأمل والتفاؤل.",
         "projectDetails": [
           {
-            "id": 1,
+            "id": 100,
             "subjectDetails": "من دمشق إلى برلين قصة صمود",
             "cardDescription": "ضوء ولادة جديدة يلتقط التعقيد العاطفي للتشريد والرحلة من وطن مزقته الحرب إلى حياة جديدة. يمزج هذا المشروع الفني بين الذكريات الشخصية والصور الرمزية، مما يمثل كل من الفقدان والتجديد. في قلب العمل هو الضوء الأحمر الليلي، منارة لم تنر فقط الرحلة المادية من دمشق إلى برلين ولكنها أيضًا تعمل كاستعارة للصمود في مواجهة الشدائد. الساعة، التي ارتديت في لحظات من عدم اليقين، تصبح رمزًا لمرور الوقت، مما يبرز المسافة بين الماضي والمستقبل. إنها تعكس كيف يمكن أن تتشوش قيمة ما كان مألوفًا ذات يوم—الوطن، الثقافة، والهوية—بسبب النزاع. تضمين العناصر اليومية مثل عصير التفاح والياسمين الدمشقي يضيف طبقات من الحنين والعاطفية، مما يثير اتصالاً بالأوقات الأبسط بينما يبرز الطبيعة المؤلمة للذاكرة. معًا، تروي هذه العناصر قصة قوية عن حياة مضطربة ولكن غير مدمرة، حيث يتعايش الأمل والحزن. المشروع ليس فقط تكريماً للبقاء ولكن أيضًا دعوة للتفكير في التجربة الإنسانية الأوسع للهجرة والبحث عن الانتماء. من خلال ألوانه الزاهية، وملمسه الرقيق، وتكوينه المدروس، يثير ضوء ولادة جديدة استجابة عاطفية عميقة، مما يجعله ليس مجرد عمل فني بصري، ولكن سرداً للتحول.",
             "imageGroup": {
