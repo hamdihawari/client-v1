@@ -4,14 +4,14 @@ import App from './App.jsx';
 import './index.css';
 import './i18n.js';
 import { GalleryStore } from './User/Context/GalleryStore.jsx';
-import { ProjectProvidor } from './User/Context/ProjectProvidor.jsx';
+import { ProjectProvider } from './User/Context/ProjectProvidor.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         <GalleryStore>
-            <ProjectProvidor>  {/* Update the component name here */}
+            <ProjectProvider>
                 <App />
-            </ProjectProvidor>
+            </ProjectProvider>
         </GalleryStore>
     </React.StrictMode>
 );
