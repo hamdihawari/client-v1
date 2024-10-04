@@ -1,123 +1,13 @@
-.projectContainer {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  padding: 1em;
-  width: 100%;
-  font-family: 'Cairo', sans-serif;
+.projectDetails {
+    padding: 20px;
 }
 
-.projectHeader {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
 }
 
-.projectThumbnail {
-  vertical-align: middle;
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-}
-
-/* Title */
-.projectTitle {
-  font-size: 40px;
-  padding-left: 1rem;
-  font-family: "Recoleta Bold", sans-serif;
-  color: black; /* Black color for better readability */
-  background: linear-gradient(90deg, #B8860B, #000000); /* Dark golden (#B8860B) and black */
-  -webkit-background-clip: text; /* Clip background to text */
-  -webkit-text-fill-color: transparent; /* Make text color transparent */
-  transition: font-size 0.3s ease, background 0.3s ease; /* Smooth transition for font size and background */
-}
-.projectTitle:hover {
-  font-size: 36px;
-}
-
-/*image*/
-.projectMainImage {
-  height: auto;
-  margin-top: 1rem;
-}
-
-/* Subject and Image Subject */
-.subjectDetails {
-  font-size: 34px;
-  color: black; /* Black color */
-  font-family: "Recoleta Bold", sans-serif;
-  background: linear-gradient(90deg, #B8860B, #000000); /* Dark golden (#B8860B) and black */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: font-size 0.3s ease, background 0.3s ease;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-.cardDescription {
-  font-size: 20px;
-  color: #7d7d7d;
-  margin-bottom: 2rem;
-  white-space: pre-wrap;
-  line-height: 1.6; /* Improves readability */
-}
-
-.projectDetailImage {
-  height: auto;
-  margin-top: 1rem;
-  width: 850px;
-}
-
-.imageSubject{
-  font-size: 18px;
-  color: #7d7d7d;
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-
-/* Media Queries */
-@media only screen and (max-width: 600px) {
-  .projectDetailsWrapper {
-    padding: 2rem;
-  }
-
-  .projectThumbnail {
-    width: 70px;
-    height: 70px;
-  }
-
-  .projectTitle {
-    font-size: 20px;
-    padding-left: 1rem;
-    padding-top: 0.5rem;
-  }
-
-  .projectDescription {
-    font-size: 16px;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .projectDetailsWrapper {
-    flex-direction: row;
-    padding: 2rem;
-  }
-
-  .projectDescription {
-    font-size: 20px;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .projectDetailsWrapper {
-    margin-left: 16rem;
-    padding: 0 4rem;
-    width: 70%;
-  }
-
-  .projectDescription {
-    font-size: 1.1rem;
-  }
-
-
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
 }
