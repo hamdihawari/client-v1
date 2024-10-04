@@ -1,0 +1,71 @@
+/*.project {
+    min-height: 100vh;
+}*/
+
+.projectCard {
+    display: flex;
+    flex-direction: row;
+    padding-left: 17rem;
+    width: 80%;
+    border: none;
+}
+
+.cardImage {
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.cardImage:hover {
+    transform: scale(1.05); /* Hover effect on the image */
+}
+
+.cardInfo {
+    text-align: left;
+    margin-top: 0.7rem;
+    margin-left: 2.5rem;
+    width: auto;
+    color: #7d7d7d;
+}
+
+.title {
+    text-align: left;
+    font-size: 34px;
+    color: black; /* Black color */
+    font-family: "Recoleta Bold", sans-serif;
+    background: linear-gradient(90deg, #B8860B, #000000); /* Dark golden (#B8860B) and black */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: font-size 0.3s ease, background 0.3s ease;
+}
+
+.title:hover {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    color: #666;
+    font-weight: bolder;
+    font-family: 'PT Serif', serif;
+    margin-top: 1rem;
+    font-size: 16px;
+    width: 100%;
+}
+
+.hrStyle {
+    border: 0.2px solid #7d7d7d;
+    width: 75%;
+    margin: 27px 10px 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center; /* Centers the footer content horizontally */
+    gap: 20px; /* Adds spacing between icons */
+    margin-top: 20px; /* Adds some space between the description and the footer */
+}
