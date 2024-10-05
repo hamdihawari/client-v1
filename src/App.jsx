@@ -12,6 +12,7 @@ import { Footer } from './User/pages/Footer/Footer';
 import { Header } from './User/components/Header/Header';
 import Gallery from './User/components/Gallery/Gallery/Gallery';
 import ProjectList from "./User/pages/Project/ProjectCardList/ProjectCardList.jsx";
+import ProjectDetails from './User/pages/Project/ProjectDetails/ProjectDetails.jsx'; // Import the ProjectDetails component
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
               <Route path="/about" exact element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/project" element={<ProjectList />} />
+              <Route path="/project/:id" element={<ProjectDetails />} /> {/* Add this route */}
               <Route path="/portrait" element={<Portrait />} />
               <Route path="/street" element={<Street />} />
               <Route path="/landscape" element={<Landscape />} />
