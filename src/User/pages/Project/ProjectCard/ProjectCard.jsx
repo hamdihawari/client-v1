@@ -42,6 +42,7 @@ const ProjectCard = ({ project, language }) => {
                 <p className={`${style.description} ${isArabic ? rtlStyle.description : ''}`}>
                     {project.description}
                 </p>
+                {/*<p>Data: {project.data}</p>*/}
                 <hr style={{
                     border: '0.2px solid #7d7d7d',
                     margin: '10px 0',
@@ -79,6 +80,7 @@ ProjectCard.propTypes = {
         image: PropTypes.string.isRequired,
         imageHover: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
+        data: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,
     }).isRequired,
     language: PropTypes.string.isRequired, // Add language prop validation

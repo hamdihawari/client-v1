@@ -1,7 +1,6 @@
 /*.project {
     min-height: 100vh;
 }*/
-
 .projectCard {
     display: flex;
     flex-direction: row;
