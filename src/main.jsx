@@ -5,15 +5,15 @@ import './index.css';
 import './i18n.js';
 import { GalleryStore } from './User/Context/GalleryStore.jsx';
 import { ProjectProvider } from './User/Context/ProjectProvidor.jsx';
-import AboutProvidor from "./User/Context/AboutProvidor.jsx";
+import AboutProvider from "./User/Context/AboutProvider.jsx";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         <GalleryStore>
             <ProjectProvider>
-                <AboutProvidor>
+                <AboutProvider>
                 <App />
-                </AboutProvidor>
+                </AboutProvider>
             </ProjectProvider>
         </GalleryStore>
     </React.StrictMode>

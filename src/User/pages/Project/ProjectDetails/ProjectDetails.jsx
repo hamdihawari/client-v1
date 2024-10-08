@@ -44,8 +44,6 @@ const ProjectDetails = () => {
                         </>
 
                     )}
-                    {/* Add any additional data you want to display from projectCard */}
-                    {console.log("Data : " + project.data)}
                 </div>
             </div>
 

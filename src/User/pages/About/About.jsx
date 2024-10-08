@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { useTranslation } from 'react-i18next';
-import { AboutContext } from '../../Context/AboutProvidor.jsx';
+import { AboutContext } from '../../Context/AboutProvider.jsx';
 import style from './style.module.css';
 import rtlStyle from './rtl.module.css';
 

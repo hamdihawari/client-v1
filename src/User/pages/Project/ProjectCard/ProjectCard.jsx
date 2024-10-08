@@ -65,10 +65,6 @@ const ProjectCard = ({ project, language }) => {
 
                 <ScrollToTopButton/>
             </div>
-
-            {/* Debugging purposes */}
-            {/*{console.log('Language:', language)}
-            {console.log('Project Data:', project)}*/}
         </div>
     );
 };
