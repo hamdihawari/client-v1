@@ -1,4 +1,3 @@
-
 .projectDetailsWrapper{
     margin-left: 17rem;
 }
@@ -41,6 +40,7 @@
 .title:hover {
     font-size: 36px;
 }
+
 .projectbody{
     text-align: left;
     margin-top: 0.7rem;
@@ -62,4 +62,3 @@
     width: 80%;
 
 }
-
