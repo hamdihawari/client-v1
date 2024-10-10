@@ -1,5 +1,6 @@
 .projectDetailsWrapper{
     margin-left: 17rem;
+    margin-top: 0;
 }
 
 .projectContainer {
@@ -19,16 +20,17 @@
 
 .thumbnail {
     vertical-align: middle;
-    width: 90px;
-    height: 90px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
 
 /* Title */
-.title {
-    font-size: 40px;
+.subject {
+    font-size: 48px;
     width: 100%;
-    padding-left: 1rem;
+    padding-left: 1.5rem;
+    margin-top: 2.4rem;
     font-family: "Recoleta Bold", sans-serif;
     color: black; /* Black color for better readability */
     background: linear-gradient(90deg, #B8860B, #000000); /* Dark golden (#B8860B) and black */
@@ -37,28 +39,40 @@
     transition: font-size 0.3s ease, background 0.3s ease; /* Smooth transition for font size and background */
 }
 
-.title:hover {
-    font-size: 36px;
+.subject:hover {
+    font-size: 46px;
+}
+.data{
+    color: #BD6E6D;
+    margin-left: 1rem;
+    font-size: 22px;
+    margin-bottom: 2.5rem;
+    padding-left: 0.6rem;
 }
 
-.projectbody{
-    text-align: left;
-    margin-top: 0.7rem;
-    margin-left: 2.5rem;
-    width: auto;
-    color: #7d7d7d;
-}
-
-.projectInfo .image{
+.image{
     width: 80%;
     height: auto;
-    margin: 20px 0;
+    margin-top: 1.2rem;
 }
 
-.description{
-    font-size: 1.2em;
-    margin-bottom: 20px;
-    color: #BD6E6D;
+.cardDescription {
+    color: #7d7d7d;
+    margin-top: 1rem;
+    text-align: left;
+    /*font-style: italic;*/
     width: 80%;
+}
 
+.subjectDetails {
+    font-size: 48px;
+    width: 100%;
+    padding-left: 1.5rem;
+    margin-top: 2.4rem;
+    font-family: "Recoleta Bold", sans-serif;
+    color: black; /* Black color for better readability */
+    background: linear-gradient(90deg, #B8860B, #000000); /* Dark golden (#B8860B) and black */
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: transparent; /* Make text color transparent */
+    transition: font-size 0.3s ease, background 0.3s ease; /* Smooth transition for font size and background */
 }
