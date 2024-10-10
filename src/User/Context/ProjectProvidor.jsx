@@ -1,3 +1,4 @@
+/*
 import { useState, useEffect, useMemo, createContext } from 'react';
 import axiosInstance from '../services/axiosConfig.js';
 import { useTranslation } from 'react-i18next';
@@ -71,16 +72,7 @@ export const ProjectProvider = ({ children }) => {
                     console.log('Logs projectDetail object:', projectDetail); // Logs projectDetail object
                     console.log('Looking for projectCardId:', projectDetail.id, 'in detailsTranslations:', detailsTranslations);
 
-                    /*return {
-                        ...project,
-                        title: cardTranslation.subject || t('defaultTitle'),
-                        description: cardTranslation.description || t('defaultDescription'),
-                        data: cardTranslation.data || t('defaultData'),
-                        details: {
-                            subjectDetails: detailsTranslations.subjectDetails || t('defaultSubjectDetails'),
-                            cardDescription: detailsTranslations.cardDescription || t('defaultCardDescription')
-                        }
-                    };*/
+
                     return {
                         ...project,
                         title: cardTranslation.subject || t('defaultTitle'),
@@ -132,3 +124,4 @@ export const ProjectProvider = ({ children }) => {
         </ProjectContext.Provider>
     );
 };
+*/
