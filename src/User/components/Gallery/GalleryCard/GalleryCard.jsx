@@ -8,10 +8,9 @@ import CameraAltIcon from '@mui/icons-material/CameraAlt';
 import CameraIcon from '@mui/icons-material/Camera';
 import axios from 'axios';
 import { IconButton } from '@mui/material';
-import { ProjectContext } from '../../../Context/Context';
 import rtlStyle from './rtl.module.css'
 import { Comments } from '../../Comment/Comments/Comments';
-import CommentStyles from './style.module.css';
+// import CommentStyles from './style.module.css';
 
 // eslint-disable-next-line react/prop-types
 const GalleryCard = ({ gallery, currentImageIndex, currentUserId }) => {
