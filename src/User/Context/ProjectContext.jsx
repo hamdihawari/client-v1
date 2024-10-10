@@ -79,8 +79,8 @@ export const ProjectProvider = ({ children }) => {
                         description: cardTranslation.description || t('defaultDescription'),
                         data: cardTranslation.data || t('defaultData'),
                         details: {
-                        subjectDetails: detailsTranslations.subjectDetails || t('defaultSubjectDetails'),
-                        cardDescription: detailsTranslations.cardDescription || t('defaultCardDescription')
+                            subjectDetails: detailsTranslations.subjectDetails || t('defaultSubjectDetails'),
+                            cardDescription: detailsTranslations.cardDescription || t('defaultCardDescription')
                         }
                     };
                 });
@@ -123,5 +123,4 @@ export const ProjectProvider = ({ children }) => {
             {children}
         </ProjectContext.Provider>
     );
-};
-*/
+};*/
