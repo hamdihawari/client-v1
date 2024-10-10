@@ -10,3 +10,8 @@
     object-fit: cover;
     border-radius: 8px;
 }
+.images{
+    width: 80%;
+    height: auto;
+    margin-top: 1.2rem;
+}
