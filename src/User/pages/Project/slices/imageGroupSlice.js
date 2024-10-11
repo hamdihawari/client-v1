@@ -6,9 +6,8 @@ export const fetchImageGroup = createAsyncThunk(
     'imageGroup/fetchImageGroup',
     async (projectDetailId, { rejectWithValue }) => {
         try {
-            // Validate projectDetailId
             if (!projectDetailId) {
-                console.log('Received projectDetailId:', projectDetailId); // Debugging log
+                console.log('Received projectDetailId:', projectDetailId);
                 throw new Error('projectDetailId is missing');
             }
 
@@ -25,24 +24,16 @@ export const fetchImageGroup = createAsyncThunk(
 // Async thunk to fetch image translation data
 export const fetchImageTranslation = createAsyncThunk(
     'imageGroup/fetchImageTranslation',
-    async (languageCode, { rejectWithValue }) => {
+    async ({ projectId, languageCode }, { rejectWithValue }) => {
         try {
-            // Validate languageCode
-            if (!languageCode || typeof languageCode !== 'string') {
-                throw new Error('Invalid language code');
+            if (!projectId || !languageCode) {
+                console.log('Invalid inputs:', { projectId, languageCode });
+                throw new Error('Invalid project ID or language code');
             }
 
-            const response = await axios.get('http://localhost:8080/image_translation');
-            console.log('Fetched Image Translation Data:', response.data);
-
-            // Filter translations by the language code
-            const translations = response.data.filter(translation => translation.language === languageCode);
-
-            if (translations.length === 0) {
-                throw new Error(`No translations found for language code: ${languageCode}`);
-            }
-
-            return translations[0];
+            const response = await axios.get(`http://localhost:8080/image_translation/project/${projectId}/language/${languageCode}`);
+            console.log('Fetched Image Translation Data:', response.data); // Log response data
+            return response.data;
         } catch (error) {
             console.error('Error fetching image translation:', error);
             return rejectWithValue(error.response?.data || error.message);
@@ -77,6 +68,7 @@ const imageGroupSlice = createSlice({
             })
             .addCase(fetchImageTranslation.pending, (state) => {
                 state.loading = true;
+                console.log('Fetching image translation...'); // Log when fetching starts
             })
             .addCase(fetchImageTranslation.fulfilled, (state, action) => {
                 console.log('Image Translation State Update:', action.payload);
@@ -93,4 +85,3 @@ const imageGroupSlice = createSlice({
 });
 
 export default imageGroupSlice.reducer;
-

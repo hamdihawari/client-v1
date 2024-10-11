@@ -100,10 +100,10 @@ const ProjectDetails = ({ id }) => {
 
             <div>
                 {imageGroup && Object.keys(imageGroup).length > 0 ? (
-                    <ImageGroup imageGroup={imageGroup}/>
-                ) : (
+                    <ImageGroup imageGroup={imageGroup} projectId={projectDetailsId}/>
+                    ) : (
                     <p>No images available in the image group.</p>
-                )}
+                    )}
             </div>
         </div>
     );
