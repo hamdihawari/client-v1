@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchProjectDetails, fetchProjectCard, fetchProjectCardTranslation } from '../slices/projectDetailsSlice.js';
-import { fetchImageGroup } from '../slices/imageGroupSlice.js';
+import { fetchImageGroup } from '../slices/imageGroupSlice.js'; // Ensure this import is correct
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
 import style from './style.module.css';
@@ -101,9 +101,9 @@ const ProjectDetails = ({ id }) => {
             <div>
                 {imageGroup && Object.keys(imageGroup).length > 0 ? (
                     <ImageGroup imageGroup={imageGroup} projectId={projectDetailsId}/>
-                    ) : (
+                ) : (
                     <p>No images available in the image group.</p>
-                    )}
+                )}
             </div>
         </div>
     );
