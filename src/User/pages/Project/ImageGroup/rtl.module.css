@@ -1,0 +1,130 @@
+.imageGroupWrapper {
+    direction: ltr;
+}
+
+.imageGroupContener {
+    display: flex;
+    flex-direction: column;
+}
+
+.images {
+    width: 85%;
+    height: auto;
+}
+
+.imageTranslation {
+    text-align: center;
+    width: 85%;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.imageSubject {
+    color: #7d7d7d;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.imageDescription {
+    color: #BD6E6D;
+    font-family: 'Cairo', sans-serif;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+/* Large Screens (Laptops/Tablets in Landscape) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .imageTranslation {
+        padding-top: 0.8rem;
+    }
+
+    .imageSubject {
+        font-size: 14px;
+    }
+
+    .imageDescription {
+        font-size: 19px;
+    }
+}
+
+/* Medium Screens (Tablets in Portrait) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .imageTranslation {
+        padding-top: 0.8rem;
+    }
+
+    .imageDescription {
+        font-size: 19px;
+    }
+
+    .imageTranslation {
+        text-align: center;
+        width: 85%;
+        padding-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .imageSubject {
+        font-size: 13px;
+    }
+
+    .imageDescription {
+        color: #7d7d7d;
+        font-family: 'Cairo', sans-serif;
+        font-size: 19px;
+        padding-top: 10px;
+        margin-bottom: 0;
+    }
+}
+
+/* Small Screens (Mobile Devices in Landscape) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .imageTranslation {
+        padding-top: 0.8rem;
+    }
+
+    .imageDescription {
+        font-size: 19px;
+    }
+
+    .imageTranslation {
+        text-align: center;
+        width: 85%;
+        padding-top: 10px;
+        margin-bottom: 0;
+    }
+    .imageSubject {
+        font-size: 13px;
+    }
+
+    .imageDescription {
+        font-size: 18px;
+        padding-top: 5px;
+        margin-bottom: 0;
+    }
+}
+
+/* Extra Small Screens (Mobile Phones in Portrait) */
+@media (max-width: 575px) {
+    .imageTranslation {
+        padding-top: 0.8rem;
+    }
+
+    .imageDescription {
+        font-size: 19px;
+    }
+
+    .imageTranslation {
+        text-align: center;
+        width: 85%;
+        padding-top: 10px;
+        margin-bottom: 1rem;
+    }
+    .imageSubject {
+        font-size: 13px;
+    }
+
+    .imageDescription {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+}
