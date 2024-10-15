@@ -1,0 +1,30 @@
+
+.cardInfo {
+    text-align: right;
+    margin-top: 0.7rem;
+    margin-right: 2.5rem;
+    width: auto;
+    color: #7d7d7d;
+}
+
+.subject {
+    text-align: right;
+    font-family: 'Cairo', sans-serif;
+}
+
+.data {
+    text-align: right;
+}
+
+.description {
+    text-align: right;
+
+}
+
+.rtlFooter {
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}

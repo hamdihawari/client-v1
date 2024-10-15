@@ -1,28 +1,27 @@
-/*.project {
-    min-height: 100vh;
-}*/
 .projectCard {
     display: flex;
     flex-direction: row;
     padding-left: 17rem;
     width: 80%;
     border: none;
+    margin-bottom: 20px;
+    transition: all 0.3s ease; /* Smooth transition */
 }
 
-.cardImage {
+.image {
     width: 500px;
     height: auto;
     border-radius: 8px;
-    transition: transform 0.3s ease; /* Smooth transition */
+    transition: transform 0.4s ease; /* Smooth transition */
 }
 
-.cardImage:hover {
+.image:hover {
     transform: scale(1.05); /* Hover effect on the image */
 }
 
-.cardInfo {
+.cardBody {
     text-align: left;
-    margin-top: 0.7rem;
+    margin-top: 1.5rem;
     margin-left: 2.5rem;
     width: auto;
     color: #7d7d7d;
@@ -30,41 +29,336 @@
 
 .subject {
     text-align: left;
-    font-size: 28px;
-    color: black; /* Black color */
+    font-size: 32px;
+    color: black;
     font-family: "Recoleta Bold", sans-serif;
-    background: linear-gradient(90deg, #B8860B, #000000); /* Dark golden (#B8860B) and black */
+    background: linear-gradient(90deg, #B8860B, #000000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: font-size 0.3s ease, background 0.3s ease;
+    position: relative;
+    transition: background 0.3s ease, text-shadow 0.3s ease, font-size 0.3s ease;
+}
+.subject::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    /* background-color: #FFD700; */
+    transition: width 0.4s ease;
+}
+.subject:hover::after {
+    width: 90%;
+}
+.subject:hover {
+    /*text-shadow: 0 0 15px rgba(255, 223, 0, 1);*/
+    font-size: 29px; /* Increase font size on hover */
 }
 
-.title:hover {
-    font-size: 32px;
+.data{
+    color: #737373;
+    font-size: 15px;
+    font-family: 'PT Serif', serif;
+    margin-top: 0.8rem;
 }
 
-h3 {
-    font-size: 1.5em;
-}
-
-p {
+.description  {
     color: #666;
     font-weight: bolder;
     font-family: 'PT Serif', serif;
     margin-top: 1rem;
-    font-size: 16px;
+    font-size: 17px;
     width: 100%;
-}
-
-.hrStyle {
-    border: 0.2px solid #7d7d7d;
-    width: 75%;
-    margin: 27px 10px 10px;
 }
 
 .footer {
     display: flex;
-    justify-content: center; /* Centers the footer content horizontally */
-    gap: 20px; /* Adds spacing between icons */
-    margin-top: 20px; /* Adds some space between the description and the footer */
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 0;
+    padding: 0.4rem;
+}
+
+/* General button style */
+.footerButton {
+    padding: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+/* Icon style */
+.footerIcon {
+    color: #000000;
+    font-size: 26px;
+    transition: color 0.3s ease; /* Ensure the icon color transitions */
+}
+
+/* Hover effect for button and icon */
+.footerButton:hover .footerIcon {
+    color: #ff9800; /* Change the icon color on button hover */
+}
+
+/* Media Queries */
+
+/* Extra Large Screens (Desktops) */
+@media (min-width: 1200px) {
+    .projectCard {
+        width: 90%;
+    }
+
+    .subject {
+        font-size: 28px;
+    }
+
+    .image {
+        width: 492px;
+    }
+
+    .cardBody {
+        text-align: left;
+        margin-top: 1rem;
+        margin-left: 2.5rem;
+        width: auto;
+    }
+
+    .data{
+        font-size: 14px;
+        margin-top: 0.6rem;
+    }
+
+    .description  {
+        width: 100%;
+        font-size: 16px;
+        margin-top: 0.5rem;
+    }
+}
+
+/* Large Screens (Laptops/Tablets in Landscape) */
+/* Large Screens (Laptops/Tablets in Landscape) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .projectCard {
+        width: 90%;
+    }
+
+    .subject {
+        font-size: 24px;
+    }
+
+    .subject:hover {
+        font-size: 22px;
+    }
+
+    .image {
+        width: 370px;
+    }
+
+    .cardBody {
+        text-align: left;
+        margin-top: 0.8rem;
+        margin-left: 2.2rem;
+        width: 40%;
+    }
+
+    .data {
+        font-size: 13px;
+        margin-top: 0.6rem;
+    }
+
+    .description {
+        width: 100%;
+        font-size: 15px;
+        margin-top: 0.5rem;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    /* General button style */
+    .footerButton {
+        padding: 0.1rem 0.3rem; /* Adjusted padding for smaller buttons */
+        transition: color 0.3s ease;
+    }
+
+    /* Icon style */
+    .footerIcon {
+        font-size: 20px !important;
+        color: #000000;
+        transition: color 0.3s ease;
+    }
+
+    /* Hover effect for button and icon */
+    .footerButton:hover .footerIcon {
+        color: #ff9800;
+    }
+}
+
+/* Medium Screens (Tablets in Portrait) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .projectCard {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 0;
+        height: 100%;
+    }
+
+    .imageContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subject {
+        font-size: 38px;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .image {
+        width: 90%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .description  {
+        padding: 0;
+        margin-top: 1rem;
+        font-size: 19px;
+        width: 100%;
+        /*text-align: justify;*/
+        /*justify-content: center;*/
+    }
+
+    .cardBody {
+        text-align: left;
+        margin: 2rem;
+        width: 90%;
+    }
+
+    .data{
+        font-size: 17px;
+    }
+
+    .footer {
+        float: left;
+    }
+}
+
+/* Small Screens (Mobile Devices in Landscape) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .projectCard {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 0;
+        height: 100%;
+    }
+
+    .imageContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subject {
+        font-size: 33px;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .image {
+        width: 90%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .description  {
+        padding: 0;
+        margin-top: 1rem;
+        font-size: 18px;
+        width: 100%;
+        /*text-align: justify;*/
+    }
+
+    .cardBody {
+        text-align: left;
+        margin: 2rem;
+        width: 90%;
+    }
+
+    .data{
+        font-size: 15px;
+    }
+
+    .footer {
+        float: left;
+    }
+}
+
+/* Extra Small Screens (Mobile Phones in Portrait) */
+@media (max-width: 575px) {
+    .projectCard {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 0;
+        height: 100%;
+    }
+
+    .imageContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subject {
+        font-size: 33px;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .image {
+        width: 90%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .description  {
+        padding: 0;
+        margin-top: 1rem;
+        font-size: 17px;
+        width: 100%;
+        /*text-align: justify;*/
+    }
+
+    .cardBody {
+        text-align: left;
+        margin: 2rem;
+        width: 90%;
+    }
+
+    .data{
+        font-size: 15px;
+    }
+
+    .footer {
+        float: left;
+    }
 }

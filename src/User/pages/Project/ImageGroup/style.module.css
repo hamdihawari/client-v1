@@ -1,17 +1,175 @@
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
+.imageGroupWrapper {
+    direction: ltr;
+    margin-right: 0;
+    margin-top: 0;
 }
 
-.galleryImage {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
+.imageGroupContener {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+    font-family: 'Cairo', sans-serif;
+    text-align: left;
 }
-.images{
-    width: 80%;
+
+.images {
+    width: 85%;
     height: auto;
     margin-top: 1.2rem;
+}
+
+.imageTranslation {
+    text-align: center;
+    width: 85%;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.imageSubject {
+    color: #7d7d7d;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.imageDescription {
+    /*color: #7d7d7d;*/
+    color: #BD6E6D;
+    /*font-style: italic;*/
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+/* Large Screens (Laptops/Tablets in Landscape) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .images {
+        width: 75%;
+        margin-top: 1rem;
+    }
+
+    .imageTranslation {
+        width: 75%;
+        padding-top: 0.8rem;
+    }
+
+    .imageSubject {
+        font-size: 14px;
+    }
+
+    .imageDescription {
+        font-size: 20px;
+    }
+
+    .images {
+        width: 85%;
+        height: auto;
+    }
+
+    .imageTranslation {
+        text-align: center;
+        width: 85%;
+        padding-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .imageSubject {
+        font-size: 14px;
+    }
+
+    .imageDescription {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+}
+
+/* Medium Screens (Tablets in Portrait) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .imageTranslation {
+        text-align: center;
+        width: 85%;
+        padding-top: 1rem;
+            margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+
+    .imageSubject {
+        font-size: 14px;
+    }
+
+    .images {
+        width: 85%;
+        height: auto;
+        padding-top: 1.2rem;
+        margin: 0 auto;
+    }
+
+    .imageTranslation {
+        text-align: center;
+        width: 85%;
+        padding-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .imageSubject {
+        font-size: 14px;
+    }
+
+    .imageDescription {
+        font-size: 19px;
+    }
+}
+
+/* Small Screens (Mobile Devices in Landscape) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .imageTranslation {
+        text-align: center;
+        width: 85%;
+        padding-top: 1rem;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+
+    .images {
+        width: 85%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .imageTranslation {
+        text-align: center;
+        width: 85%;
+        margin-bottom: 0;
+    }
+
+    .imageSubject {
+        font-size: 12px;
+    }
+
+    .imageDescription {
+        font-size: 14px;
+    }
+}
+
+/* Extra Small Screens (Mobile Phones in Portrait) */
+@media (max-width: 575px) {
+    .imageTranslation {
+        text-align: center;
+        width: 85%;
+        padding-top: 1rem;
+        margin: 0 auto;
+    }
+
+    .images {
+        width: 85%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .imageSubject {
+        font-size: 11px;
+    }
+
+    .imageDescription {
+        font-size: 14px;
+    }
 }

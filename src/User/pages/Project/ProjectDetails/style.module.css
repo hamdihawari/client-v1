@@ -1,78 +1,401 @@
-.projectDetailsWrapper{
+.projectDetailsWrapper {
+    direction: ltr; /* Set direction to LTR */
     margin-left: 17rem;
+    margin-right: 0;
     margin-top: 0;
 }
 
 .projectContainer {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    padding: 1em;
+    margin: 0;
+    padding: 0;
     width: 100%;
     font-family: 'Cairo', sans-serif;
+    text-align: left;
 }
 
 .projectHeader {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-bottom: 0.6rem;
 }
 
 .thumbnail {
     vertical-align: middle;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
 }
 
-/* Title */
 .subject {
-    font-size: 48px;
-    width: 100%;
-    padding-left: 1.5rem;
-    margin-top: 2.4rem;
+    text-align: left; /* Align subject to the left */
+    font-size: 32px;
+    color: black;
+    padding-left: 0.7rem;
+    margin-right: 0;
+    padding-top: 0;
     font-family: "Recoleta Bold", sans-serif;
-    color: black; /* Black color for better readability */
-    background: linear-gradient(90deg, #B8860B, #000000); /* Dark golden (#B8860B) and black */
-    -webkit-background-clip: text; /* Clip background to text */
-    -webkit-text-fill-color: transparent; /* Make text color transparent */
-    transition: font-size 0.3s ease, background 0.3s ease; /* Smooth transition for font size and background */
+    background: linear-gradient(90deg, #B8860B, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    transition: background 0.3s ease, text-shadow 0.3s ease, font-size 0.3s ease;
+}
+
+.subject::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0; /* Underline starts from the left */
+    width: 0;
+    height: 2px;
+    transition: width 0.4s ease;
+}
+
+.subject:hover::after {
+    width: 100%; /* Animate underline on hover */
 }
 
 .subject:hover {
-    font-size: 46px;
-}
-.data{
-    color: #BD6E6D;
-    margin-left: 1rem;
-    font-size: 22px;
-    margin-bottom: 2.5rem;
-    padding-left: 0.6rem;
+    /*text-shadow: 0 0 15px rgba(255, 223, 0, 1);*/
+    font-size: 33px; /* Increase font size on hover */
 }
 
-.image{
-    width: 80%;
+.data {
+    text-align: left;
+    color: #737373;
+    padding-left: 0.7rem;
+    font-size: 17px;
+}
+
+.image {
+    width: 85%;
     height: auto;
-    margin-top: 1.2rem;
+}
+/*
+.subjectDetails {
+    text-align: left;
+    width: 80%;
+    font-size: 27px;
+    margin-top: 1.4rem;
+    margin-right: 0;
+    font-family: "Recoleta Bold", sans-serif;
+    color: black;
+    background: linear-gradient(90deg, #B8860B, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: font-size 0.3s ease, background 0.3s ease;
+}*/
+
+.subjectDetails {
+    text-align: left;
+    color: black;
+    margin-top: 1.4rem;
+    margin-right: 0;
+    width: 85%;
+    font-size: 27px;
+    font-family: "Recoleta Bold", sans-serif;
+    background: linear-gradient(90deg, #B8860B, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    transition: background 0.4s ease, text-shadow 0.4s ease, font-size 0.4s ease;
+}
+
+
+.subjectDetails::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0; /* Underline starts from the left */
+    width: 0;
+    height: 2px;
+    transition: width 0.4s ease;
+}
+
+.subjectDetails:hover::after {
+    width: 100%;
+}
+
+.subjectDetails:hover {
+    font-size: 28px;
 }
 
 .cardDescription {
     color: #7d7d7d;
+    text-align: justify;
     margin-top: 1rem;
-    text-align: left;
-    /*font-style: italic;*/
-    width: 80%;
+    width: 85%;
+    margin-bottom: 1rem;
 }
 
-.subjectDetails {
-    font-size: 48px;
-    width: 100%;
-    padding-left: 1.5rem;
-    margin-top: 2.4rem;
-    font-family: "Recoleta Bold", sans-serif;
-    color: black; /* Black color for better readability */
-    background: linear-gradient(90deg, #B8860B, #000000); /* Dark golden (#B8860B) and black */
-    -webkit-background-clip: text; /* Clip background to text */
-    -webkit-text-fill-color: transparent; /* Make text color transparent */
-    transition: font-size 0.3s ease, background 0.3s ease; /* Smooth transition for font size and background */
+.noImageContainer {
+    text-align: left;
+}
+
+/* Media Queries */
+
+/* Extra Large Screens (Desktops) */
+@media (min-width: 1200px) {
+    .projectDetailsWrapper {
+        margin-left: 17rem;
+    }
+}
+
+/* Large Screens (Laptops/Tablets in Landscape) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .projectDetailsWrapper {
+        direction: ltr;
+    }
+    .projectHeader {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 0.6rem;
+    }
+
+    .thumbnail {
+        vertical-align: middle;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    .subject {
+        padding-left: 10px;
+        text-align: left;
+        font-size: 26px;
+    }
+
+    .data {
+        text-align: left;
+        margin-top: 1px;
+        font-size: 14px;
+    }
+
+    .image {
+        width: 85%;
+        height: auto;
+    }
+
+    .subjectDetails {
+        font-size: 22px;
+    }
+
+    .cardDescription {
+        font-size: 17px;
+    }
+
+    .noImageContainer {
+        text-align: left;
+    }
+}
+
+/* Medium Screens (Tablets in Portrait) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .projectDetailsWrapper {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 960px;
+        padding: 0;
+        display: block;
+    }
+
+    .projectContainer {
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .projectHeader {
+        margin-left: 3.6rem;
+        padding-bottom: 1rem;
+    }
+
+    .thumbnail {
+        vertical-align: middle;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    .subject {
+        padding-left: 10px;
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .data {
+        text-align: left;
+        font-size: 14px;
+        margin-top: 4px;
+    }
+
+    .image {
+        width: 85%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .subjectDetails {
+        width: 85%;
+        margin: 0 auto;
+        text-align: left;
+        font-size: 22px;
+        padding-top: 2rem;
+    }
+
+    .cardDescription {
+        padding-top: 1rem;
+        font-size: 17px;
+        margin: 0 auto;
+        width: 85%;
+        text-align: justify;
+        /*justify-content: center;*/
+        padding-bottom: 1.5rem;
+    }
+}
+
+/* Small Screens (Mobile Devices in Landscape) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .projectDetailsWrapper {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 960px;
+        padding: 0;
+        display: block;
+    }
+
+    .projectContainer {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .projectHeader {
+        margin-left: 2.7rem;
+        padding-bottom: 0.8rem;
+    }
+
+    .thumbnail {
+        vertical-align: middle;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+    .subject {
+        padding-left: 10px;
+        text-align: left;
+        font-size: 22px;
+    }
+    .subject:hover {
+        /*text-shadow: 0 0 15px rgba(255, 223, 0, 1);*/
+        font-size: 23px; /* Increase font size on hover */
+    }
+
+    .data {
+        text-align: left;
+        font-size: 11px;
+        padding-top: 3px;
+    }
+
+    .image {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .subjectDetails {
+        font-size: 17px;
+        width: 85%;
+        margin: 0 auto;
+        padding-top: 2rem;
+    }
+    .subjectDetails:hover {
+        font-size: 18px;
+    }
+
+    .cardDescription {
+        padding-top: 1rem;
+        font-size: 14px;
+        margin: 0 auto;
+        width: 85%;
+        text-align: justify;
+        padding-bottom: 1.5rem;
+
+    }
+}
+
+/* Extra Small Screens (Mobile Phones in Portrait) */
+@media (max-width: 575px) {
+    .projectDetailsWrapper {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 960px;
+        padding: 0;
+        display: block;
+    }
+
+    .projectContainer {
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .projectHeader {
+        margin-left: 2.5rem;
+        padding-bottom: 0.6rem;
+    }
+
+    .thumbnail {
+        vertical-align: middle;
+        width: 67px;
+        height: 67px;
+        border-radius: 50%;
+    }
+
+    .subject {
+        padding-left: 10px;
+        font-size: 23px;
+    }
+    .subject:hover {
+        font-size: 24px; /* Increase font size on hover */
+    }
+    .data {
+        text-align: left;
+        font-size: 12px;
+        padding-top: 3px;
+    }
+
+    .image {
+        width: 85%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .subjectDetails {
+        width: 85%;
+        font-size: 17px;
+        margin: 0 auto;
+        padding-top: 2rem;
+    }
+    .subjectDetails:hover {
+        font-size: 18px; /* Increase font size on hover */
+    }
+    .cardDescription {
+        width: 85%;
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+        font-size: 14px;
+        margin: 0 auto;
+        text-align: justify;
+    }
 }

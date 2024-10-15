@@ -67,25 +67,25 @@ const ProjectDetails = ({ id }) => {
         <div className={`${style.projectDetailsWrapper} ${isArabic ? rtlStyle.projectDetailsWrapper : ''}`}>
             {projectImage ? (
                 <div className={`${style.projectContainer} ${isArabic ? rtlStyle.projectContainer : ''}`}>
-                    <div className={style.projectHeader}>
-                        <img src={projectImage} alt={subject || 'No Subject'} className={style.thumbnail}/>
-                        <div>
-                            <h2 className={`${style.subject} ${isArabic ? rtlStyle.subject : ''}`}>
-                                {subject || `Title not available for Project Card ID ${projectDetailsId}`}
-                            </h2>
-                            <p className={`${style.data} ${isArabic ? rtlStyle.data : ''}`}>
-                                {data || `Date not available`}
-                            </p>
+                        <div className={`${style.projectHeader} ${isArabic ? rtlStyle.projectHeader : ''}`}>
+                            <img src={projectImage} alt={subject || 'No Subject'} className={style.thumbnail}/>
+                            <div>
+                                <h2 className={`${style.subject} ${isArabic ? rtlStyle.subject : ''}`}>
+                                    {subject || `Title not available for Project Card ID ${projectDetailsId}`}
+                                </h2>
+                                <p className={`${style.data} ${isArabic ? rtlStyle.data : ''}`}>
+                                    {data || `Date not available`}
+                                </p>
+                            </div>
                         </div>
+                        <img
+                            src={projectImage}
+                            className={style.image}
+                            alt={subject || 'No Subject'}
+                        />
                     </div>
-                    <img
-                        src={projectImage}
-                        className={style.image}
-                        alt={subject || 'No Subject'}
-                    />
-                </div>
-            ) : (
-                <div className={`${style.noImageContainer} ${isArabic ? rtlStyle.noImageContainer : ''}`}>
+                    ) : (
+                    <div className={`${style.noImageContainer} ${isArabic ? rtlStyle.noImageContainer : ''}`}>
                     <p>No project image available.</p>
                 </div>
             )}

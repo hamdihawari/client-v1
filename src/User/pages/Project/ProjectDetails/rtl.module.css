@@ -1,0 +1,124 @@
+.projectDetailsWrapper {
+    direction: ltr;
+}
+
+.projectContainer {
+    /* margin-right: 12rem;
+    direction: rtl; */
+}
+
+.projectHeader {
+    float: right;
+    direction: rtl;
+    width: 85%;
+    padding-bottom: 1rem;
+}
+
+.thumbnail {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.image {
+    width: 85%;
+    height: auto;
+}
+
+.subject {
+    font-family: 'Cairo', sans-serif;
+    margin-right: 0.7rem;
+}
+
+.data {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.subjectDetails {
+    text-align: right;
+    font-size: 30px;
+    color: black;
+    width: 85%;
+    font-family: 'Cairo', sans-serif;
+    background: linear-gradient(90deg, #B8860B, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    transition: background 0.3s ease, text-shadow 0.3s ease, font-size 0.3s ease;
+}
+
+.subjectDetails:hover {
+    font-size: 27px;
+}
+
+.cardDescription {
+    direction: rtl;
+    color: #7d7d7d;
+    text-align: justify;
+    width: 85%;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+/* Large Screens (Laptops/Tablets in Landscape) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .subjectDetails {
+        font-size: 24px;
+    }
+    .cardDescription {
+        width: 85%;
+        font-size: 15px;
+    }
+}
+
+/* Medium Screens (Tablets in Portrait) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .subjectDetails {
+        font-size: 24px;
+    }
+
+    .cardDescription {
+        direction: rtl;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+}
+
+/* Small Screens (Mobile Devices in Landscape) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .subjectDetails {
+        font-size: 20px;
+    }
+
+    .cardDescription {
+        font-size: 13px;
+        padding-bottom: 0;
+    }
+
+    .subjectDetails {
+        text-align: right;
+        font-size: 20px;
+        padding-top: 1rem;
+    }
+}
+
+/* Extra Small Screens (Mobile Phones in Portrait) */
+@media (max-width: 575px) {
+    .subjectDetails {
+        font-size: 20px;
+    }
+
+    .cardDescription {
+        font-size: 13px;
+        padding-bottom: 1rem;
+    }
+
+    .subjectDetails {
+        text-align: right;
+        font-size: 21px;
+        padding-top: 1rem;
+    }
+}

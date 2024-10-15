@@ -52,49 +52,53 @@ const ImageGroup = ({ imageGroup, projectId }) => {
     };
 
     return (
-        <div className={style.imageGroupWrapper}>
-            {imageGroup.images && imageGroup.images.length > 0 ? (
-                imageGroup.images.map((image, index) => {
-                    const translation = getTranslationForImage(index);
+        <div className={`${style.imageGroupWrapper} ${isArabic ? rtlStyle.imageGroupWrapper : ''}`}>
+                {imageGroup.images && imageGroup.images.length > 0 ? (
+                    imageGroup.images.map((image, index) => {
+                        const translation = getTranslationForImage(index);
 
-                    return (
-                        <div key={image.id} className={style.imageContainer}>
-                            <img
-                                src={image.imagePath}
-                                alt={`Image ${image.id}`}
-                                className={style.images}
-                            />
-                            {translation ? (
-                                <div className={`${style.imageTranslation} ${isArabic ? rtlStyle.imageTranslation : ''}`}>
-                                    <p>{translation.imageSubject}</p>
-                                    <p>{translation.imageDescription}</p>
-                                </div>
-                            ) : (
-                                <div className={`${style.noTranslation} ${isArabic ? rtlStyle.noTranslation : ''}`}>
-                                    <p>{`No subject available for image ID ${image.id}`}</p>
-                                    <p>{`No description available for image ID ${image.id}`}</p>
-                                </div>
-                            )}
-                        </div>
-                    );
-                })
-            ) : (
-                <p>No images available for this project.</p>
-            )}
-        </div>
-    );
-};
+                        return (
+                            <div key={image.id} className={`${style.imageGroupContener} ${isArabic ? rtlStyle.imageGroupContener : ''}`}>
+                                <img
+                                    src={image.imagePath}
+                                    alt={`Image ${image.id}`}
+                                    className={`${style.images}`}
+                                />
+                                {translation ? (
+                                    <div className={`${style.imageTranslation} ${isArabic ? rtlStyle.imageTranslation : ''}`}>
+                                        <p className={`${style.imageSubject} ${isArabic ? rtlStyle.imageSubject : ''}`}>
+                                            {translation.imageSubject}
+                                        </p>
+                                        <p className={`${style.imageDescription} ${isArabic ? rtlStyle.imageDescription : ''}`}>
+                                            {translation.imageDescription}
+                                        </p>
+                                    </div>
+                                ) : (
+                                    <div className={`${style.noTranslation} ${isArabic ? rtlStyle.noTranslation : ''}`}>
+                                        <p>{`No subject available for image ID ${image.id}`}</p>
+                                        <p>{`No description available for image ID ${image.id}`}</p>
+                                    </div>
+                                )}
+                            </div>
+                        );
+                    })
+                ) : (
+                    <p>No images available for this project.</p>
+                )}
+            </div>
+            );
+            };
 
-ImageGroup.propTypes = {
-    imageGroup: PropTypes.shape({
-        images: PropTypes.arrayOf(
+            ImageGroup.propTypes = {
+            imageGroup: PropTypes.shape({
+            images: PropTypes.arrayOf(
             PropTypes.shape({
-                id: PropTypes.number.isRequired,
-                imagePath: PropTypes.string.isRequired,
-            })
-        ).isRequired,
-    }).isRequired,
-    projectId: PropTypes.number.isRequired,
-};
+            id: PropTypes.number.isRequired,
+            imagePath: PropTypes.string.isRequired,
+        })
+            ).isRequired,
+        }).isRequired,
+            projectId: PropTypes.number.isRequired,
+        };
 
-export default ImageGroup;
+            export default ImageGroup;
