@@ -9,7 +9,7 @@ import GalleryCard from '../GalleryCard/GalleryCard';
 import { useTranslation } from 'react-i18next'
 
 const Gallery = () => {
-  const slideshowRef = useRef();
+  // const slideshowRef = useRef();
   const { _gallery, index } = useParams();
   const galleryUrl = `http://localhost:9000/${_gallery}`;
   const [gallery, setGallery] = useState([]);
@@ -18,7 +18,7 @@ const Gallery = () => {
 
   const { i18n } = useTranslation()
   const currentLanguage = i18n.language
-  const isArabic = currentLanguage === 'ar'
+  // const isArabic = currentLanguage === 'ar'
 
   useEffect(() => {
     axios.get(galleryUrl).then((res) => {
