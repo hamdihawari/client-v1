@@ -14,3 +14,6 @@ this will start the project
 # json-server --watch db.json --port 9000
 this will start the JSON SERVER with port 9000
 >>>>>>> 52edd7e (Update Contact Class connecting REST API)
+
+# ngrok
+ngrok http 5173 
